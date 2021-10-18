@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% assign portions = page.content | split: "<!--more-->" %}
+
+
+<article class="page">
+
+  <h1>{{ page.name }}</h1>
+
+  <div class="flex-container">
+    <div class="flex-child photo">
+    <img src="{{ site.baseurl }}{{ page.extra-picture }}" alt="{{ people.name }}" title="{{ people.name }}">
+    </div>
+    <div class="flex-child">
+      <div class="entry">
+        {{ portions[1] }}
+      </div>
+    </div>
+    </div>
+</article>

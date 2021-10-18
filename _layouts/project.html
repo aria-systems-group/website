@@ -1,0 +1,9 @@
+---
+title: {{ page.name }}
+layout: page 
+---
+
+{% assign portions = page.content | split: "<!--more-->" %}
+{{ portions[1] }}
+
+{% bibliography --query @*[bibkey={{ page.bibkey }}] %}

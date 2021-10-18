@@ -1,0 +1,33 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #0f7699;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #777;
+$lightGray: #eee;
+$white: #fff;
+
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap);
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+// $apercu: Helvetica, sans-serif;
+
+// image sizes
+$people_image_size: 175px;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 800px) {
+    @content;
+  }
+}
