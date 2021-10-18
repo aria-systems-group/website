@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Explainable Multi-Agent Planning – ARIA Systems Group – ARIA Systems Group</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="As we begin employing teams of robots to accomplish complex tasks, it becomes difficult for a human to verify that future paths do not result in collisions. Therefore, we are working on new multiagent planning approaches that minimize the effort it takes a human to verify the paths.
+
+" />
+    <meta property="og:description" content="As we begin employing teams of robots to accomplish complex tasks, it becomes difficult for a human to verify that future paths do not result in collisions. Therefore, we are working on new multiagent planning approaches that minimize the effort it takes a human to verify the paths.
+
+" />
+    
+    <meta name="author" content="ARIA Systems Group" />
+
+    
+    <meta property="og:title" content="Explainable Multi-Agent Planning" />
+    <meta property="twitter:title" content="Explainable Multi-Agent Planning" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/aria-website-test/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="ARIA Systems Group - ARIA Systems Group" href="/aria-website-test/feed.xml" />
+    <!-- <link rel="stylesheet" type="text/css" href="/bootstrap.min.css" /> -->
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body class= "">
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <!-- <div class="flex-container"> -->
+          <!-- <div class="flex-child"> -->
+          <!-- <a href="/" class="site-avatar"><img src="https://www.ariasystems.group/assets/images/aria_sys_banner.jpg" /></a> -->
+        <!-- </div> -->
+
+          <!-- <div class="site-info">
+            <h1 class="site-name"><a href="/">ARIA Systems Group</a></h1>
+            <p class="site-description">ARIA Systems Group</p>
+          </div> -->
+        <!-- <div class="flex-child"> -->
+          <nav class="navbar navbar-expand-xl navbar-light">
+    <div class="container-fluid no-wrap">
+      <a class="navbar-brand" href="/aria-website-test/index.html">
+        <span class="navbar-logo">
+        <img class="site-avatar" src="https://www.ariasystems.group/assets/images/aria_sys_banner.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav  ms-auto">
+        <li class="nav-item about"><a class="nav-link" href="/aria-website-test/about.html">ABOUT</a></li> 
+        <li class="nav-item research"><a class="nav-link" href="/aria-website-test/projects/all.html">RESEARCH</a></li>
+        <li class="nav-item publications"><a class="nav-link" href="/aria-website-test/publications.html">PUBLICATIONS</a></li>
+        <li class="nav-item people"><a class="nav-link" href="/aria-website-test/people/all.html">PEOPLE</a></li>
+        <li class="nav-item outreach"><a class="nav-link" href="/aria-website-test/outreach.html">OUTREACH</a></li>
+        <li class="nav-item contact"><a class="nav-link" href="/aria-website-test/contact.html">CONTACT</a></li>
+        <li class="nav-item join"><a class="nav-link" href="/aria-website-test/join.html">JOIN</a></li>
+    </ul>
+</div>
+</div>
+</nav>
+        <!-- </div> -->
+        <!-- </div>           -->
+        </header>
+      </div>
+    </div>
+
+    <div class="container">
+    <div id="main" role="main" class="content-container ">
+      <article class="page">
+
+  <h1>Explainable Multi-Agent Planning</h1>
+
+  <div class="entry">
+    
+
+
+<p>Multi-agent motion planning (MMP) is the problem of finding a motion plan for multiple agents such that when these agents are run simultaneously, none of the agents collide. These motion plans are traditionally computed using provably correct algorithms and immediately executed on a real system. In safety-critical applications, however, a human supervisor may want to verify that the plan is indeed collision-free prior to execution. This process can be extremely unintuitive since MMP solutions commonly have intersecting lines, making it difficult to verify that the agents do not collide. The inability for humans to validate traditional MMP algorithms leaves a huge trust-gap between motion planning experts and the daily-users who could benefit from using such algorithms. This work focuses on shortening the gap by incorporating explainability into traditional MMP algorithms.</p>
+
+<p>We investigate the notion of an explanation for a plan of MMP, based on visualization of the plan as a short sequence of images representing time segments, where in each time segment the trajectories of the agents are disjoint, clearly illustrating the safety of the plan. Presenting the plan in this way makes it very easy for a human to recognize the plan is collision free because recognizing line intersections happens very early in the cognitive process. Giving MMP algorithms the ability to explain their solutions to humans would greatly shorten the trust-gap between motion planning research experts and daily-users of these algorithms, consequentially allowing MMP algorithms to be further utilized within safety-critical systems.</p>
+
+
+
+<h2 class="bibliography">2021</h2>
+<ol class="bibliography"><li> <p><span id="kottinger2021mapsx">J. Kottinger, S. Almagor, and M. Lahijanian, “MAPS-X: Explainable Multi-Robot Motion Planning via Segmentation,” in <i>Proceedings of the IEEE International Conference on Robotics and Automation</i>, Xi’an, China, 2021. </span></p>
+
+ <div id="kottinger2021mapsx-materials">
+   <ul class="bibinfo">
+     <!--  -->
+
+     
+     <li><a href="https://arxiv.org/abs/2010.16106">Direct Link</a></li>
+     
+     
+     
+     <li><a href="https://youtu.be/82VLQtOtZ8I">Video</a></li>
+     
+
+     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('kottinger2021mapsx-bibtex')">BibTeX</a></li>
+     <div id="kottinger2021mapsx-bibtex" style="display:none;">
+     <pre class="collapse">@inproceedings{kottinger2021mapsx,
+  title = {MAPS-X: Explainable Multi-Robot Motion Planning via Segmentation},
+  author = {Kottinger, Justin and Almagor, Shaull and Lahijanian, Morteza},
+  booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation},
+  year = {2021},
+  address = {Xi'an, China},
+  month = may,
+  publisher = {IEEE},
+  bibkey = {ma-planning},
+  url = {https://arxiv.org/abs/2010.16106},
+  videourl = {https://youtu.be/82VLQtOtZ8I}
+}
+</pre>
+     </div> -->
+   </ul>
+
+ </div>
+</li></ol>
+<h2 class="bibliography">2020</h2>
+<ol class="bibliography"><li> <p><span id="Kottinger:RSSworshop:2020">J. Kottinger, S. Shaull Almagor, and M. Lahijanian, “Explainable Multi-Agent Path Planning,” in <i>Workshop on Explainable and Trustworthy Robot Decision Making for Scientific Data Collection</i>, 2020. </span></p>
+
+ <div id="Kottinger:RSSworshop:2020-materials">
+   <ul class="bibinfo">
+     <!--  -->
+
+     
+     <li><a href="https://etdm2020.github.io/abstracts/RSS_2020_ETDM_Kottinger_Explainable.pdf">Direct Link</a></li>
+     
+     
+     
+     <li><a href="https://drive.google.com/file/d/1wdSedDnLdhASh9RtY1Glwwo24wsAta81/view?usp=drivesdk">Video</a></li>
+     
+
+     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Kottinger:RSSworshop:2020-bibtex')">BibTeX</a></li>
+     <div id="Kottinger:RSSworshop:2020-bibtex" style="display:none;">
+     <pre class="collapse">@inproceedings{Kottinger:RSSworshop:2020,
+  title = {Explainable Multi-Agent Path Planning},
+  author = {Kottinger, Justin and Shaull Almagor, Shaull and Lahijanian, Morteza},
+  maintitle = {Robotics: Science and Systems},
+  booktitle = {Workshop on Explainable and Trustworthy Robot Decision Making for Scientific Data Collection},
+  year = {2020},
+  month = jul,
+  url = {https://etdm2020.github.io/abstracts/RSS_2020_ETDM_Kottinger_Explainable.pdf},
+  videourl = {https://drive.google.com/file/d/1wdSedDnLdhASh9RtY1Glwwo24wsAta81/view?usp=drivesdk},
+  bibkey = {ma-planning}
+}
+</pre>
+     </div> -->
+   </ul>
+
+ </div>
+</li></ol>
+
+  </div>
+</article>
+
+    </div>
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:morteza.lahijanian@colorado.edu"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/aria-systems-group"><i class="svg-icon github"></i></a>
+
+
+
+
+
+
+<a href="https://youtube.com/channel/UCmDEAZpgAZjP6AOSgynYEOA"><i class="svg-icon youtube"></i></a>
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
