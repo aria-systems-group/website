@@ -1,6 +1,6 @@
 ---
+title: About ARIA Systems Group 
 layout: page
-title: 
 permalink: /about.html
 class: about
 ---

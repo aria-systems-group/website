@@ -1,5 +1,5 @@
 ---
-title: 
+title: Join Us
 layout: page 
 permalink: /join.html
 class: join

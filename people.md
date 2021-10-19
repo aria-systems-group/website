@@ -1,5 +1,5 @@
 ---
-title:  
+title: People 
 layout: page 
 permalink: /people/all.html
 class: people

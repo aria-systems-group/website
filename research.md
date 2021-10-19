@@ -1,6 +1,6 @@
 ---
-title: 
-layout: default
+title: Projects 
+layout: page 
 permalink: /projects/all.html
 class: research
 ---

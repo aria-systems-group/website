@@ -1,5 +1,5 @@
 ---
-title:  
+title: Contact Us
 layout: page 
 permalink: /contact.html
 class: contact
