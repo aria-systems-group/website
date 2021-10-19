@@ -263,6 +263,7 @@ img {
   float: left;
   min-width: 250px;
   max-width: 450px;
+  width: 100%;
 }
 
 @media screen and (max-width: 800px) {
