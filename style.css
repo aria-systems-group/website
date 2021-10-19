@@ -465,7 +465,7 @@ td.col1 {
   /* height of container */
 }
 
-.siema img {
+img.center {
   display: block;
   margin: auto;
 }

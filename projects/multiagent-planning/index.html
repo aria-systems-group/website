@@ -28,6 +28,7 @@
     <![endif]-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/website/style.css" />
+    <link rel="icon" type="image/jpg" href="/website/assets/images/favicon.jpg">
     <link rel="alternate" type="application/rss+xml" title="ARIA Systems Group - ARIA Systems Group" href="/website/feed.xml" />
     <!-- <link rel="stylesheet" type="text/css" href="/bootstrap.min.css" /> -->
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -39,7 +40,7 @@
         <header class="masthead clearfix">
           <!-- <div class="flex-container"> -->
           <!-- <div class="flex-child"> -->
-          <!-- <a href="/" class="site-avatar"><img src="https://www.ariasystems.group/assets/images/aria_sys_banner.jpg" /></a> -->
+          <!-- <a href="/" class="site-avatar"><img src="" /></a> -->
         <!-- </div> -->
 
           <!-- <div class="site-info">
@@ -51,7 +52,7 @@
     <div class="container-fluid no-wrap">
       <a class="navbar-brand" href="/website/index.html">
         <span class="navbar-logo">
-        <img class="site-avatar" src="https://www.ariasystems.group/assets/images/aria_sys_banner.jpg" alt="">
+        <img class="site-avatar" src="/website/assets/images/aria_sys_banner.jpg" alt="">
         </span>
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,6 +86,13 @@
   <div class="entry">
     
 
+
+<p><img class="center" src="/website/assets/images/projects/ma-paths/fullPlan.png" alt="full_plan" width="200px" /></p>
+<p style="text-align:center">Full plan for three agents</p>
+<p><img class="center" src="/website/assets/images/projects/ma-paths/seg1-3.png" alt="segments" width="600px" /></p>
+<p style="text-align:center">Explanations of the full plan in 3 parts for quick validation</p>
+
+<p>As we begin employing teams of robots to accomplish complex tasks, it becomes difficult for a human to verify that future paths do not result in collisions. Therefore, we are working on new multiagent planning approaches that minimize the effort it takes a human to verify the paths.</p>
 
 <p>Multi-agent motion planning (MMP) is the problem of finding a motion plan for multiple agents such that when these agents are run simultaneously, none of the agents collide. These motion plans are traditionally computed using provably correct algorithms and immediately executed on a real system. In safety-critical applications, however, a human supervisor may want to verify that the plan is indeed collision-free prior to execution. This process can be extremely unintuitive since MMP solutions commonly have intersecting lines, making it difficult to verify that the agents do not collide. The inability for humans to validate traditional MMP algorithms leaves a huge trust-gap between motion planning experts and the daily-users who could benefit from using such algorithms. This work focuses on shortening the gap by incorporating explainability into traditional MMP algorithms.</p>
 
