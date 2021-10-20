@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 16px/1.4 $helveticaNeue;
+  font: 16px/1.4 $mainfonts;
   color: $darkGray;
 }
 
@@ -69,9 +69,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
   color: $blue;
-  font-weight: 300;
+  font-weight: 400;
   width: 100%;
   text-align: center;
   line-height: 1.7;
@@ -96,7 +95,6 @@ h2 {
 
 h3 {
   text-align: left;
-  font-weight: 300;
   font-size: 22px;
 }
 
@@ -115,7 +113,7 @@ h6 {
 }
 
 p, li {
-  font-weight: 300;
+  font-weight: 400;
   color: $gray;
   margin: 10px 0;
   text-align: justify;
@@ -254,8 +252,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: $mainfonts;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -272,7 +269,7 @@ img {
 
 nav {
   // float: center;
-  font-family: $helveticaNeue;
+  font-family: $mainfonts;
   font-size: 14px;
   align-items: center;
 
@@ -366,7 +363,7 @@ footer {
 // Bibliography list formatting
 ol.bibliography {
   color: $gray;
-  font-size: 14px;
+  font-size: 16px;
   
   // max-width: 1000px;
   margin: 0;
@@ -376,7 +373,6 @@ ol.bibliography {
 .bibliography p {
   margin: 0;
   padding: 0;
-  font-weight: 300;
 }
 
 h2.bibliography {
@@ -415,7 +411,6 @@ table, tr{
 }
 
 tr.row1 {
-  font-family: $helveticaNeue;
   font-weight: 300;
 }
 
