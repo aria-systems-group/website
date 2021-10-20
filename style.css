@@ -1,7 +1,7 @@
 /***************/
 /* MEYER RESET */
 /***************/
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,7 +66,7 @@ html {
 
 body {
   background: #fff;
-  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.4 -apple-system, "Roboto", Helvetica, Arial, sans-serif;
   color: #333;
 }
 
@@ -121,9 +121,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #0f7699;
-  font-weight: 300;
+  font-weight: 400;
   width: 100%;
   text-align: center;
   line-height: 1.7;
@@ -151,7 +150,6 @@ h2 {
 
 h3 {
   text-align: left;
-  font-weight: 300;
   font-size: 22px;
 }
 
@@ -170,9 +168,11 @@ h6 {
 }
 
 p, li {
-  font-weight: 300;
+  font-weight: 400;
   color: #777;
   margin: 10px 0;
+  text-align: justify;
+  text-justify: auto;
 }
 
 a {
@@ -261,14 +261,14 @@ img {
 
 .site-avatar {
   float: left;
-  min-width: 250px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 500px;
   width: 100%;
 }
 
 @media screen and (max-width: 800px) {
   .site-avatar {
-    width: 250px;
+    width: 300px;
     float: none;
     display: block;
     margin: 0 auto;
@@ -295,8 +295,7 @@ img {
   margin: 0;
   color: #333;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: -apple-system, "Roboto", Helvetica, Arial, sans-serif;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -314,7 +313,7 @@ img {
 }
 
 nav {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   align-items: center;
 }
@@ -333,15 +332,15 @@ nav li {
 }
 
 nav a.nav-link {
+  color: #0f7699 !important;
   margin: 0px 10px;
-  color: #333;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
 nav a.nav-link:hover {
-  color: #0f7699;
+  color: #777 !important;
 }
 
 #sub-header ul li:hover,
@@ -400,7 +399,7 @@ footer {
 /*********************/
 ol.bibliography {
   color: #777;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
   list-style-type: none;
 }
@@ -408,7 +407,6 @@ ol.bibliography {
 .bibliography p {
   margin: 0;
   padding: 0;
-  font-weight: 300;
 }
 
 h2.bibliography {
@@ -444,7 +442,6 @@ table, tr {
 }
 
 tr.row1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 
