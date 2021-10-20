@@ -290,13 +290,13 @@ nav {
   }
 
   a.nav-link {
+    color: $blue !important;
     margin: 0px 10px;
-    color: $darkGray;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 1px;
     &:hover {
-      color: $blue;
+      color: $gray !important;
     }
   }
 
