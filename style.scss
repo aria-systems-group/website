@@ -219,8 +219,8 @@ img {
 
 .site-avatar {
   float: left;
-  min-width: 250px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 500px;
   width: 100%;
   // min-width: 400px;
   // // height: 70px;
@@ -228,7 +228,7 @@ img {
   // border: blue 2px solid;
 
   @include mobile {
-    width: 250px;
+    width: 300px;
     float: none;
     display: block;
     margin: 0 auto;
