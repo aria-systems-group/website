@@ -3,12 +3,16 @@
 ## Updating Content
 
 ### News
-Add a new line in `./_data/news.csv`.
+Add a new line in `_data/news.csv`.
 
 ### Bibliography
+Add or edit entries in `_bibliography/references.bib`. The following keys are used for custom metadata:
+- `url` - direct link to the paper 
+- `videourl` - link to a video presentation
+- `bibkey` - custom string to associate reference with project
 
 ### Personal Pages
-Add a file under `./_people/` directory.
+Add a file under `_people/` directory.
 
 For example
 
