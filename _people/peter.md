@@ -1,10 +1,14 @@
 ---
 name: Peter Amorese
+layout: extraleft 
 ordering: 11 
 email: peter.amorese@colorado.edu
 program: MS Student
 status: current
 picture: /assets/images/peter_amorese.jpg 
+extra-picture: /assets/images/peter_amorese.jpg 
+generate-extra-page: true  
+excerpt_separator: <!--more-->
 picture-link: 
 header-link: 
 ---
@@ -23,7 +27,7 @@ This research would extend the capabilities of robots and other autonomous syste
 **Research Keywords:** Formal synthesis, planning with preferences, hybrid systems, formal methods
 
 Check out a few videos of my implementation work with robitic manipulators:
-Franka Emika arch construction: https://drive.google.com/file/d/1xAZwKilZLeHb8fRQPjrnoBElfLLl47bS/view?usp=sharing
-My senior project (Sierra Nevada Corp.):https://drive.google.com/file/d/1WibYi7PaPPuNuwyvGRVkcpO4IcIw6KN_/view?usp=sharing
+- [Franka Emika arch construction](https://drive.google.com/file/d/1xAZwKilZLeHb8fRQPjrnoBElfLLl47bS/view?usp=sharing)
+- [My senior project (Sierra Nevada Corp.)](https://drive.google.com/file/d/1WibYi7PaPPuNuwyvGRVkcpO4IcIw6KN_/view?usp=sharing)
 
-Please don’t hesitate to contact me at: peter.amorese@colorado.edu
+Please don’t hesitate to contact me at: [peter.amorese@colorado.edu](mailto:peter.amorese@colorado.edu)
