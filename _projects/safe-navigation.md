@@ -23,3 +23,14 @@ In this project, we seek to overcome this problem through incrementally mapping 
 
 If you are interested in learning more, please reach out to Qi Heng Ho at [qi.ho@colorado.edu](mailto:qi.ho@colorado.edu) or checkout some of our recent related publications.
 
+<br>
+<br>
+<div class="text-center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/I5X_QFKDpeI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<div class="text-center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dTejsNqNC00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
