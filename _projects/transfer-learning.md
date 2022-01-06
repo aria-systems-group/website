@@ -9,7 +9,7 @@ images:
 - url: /assets/images/projects/transfer-learning/transfer_learning.jpg
 excerpt_separator: <!--more-->
 link-flag: true
-bibkey: safe-navigation
+bibkey: synth-ml
 ---
 This project explores improvements to embedded control software for safety-critical cyber-physical systems with applications in autonomous transportation, traffic networks, power networks, and aerospace systems. These systems often have complex dynamics that are difficult to obtain in a closed-form and ensure their safety.
 
