@@ -10,6 +10,8 @@ We are a group of robot enthusiasts in the Departments of Aerospace Engineering 
 The main theme of our work is safety and soundness, and the emphasis is on safe autonomy through correct-by-construction algorithmic approaches.  Our research builds on knowledge developed in control theory, formal methods, statistical reasoning, machine learning & AI and seeks to address real-world challenges in robotics and safety-critical systems.
 <br>
 <br>
-<div align="center"><iframe width="660" height="400" src="https://youtube.com/embed/YoApl4unzAQ" frameborder="0" allowfullscreen style="padding-bottom:30px"></iframe></div>
+<div align="center"><iframe width="560" height="400" src="https://youtube.com/embed/YoApl4unzAQ" frameborder="0" allowfullscreen style="padding-bottom:30px"></iframe></div>
+
+<div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/r9DUImCrx18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 {% include news.html %}
