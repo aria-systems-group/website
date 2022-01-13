@@ -2,7 +2,7 @@
 name: Daniel Mclucas Crook
 ordering: 12
 email: daniel.m.crook@colorado.edu
-program: Undergraduate 
+program: BS 
 status: alumnus 
 year-graduated: 2021
 picture: /assets/images/daniel_crook.jpg 
