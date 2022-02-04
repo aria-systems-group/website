@@ -1,5 +1,6 @@
 ---
 name: Expert-Informed Autonomous Science Planning for In-situ Observations and Discoveries                               # Name
+title: Expert-Informed Autonomous Science Planning for In-situ Observations and Discoveries     
 layout: project                     # Leave it as it is
 ordering: 2                          # Order to be appeared in the page
 status: current                            # Choose either current or past
@@ -13,8 +14,8 @@ In this project, we are developing a framework to maximize science obtained by r
 
 <!--more-->
 
-<img class="center" src="{{site.baseurl}}/assets/images/projects/coldtech/architecture_overview.png" alt="full_plan" width="200px"/>
-<p style="text-align:center">The proposed framework</p>
+<img class="center" src="{{site.baseurl}}/assets/images/projects/coldtech/architecture_overview.png" alt="full_plan" width="600px"/>
+<p style="text-align:center">The proposed framework.</p>
 
 Future planetary exploration missions on the surface of distant bodies such as Europa or Enceladus can’t rely on human-in-the-loop operations due to time delays, dynamic environments, limited mission lifetimes, as well as the many unknown unknowns inherent in the exploration of such environments.
 
