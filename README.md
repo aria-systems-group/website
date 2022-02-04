@@ -53,18 +53,11 @@ More detail.
 ```
 
 ## Updating Style
-- setup Jekyll on your local machine
-- clone the repo, change the branch
-- make changes to style files
-	- make sure they work on mobile
-- open a PR so we can check
-
-## Test Locally
-
-Start server locally
-```
-bundle exec jekyll serve
-```
+1. First, setup Jekyll on your local machine by following the instructions here: [https://jekyllrb.com/docs/step-by-step/01-setup/](https://jekyllrb.com/docs/step-by-step/01-setup/)
+2. Fork or clone the repository to your machine. 
+3. To test the website locally, run `bundle exec jekyll serve` in the top directory. If there were no errors, the website will be available at http://127.0.0.1:4000/. 
+4. Make changes and see how they look. Make sure changes look satisfactory on mobile devices by narrowing the browser window.
+5. If you don't have direct push access, open up a pull request with your changes for review.
 
 If your ruby is missing some gems (packages), run
 ```
