@@ -1,8 +1,8 @@
 ---
 name: Roland Barnabas Ilyes
-ordering: 11
-email: Roland.Ilyes@colorado.edu
-program: Masters Student
+ordering: 15
+email: roland.ilyes@colorado.edu
+program: MS Student
 status: current
 picture: /assets/images/Roland_Ilyes.jpg 
 picture-link: 
