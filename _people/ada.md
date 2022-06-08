@@ -1,6 +1,6 @@
 ---
 name: Ada Forsner
-ordering: 12
+ordering: 16
 email: adfo3856@colorado.edu
 program: BS Student
 status: current
