@@ -1,7 +1,7 @@
 ---
 name: Ibón Gracia
 ordering: 14
-email: Ibon.Gracia@colorado.edu
+email: ibon.gracia@colorado.edu
 program: PhD Student
 status: current
 picture: /assets/images/Ibon_Gracia.jpg 
