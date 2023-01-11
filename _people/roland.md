@@ -2,8 +2,9 @@
 name: Roland Barnabas Ilyes
 ordering: 15
 email: roland.ilyes@colorado.edu
-program: MS Student
-status: current
+program: MS
+status: alumnus 
+year-graduated: 2022
 picture: /assets/images/Roland_Ilyes.jpg 
 picture-link: 
 header-link:
