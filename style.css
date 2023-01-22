@@ -106,8 +106,8 @@ body {
 }
 @media screen and (max-width: 800px) {
   .flex-child.disappearing {
-    width: 0;
-    flex: 0;
+    width: 100px;
+    flex: 1;
   }
 }
 
