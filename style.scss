@@ -55,8 +55,8 @@ body {
   margin: 30px 20px 0px 20px;
   justify-content: center;
   @include mobile {
-    width: 0;
-    flex: 0;
+    width: 100px;
+    flex: 1;
   }
 }
 
