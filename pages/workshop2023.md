@@ -30,17 +30,17 @@ This workshop aims to bring together researchers interested in the broad area of
 **[Morteza Lahijanian](https://mortezalahijanian.com/)**<br>
 Assistant Professor  <br>
 University of Colorado Boulder  <br>
-[morteza.lahijanian@colorado.edu](morteza.lahijanian@colorado.edu)<br>
+[morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br>
 
 **[Luca Laurenti](https://www.tudelft.nl/en/staff/l.laurenti/)** <br>
 Assistant Professor  <br>
 Delft University of Technology  <br>
-[l.laurenti@tudelft.nl](l.laurenti@tudelft.nl)  <br>
+[l.laurenti@tudelft.nl](mailto:l.laurenti@tudelft.nl)  <br>
 
 **[Angela Schoellig](https://www.dynsyslab.org/prof-angela-schoellig/)** <br>
 Professor of Robotics  <br>
 TU Munich and Univ. of Toronto  <br>
-[angela.schoellig@utoronto.ca](angela.schoellig@utoronto.ca)
+[angela.schoellig@utoronto.ca](mailto:angela.schoellig@utoronto.ca)
 
 
 
