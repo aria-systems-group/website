@@ -1,5 +1,5 @@
 ---
-title: Certified Data-driven Control for Uncertain Robotic Systems
+title: RSS Workshop <br> Certified Data-driven Control for Uncertain Robotic Systems
 layout: page 
 permalink: /workshops/certified-data-driven-control.html
 class: no-nav
@@ -7,16 +7,25 @@ class: no-nav
 
 <!-- **Title:**  -->
 
-**<span style="color:blue">Description</style>**
+<!-- **<span style="color:blue">Description</style>** -->
 
 <span style="color:black">
-Text_content
 Recent advances in technology have led to a rapid growth of interest in applying robotic systems in safety-critical domains. However, this comes with several challenges: modern robotic systems not only present complex dynamics and have to deal with uncertainty, but also include machine learning components in the loop, such as neural network controllers. Because of these challenges, ensuring the robustness and safety of modern robotics systems is still an open question that requires an interdisciplinary approach between robotics, control and formal methods, and machine learning.
  
 This workshop aims to bring together researchers interested in the broad area of safe and verifiable autonomy, which includes experts from the robotics, controls, machine learning, cyber-physical systems, and logic communities, as well as researchers working in the emerging area of safe and trustworthy AI. We attempt to highlight recent advances in these communities, discuss open problems and main challenges, and lay out new research directions.
 </style>
 
-**Orgainizers**
+
+**Main questions:**
+- How to quantify data uncertainty for the purposes of controls?
+- How to build robust and reliable machine learning models?
+- What are the available tools and benchmarks?
+<!-- - There is a need for standard benchmarks -->
+- Role of logic and formal methods in machine learning and robotics?
+
+
+<!-- **Orgainizers** -->
+## Organizers
 
 Morteza Lahijanian  
 Assistant Professor  
@@ -35,14 +44,9 @@ angela.schoellig@utoronto.ca
 
 
 
-**Main questions:**
-- How to quantify data uncertainty for the purposes of controls?
-- How to build robust and reliable machine learning models?
-- What are the available tools and benchmarks?
-<!-- - There is a need for standard benchmarks -->
-- Role of logic and formal methods in machine learning and robotics?
 
-**Invited Speakers and Panelists**
+<!-- **Invited Speakers and Panelists** -->
+## Invited Speakers and Panelists (confirmed)
 
 <!--  We have invited a number of experts on the topics of the workshop with various backgrounds.  In selecting the speakers, we focused on striking a good balance between the diversity in the areas of expertise, seniority, and gender.  ??? invitees have confirmed their attendance, ??? speakers have tentatively accepted the invitation, and we are yet to hear from a few others.  The list of the invited speakers is shown below.  Lastly, to ensure that the speakers focus on the topic, we plan to ask them to provide the title and abstract of their talks a few weeks in advance. -->
 
@@ -75,4 +79,5 @@ angela.schoellig@utoronto.ca
 - Andrea Patanè, Trinity College Dublin 
 
 
-**Tentative Schedule**
+## Tentative Schedule
+<!-- **Tentative Schedule** -->
