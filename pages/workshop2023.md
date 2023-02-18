@@ -7,11 +7,14 @@ class: no-nav
 
 <!-- **Title:**  -->
 
-**Description**
+**<span style="color:blue">Description</style>**
 
+<span style="color:black">
+Text_content
 Recent advances in technology have led to a rapid growth of interest in applying robotic systems in safety-critical domains. However, this comes with several challenges: modern robotic systems not only present complex dynamics and have to deal with uncertainty, but also include machine learning components in the loop, such as neural network controllers. Because of these challenges, ensuring the robustness and safety of modern robotics systems is still an open question that requires an interdisciplinary approach between robotics, control and formal methods, and machine learning.
  
 This workshop aims to bring together researchers interested in the broad area of safe and verifiable autonomy, which includes experts from the robotics, controls, machine learning, cyber-physical systems, and logic communities, as well as researchers working in the emerging area of safe and trustworthy AI. We attempt to highlight recent advances in these communities, discuss open problems and main challenges, and lay out new research directions.
+</style>
 
 **Orgainizers**
 
