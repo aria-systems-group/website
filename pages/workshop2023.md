@@ -92,7 +92,7 @@ TU Munich and Univ. of Toronto  <br>
 
 <!-- | **Time** |  -->
 <!-- | -- | ------  -->
-|8:45 - 9:00 | Welcome and Introduction | 
+<!-- |8:45 - 9:00 | Welcome and Introduction | 
 |9:00 - 9:30 | Keynote Speaker 1 | 
 |9:30 - 10:00| Keynote Speaker 2 | 
 |10:00 - 10:30|	Keynote Speaker 3 | 
@@ -108,9 +108,9 @@ TU Munich and Univ. of Toronto  <br>
 |15:45 - 16:15|	Invited Talk 5 | 
 |16:15 - 16:45|	Invited Talk 6 | 
 |16:45 - 17:45|	Panel Discussion 2 & Concluding Remarks | 
-|17:45 – 18:45|	Poster Presentations | 
+|17:45 – 18:45|	Poster Presentations |  -->
 
-<!-- - 8:45 - 9:00 ------- Welcome and Introduction
+- 8:45 - 9:00 ------- Welcome and Introduction
 - 9:00 - 9:30 ------- Keynote Speaker 1 
 - 09:30 - 10:00 ----- Keynote Speaker 2 
 - 10:00 - 10:30	----- Keynote Speaker 3
@@ -126,4 +126,4 @@ TU Munich and Univ. of Toronto  <br>
 - 15:45 - 16:15	----- Invited Talk 5
 - 16:15 - 16:45	----- Invited Talk 6
 - 16:45 - 17:45	----- Panel Discussion 2 & Concluding Remarks
-- 17:45 – 18:45	----- Poster Presentations -->
+- 17:45 – 18:45	----- Poster Presentations
