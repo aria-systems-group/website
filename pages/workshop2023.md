@@ -17,17 +17,21 @@ This workshop aims to bring together researchers interested in the broad area of
 
 
 **Main questions:**
+
 - How to quantify data uncertainty for the purposes of controls?
 - How to build robust and reliable machine learning models?
-- What are the available tools and benchmarks?
-<!-- - There is a need for standard benchmarks -->
+- How can robots safely interact with humans?
 - Role of logic and formal methods in machine learning and robotics?
+- What are the available tools and benchmarks?
+- How to define/agree on a set of standard benchmark problems?
+<!-- - There is a need for standard benchmarks -->
+
 
 
 <!-- **Orgainizers** -->
 ## Organizers
 
-- **[Morteza Lahijanian](https://mortezalahijanian.com/)**<br>
+- **[Morteza Lahijanian](https://www.colorado.edu/aerospace/morteza-lahijanian)**<br>
 Assistant Professor  <br>
 University of Colorado Boulder  <br>
 [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br>
