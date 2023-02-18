@@ -69,14 +69,15 @@ TU Munich and Univ. of Toronto  <br>
 |Changliu Liu, CMU | |  -->
 
 
-- Marco Pavone, Associate Professor, Stanford University 
-- Chuchu Fan, Assistant Professor, MIT
-- Nicola Paoletti, Associate Professor, King’s College London 
-- Calin Belta, Professor, Boston University 
-- Changliu Liu, Assistant Professor, Carnegie Mellon University
-- Negar Mehr, Assistant Professor, University of Illinois at Urbana-Champagne
-- Mathias Lechner, Postdoc, MIT
-- Andrea Patanè, Assistant Professor, Trinity College Dublin 
+- [Marco Pavone](https://profiles.stanford.edu/marco-pavone), Associate Professor, Stanford University 
+- [Chuchu Fan](https://chuchu.mit.edu/), Assistant Professor, MIT
+- [Nicola Paoletti](https://nicolapaoletti.com/), Associate Professor, King’s College London 
+- [Calin Belta](https://sites.bu.edu/hyness/calin/), Professor, Boston University 
+- [Changliu Liu](https://www.ri.cmu.edu/ri-faculty/changliu-liu/), Assistant Professor, Carnegie Mellon University
+- [Negar Mehr](http://negar.web.illinois.edu/), Assistant Professor, University of Illinois at Urbana-Champagne
+- [Mathias Lechner](https://mlech26l.github.io/pages/about/), Postdoc, MIT
+- [Andrea Patanè](https://www.scss.tcd.ie/personnel/apatane), Assistant Professor, Trinity College Dublin 
+- [Yasser Shoukry](https://rcpsl.eng.uci.edu/yshoukry/), Assistant Professor, University of California Irvine
 
 
 ## Tentative Schedule
