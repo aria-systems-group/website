@@ -30,7 +30,10 @@
             <p class="site-description">{{ site.description }}</p>
           </div> -->
         <!-- <div class="flex-child"> -->
+
+          {% if page.class != "no-nav" %} 
           {% include nav.html %}
+          {% endif %}
         <!-- </div> -->
         <!-- </div>           -->
         </header>
@@ -46,7 +49,9 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          {% if page.class != "no-nav" %} 
           {% include svg-icons.html %}
+          {% endif %}
         </footer>
       </div>
     </div>
