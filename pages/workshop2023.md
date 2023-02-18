@@ -110,9 +110,9 @@ TU Munich and Univ. of Toronto  <br>
 |16:45 - 17:45|	Panel Discussion 2 & Concluding Remarks | 
 |17:45 – 18:45|	Poster Presentations |  -->
 
-- 8:45 - 9:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome and Introduction
-- 9:00 - 9:30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keynote Speaker 1 
-- 9:30 - 10:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keynote Speaker 2 
+- 8:45 - 9:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome and Introduction
+- 9:00 - 9:30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keynote Speaker 1 
+- 9:30 - 10:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keynote Speaker 2 
 - 10:00 - 10:30	&nbsp;&nbsp;&nbsp;&nbsp; Keynote Speaker 3
 - 10:30 - 10:45	&nbsp;&nbsp;&nbsp;&nbsp; Coffee Break (poster setup)
 - 10:45 - 11:45	&nbsp;&nbsp;&nbsp;&nbsp; Panel Discussion 1
