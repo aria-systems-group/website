@@ -27,19 +27,19 @@ This workshop aims to bring together researchers interested in the broad area of
 <!-- **Orgainizers** -->
 ## Organizers
 
-**[Morteza Lahijanian](https://mortezalahijanian.com/)**
-Assistant Professor  
-University of Colorado Boulder  
-[morteza.lahijanian@colorado.edu](morteza.lahijanian@colorado.edu)
+**[Morteza Lahijanian](https://mortezalahijanian.com/)**<br>
+Assistant Professor  <br>
+University of Colorado Boulder  <br>
+[morteza.lahijanian@colorado.edu](morteza.lahijanian@colorado.edu)<br>
 
-**[Luca Laurenti](https://www.tudelft.nl/en/staff/l.laurenti/)**
-Assistant Professor  
-Delft University of Technology  
-[l.laurenti@tudelft.nl](l.laurenti@tudelft.nl)  
+**[Luca Laurenti](https://www.tudelft.nl/en/staff/l.laurenti/)** <br>
+Assistant Professor  <br>
+Delft University of Technology  <br>
+[l.laurenti@tudelft.nl](l.laurenti@tudelft.nl)  <br>
 
-**Angela Schoellig**
-Professor of Robotics  
-TU Munich and Univ. of Toronto  
+**[Angela Schoellig](https://www.dynsyslab.org/prof-angela-schoellig/)** <br>
+Professor of Robotics  <br>
+TU Munich and Univ. of Toronto  <br>
 [angela.schoellig@utoronto.ca](angela.schoellig@utoronto.ca)
 
 
@@ -69,14 +69,14 @@ TU Munich and Univ. of Toronto
 |Changliu Liu, CMU | |  -->
 
 
-- Marco Pavone, Stanford University 
-- Chuchu Fan, MIT
-- Nicola Paoletti, King’s College London 
-- Calin Belta, Boston University 
-- Changliu Liu, Carnegie Mellon University
-- Negar Mehr, University of Illinois at Urbana-Champagne
-- Mathias Lechner, MIT
-- Andrea Patanè, Trinity College Dublin 
+- Marco Pavone, Associate Professor, Stanford University 
+- Chuchu Fan, Assistant Professor, MIT
+- Nicola Paoletti, Associate Professor, King’s College London 
+- Calin Belta, Professor, Boston University 
+- Changliu Liu, Assistant Professor, Carnegie Mellon University
+- Negar Mehr, Assistant Professor, University of Illinois at Urbana-Champagne
+- Mathias Lechner, Postdoc, MIT
+- Andrea Patanè, Assistant Professor, Trinity College Dublin 
 
 
 ## Tentative Schedule
