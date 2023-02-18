@@ -89,25 +89,26 @@ TU Munich and Univ. of Toronto  <br>
 
 ## Tentative Schedule
 <!-- **Tentative Schedule** -->
-| **Confirmed Speakers (need to confirm if online or in-person)** | **Potential Topic** |
-| -- | ------ | 
-|8:45 - 9:00 | Welcome and Introduction | |
-|9:00 - 9:30 | Keynote Speaker 1 | |
-|9:30 - 10:00| Keynote Speaker 2 | |
-|10:00 - 10:30|	Keynote Speaker 3 | |
-|10:30 - 10:45|	Coffee Break (poster setup)| |
-|10:45 - 11:45|	Panel Discussion 1 | |
-|11:45 - 12:15| Invited Talk 1 | |
-|12:15 - 12:30|	Poster Spotlight Talks | |
-|12:30 - 14:00|	Lunch Break | |
-|14:00 - 14:30|	Invited Talk 2 | |
-|14:30 - 15:00|	Invited Talk 3 | |
-|15:00 - 15:30|	Invited Talk 4 | |
-|15:30 - 15:00|	Coffee Break (poster session) | |
-|15:45 - 16:15|	Invited Talk 5 | |
-|16:15 - 16:45|	Invited Talk 6 | |
-|16:45 - 17:45|	Panel Discussion 2 & Concluding Remarks | |
-|17:45 – 18:45|	Poster Presentations | |
+
+| **Confirmed Speakers (need to confirm if online or in-person)** | 
+| -- | ------ 
+|8:45 - 9:00 | Welcome and Introduction | 
+|9:00 - 9:30 | Keynote Speaker 1 | 
+|9:30 - 10:00| Keynote Speaker 2 | 
+|10:00 - 10:30|	Keynote Speaker 3 | 
+|10:30 - 10:45|	Coffee Break (poster setup)| 
+|10:45 - 11:45|	Panel Discussion 1 | 
+|11:45 - 12:15| Invited Talk 1 | 
+|12:15 - 12:30|	Poster Spotlight Talks | 
+|12:30 - 14:00|	Lunch Break | 
+|14:00 - 14:30|	Invited Talk 2 | 
+|14:30 - 15:00|	Invited Talk 3 | 
+|15:00 - 15:30|	Invited Talk 4 | 
+|15:30 - 15:00|	Coffee Break (poster session) | 
+|15:45 - 16:15|	Invited Talk 5 | 
+|16:15 - 16:45|	Invited Talk 6 | 
+|16:45 - 17:45|	Panel Discussion 2 & Concluding Remarks | 
+|17:45 – 18:45|	Poster Presentations | 
 
 <!-- - 8:45 - 9:00 ------- Welcome and Introduction
 - 9:00 - 9:30 ------- Keynote Speaker 1 
