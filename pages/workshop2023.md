@@ -1,7 +1,7 @@
 ---
 title: Proposed Workshop 2023
 layout: page 
-permalink: /workshop2023.html
+permalink: /workshops/certified-data-driven-controls.html
 class: no-nav
 ---
 
