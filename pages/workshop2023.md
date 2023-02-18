@@ -90,8 +90,8 @@ TU Munich and Univ. of Toronto  <br>
 ## Tentative Schedule
 <!-- **Tentative Schedule** -->
 
-| **Confirmed Speakers (need to confirm if online or in-person)** | 
-| -- | ------ 
+<!-- | **Time** |  -->
+<!-- | -- | ------  -->
 |8:45 - 9:00 | Welcome and Introduction | 
 |9:00 - 9:30 | Keynote Speaker 1 | 
 |9:30 - 10:00| Keynote Speaker 2 | 
