@@ -27,20 +27,20 @@ This workshop aims to bring together researchers interested in the broad area of
 <!-- **Orgainizers** -->
 ## Organizers
 
-Morteza Lahijanian  
+**[Morteza Lahijanian](https://mortezalahijanian.com/)**
 Assistant Professor  
 University of Colorado Boulder  
-morteza.lahijanian@colorado.edu 
+[morteza.lahijanian@colorado.edu](morteza.lahijanian@colorado.edu)
 
-Luca Laurenti  
+**[Luca Laurenti](https://www.tudelft.nl/en/staff/l.laurenti/)**
 Assistant Professor  
 Delft University of Technology  
-l.laurenti@tudelft.nl  
+[l.laurenti@tudelft.nl](l.laurenti@tudelft.nl)  
 
-Angela Schoellig  
+**Angela Schoellig**
 Professor of Robotics  
-TU Munich and Univ. of Toronto   
-angela.schoellig@utoronto.ca
+TU Munich and Univ. of Toronto  
+[angela.schoellig@utoronto.ca](angela.schoellig@utoronto.ca)
 
 
 
