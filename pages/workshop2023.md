@@ -78,7 +78,7 @@ Abstracts should be 1-2 page long in RSS paper format and are submitted through 
 Some of the abstracts may be invited to be extended into an article for publication in a special issue of a journal.
 
 
-**Important Dates**
+## Important Dates
 - Abstract submission: May 29, 2023
 - Notification: June 3, 2023
 - Camera Ready: July 3, 2023
