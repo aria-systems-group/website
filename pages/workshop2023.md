@@ -87,6 +87,20 @@ TU Munich and Univ. of Toronto  <br>
 - [Yasser Shoukry](https://rcpsl.eng.uci.edu/yshoukry/), Assistant Professor, University of California Irvine
 
 
+## Submission Info
+We invite submissions of poster abstracts on any topic within the theme of the workshop: safe and verifiable autonomy. We accept published and ongoing work. The authors of the accepted abstracts will present their posters at the workshop. In addition, the pdf file of the posters along with their abstracts will be made available for general public on the workshop website. 
+
+Abstracts should be 1-2 page long in RSS paper format and are submitted through EasyChair.
+
+Some of the abstracts may be invited to be extended into an article for publication in a special issue of a journal.
+
+## Important Dates
+- Abstract submission: May 29, 2023
+- Notification: June 3, 2023
+- Camera Ready: July 3, 2023
+- Workshop: July 10, 2023
+
+
 ## Tentative Schedule
 <!-- **Tentative Schedule** -->
 
@@ -127,3 +141,6 @@ TU Munich and Univ. of Toronto  <br>
 - 16:15 - 16:45	&nbsp;&nbsp;&nbsp;&nbsp; Invited Talk 6
 - 16:45 - 17:45	&nbsp;&nbsp;&nbsp;&nbsp; Panel Discussion 2 & Concluding Remarks
 - 17:45 – 18:45	&nbsp;&nbsp;&nbsp;&nbsp; Poster Presentations
+
+
+
