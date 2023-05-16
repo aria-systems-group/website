@@ -80,8 +80,8 @@ Some of the abstracts may be invited to be extended into an article for publicat
 <br>
 
 **Important Dates**
-- Abstract submission: May 29, 2023
-- Notification: June 3, 2023
+- Abstract submission: June 8, 2023
+- Notification: June 10, 2023
 - Camera Ready: July 3, 2023
 - Workshop: July 10, 2023
 
