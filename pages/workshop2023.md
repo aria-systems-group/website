@@ -1,5 +1,5 @@
 ---
-title: RSS Workshop on <br> Certified Data-driven Control for Uncertain Robotic Systems
+title: CANCELLED: RSS Workshop on <br> Certified Data-driven Control for Uncertain Robotic Systems (cancelled)
 layout: page 
 permalink: /workshops/certified-data-driven-control.html
 class: no-nav
@@ -13,6 +13,11 @@ class: no-nav
 <!-- **<span style="color:blue">Description</style>** -->
 
 <!-- <span style="color:black"> -->
+
+** We are sad to say that the workshop will not take place as part of RSS this year.  Many of the invited speakers are unfortunately unable to attend the workshop in person.  Since that affects the quality of the workshop, we decided to postpone it to another conference to ensure that the workshop will be productive with a good turnout.  We will soon make an announcement which conference we will target next.**
+
+<br>
+
 Recent advances in technology have led to a rapid growth of interest in applying robotic systems in safety-critical domains such as transportation (autonomous driving), medical fields (surgical robots), manufacturing (assembly-line robots), and space exploration (autonomous rovers). However, this comes with several challenges: modern robotic systems not only present complex dynamics and have to deal with uncertainty, but also include machine learning components, such as neural network controllers. Because of these challenges, ensuring the robustness and safety of modern robotics systems is still an open question that requires an interdisciplinary approach between robotics, control, formal methods, and machine learning.
  
 This workshop aims to bring together researchers interested in the broad area of safe and verifiable autonomy, which includes experts from the robotics, controls, machine learning, cyber-physical systems, and logic communities, as well as researchers working in the emerging area of safe and trustworthy AI. We attempt to highlight recent advances in these communities, discuss open problems and main challenges, and lay out new research directions.
@@ -50,12 +55,7 @@ TU Munich and Univ. of Toronto  <br>
 
 
 
-
-<!-- **Invited Speakers and Panelists** -->
-## Invited Speakers and Panelists (confirmed)
-
-<!--  We have invited a number of experts on the topics of the workshop with various backgrounds.  In selecting the speakers, we focused on striking a good balance between the diversity in the areas of expertise, seniority, and gender.  ??? invitees have confirmed their attendance, ??? speakers have tentatively accepted the invitation, and we are yet to hear from a few others.  The list of the invited speakers is shown below.  Lastly, to ensure that the speakers focus on the topic, we plan to ask them to provide the title and abstract of their talks a few weeks in advance. -->
-
+<!-- ## Invited Speakers and Panelists (confirmed)
 
 
 - [Marco Pavone](https://profiles.stanford.edu/marco-pavone), Associate Professor, Stanford University 
@@ -88,7 +88,6 @@ Some of the abstracts may be invited to be extended into an article for publicat
 
 
 ## Tentative Schedule
-<!-- **Tentative Schedule** -->
 
 - 8:45 - 9:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome and Introduction
 - 9:00 - 9:30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keynote Speaker 1 
@@ -107,3 +106,4 @@ Some of the abstracts may be invited to be extended into an article for publicat
 - 16:15 - 16:45	&nbsp;&nbsp;&nbsp;&nbsp; Invited Talk 6
 - 16:45 - 17:45	&nbsp;&nbsp;&nbsp;&nbsp; Panel Discussion 2 & Concluding Remarks
 - 17:45 – 18:45	&nbsp;&nbsp;&nbsp;&nbsp; Poster Presentations
+ -->
