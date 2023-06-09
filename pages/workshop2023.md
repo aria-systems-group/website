@@ -1,5 +1,5 @@
 ---
-title: CANCELLED: RSS Workshop on <br> Certified Data-driven Control for Uncertain Robotic Systems (cancelled)
+title: Cancelled -- RSS Workshop on <br> Certified Data-driven Control for Uncertain Robotic Systems -- Cancelled
 layout: page 
 permalink: /workshops/certified-data-driven-control.html
 class: no-nav
@@ -14,7 +14,9 @@ class: no-nav
 
 <!-- <span style="color:black"> -->
 
-** We are sad to say that the workshop will not take place as part of RSS this year.  Many of the invited speakers are unfortunately unable to attend the workshop in person.  Since that affects the quality of the workshop, we decided to postpone it to another conference to ensure that the workshop will be productive with a good turnout.  We will soon make an announcement which conference we will target next.**
+## This workshop is cancelled
+
+**We are sad to say that the workshop will not take place as part of RSS this year.  Many of the invited speakers are unfortunately unable to attend the workshop in person.  Since that affects the quality of the workshop, we decided to postpone it to another conference to ensure that the workshop will be productive with a good turnout.  We will soon make an announcement which conference we will target next.**
 
 <br>
 
