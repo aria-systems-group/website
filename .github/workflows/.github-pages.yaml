@@ -40,8 +40,8 @@ jobs:
       - name: Encrypting the internal webpage 
         run: |
           ls ./_site
-          staticrypt ./_site/internal.html ${{ secrets.INTERNAL_PAGE_PW }} -o ./_site/internal.html
-
+          staticrypt ./_site/internal.html ${{ secrets.INTERNAL_PAGE_PW }}
+          mv ./encrypted/internal.html ./_site/internal.html
       - name: 🚀 Deploying the website 
         uses: peaceiris/actions-gh-pages@v3
         with:
