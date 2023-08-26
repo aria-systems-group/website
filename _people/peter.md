@@ -3,7 +3,7 @@ name: Peter Amorese
 layout: extraleft 
 ordering: 15 
 email: peter.amorese@colorado.edu
-program: MS Student
+program: PhD Student
 status: current
 picture: /assets/images/peter_amorese.jpg 
 extra-picture: /assets/images/peter_amorese.jpg 
@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 picture-link: 
 header-link: 
 ---
-I am a first year master's student studying Aerospace Engineering with a focus on autonomous systems at the University of Colorado Boulder. I am passionate about theoretical problems in the field of autonomy and robotics. I received my BS degree from CU Boulder in Aerospace Engineering as well. My personal research is focused on synthesizing a high-level plan that efficiently satisfies a set of task preferences while respecting a user-defined priority for each task. My goal with this research is to extend the high-level reasoning capability of autonomous systems in scenarios where an agent is given multiple tasks to complete.
+I am a first year PhD student studying Aerospace Engineering with a focus on autonomous systems at the University of Colorado Boulder. I am passionate about theoretical problems in the field of autonomy and robotics. I received my BS degree from CU Boulder in Aerospace Engineering as well. My personal research is focused on synthesizing a high-level plan that efficiently satisfies a set of task preferences while respecting a user-defined priority for each task. My goal with this research is to extend the high-level reasoning capability of autonomous systems in scenarios where an agent is given multiple tasks to complete.
 
 <!--more-->
 
