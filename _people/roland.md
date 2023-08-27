@@ -4,7 +4,7 @@ ordering: 15
 email: roland.ilyes@colorado.edu
 program: MS
 status: alumnus 
-year-graduated: 2022
+year-graduated: 2022 -- Currenly: PhD student at Oxford University
 picture: /assets/images/Roland_Ilyes.jpg 
 picture-link: 
 header-link:
