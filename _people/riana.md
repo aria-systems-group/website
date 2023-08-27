@@ -4,7 +4,8 @@ ordering: 17
 email: Riana.Gagnon@colorado.edu
 program: BS
 status: alumnus 
-year-graduated: 2023 -- Currenly: PhD student at Polytechnique, Canada
+year-graduated: 2023 
+currently: PhD student at Polytechnique, Canada
 picture: /assets/images/Riana_Gagnon.jpg 
 picture-link: 
 header-link:
