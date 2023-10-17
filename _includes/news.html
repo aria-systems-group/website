@@ -1,6 +1,7 @@
 <h1>Group News</h1>
 <table>
-    {% for row in site.data.news %}
+    {% assign num_items = 7 %}
+    {% for row in site.data.news limit:num_items %}
       {% if forloop.first %}
       <!-- Skip the header -->
       {% endif %}
@@ -9,4 +10,33 @@
         <td>{{ row["Item"] | markdownify }}</td>
       </tr>
     {% endfor %}
+    {% if site.data.news.size > num_items %}
+    <tr>
+      <td colspan="2" class="text-center">
+        <button class="btn btn-primary mt-3" id="show-more-btn">Show more</button>
+        <table id="more-news-table" style="display: none;">
+          {% for row in site.data.news offset:num_items %}
+          <tr class="row1">
+            <td class="col1">{{ row["Date"] | date_to_string}}</td>
+            <td>{{ row["Item"] | markdownify }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </td>
+    </tr>
+    {% endif %}
 </table>
+
+<script>
+  var showMoreBtn = document.getElementById('show-more-btn');
+  var moreNewsTable = document.getElementById('more-news-table');
+  showMoreBtn.addEventListener('click', function() {
+    if (moreNewsTable.style.display === 'none') {
+      moreNewsTable.style.display = 'table';
+      showMoreBtn.textContent = 'Show less';
+    } else {
+      moreNewsTable.style.display = 'none';
+      showMoreBtn.textContent = 'Show more';
+    }
+  });
+</script>
