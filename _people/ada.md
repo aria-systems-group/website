@@ -2,8 +2,9 @@
 name: Ada Forsner
 ordering: 16
 email: adfo3856@colorado.edu
-program: BS Student
-status: current
+program: BS
+status: alumnus 
+year-graduated: 2023
 picture: /assets/images/Ada_Forsner.jpg 
 picture-link: 
 header-link:

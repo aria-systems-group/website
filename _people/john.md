@@ -1,7 +1,7 @@
 ---
-name: John Jackson
+name: John Skovbekk 
 ordering: 2
-email: john.m.jackson@colorado.edu
+email: john.skovbekk@colorado.edu
 program: PhD Student
 status: current
 picture: /assets/images/john_jackson_304.jpg 
