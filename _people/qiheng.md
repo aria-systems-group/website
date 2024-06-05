@@ -2,7 +2,7 @@
 name: Qi Heng Ho
 ordering: 5
 email: qi.ho@colorado.edu
-program: PhD Student
+program: PhD Candidate
 status: current
 picture: /assets/images/qi_heng_ho.jpg 
 picture-link: https://qihengho.netlify.app/

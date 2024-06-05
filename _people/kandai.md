@@ -1,8 +1,8 @@
 ---
 name: Kandai Watanabe
-ordering: 7 
+ordering: 2 
 email: Kandai.Watanabe@colorado.edu
-program: PhD Student
+program: Postdoctoral Research Associate
 status: current
 picture: /assets/images/kandai.jpg 
 picture-link: https://watakandai.github.io/ 
