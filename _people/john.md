@@ -1,9 +1,10 @@
 ---
 name: John Skovbekk 
-ordering: 2
+ordering: 13
 email: john.skovbekk@colorado.edu
-program: PhD Student
-status: current
+program: PhD
+status: alumnus
+year-graduated: 2024
 picture: /assets/images/john_jackson_304.jpg 
 picture-link: https://aerosota.com
 header-link: https://aerosota.com

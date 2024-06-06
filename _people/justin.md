@@ -2,7 +2,7 @@
 name: Justin Kottinger
 ordering: 3
 email: justin.kottinger@colorado.edu
-program: PhD Student
+program: PhD Candidate
 status: current
 picture: /assets/images/justin_kottinger_304.jpg
 picture-link: https://www.justinkottinger.com
