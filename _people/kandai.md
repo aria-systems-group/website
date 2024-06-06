@@ -1,6 +1,6 @@
 ---
 name: Kandai Watanabe
-ordering: 2 
+ordering: 1 
 email: Kandai.Watanabe@colorado.edu
 program: Postdoctoral Research Associate
 status: current
