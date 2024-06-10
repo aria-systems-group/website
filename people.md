@@ -44,7 +44,7 @@ class: people
 # Alumni
 {% for people in sorted_alumni %}
 {% if people.status == "alumnus" %}
-- {{ people.name }}, {{ people.program }} {{ people.year-graduated }}. {{ people.current-position }}. 
+- | {{ people.name }} | {{ people.program }} {{ people.year-graduated }} | {{ people.current-position }}| 
 {% endif %}
 {% endfor %}
 
