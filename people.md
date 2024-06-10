@@ -47,8 +47,7 @@ class: people
 - {{ people.name }} ({{ people.program }} -- {{ people.year-graduated }})
 {% if people.current-position != blank %} -- 
  *{{ people.current-position }}* {% endif %}
-}
-}
+
 {% endif %}
 {% endfor %}
 
