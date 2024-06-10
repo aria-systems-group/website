@@ -45,7 +45,7 @@ class: people
 {% for people in sorted_alumni %}
 {% if people.status == "alumnus" %}
 <div class="">
-<p>{{ people.name }} ({{ people.program }} {{ people.year-graduated }}) {{ people.current-position }} </p>
+<p>{{ people.name }} ({{ people.program }} {{ people.year-graduated }}). {{ people.current-position }} </p>
 </div>
 {% endif %}
 {% endfor %}
