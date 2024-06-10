@@ -49,6 +49,6 @@ class: people
     -- Currently: {{ people.current-position }} {% endif %}
 {% endif %}
 {% endfor %}
-<p>
+</p>
 
 
