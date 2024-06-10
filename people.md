@@ -6,6 +6,9 @@ class: people
 ---
 
 {% assign sorted = site.people | sort: 'ordering' %}
+{% assign sorted_alumni_ascending = site.people | sort: 'year-graduated' %}
+{% assign sorted_alumni = sorted_alumni_ascending | reverse %}
+
 {% for people in sorted %}
 {% if people.status == "current" %}
 <div class="flex-container">
@@ -39,7 +42,7 @@ class: people
 {% endfor %}
 
 # Alumni
-{% for people in sorted %}
+{% for people in sorted_alumni %}
 {% if people.status == "alumnus" %}
 <div class="">
 <p>{{ people.name }} - {{ people.program }}, {{ people.year-graduated }} </p>
