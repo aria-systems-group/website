@@ -4,7 +4,7 @@ ordering: 0
 email: nick.renninger@colorado.edu
 program: MS 
 status: alumnus
-current-position: MITRE Corporation
+current-position: - Currently at MITRE Corporation
 year-graduated: 2020
 picture: assets/images/nick_renninger_304.jpg
 picture-link: 
