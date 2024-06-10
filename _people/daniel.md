@@ -4,6 +4,7 @@ ordering: 12
 email: daniel.m.crook@colorado.edu
 program: BS 
 status: alumnus 
+current-position: Artist Assistant, CAMI Music
 year-graduated: 2021
 picture: /assets/images/daniel_crook.jpg 
 picture-link: 

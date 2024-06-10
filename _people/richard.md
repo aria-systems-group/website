@@ -5,6 +5,7 @@ email: richard.moon@colorado.edu
 program: MS 
 status: alumnus 
 year-graduated: 2020
+current-position: 
 picture: /assets/images/richard_moon.jpg
 picture-link: 
 header-link: 

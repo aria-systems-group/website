@@ -4,6 +4,7 @@ ordering: 16
 email: adfo3856@colorado.edu
 program: BS
 status: alumnus 
+current-position: 
 year-graduated: 2023
 picture: /assets/images/Ada_Forsner.jpg 
 picture-link: 

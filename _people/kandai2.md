@@ -5,7 +5,7 @@ email: Kandai.Watanabe@colorado.edu
 program: PhD
 status: alumnus
 year-graduated: 2024 
-currently: Postdoc, CU Boulder
+current-position: Postdoc, CU Boulder
 picture: /assets/images/kandai.jpg 
 picture-link: https://watakandai.github.io/ 
 header-link: https://watakandai.github.io/
