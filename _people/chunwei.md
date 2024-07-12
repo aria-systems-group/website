@@ -5,8 +5,8 @@ ordering: 16
 email: Chun-Wei.Kong@colorado.edu
 program: PhD Student
 status: current
-picture: /assets/images/chunwei_kong_2023.jpg 
-extra-picture: /assets/images/chunwei_kong_2023.jpg 
+picture: /assets/images/chunwei_kong.jpg 
+extra-picture: /assets/images/chunwei_kong.jpg 
 generate-extra-page: false  
 excerpt_separator: <!--more-->
 picture-link: 

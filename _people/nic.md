@@ -1,7 +1,7 @@
 ---
 name: Nicolas Perrault
 layout: extraleft 
-ordering: 18
+ordering: 17
 email: nicolas.perrault@colorado.edu
 program: MS Student
 status: current
