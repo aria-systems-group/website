@@ -247,9 +247,9 @@
   <bibliography entry-spacing="0" second-field-align="flush">
     <layout>
       <!-- Citation Number -->
-      <!-- <text variable="citation-number" prefix="[" suffix="]"/>
-      Author(s)
-      <text macro="author" suffix=", "/> -->
+      <!-- <text variable="citation-number" prefix="[" suffix="]"/> -->
+      <!-- Author(s) -->
+      <text macro="author" suffix=", "/>
       <!-- Rest of Citation -->
       <group suffix=". ">
         <choose>
@@ -259,7 +259,6 @@
               <text macro="title"/>
               <text variable="container-title" font-style="italic" form="short"/>
               <text macro="locators"/>
-              <text macro="publisher"/>
               <text macro="page"/>
               <text macro="issued"/>
               <text macro="doi" suffix="."/>
@@ -271,7 +270,6 @@
               <text macro="event"/>
               <text macro="issued"/>
               <text macro="locators"/>
-              <text macro="publisher"/>
               <text macro="page"/>
               <text macro="doi"/>
             </group>
