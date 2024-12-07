@@ -259,6 +259,7 @@
               <text macro="title"/>
               <text variable="container-title" font-style="italic" form="short"/>
               <text macro="locators"/>
+              <text macro="publisher"/>
               <text macro="page"/>
               <text macro="issued"/>
               <text macro="doi" suffix="."/>
@@ -270,6 +271,7 @@
               <text macro="event"/>
               <text macro="issued"/>
               <text macro="locators"/>
+              <text macro="publisher"/>
               <text macro="page"/>
               <text macro="doi"/>
             </group>
