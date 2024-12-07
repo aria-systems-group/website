@@ -1,9 +1,11 @@
 ---
 name: Justin Kottinger
-ordering: 3
+ordering: 20
 email: justin.kottinger@colorado.edu
-program: PhD Candidate
-status: current
+program: PhD
+status: alumnus
+year-graduated: 2024 
+current-position: Swarmbotics AI
 picture: /assets/images/justin_kottinger_304.jpg
 picture-link: https://www.justinkottinger.com
 header-link: https://www.justinkottinger.com
