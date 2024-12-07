@@ -270,6 +270,7 @@
               <text macro="event"/>
               <text macro="issued"/>
               <text macro="locators"/>
+              <text macro="publisher"/>
               <text macro="page"/>
               <text macro="doi"/>
             </group>
