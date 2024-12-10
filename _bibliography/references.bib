@@ -1071,7 +1071,7 @@
 }
 
 
-@article{GRACIA2025101554,
+@article{GRACIA:NHS:2025,
   title = {Efficient strategy synthesis for switched stochastic systems with distributional uncertainty},
   author = {Ibon Gracia and Dimitris Boskos and Morteza Lahijanian and Luca Laurenti and Manuel Mazo},
   journal = {Nonlinear Analysis: Hybrid Systems},
@@ -1085,4 +1085,19 @@
   keywords = {Switched stochastic systems, Formal synthesis, Safe autonomy, Uncertain Markov decision processes, Wasserstein distance},
   abstract = {We introduce a framework for the control of discrete-time switched stochastic systems with uncertain distributions. In particular, we consider stochastic dynamics with additive noise whose distribution lies in an ambiguity set of distributions that are ɛ−close, in the Wasserstein distance sense, to a nominal one. We propose algorithms for the efficient synthesis of distributionally robust control strategies that maximize the satisfaction probability of reach-avoid specifications with either a given or an arbitrary (not specified) time horizon, i.e., unbounded-time reachability. The framework consists of two main steps: finite abstraction and control synthesis. First, we construct a finite abstraction of the switched stochastic system as a robust Markov decision process (robust MDP) that encompasses both the stochasticity of the system and the uncertainty in the noise distribution. Then, we synthesize a strategy that is robust to the distributional uncertainty on the resulting robust MDP. We employ techniques from optimal transport and stochastic programming to reduce the strategy synthesis problem to a set of linear programs, and propose a tailored and efficient algorithm to solve them. The resulting strategies are correctly refined into switching strategies for the original stochastic system. We illustrate the efficacy of our framework on various case studies comprising both linear and non-linear switched stochastic systems.},
   bibkey={synth-ml},
+}
+
+@INPROCEEDINGS{Reed:AAAI:2025,
+  title = {Error Bounds For Gaussian Process Regression Under Bounded Support Noise With Applications To Safety Certification},
+  author = {Reed, Robert and Laurenti, Luca and Lahijanian, Morteza},
+  booktitle = {The Thirty-Ninth AAAI Conference on Artificial Intelligence},
+  year = {2025},
+  pages = {},
+  month = {Feb},
+  address = {Philadelphia, Pennsylvania, USA},
+  publisher = {{AAAI} Press},
+  url = {https://arxiv.org/abs/2408.09033},
+  abstract = {Gaussian Process Regression (GPR) is a powerful and elegant method for learning complex functions from noisy data with a wide range of applications, including in safety-critical domains. Such applications have two key features: (i) they require rigorous error quantification, and (ii) the noise is often bounded and non-Gaussian due to, e.g., physical constraints. While error bounds for applying GPR in the presence of non-Gaussian noise exist, they tend to be overly restrictive and conservative in practice. In this paper, we provide novel error bounds for GPR under bounded support noise. Specifically, by relying on concentration inequalities and assuming that the latent function has low complexity in the reproducing kernel Hilbert space (RKHS) corresponding to the GP kernel, we derive both probabilistic and deterministic bounds on the error of the GPR. We show that these errors are substantially tighter than existing state-of-the-art bounds and are particularly well-suited for GPR with neural network kernels, i.e., Deep Kernel Learning (DKL). Furthermore, motivated by applications in safety-critical domains, we illustrate how these bounds can be combined with stochastic barrier functions to successfully quantify the safety probability of an unknown dynamical system from finite data. We validate the efficacy of our approach through several benchmarks and comparisons against existing bounds. The results show that our bounds are consistently smaller, and that DKLs can produce error bounds tighter than sample noise, significantly improving the safety probability of control systems.},
+  note = {(accepted)},
+  bibkey = {synth-ml},
 }
