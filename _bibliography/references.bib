@@ -1132,4 +1132,17 @@
   abstract = {Leveraging autonomous systems in safety-critical scenarios requires verifying their behaviors in the presence of uncertainties and black-box components that influence the system dynamics. In this work, we develop a framework for verifying discrete-time dynamical systems with unmodelled dynamics and noisy measurements against temporal logic specifications from an input-output dataset. The verification framework employs Gaussian process (GP) regression to learn the unknown dynamics from the dataset and abstracts the continuous-space system as a finite-state, uncertain Markov decision process (MDP). This abstraction relies on space discretization and transition probability intervals that capture the uncertainty due to the error in GP regression by using reproducible kernel Hilbert space analysis as well as the uncertainty induced by discretization. The framework utilizes existing model checking tools for verification of the uncertain MDP abstraction against a given temporal logic specification. We establish the correctness of extending the verification results on the abstraction created from noisy measurements to the underlying system. We show that the computational complexity of the framework is polynomial in the size of the dataset and discrete abstraction. The complexity analysis illustrates a trade-off between the quality of the verification results and the computational burden to handle larger datasets and finer abstractions. Finally, we demonstrate the efficacy of our learning and verification framework on several case studies with linear, nonlinear, and switched dynamical systems.},
   bibkey={synth-ml},
   note={(accepted)}
+  }
+
+@inproceedings{Reed:ACC:2025,
+  title={Learning-Based Shielding for Safe Autonomy under Unknown Dynamics},
+  author = {Reed, Robert and Lahijanian, Morteza},
+  booktitle={American Control Conference (ACC)},
+  month={},
+  year={2025},
+  organization={IEEE},
+  address = {Denver, CO, USA},
+  note={(accepted)},
+  bibkey = {synth-ml},
+  url={https://arxiv.org/abs/2410.07359},
 }
