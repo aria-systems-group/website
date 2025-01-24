@@ -18,10 +18,10 @@ jobs:
       - run: | 
           npm install -g staticrypt
           
-      - name: 💎 Setup Ruby
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.4.1
 
       - name: Update Bundler
         run: gem install bundler
@@ -31,7 +31,7 @@ jobs:
           bundle config --delete frozen
           bundle config unset deployment
           rm -rf vendor/bundle
-          
+
       - name: Install Dependencies
         run: bundle install --jobs=4
 
