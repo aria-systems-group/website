@@ -26,12 +26,6 @@ jobs:
       - name: Update Bundler
         run: gem install bundler
 
-      - name: Clean Environment
-        run: |
-          bundle config --delete frozen
-          bundle config unset deployment
-          rm -rf vendor/bundle
-
       - name: Install Dependencies
         run: bundle install --jobs=4
 
