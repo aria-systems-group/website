@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.2'
+gem 'csv'
+gem 'logger'
 
 group :jekyll_plugins do
   gem 'jekyll-scholar'
