@@ -18,14 +18,23 @@ jobs:
       - run: | 
           npm install -g staticrypt
           
-      - name: Update Bundler
-        run: gem install bundler
-
-      - name: 💎 setup ruby
+      - name: 💎 Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
+
+      - name: Update Bundler
+        run: gem install bundler
+
+      - name: Clean Environment
+        run: |
+          bundle config --delete frozen
+          bundle config unset deployment
+          rm -rf vendor/bundle
           
+      - name: Install Dependencies
+        run: bundle install --jobs=4
+
       - name: Getting the internal webpage component
         uses: actions/checkout@v2
         with: 
