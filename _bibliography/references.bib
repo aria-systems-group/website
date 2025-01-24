@@ -1100,7 +1100,7 @@
   bibkey = {synth-ml},
 }
 
-@article{Perrault:NHS:2025,
+@article{Perrault:RAL:2025,
   title = {Kino-PAX: Highly Parallel Kinodynamic Sampling-based Planner},
   author = {Perrault, Nicolas and Ho, Qi Heng and Lahijanian, Morteza},
   journal = {IEEE Robotics and Automation Letters (RA-L)},
@@ -1109,7 +1109,7 @@
   year = {2025},
   publisher={IEEE},
   issn = {},
-  doi = {},
+  doi = {10.1109/LRA.2025.3531152},
   url = {https://arxiv.org/abs/2409.06807},
   keywords = {Constrained Motion Planning, Motion and Path Planning, Computer Architecture for Robotic and Automation},
   abstract = {Sampling-based motion planners (SBMPs) are effective for planning with complex kinodynamic constraints in high-dimensional spaces, but they still struggle to achieve real-time performance, which is mainly due to their serial computation design. We present Kinodynamic Parallel Accelerated eXpansion (Kino-PAX), a novel highly parallel kinodynamic SBMP designed for parallel devices such as GPUs. Kino-PAX grows a tree of trajectory segments directly in parallel. Our key insight is how to decompose the iterative tree growth process into three massively parallel subroutines. Kino-PAX is designed to align with the parallel device execution hierarchies, through ensuring that threads are largely independent, share equal workloads, and take advantage of low-latency resources while minimizing high-latency data transfers and process synchronization. This design results in a very efficient GPU implementation. We prove that Kino-PAX is probabilistically complete and analyze its scalability with compute hardware improvements. Empirical evaluations demonstrate solutions in the order of $10$ ms on a desktop GPU and in the order of $100$ ms on an embedded GPU, representing  up to $1000\times$ improvement compared to coarse-grained CPU parallelization of state-of-the-art sequential algorithms over a range of complex environments and systems.},
@@ -1126,7 +1126,7 @@
   year = {2025},
   publisher={IEEE},
   issn = {},
-  doi = {},
+  doi = {10.1109/TAC.2025.3532812},
   url = {https://arxiv.org/abs/2201.00655},
   keywords = {Data-driven modeling, Formal logic, Formal verification, Gaussian processes, Markov decision processes, Bayesian inference, data-driven certification},
   abstract = {Leveraging autonomous systems in safety-critical scenarios requires verifying their behaviors in the presence of uncertainties and black-box components that influence the system dynamics. In this work, we develop a framework for verifying discrete-time dynamical systems with unmodelled dynamics and noisy measurements against temporal logic specifications from an input-output dataset. The verification framework employs Gaussian process (GP) regression to learn the unknown dynamics from the dataset and abstracts the continuous-space system as a finite-state, uncertain Markov decision process (MDP). This abstraction relies on space discretization and transition probability intervals that capture the uncertainty due to the error in GP regression by using reproducible kernel Hilbert space analysis as well as the uncertainty induced by discretization. The framework utilizes existing model checking tools for verification of the uncertain MDP abstraction against a given temporal logic specification. We establish the correctness of extending the verification results on the abstraction created from noisy measurements to the underlying system. We show that the computational complexity of the framework is polynomial in the size of the dataset and discrete abstraction. The complexity analysis illustrates a trade-off between the quality of the verification results and the computational burden to handle larger datasets and finer abstractions. Finally, we demonstrate the efficacy of our learning and verification framework on several case studies with linear, nonlinear, and switched dynamical systems.},
