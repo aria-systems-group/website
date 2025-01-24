@@ -23,6 +23,9 @@ jobs:
         with:
           ruby-version: 2.7
           
+      - name: Update Bundler
+        run: gem install bundler
+
       - name: Getting the internal webpage component
         uses: actions/checkout@v2
         with: 
