@@ -3,23 +3,23 @@
 <li>
 <span id="{{key}}">{{reference}}</span>
 <br>
-<div class="btn-group btn-group-sm btn-group-custom" role="group">
+<div class="btn-group" role="group">
   {% if entry.url %}
-  <a class="btn btn-custom" href="{{entry.url}}">Direct Link</a>
+  <a class="btn btn-custom" href="{{entry.url}}">pdf</a>
   {% endif %}
   {% if entry.doi %}
-  <a class="btn btn-custom" href="http://dx.doi.org/{{entry.doi}}">Publisher</a>
+  <a class="btn btn-custom" href="http://dx.doi.org/{{entry.doi}}">publisher</a>
   {% endif %}
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-{{key | replace: ':', '-'}}">
-    BibTeX
+    bibtex
   </button>
   {% if entry.abstract %}
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-{{key | replace: ':', '-'}}">
-    Abstract
+    abstract
   </button>
   {% endif %}
   {% if entry.videourl %}
-  <a class="btn btn-custom" href="{{entry.videourl}}">Video</a>
+  <a class="btn btn-custom" href="{{entry.videourl}}">video</a>
   {% endif %}
 </div>
 
