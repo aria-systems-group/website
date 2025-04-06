@@ -112,6 +112,90 @@ Ongoing challanges we are investigating include:</p>
 
 <h2 class="bibliography">2025</h2>
 <ol class="bibliography"><li><li>
+<span id="Reed:ACC:2025"><span id="Reed:ACC:2025">R. Reed and M. Lahijanian, “Learning-Based Shielding for Safe Autonomy under Unknown Dynamics,” in <i>American Control Conference (ACC)</i>, Denver, CO, USA, 2025. (accepted)</span></span>
+<br>
+<div class="btn-group" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2410.07359">pdf</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Reed-ACC-2025">
+    bibtex
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Reed-ACC-2025">
+    abstract
+  </button>
+  
+  
+</div>
+
+<div class="modal fade" id="bib-Reed-ACC-2025" tabindex="-1" aria-labelledby="bib-Reed-ACC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Reed-ACC-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Reed-ACC-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Reed-ACC-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Reed:ACC:2025,
+  title = {Learning-Based Shielding for Safe Autonomy under Unknown Dynamics},
+  author = {Reed, Robert and Lahijanian, Morteza},
+  booktitle = {American Control Conference (ACC)},
+  month = jul,
+  year = {2025},
+  organization = {IEEE},
+  address = {Denver, CO, USA},
+  note = {(accepted)},
+  bibkey = {synth-ml},
+  url = {https://arxiv.org/abs/2410.07359}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Reed-ACC-2025" tabindex="-1" aria-labelledby="abs-Reed-ACC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Reed-ACC-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Shielding is a common method used to guarantee the safety of a system under a black-box controller, such as a neural network controller from deep reinforcement learning (DRL), with simpler, verified controllers. Existing shielding methods rely on formal verification through Markov Decision Processes (MDPs), assuming either known or finite-state models, which limits their applicability to DRL settings with unknown, continuous-state systems. This paper addresses these limitations by proposing a data-driven shielding methodology that guarantees safety for unknown systems under black-box controllers. The approach leverages Deep Kernel Learning to model the systems’ one-step evolution with uncertainty quantification and constructs a finite-state abstraction as an Interval MDP (IMDP). By focusing on safety properties expressed in safe linear temporal logic (safe LTL), we develop an algorithm that computes the maximally permissive set of safe policies on the IMDP, ensuring avoidance of unsafe states. The algorithms soundness and computational complexity are demonstrated through theoretical proofs and experiments on nonlinear systems, including a high-dimensional autonomous spacecraft scenario.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="Gracia:L4DC:2025"><span id="Gracia:L4DC:2025">I. Gracia, L. Laurenti, M. Mazo Jr., A. Abate, and M. Lahijanian, “Temporal Logic Control for Nonlinear Stochastic Systems Under Unknown Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Ann Arbor, MI, USA, 2025. (accepted)</span></span>
 <br>
 <div class="btn-group" role="group">
@@ -121,6 +205,10 @@ Ongoing challanges we are investigating include:</p>
   
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Gracia-L4DC-2025">
     bibtex
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Gracia-L4DC-2025">
+    abstract
   </button>
   
   
@@ -159,6 +247,20 @@ Ongoing challanges we are investigating include:</p>
 </div>
 
 
+<div class="modal fade" id="abs-Gracia-L4DC-2025" tabindex="-1" aria-labelledby="abs-Gracia-L4DC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Gracia-L4DC-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        In this paper, we present a novel framework to synthesize robust strategies for discrete-time nonlinear systems with random disturbances that are unknown, against temporal logic specifications. The proposed framework is data-driven and abstraction-based: leveraging observations of the system, our approach learns a high-confidence abstraction of the system in the form of an uncertain Markov decision process (UMDP). The uncertainty in the resulting UMDP is used to formally account for both the error in abstracting the system and for the uncertainty coming from the data. Critically, we show that for any given state-action pair in the resulting UMDP, the uncertainty in the transition probabilities can be represented as a convex polytope obtained by a two-layer state discretization and concentration inequalities. This allows us to obtain tighter uncertainty estimates compared to existing approaches, and guarantees efficiency, as we tailor a synthesis algorithm exploiting the structure of this UMDP. We empirically validate our approach on several case studies, showing substantially improved performance compared to the state-of-the-art.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
 
 <script>
@@ -179,7 +281,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Reed:AAAI:2025"><span id="Reed:AAAI:2025">R. Reed, L. Laurenti, and M. Lahijanian, “Error Bounds For Gaussian Process Regression Under Bounded Support Noise With Applications To Safety Certification,” in <i>The Thirty-Ninth AAAI Conference on Artificial Intelligence</i>, Philadelphia, Pennsylvania, USA, 2025. (accepted)</span></span>
+<span id="Reed:AAAI:2025"><span id="Reed:AAAI:2025">R. Reed, L. Laurenti, and M. Lahijanian, “Error Bounds For Gaussian Process Regression Under Bounded Support Noise With Applications To Safety Certification,” in <i>The Thirty-Ninth AAAI Conference on Artificial Intelligence</i>, Philadelphia, Pennsylvania, USA, 2025. </span></span>
 <br>
 <div class="btn-group" role="group">
   
@@ -222,7 +324,7 @@ async function copyBibtex(key) {
   address = {Philadelphia, Pennsylvania, USA},
   publisher = {{AAAI} Press},
   url = {https://arxiv.org/abs/2408.09033},
-  note = {(accepted)},
+  note = {},
   videourl = {https://youtu.be/7TsMPE3tyBM},
   bibkey = {synth-ml}
 }
@@ -423,72 +525,6 @@ async function copyBibtex(key) {
     </div>
   </div>
 </div>
-
-</li>
-
-<script>
-async function copyBibtex(key) {
-  // Get the BibTeX content
-  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
-  const button = event.target;
-  const originalIcon = button.innerHTML;
-  
-  await navigator.clipboard.writeText(bibtexContent);
-  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
-  
-  // Reset button icon after 2 seconds
-  setTimeout(() => {
-    button.innerHTML = originalIcon;
-  }, 2000);
-}
-</script>
-</li>
-<li><li>
-<span id="Reed:ACC:2025"><span id="Reed:ACC:2025">R. Reed and M. Lahijanian, “Learning-Based Shielding for Safe Autonomy under Unknown Dynamics,” in <i>American Control Conference (ACC)</i>, Denver, CO, USA, 2025. (accepted)</span></span>
-<br>
-<div class="btn-group" role="group">
-  
-  <a class="btn btn-custom" href="https://arxiv.org/abs/2410.07359">pdf</a>
-  
-  
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Reed-ACC-2025">
-    bibtex
-  </button>
-  
-  
-</div>
-
-<div class="modal fade" id="bib-Reed-ACC-2025" tabindex="-1" aria-labelledby="bib-Reed-ACC-2025-label" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 id="bib-Reed-ACC-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Reed-ACC-2025')" title="Copy to clipboard">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
-          </svg>
-        </button>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-Reed-ACC-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Reed:ACC:2025,
-  title = {Learning-Based Shielding for Safe Autonomy under Unknown Dynamics},
-  author = {Reed, Robert and Lahijanian, Morteza},
-  booktitle = {American Control Conference (ACC)},
-  month = {},
-  year = {2025},
-  organization = {IEEE},
-  address = {Denver, CO, USA},
-  note = {(accepted)},
-  bibkey = {synth-ml},
-  url = {https://arxiv.org/abs/2410.07359}
-}
-</pre>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 </li>
 
@@ -777,8 +813,14 @@ async function copyBibtex(key) {
   <a class="btn btn-custom" href="https://arxiv.org/abs/2401.04068">pdf</a>
   
   
+  <a class="btn btn-custom" href="http://dx.doi.org/https://doi.org/10.1016/j.ifacol.2024.07.416">publisher</a>
+  
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mathiesen-ADHS-2024">
     bibtex
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Mathiesen-ADHS-2024">
+    abstract
   </button>
   
   
@@ -807,6 +849,7 @@ async function copyBibtex(key) {
   publisher = {IFAC},
   bibkey = {synth-ml},
   url = {https://arxiv.org/abs/2401.04068},
+  doi = {https://doi.org/10.1016/j.ifacol.2024.07.416},
   note = {}
 }
 </pre>
@@ -815,6 +858,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Mathiesen-ADHS-2024" tabindex="-1" aria-labelledby="abs-Mathiesen-ADHS-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Mathiesen-ADHS-2024-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        In this paper, we present IntervalMDP.jl, a Julia package for probabilistic analysis of interval Markov Decision Processes (IMDPs). IntervalMDP.jl facilitates the synthesis of optimal strategies and verification of IMDPs against reachability specifications and discounted reward properties. The library supports sparse matrices and is compatible with data formats from common tools for the analysis of probabilistic models, such as PRISM. A key feature of IntervalMDP.jl is that it presents both a multi-threaded CPU and a GPU-accelerated implementation of value iteration algorithms for IMDPs. In particular, IntervalMDP.jl takes advantage of the Julia type system and the inherently parallelizable nature of value iteration to improve the efficiency of performing analysis of IMDPs. On a set of examples, we show that IntervalMDP.jl substantially outperforms existing tools for verification and strategy synthesis for IMDPs in both computation time and memory consumption.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
