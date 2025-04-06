@@ -448,6 +448,10 @@ footer {
   border: 1px solid $lightGray;
   background-color: $lighterGray;
   color: $darkGray;
+  font-size: 0.8rem;
+  color: $blue;
+  padding: 0.2rem 0.45rem;
+  line-height: 1;
 }
 
 .btn-custom:hover {
@@ -560,6 +564,19 @@ img.center {
 .read-more-btn:hover {
   color: $gray;
   text-decoration: underline;
+}
+
+// Software item wrapper
+.software-item {
+  border-bottom: 1px solid $lightGray;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

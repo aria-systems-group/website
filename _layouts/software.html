@@ -22,22 +22,24 @@ layout: default
             <div class="row no-gutters">
               <dl>
                 {% for item in category.items %}
-                <dt><a href="{{ item.links[0].url }}">{{ item.name }}</a></dt>
-                <dd>
-                  {% if item.image %}
-                  <img src="{{ item.image }}" alt="{{ item.name }} image" class="{% if item.image_float %}float-{{ item.image_float }}{% endif %}">
-                  {% endif %}
-                  <div class="description-container">
-                    <div class="description-short">{{ item.description | truncate: 500 }}</div>
-                    <div class="description-full" style="display: none;">{{ item.description }}</div>
-                    <button class="btn btn-link btn-sm read-more-btn" onclick="toggleDescription(this)">Read More</button>
-                  </div>
-                  <div class="buttonrow">
-                    {% for link in item.links %}
-                    <a href="{{ link.url }}" class="btn {{ link.class }} btn-sm">{{ link.text }}</a>
-                    {% endfor %}
-                  </div>
-                </dd>
+                <div class="software-item">
+                  <dt><a href="{{ item.links[0].url }}">{{ item.name }}</a></dt>
+                  <dd>
+                    {% if item.image %}
+                    <img src="{{ item.image }}" alt="{{ item.name }} image" class="{% if item.image_float %}float-{{ item.image_float }}{% endif %}">
+                    {% endif %}
+                    <div class="description-container">
+                      <div class="description-short">{{ item.description | truncate: 500 }}</div>
+                      <div class="description-full" style="display: none;">{{ item.description }}</div>
+                      <button class="btn btn-link btn-sm read-more-btn" onclick="toggleDescription(this)">Read More</button>
+                    </div>
+                    <div class="buttonrow">
+                      {% for link in item.links %}
+                      <a href="{{ link.url }}" class="btn {{ link.class }} btn-sm">{{ link.text }}</a>
+                      {% endfor %}
+                    </div>
+                  </dd>
+                </div>
                 {% endfor %}
               </dl>
             </div>
