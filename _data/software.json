@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "name": "Motion Planning",
+      "icon": "assets/icons/plan.svg",
+      "items": [
+        {
+          "name": "Kino-PAX",
+          "description": "Sampling-based motion planners (SBMPs) are effective for planning with complex kinodynamic constraints in high-dimensional spaces, but they still struggle to achieve real-time performance, which is mainly due to their serial computation design. We present Kinodynamic Parallel Accelerated eXpansion (Kino-PAX), a novel highly parallel kinodynamic SBMP designed for parallel devices such as GPUs. Kino-PAX grows a tree of trajectory segments directly in parallel. Our key insight is how to decompose the iterative tree growth process into three massively parallel subroutines. Kino-PAX is designed to align with the parallel device execution hierarchies, through ensuring that threads are largely independent, share equal workloads, and take advantage of low-latency resources while minimizing high-latency data transfers and process synchronization. This design results in a very efficient GPU implementation. We prove that Kino-PAX is probabilistically complete and analyze its scalability with compute hardware improvements. Empirical evaluations demonstrate solutions in the order of 10 ms on a desktop GPU and in the order of 100 ms on an embedded GPU, representing up to 1000 times improvement compared to coarse-grained CPU parallelization of state-of-the-art sequential algorithms over a range of complex environments and systems.",
+          "image": "assets/images/software/Kino-PAX.png",
+          "links": [
+            {
+              "text": "GitHub",
+              "url": "https://github.com/aria-systems-group/Kino-PAX",
+              "class": "btn-danger"
+            },
+            {
+              "text": "Paper",
+              "url": "https://arxiv.org/abs/2409.06807",
+              "class": "btn-success"
+            },
+            {
+              "text": "Video",
+              "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+              "class": "btn-warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verification and Synthesis",
+      "icon": "assets/icons/mdp.svg",
+      "items": [
+        {
+          "name": "PDDLtoSim",
+          "description": "This work introduces efficient symbolic algorithms for quantitative reactive synthesis. We consider resource-constrained robotic manipulators that need to interact with a human to achieve a complex task expressed in linear temporal logic. Our framework generates reactive strategies that not only guarantee task completion but also seek cooperation with the human when possible. We model the interaction as a two-player game and consider regret-minimizing strategies to encourage cooperation. We use symbolic representation of the game to enable scalability. For synthesis, we first introduce value iteration algorithms for such games with min-max objectives. Then, we extend our method to the regret-minimizing objectives. Our benchmarks reveal that our the symbolic framework not only significantly improves computation time (up to an order of magnitude) but also can scale up to much larger instances of manipulation problems with up to 2× number of objects and locations than the state of the art.",
+          "image": "assets/images/software/PDDLtoSim.gif",
+          "links": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/aria-systems-group/PDDLtoSim",
+                "class": "btn-danger"
+            },
+            {
+              "text": "Paper",
+              "url": "https://ieeexplore.ieee.org/document/10342496",  
+              "class": "btn-success"
+            },
+            {
+              "text": "Video",
+              "url": "https://www.youtube.com/watch?v=uy88Cc8DFfQ",
+              "class": "btn-warning"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

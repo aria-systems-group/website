@@ -360,9 +360,92 @@ footer {
 /*  CUSTOM ELEMENTS  */
 /*********************/
 
+// Card deck styles
+.card-deck,
+.card-deck-research {
+  display: flex;
+  flex-flow: row wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.card-deck .card-research,
+.card-deck-research .card-research {
+  flex: 1 0 0%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  min-width: 300px;
+}
+
+// Software page styles
+.card-research {
+  border: 1px solid $lightGray;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-header {
+  background-color: $lighterGray;
+  padding: 1em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: $blue;
+  font-weight: 700;
+}
+
+.card-header img {
+  height: 48px;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.card-body {
+  padding: 1.5em;
+}
+
+.card-body dl {
+  margin: 0;
+}
+
+.card-body dt {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.card-body dt a {
+  color: $blue;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.card-body dt a:hover {
+  color: $gray;
+}
+
+// .card-body img {
+//   max-width: 200px;
+//   margin: 1em 1em;
+// }
+
+.card-body img.float-right {
+  float: right;
+}
+
+.buttonrow {
+  margin-top: 1em;
+}
+
 // Custom button styles
 .btn-custom {
-  border: 1px solid $white;
+  border: 1px solid $lightGray;
   background-color: $lighterGray;
   color: $darkGray;
 }
@@ -453,6 +536,30 @@ img.center {
   // border: 3px pink solid;
   display: block;
   margin: auto;
+}
+
+// Description styles
+.description-container {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.description-short {
+  margin-bottom: 0.5em;
+}
+
+.read-more-btn {
+  padding: 0;
+  color: $blue;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.read-more-btn:hover {
+  color: $gray;
+  text-decoration: underline;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
