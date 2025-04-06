@@ -876,7 +876,7 @@ async function copyBibtex(key) {
   <a class="btn btn-custom" href="https://arxiv.org/abs/2401.04068">pdf</a>
   
   
-  <a class="btn btn-custom" href="http://dx.doi.org/https://doi.org/10.1016/j.ifacol.2024.07.416">publisher</a>
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1016/j.ifacol.2024.07.416">publisher</a>
   
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mathiesen-ADHS-2024">
     bibtex
@@ -912,7 +912,7 @@ async function copyBibtex(key) {
   publisher = {IFAC},
   bibkey = {synth-ml},
   url = {https://arxiv.org/abs/2401.04068},
-  doi = {https://doi.org/10.1016/j.ifacol.2024.07.416},
+  doi = {10.1016/j.ifacol.2024.07.416},
   note = {}
 }
 </pre>
@@ -1086,7 +1086,7 @@ async function copyBibtex(key) {
   month = jul,
   year = {2024},
   address = {Barcelona, Spain},
-  publisher = {JMLR.org},
+  publisher = {JMLR},
   booktitle = {Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence},
   articleno = {79},
   numpages = {17},
@@ -1211,8 +1211,14 @@ async function copyBibtex(key) {
   <a class="btn btn-custom" href="https://arxiv.org/abs/2307.11252">pdf</a>
   
   
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1609/socs.v17i1.31540">publisher</a>
+  
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-SoCS-2024">
     bibtex
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-SoCS-2024">
+    abstract
   </button>
   
   
@@ -1235,13 +1241,14 @@ async function copyBibtex(key) {
   author = {Kottinger, Justin and Geft, Tzvika and Almagor, Shaull and Salzman, Oren and Lahijanian, Morteza},
   title = {Introducing Delays in Multi-Agent Path Finding},
   booktitle = {International Symposium on Combinatorial Search (SoCS)},
-  publisher = {AAAI Press},
+  publisher = {{AAAI} Press},
   month = jun,
   year = {2024},
   address = {Alberta, Canada},
   bibkey = {exp-mapf},
   note = {},
-  url = {https://arxiv.org/abs/2307.11252}
+  url = {https://arxiv.org/abs/2307.11252},
+  doi = {10.1609/socs.v17i1.31540}
 }
 </pre>
       </div>
@@ -1249,6 +1256,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Kottinger-SoCS-2024" tabindex="-1" aria-labelledby="abs-Kottinger-SoCS-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Kottinger-SoCS-2024-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We consider a Multi-Agent Path Finding (MAPF) setting where agents have been assigned a plan, but during its execution some agents are delayed. Instead of replanning from scratch when such a delay occurs, we propose delay introduction, whereby we delay some additional agents so that the remainder of the plan can be executed safely. We show that finding the minimum number of additional delays is APX-hard. However, in practice we can find optimal delay-introductions using Conflict-Based Search for very large numbers of agents, and both planning time and the resulting length of the plan are comparable, and sometimes outperform the state-of-the-art heuristics for replanning.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
