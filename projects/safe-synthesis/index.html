@@ -524,6 +524,10 @@ async function copyBibtex(key) {
     bibtex
   </button>
   
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Mazouz-CDC-2024">
+    abstract
+  </button>
+  
   
 </div>
 
@@ -559,6 +563,20 @@ async function copyBibtex(key) {
 </div>
 
 
+<div class="modal fade" id="abs-Mazouz-CDC-2024" tabindex="-1" aria-labelledby="abs-Mazouz-CDC-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Mazouz-CDC-2024-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper introduces a method of identifying a maximal set of safe strategies from data for stochastic systems with unknown dynamics using barrier certificates. The first step is learning the dynamics of the system via Gaussian Process (GP) regression and obtaining probabilistic errors for this estimate. Then, we develop an algorithm for constructing piecewise stochastic barrier functions to find a maximal permissible strategy set using the learned GP model, which is based on sequentially pruning the worst controls until a maximal set is identified. The permissible strategies are guaranteed to maintain probabilistic safety for the true system. This is especially important for learned systems, because a rich strategy space enables additional data collection and complex behaviors while remaining safe. Case studies on linear and nonlinear systems demonstrate that increasing the size of the dataset for learning grows the permissible strategy set.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
 
 <script>
@@ -590,6 +608,10 @@ async function copyBibtex(key) {
   
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Figueiredo-CDC-2024">
     bibtex
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Figueiredo-CDC-2024">
+    abstract
   </button>
   
   
@@ -626,6 +648,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Figueiredo-CDC-2024" tabindex="-1" aria-labelledby="abs-Figueiredo-CDC-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Figueiredo-CDC-2024-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Uncertainty propagation in non-linear dynamical systems has become a key problem in various fields including control theory and machine learning. In this work, we focus on discrete-time non-linear stochastic dynamical systems. We present a novel approach to approximate the distribution of the system over a given finite time horizon with a mixture of distributions. The key novelty of our approach is that it not only provides tractable approximations for the distribution of a nonlinear stochastic system but also comes with formal guarantees of correctness. In particular, we consider the Total Variation (TV) distance to quantify the distance between two distributions and derive an upper bound on the TV between the distribution of the original system and the approximating mixture distribution derived from our framework. We show that in various cases of interest, including in the case of Gaussian noise, the resulting bound can be efficiently computed in closed form. This allows us to quantify the correctness of the approximation and to optimize the parameters of the resulting mixture distribution to minimize such distance. The effectiveness of our approach is illustrated on several benchmarks from the control community.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
