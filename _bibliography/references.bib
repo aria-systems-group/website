@@ -1172,6 +1172,7 @@
   note={(accepted)},
   bibkey = {synth-ml},
   url={https://arxiv.org/abs/2410.07359},
+  doi={},
   Abstract={Shielding is a common method used to guarantee the safety of a system under a black-box controller, such as a neural network controller from deep reinforcement learning (DRL), with simpler, verified controllers. Existing shielding methods rely on formal verification through Markov Decision Processes (MDPs), assuming either known or finite-state models, which limits their applicability to DRL settings with unknown, continuous-state systems. This paper addresses these limitations by proposing a data-driven shielding methodology that guarantees safety for unknown systems under black-box controllers. The approach leverages Deep Kernel Learning to model the systems' one-step evolution with uncertainty quantification and constructs a finite-state abstraction as an Interval MDP (IMDP). By focusing on safety properties expressed in safe linear temporal logic (safe LTL), we develop an algorithm that computes the maximally permissive set of safe policies on the IMDP, ensuring avoidance of unsafe states. The algorithms soundness and computational complexity are demonstrated through theoretical proofs and experiments on nonlinear systems, including a high-dimensional autonomous spacecraft scenario.},
 }
 
@@ -1186,6 +1187,7 @@
   organization={PMLR},
   bibkey={synth-ml},
   url={https://sites.google.com/umich.edu/l4dc2025/},
+  doi={},
   note={(accepted)},
   abstract={In this paper, we present a novel framework to synthesize robust strategies for discrete-time nonlinear systems with random disturbances that are unknown, against temporal logic specifications. The proposed framework is data-driven and abstraction-based: leveraging observations of the system, our approach learns a high-confidence abstraction of the system in the form of an uncertain Markov decision process (UMDP). The uncertainty in the resulting UMDP is used to formally account for both the error in abstracting the system and for the uncertainty coming from the data. Critically, we show that for any given state-action pair in the resulting UMDP, the uncertainty in the transition probabilities can be represented as a convex polytope obtained by a two-layer state discretization and concentration inequalities. This allows us to obtain tighter uncertainty estimates compared to existing approaches, and guarantees efficiency, as we tailor a synthesis algorithm exploiting the structure of this UMDP. We empirically validate our approach on several case studies, showing substantially improved performance compared to the state-of-the-art.},
 }
