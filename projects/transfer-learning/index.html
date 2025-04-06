@@ -877,15 +877,21 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Gracia:L4DC:2024"><span id="Gracia:L4DC:2024">I. Gracia, D. Boskos, L. Laurenti, and M. Lahijanian, “Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Oxford, UK, 2024. </span></span>
+<span id="Gracia:L4DC:2024"><span id="Gracia:L4DC:2024">I. Gracia, D. Boskos, L. Laurenti, and M. Lahijanian, “Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances,” in <i>Proceedings of the 6th Annual Learning for Dynamics &amp; Control Conference (L4DC)</i>, Oxford, UK, 2024, vol. 242, pp. 1633–1645. </span></span>
 <br>
 <div class="btn-group" role="group">
   
   <a class="btn btn-custom" href="https://arxiv.org/abs/2406.09704">pdf</a>
   
   
+  <a class="btn btn-custom" href="http://dx.doi.org/https://proceedings.mlr.press/v242/gracia24a.html">publisher</a>
+  
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Gracia-L4DC-2024">
     bibtex
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Gracia-L4DC-2024">
+    abstract
   </button>
   
   
@@ -907,15 +913,19 @@ async function copyBibtex(key) {
         <pre id="bibtex-Gracia-L4DC-2024" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Gracia:L4DC:2024,
   title = {Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances},
   author = {Gracia, Ibon and Boskos, Dimitris and Laurenti, Luca and Lahijanian, Morteza},
-  booktitle = {Learning for Dynamics and Control Conference (L4DC)},
+  booktitle = {Proceedings of the 6th Annual Learning for Dynamics &amp; Control Conference (L4DC)},
   month = jul,
   year = {2024},
   address = {Oxford, UK},
+  volume = {242},
   series = {Proceedings of Machine Learning Research},
+  editor = {Abate, Alessandro and Cannon, Mark and Margellos, Kostas and Papachristodoulou, Antonis},
   organization = {PMLR},
+  pages = {1633--1645},
   bibkey = {synth-ml},
   url = {https://arxiv.org/abs/2406.09704},
-  note = {}
+  note = {},
+  doi = {https://proceedings.mlr.press/v242/gracia24a.html}
 }
 </pre>
       </div>
@@ -923,6 +933,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Gracia-L4DC-2024" tabindex="-1" aria-labelledby="abs-Gracia-L4DC-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Gracia-L4DC-2024-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        In this paper, we introduce a data-driven framework for synthesis of provably-correct controllers for general nonlinear switched systems under complex specifications. The focus is on systems with unknown disturbances whose effects on the dynamics of the system is nonlinear. The specification is assumed to be given as linear temporal logic over finite traces (LTLf) formulas. Starting from observations of either the disturbance or the state of the system, we first learn an ambiguity set that contains the unknown distribution of the disturbances with a user-defined confidence. Next, we obtain a robust Markov decision process (RMDP) as a finite abstraction of the system. By composing the RMDP with the automaton obtained from the LTLf formula and performing optimal robust value iteration on the composed RMDP, we synthesize a strategy that yields a high probability that the uncertain system satisfies the specifications. Our empirical evaluations on systems with a wide variety of disturbances show that the strategies synthesized with our approach lead to high satisfaction probabilities and validate the theoretical guarantees.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
