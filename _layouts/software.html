@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Software</h1>
+      
+      <div class="card-deck card-deck-research">
+        {% for category in site.data.software.categories %}
+        <div class="card-research">
+          <div class="card-header">
+            <h3 id="{{ category.name | slugify }}">
+              {% if category.icon %}
+              <img src="{{ category.icon }}" alt="{{ category.name }} icon">
+              {% endif %}
+              {{ category.name }}
+            </h3>
+          </div>
+          <div class="card-body">
+            <div class="row no-gutters">
+              <dl>
+                {% for item in category.items %}
+                <dt><a href="{{ item.links[0].url }}">{{ item.name }}</a></dt>
+                <dd>
+                  {% if item.image %}
+                  <img src="{{ item.image }}" alt="{{ item.name }} image" class="{% if item.image_float %}float-{{ item.image_float }}{% endif %}">
+                  {% endif %}
+                  <div class="description-container">
+                    <div class="description-short">{{ item.description | truncate: 500 }}</div>
+                    <div class="description-full" style="display: none;">{{ item.description }}</div>
+                    <button class="btn btn-link btn-sm read-more-btn" onclick="toggleDescription(this)">Read More</button>
+                  </div>
+                  <div class="buttonrow">
+                    {% for link in item.links %}
+                    <a href="{{ link.url }}" class="btn {{ link.class }} btn-sm">{{ link.text }}</a>
+                    {% endfor %}
+                  </div>
+                </dd>
+                {% endfor %}
+              </dl>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function toggleDescription(button) {
+  const container = button.parentElement;
+  const shortDesc = container.querySelector('.description-short');
+  const fullDesc = container.querySelector('.description-full');
+  
+  if (shortDesc.style.display !== 'none') {
+    shortDesc.style.display = 'none';
+    fullDesc.style.display = 'block';
+    button.textContent = 'Show Less';
+  } else {
+    shortDesc.style.display = 'block';
+    fullDesc.style.display = 'none';
+    button.textContent = 'Read More';
+  }
+}
+</script> 
