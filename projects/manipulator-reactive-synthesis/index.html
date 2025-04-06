@@ -66,7 +66,8 @@
         <li class="nav-item research"><a class="nav-link" href="/projects/all.html">RESEARCH</a></li>
         <li class="nav-item publications"><a class="nav-link" href="/publications.html">PUBLICATIONS</a></li>
         <li class="nav-item people"><a class="nav-link" href="/people/all.html">PEOPLE</a></li>
-        <li class="nav-item outreach"><a class="nav-link" href="/outreach.html">OUTREACH</a></li>
+        <li class="nav-item software"><a class="nav-link" href="/software.html">SOFTWARE</a></li>
+        <!-- <li class="nav-item outreach"><a class="nav-link" href="/outreach.html">OUTREACH</a></li> -->
         <li class="nav-item contact"><a class="nav-link" href="/contact.html">CONTACT</a></li>
         <li class="nav-item join"><a class="nav-link" href="/join.html">JOIN</a></li>
     </ul>
@@ -98,23 +99,37 @@
 
 
 <h2 class="bibliography">2024</h2>
-<ol class="bibliography"><li> <p><span id="Muvvala:ICRA:2024">K. Muvvala, A. Wells, M. Lahijanian, L. Kavraki, and M. Vardi, “Stochastic Games for Interactive Manipulation Domains,” in <i>2024 IEEE Conference on Robotics and Automation (ICRA)</i>, Yokohama, Japan, 2024. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Muvvala:ICRA:2024"><span id="Muvvala:ICRA:2024">K. Muvvala, A. Wells, M. Lahijanian, L. Kavraki, and M. Vardi, “Stochastic Games for Interactive Manipulation Domains,” in <i>2024 IEEE Conference on Robotics and Automation (ICRA)</i>, Yokohama, Japan, 2024. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2403.04910">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Muvvala-ICRA-2024">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://www.youtube.com/watch?v=OTosSD7yPA0">Video</a>
+  
+</div>
 
- <div id="Muvvala:ICRA:2024-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2403.04910">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://www.youtube.com/watch?v=OTosSD7yPA0">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Muvvala:ICRA:2024-bibtex')">BibTeX</a></li>
-     <div id="Muvvala:ICRA:2024-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Muvvala:ICRA:2024,
+<div class="modal fade" id="bib-Muvvala-ICRA-2024" tabindex="-1" aria-labelledby="bib-Muvvala-ICRA-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Muvvala-ICRA-2024-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Muvvala-ICRA-2024')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Muvvala-ICRA-2024" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Muvvala:ICRA:2024,
   title = {Stochastic Games for Interactive Manipulation Domains},
   author = {Muvvala, Karan and Wells, Andrew and Lahijanian, Morteza and Kavraki, Lydia and Vardi, Moshe},
   booktitle = {2024 IEEE Conference on Robotics and Automation (ICRA)},
@@ -127,31 +142,65 @@
   url = {https://arxiv.org/abs/2403.04910}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2023</h2>
-<ol class="bibliography"><li> <p><span id="Muvvala:IROS:2023">K. Muvvala and M. Lahijanian, “Efficient Symbolic Approaches for Quantitative Reactive Synthesis with Finite Tasks,” in <i>2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, Detroit, MI, USA, 2023, pp. 8666–8672. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Muvvala:IROS:2023"><span id="Muvvala:IROS:2023">K. Muvvala and M. Lahijanian, “Efficient Symbolic Approaches for Quantitative Reactive Synthesis with Finite Tasks,” in <i>2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, Detroit, MI, USA, 2023, pp. 8666–8672. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://ieeexplore.ieee.org/document/10342496">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1109/IROS55552.2023.10342496">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Muvvala-IROS-2023">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://www.youtube.com/watch?v=uy88Cc8DFfQ">Video</a>
+  
+</div>
 
- <div id="Muvvala:IROS:2023-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://ieeexplore.ieee.org/document/10342496">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1109/IROS55552.2023.10342496">10.1109/IROS55552.2023.10342496</a></li>
-     
-     
-     <li><a href="https://www.youtube.com/watch?v=uy88Cc8DFfQ">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Muvvala:IROS:2023-bibtex')">BibTeX</a></li>
-     <div id="Muvvala:IROS:2023-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Muvvala:IROS:2023,
+<div class="modal fade" id="bib-Muvvala-IROS-2023" tabindex="-1" aria-labelledby="bib-Muvvala-IROS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Muvvala-IROS-2023-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Muvvala-IROS-2023')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Muvvala-IROS-2023" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Muvvala:IROS:2023,
   url = {https://ieeexplore.ieee.org/document/10342496},
   author = {Muvvala, Karan and Lahijanian, Morteza},
   title = {Efficient Symbolic Approaches for Quantitative Reactive Synthesis with Finite Tasks},
@@ -166,31 +215,65 @@
   bibkey = {maniprs}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2022</h2>
-<ol class="bibliography"><li> <p><span id="Muvvala:2022:ICRA">K. Muvvala, P. Amorese, and M. Lahijanian, “Let’s Collaborate: Regret-based Reactive Synthesis for Robotic Manipulation,” in <i>2022 IEEE Conference on Robotics and Automation (ICRA)</i>, 2022, pp. 4340–4346. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Muvvala:2022:ICRA"><span id="Muvvala:2022:ICRA">K. Muvvala, P. Amorese, and M. Lahijanian, “Let’s Collaborate: Regret-based Reactive Synthesis for Robotic Manipulation,” in <i>2022 IEEE Conference on Robotics and Automation (ICRA)</i>, 2022, pp. 4340–4346. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2203.06861">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1109/ICRA46639.2022.9812298">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Muvvala-2022-ICRA">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/ABZb1g36Kv4">Video</a>
+  
+</div>
 
- <div id="Muvvala:2022:ICRA-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2203.06861">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1109/ICRA46639.2022.9812298">10.1109/ICRA46639.2022.9812298</a></li>
-     
-     
-     <li><a href="https://youtu.be/ABZb1g36Kv4">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Muvvala:2022:ICRA-bibtex')">BibTeX</a></li>
-     <div id="Muvvala:2022:ICRA-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Muvvala:2022:ICRA,
+<div class="modal fade" id="bib-Muvvala-2022-ICRA" tabindex="-1" aria-labelledby="bib-Muvvala-2022-ICRA-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Muvvala-2022-ICRA-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Muvvala-2022-ICRA')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Muvvala-2022-ICRA" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Muvvala:2022:ICRA,
   title = {Let's Collaborate: Regret-based Reactive Synthesis for Robotic Manipulation},
   author = {Muvvala, Karan and Amorese, Peter and Lahijanian, Morteza},
   booktitle = {2022 IEEE Conference on Robotics and Automation (ICRA)},
@@ -205,27 +288,61 @@
   doi = {10.1109/ICRA46639.2022.9812298}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2021</h2>
-<ol class="bibliography"><li> <p><span id="Karan:RSS:2021">K. Muvvala and M. Lahijanian, “Reactive Synthesis for Human-aware Robotic Manipulation using Regret Games,” in <i>RSS Workshop on Robotics for People: Perspectives on Interaction, Learning and Safety</i>, 2021. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Karan:RSS:2021"><span id="Karan:RSS:2021">K. Muvvala and M. Lahijanian, “Reactive Synthesis for Human-aware Robotic Manipulation using Regret Games,” in <i>RSS Workshop on Robotics for People: Perspectives on Interaction, Learning and Safety</i>, 2021. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://drive.google.com/file/d/1m90rWHFHE6goW_B7FKHnt06Q6Q34XiWB/view?usp=sharing">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Karan-RSS-2021">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="Karan:RSS:2021-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://drive.google.com/file/d/1m90rWHFHE6goW_B7FKHnt06Q6Q34XiWB/view?usp=sharing">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Karan:RSS:2021-bibtex')">BibTeX</a></li>
-     <div id="Karan:RSS:2021-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Karan:RSS:2021,
+<div class="modal fade" id="bib-Karan-RSS-2021" tabindex="-1" aria-labelledby="bib-Karan-RSS-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Karan-RSS-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Karan-RSS-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Karan-RSS-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Karan:RSS:2021,
   title = {Reactive Synthesis for Human-aware Robotic Manipulation using Regret Games},
   author = {Muvvala, Karan and Lahijanian, Morteza},
   maintitle = {Robotics: Science and Systems},
@@ -236,28 +353,62 @@
   bibkey = {maniprs}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Wells:ICRA:2021">A. M. Wells, Z. Kingston, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “Finite Horizon Synthesis for Probabilistic Manipulation Domains,” in <i>International Conference on Robotics and Automation (ICRA)</i>, Xi’an, China, 2021. </span></p>
 
- <div id="Wells:ICRA:2021-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Wells:ICRA:2021"><span id="Wells:ICRA:2021">A. M. Wells, Z. Kingston, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “Finite Horizon Synthesis for Probabilistic Manipulation Domains,” in <i>International Conference on Robotics and Automation (ICRA)</i>, Xi’an, China, 2021. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="http://mortezalahijanian.com/papers/ICRA2021_wells.pdf">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Wells-ICRA-2021">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/pOFurtoTD9Y">Video</a>
+  
+</div>
 
-     
-     <li><a href="http://mortezalahijanian.com/papers/ICRA2021_wells.pdf">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://youtu.be/pOFurtoTD9Y">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Wells:ICRA:2021-bibtex')">BibTeX</a></li>
-     <div id="Wells:ICRA:2021-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Wells:ICRA:2021,
+<div class="modal fade" id="bib-Wells-ICRA-2021" tabindex="-1" aria-labelledby="bib-Wells-ICRA-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Wells-ICRA-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Wells-ICRA-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Wells-ICRA-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Wells:ICRA:2021,
   author = {Wells, Andrew M. and Kingston, Z. and Lahijanian, Morteza and Kavraki, Lydia E. and Vardi, Moshe Y.},
   title = {Finite Horizon Synthesis for Probabilistic Manipulation Domains},
   booktitle = {International Conference on Robotics and Automation (ICRA)},
@@ -270,27 +421,61 @@
   bibkey = {maniprs}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2018</h2>
-<ol class="bibliography"><li> <p><span id="He:RAL:2019">K. He, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “Automated Abstraction of Manipulation Domains for Cost-Based Reactive Synthesis,” <i>IEEE Robotics and Automation Letters</i>, vol. 4, no. 2, pp. 285–292, 2018. </span></p>
+<ol class="bibliography"><li><li>
+<span id="He:RAL:2019"><span id="He:RAL:2019">K. He, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “Automated Abstraction of Manipulation Domains for Cost-Based Reactive Synthesis,” <i>IEEE Robotics and Automation Letters</i>, vol. 4, no. 2, pp. 285–292, 2018. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1109/LRA.2018.2889191">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-He-RAL-2019">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="He:RAL:2019-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1109/LRA.2018.2889191">10.1109/LRA.2018.2889191</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('He:RAL:2019-bibtex')">BibTeX</a></li>
-     <div id="He:RAL:2019-bibtex" style="display:none;">
-     <pre class="collapse">@article{He:RAL:2019,
+<div class="modal fade" id="bib-He-RAL-2019" tabindex="-1" aria-labelledby="bib-He-RAL-2019-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-He-RAL-2019-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('He-RAL-2019')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-He-RAL-2019" style="white-space: pre-wrap; word-wrap: break-word;">@article{He:RAL:2019,
   title = {Automated Abstraction of Manipulation Domains for Cost-Based Reactive Synthesis},
   author = {He, Keliang and Lahijanian, Morteza and Kavraki, Lydia E and Vardi, Moshe Y},
   journal = {IEEE Robotics and Automation Letters},
@@ -303,27 +488,61 @@
   bibkey = {maniprs}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2015</h2>
-<ol class="bibliography"><li> <p><span id="He:ICRA:2015">K. He, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “Towards Manipulation Planning with Temporal Logic Specifications,” in <i>Proceedings of the IEEE International Conference on Robotics and Automation</i>, Seattle, WA, 2015, pp. 346–352. </span></p>
+<ol class="bibliography"><li><li>
+<span id="He:ICRA:2015"><span id="He:ICRA:2015">K. He, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “Towards Manipulation Planning with Temporal Logic Specifications,” in <i>Proceedings of the IEEE International Conference on Robotics and Automation</i>, Seattle, WA, 2015, pp. 346–352. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1109/ICRA.2015.7139022">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-He-ICRA-2015">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="He:ICRA:2015-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1109/ICRA.2015.7139022">10.1109/ICRA.2015.7139022</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('He:ICRA:2015-bibtex')">BibTeX</a></li>
-     <div id="He:ICRA:2015-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{He:ICRA:2015,
+<div class="modal fade" id="bib-He-ICRA-2015" tabindex="-1" aria-labelledby="bib-He-ICRA-2015-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-He-ICRA-2015-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('He-ICRA-2015')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-He-ICRA-2015" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{He:ICRA:2015,
   title = {Towards Manipulation Planning with Temporal Logic Specifications},
   author = {He, Keliang and Lahijanian, Morteza and Kavraki, Lydia E. and Vardi, Moshe Y.},
   booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation},
@@ -336,10 +555,30 @@
   bibkey = {maniprs}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 
   </div>
@@ -374,5 +613,12 @@
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      // Initialize all tooltips
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
   </body>
 </html>

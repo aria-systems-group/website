@@ -66,7 +66,8 @@
         <li class="nav-item research"><a class="nav-link" href="/projects/all.html">RESEARCH</a></li>
         <li class="nav-item publications"><a class="nav-link" href="/publications.html">PUBLICATIONS</a></li>
         <li class="nav-item people"><a class="nav-link" href="/people/all.html">PEOPLE</a></li>
-        <li class="nav-item outreach"><a class="nav-link" href="/outreach.html">OUTREACH</a></li>
+        <li class="nav-item software"><a class="nav-link" href="/software.html">SOFTWARE</a></li>
+        <!-- <li class="nav-item outreach"><a class="nav-link" href="/outreach.html">OUTREACH</a></li> -->
         <li class="nav-item contact"><a class="nav-link" href="/contact.html">CONTACT</a></li>
         <li class="nav-item join"><a class="nav-link" href="/join.html">JOIN</a></li>
     </ul>
@@ -110,21 +111,35 @@ Ongoing challanges we are investigating include:</p>
 
 
 <h2 class="bibliography">2025</h2>
-<ol class="bibliography"><li> <p><span id="Gracia:L4DC:2025">I. Gracia, L. Laurenti, M. Mazo Jr., A. Abate, and M. Lahijanian, “Temporal Logic Control for Nonlinear Stochastic Systems Under Unknown Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Ann Arbor, MI, USA, 2025. (accepted)</span></p>
+<ol class="bibliography"><li><li>
+<span id="Gracia:L4DC:2025"><span id="Gracia:L4DC:2025">I. Gracia, L. Laurenti, M. Mazo Jr., A. Abate, and M. Lahijanian, “Temporal Logic Control for Nonlinear Stochastic Systems Under Unknown Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Ann Arbor, MI, USA, 2025. (accepted)</span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://sites.google.com/umich.edu/l4dc2025/">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Gracia-L4DC-2025">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="Gracia:L4DC:2025-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://sites.google.com/umich.edu/l4dc2025/">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Gracia:L4DC:2025-bibtex')">BibTeX</a></li>
-     <div id="Gracia:L4DC:2025-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Gracia:L4DC:2025,
+<div class="modal fade" id="bib-Gracia-L4DC-2025" tabindex="-1" aria-labelledby="bib-Gracia-L4DC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Gracia-L4DC-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Gracia-L4DC-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Gracia-L4DC-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Gracia:L4DC:2025,
   title = {Temporal Logic Control for Nonlinear Stochastic Systems Under Unknown Disturbances},
   author = {Gracia, Ibon and Laurenti, Luca and Mazo Jr., Manuel and Abate, Alessandro and Lahijanian, Morteza},
   booktitle = {Learning for Dynamics and Control Conference (L4DC)},
@@ -138,30 +153,66 @@ Ongoing challanges we are investigating include:</p>
   note = {(accepted)}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Reed:AAAI:2025">R. Reed, L. Laurenti, and M. Lahijanian, “Error Bounds For Gaussian Process Regression Under Bounded Support Noise With Applications To Safety Certification,” in <i>The Thirty-Ninth AAAI Conference on Artificial Intelligence</i>, Philadelphia, Pennsylvania, USA, 2025. (accepted)</span></p>
 
- <div id="Reed:AAAI:2025-materials">
-   <ul class="bibinfo">
-     <!-- 
-     <li><a data-toggle="collapse" href="#Reed:AAAI:2025-abstract">Abstract</a></li>
-      -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Reed:AAAI:2025"><span id="Reed:AAAI:2025">R. Reed, L. Laurenti, and M. Lahijanian, “Error Bounds For Gaussian Process Regression Under Bounded Support Noise With Applications To Safety Certification,” in <i>The Thirty-Ninth AAAI Conference on Artificial Intelligence</i>, Philadelphia, Pennsylvania, USA, 2025. (accepted)</span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2408.09033">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Reed-AAAI-2025">
+    BibTeX
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Reed-AAAI-2025">
+    Abstract
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/7TsMPE3tyBM">Video</a>
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2408.09033">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://youtu.be/7TsMPE3tyBM">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Reed:AAAI:2025-bibtex')">BibTeX</a></li>
-     <div id="Reed:AAAI:2025-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Reed:AAAI:2025,
+<div class="modal fade" id="bib-Reed-AAAI-2025" tabindex="-1" aria-labelledby="bib-Reed-AAAI-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Reed-AAAI-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Reed-AAAI-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Reed-AAAI-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Reed:AAAI:2025,
   title = {Error Bounds For Gaussian Process Regression Under Bounded Support Noise With Applications To Safety Certification},
   author = {Reed, Robert and Laurenti, Luca and Lahijanian, Morteza},
   booktitle = {The Thirty-Ninth AAAI Conference on Artificial Intelligence},
@@ -176,30 +227,80 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+<div class="modal fade" id="abs-Reed-AAAI-2025" tabindex="-1" aria-labelledby="abs-Reed-AAAI-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Reed-AAAI-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Gaussian Process Regression (GPR) is a powerful and elegant method for learning complex functions from noisy data with a wide range of applications, including in safety-critical domains. Such applications have two key features: (i) they require rigorous error quantification, and (ii) the noise is often bounded and non-Gaussian due to, e.g., physical constraints. While error bounds for applying GPR in the presence of non-Gaussian noise exist, they tend to be overly restrictive and conservative in practice. In this paper, we provide novel error bounds for GPR under bounded support noise. Specifically, by relying on concentration inequalities and assuming that the latent function has low complexity in the reproducing kernel Hilbert space (RKHS) corresponding to the GP kernel, we derive both probabilistic and deterministic bounds on the error of the GPR. We show that these errors are substantially tighter than existing state-of-the-art bounds and are particularly well-suited for GPR with neural network kernels, i.e., Deep Kernel Learning (DKL). Furthermore, motivated by applications in safety-critical domains, we illustrate how these bounds can be combined with stochastic barrier functions to successfully quantify the safety probability of an unknown dynamical system from finite data. We validate the efficacy of our approach through several benchmarks and comparisons against existing bounds. The results show that our bounds are consistently smaller, and that DKLs can produce error bounds tighter than sample noise, significantly improving the safety probability of control systems.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
-<li> <p><span id="Gracia:NHS:2025">I. Gracia, D. Boskos, M. Lahijanian, L. Laurenti, and M. Mazo, “Efficient strategy synthesis for switched stochastic systems with distributional uncertainty,” <i>Nonlinear Analysis: Hybrid Systems</i>, vol. 55, p. 101554, 2025. </span></p>
 
- <div id="Gracia:NHS:2025-materials">
-   <ul class="bibinfo">
-     <!-- 
-     <li><a data-toggle="collapse" href="#Gracia:NHS:2025-abstract">Abstract</a></li>
-      -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Gracia:NHS:2025"><span id="Gracia:NHS:2025">I. Gracia, D. Boskos, M. Lahijanian, L. Laurenti, and M. Mazo, “Efficient strategy synthesis for switched stochastic systems with distributional uncertainty,” <i>Nonlinear Analysis: Hybrid Systems</i>, vol. 55, p. 101554, 2025. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2212.14260">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/https://doi.org/10.1016/j.nahs.2024.101554">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Gracia-NHS-2025">
+    BibTeX
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Gracia-NHS-2025">
+    Abstract
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2212.14260">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/https://doi.org/10.1016/j.nahs.2024.101554">https://doi.org/10.1016/j.nahs.2024.101554</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Gracia:NHS:2025-bibtex')">BibTeX</a></li>
-     <div id="Gracia:NHS:2025-bibtex" style="display:none;">
-     <pre class="collapse">@article{Gracia:NHS:2025,
+<div class="modal fade" id="bib-Gracia-NHS-2025" tabindex="-1" aria-labelledby="bib-Gracia-NHS-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Gracia-NHS-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Gracia-NHS-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Gracia-NHS-2025" style="white-space: pre-wrap; word-wrap: break-word;">@article{Gracia:NHS:2025,
   title = {Efficient strategy synthesis for switched stochastic systems with distributional uncertainty},
   author = {Gracia, Ibon and Boskos, Dimitris and Lahijanian, Morteza and Laurenti, Luca and Mazo, Manuel},
   journal = {Nonlinear Analysis: Hybrid Systems},
@@ -214,30 +315,80 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+<div class="modal fade" id="abs-Gracia-NHS-2025" tabindex="-1" aria-labelledby="abs-Gracia-NHS-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Gracia-NHS-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We introduce a framework for the control of discrete-time switched stochastic systems with uncertain distributions. In particular, we consider stochastic dynamics with additive noise whose distribution lies in an ambiguity set of distributions that are ɛ−close, in the Wasserstein distance sense, to a nominal one. We propose algorithms for the efficient synthesis of distributionally robust control strategies that maximize the satisfaction probability of reach-avoid specifications with either a given or an arbitrary (not specified) time horizon, i.e., unbounded-time reachability. The framework consists of two main steps: finite abstraction and control synthesis. First, we construct a finite abstraction of the switched stochastic system as a robust Markov decision process (robust MDP) that encompasses both the stochasticity of the system and the uncertainty in the noise distribution. Then, we synthesize a strategy that is robust to the distributional uncertainty on the resulting robust MDP. We employ techniques from optimal transport and stochastic programming to reduce the strategy synthesis problem to a set of linear programs, and propose a tailored and efficient algorithm to solve them. The resulting strategies are correctly refined into switching strategies for the original stochastic system. We illustrate the efficacy of our framework on various case studies comprising both linear and non-linear switched stochastic systems.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
-<li> <p><span id="Skovbekk:TAC:2025">J. Skovbekk, L. Laurenti, E. Frew, and M. Lahijanian, “Formal Verification of Unknown Dynamical Systems via Gaussian Process Regression,” <i>IEEE Transactions on Automatic Control (TAC)</i>, 2025. (accepted)</span></p>
 
- <div id="Skovbekk:TAC:2025-materials">
-   <ul class="bibinfo">
-     <!-- 
-     <li><a data-toggle="collapse" href="#Skovbekk:TAC:2025-abstract">Abstract</a></li>
-      -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Skovbekk:TAC:2025"><span id="Skovbekk:TAC:2025">J. Skovbekk, L. Laurenti, E. Frew, and M. Lahijanian, “Formal Verification of Unknown Dynamical Systems via Gaussian Process Regression,” <i>IEEE Transactions on Automatic Control (TAC)</i>, 2025. (accepted)</span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2201.00655">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/https://doi.org/10.1109/TAC.2025.3532812">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Skovbekk-TAC-2025">
+    BibTeX
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Skovbekk-TAC-2025">
+    Abstract
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2201.00655">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/https://doi.org/10.1109/TAC.2025.3532812">https://doi.org/10.1109/TAC.2025.3532812</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Skovbekk:TAC:2025-bibtex')">BibTeX</a></li>
-     <div id="Skovbekk:TAC:2025-bibtex" style="display:none;">
-     <pre class="collapse">@article{Skovbekk:TAC:2025,
+<div class="modal fade" id="bib-Skovbekk-TAC-2025" tabindex="-1" aria-labelledby="bib-Skovbekk-TAC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Skovbekk-TAC-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Skovbekk-TAC-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Skovbekk-TAC-2025" style="white-space: pre-wrap; word-wrap: break-word;">@article{Skovbekk:TAC:2025,
   title = {Formal Verification of Unknown Dynamical Systems via Gaussian Process Regression},
   author = {Skovbekk, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
   journal = {IEEE Transactions on Automatic Control (TAC)},
@@ -253,26 +404,74 @@ Ongoing challanges we are investigating include:</p>
   note = {(accepted)}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+<div class="modal fade" id="abs-Skovbekk-TAC-2025" tabindex="-1" aria-labelledby="abs-Skovbekk-TAC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Skovbekk-TAC-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Leveraging autonomous systems in safety-critical scenarios requires verifying their behaviors in the presence of uncertainties and black-box components that influence the system dynamics. In this work, we develop a framework for verifying discrete-time dynamical systems with unmodelled dynamics and noisy measurements against temporal logic specifications from an input-output dataset. The verification framework employs Gaussian process (GP) regression to learn the unknown dynamics from the dataset and abstracts the continuous-space system as a finite-state, uncertain Markov decision process (MDP). This abstraction relies on space discretization and transition probability intervals that capture the uncertainty due to the error in GP regression by using reproducible kernel Hilbert space analysis as well as the uncertainty induced by discretization. The framework utilizes existing model checking tools for verification of the uncertain MDP abstraction against a given temporal logic specification. We establish the correctness of extending the verification results on the abstraction created from noisy measurements to the underlying system. We show that the computational complexity of the framework is polynomial in the size of the dataset and discrete abstraction. The complexity analysis illustrates a trade-off between the quality of the verification results and the computational burden to handle larger datasets and finer abstractions. Finally, we demonstrate the efficacy of our learning and verification framework on several case studies with linear, nonlinear, and switched dynamical systems.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
-<li> <p><span id="Reed:ACC:2025">R. Reed and M. Lahijanian, “Learning-Based Shielding for Safe Autonomy under Unknown Dynamics,” in <i>American Control Conference (ACC)</i>, Denver, CO, USA, 2025. (accepted)</span></p>
 
- <div id="Reed:ACC:2025-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Reed:ACC:2025"><span id="Reed:ACC:2025">R. Reed and M. Lahijanian, “Learning-Based Shielding for Safe Autonomy under Unknown Dynamics,” in <i>American Control Conference (ACC)</i>, Denver, CO, USA, 2025. (accepted)</span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2410.07359">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Reed-ACC-2025">
+    BibTeX
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2410.07359">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Reed:ACC:2025-bibtex')">BibTeX</a></li>
-     <div id="Reed:ACC:2025-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Reed:ACC:2025,
+<div class="modal fade" id="bib-Reed-ACC-2025" tabindex="-1" aria-labelledby="bib-Reed-ACC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Reed-ACC-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Reed-ACC-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Reed-ACC-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Reed:ACC:2025,
   title = {Learning-Based Shielding for Safe Autonomy under Unknown Dynamics},
   author = {Reed, Robert and Lahijanian, Morteza},
   booktitle = {American Control Conference (ACC)},
@@ -285,27 +484,61 @@ Ongoing challanges we are investigating include:</p>
   url = {https://arxiv.org/abs/2410.07359}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2024</h2>
-<ol class="bibliography"><li> <p><span id="Mazouz:CDC:2024">R. Mazouz, J. Skovbekk, F. B. Mathiesen, E. Frew, L. Laurenti, and M. Lahijanian, “Data-Driven Permissible Safe Control with Barrier Certificates,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2024. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Mazouz:CDC:2024"><span id="Mazouz:CDC:2024">R. Mazouz, J. Skovbekk, F. B. Mathiesen, E. Frew, L. Laurenti, and M. Lahijanian, “Data-Driven Permissible Safe Control with Barrier Certificates,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2024. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2405.00136">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mazouz-CDC-2024">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="Mazouz:CDC:2024-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2405.00136">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Mazouz:CDC:2024-bibtex')">BibTeX</a></li>
-     <div id="Mazouz:CDC:2024-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Mazouz:CDC:2024,
+<div class="modal fade" id="bib-Mazouz-CDC-2024" tabindex="-1" aria-labelledby="bib-Mazouz-CDC-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Mazouz-CDC-2024-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Mazouz-CDC-2024')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Mazouz-CDC-2024" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Mazouz:CDC:2024,
   title = {Data-Driven Permissible Safe Control with Barrier Certificates},
   author = {Mazouz, Rayan and Skovbekk, John and Mathiesen, Frederik Baymler and Frew, Eric and Laurenti, Luca and Lahijanian, Morteza},
   booktitle = {IEEE Conference on Decision and Control (CDC)},
@@ -317,26 +550,60 @@ Ongoing challanges we are investigating include:</p>
   url = {https://arxiv.org/abs/2405.00136}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Figueiredo:CDC:2024">E. Figueiredo, A. Patane, M. Lahijanian, and L. Laurenti, “Uncertainty Propagation in Stochastic Systems via Mixture Models with Error Quantification,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2024. </span></p>
 
- <div id="Figueiredo:CDC:2024-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Figueiredo:CDC:2024"><span id="Figueiredo:CDC:2024">E. Figueiredo, A. Patane, M. Lahijanian, and L. Laurenti, “Uncertainty Propagation in Stochastic Systems via Mixture Models with Error Quantification,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2024. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2403.15626">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Figueiredo-CDC-2024">
+    BibTeX
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2403.15626">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Figueiredo:CDC:2024-bibtex')">BibTeX</a></li>
-     <div id="Figueiredo:CDC:2024-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Figueiredo:CDC:2024,
+<div class="modal fade" id="bib-Figueiredo-CDC-2024" tabindex="-1" aria-labelledby="bib-Figueiredo-CDC-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Figueiredo-CDC-2024-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Figueiredo-CDC-2024')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Figueiredo-CDC-2024" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Figueiredo:CDC:2024,
   title = {Uncertainty Propagation in Stochastic Systems via Mixture Models with Error Quantification},
   author = {Figueiredo, Eduardo and Patane, Andrea and Lahijanian, Morteza and Laurenti, Luca},
   booktitle = {IEEE Conference on Decision and Control (CDC)},
@@ -348,30 +615,66 @@ Ongoing challanges we are investigating include:</p>
   url = {https://arxiv.org/abs/2403.15626}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Reed:ACC:2024">R. Reed, H. Schaub, and M. Lahijanian, “Shielded Deep Reinforcement Learning for Complex Spacecraft Specifications,” in <i>American Control Conference (ACC)</i>, Toronto, Canada, 2024. </span></p>
 
- <div id="Reed:ACC:2024-materials">
-   <ul class="bibinfo">
-     <!-- 
-     <li><a data-toggle="collapse" href="#Reed:ACC:2024-abstract">Abstract</a></li>
-      -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Reed:ACC:2024"><span id="Reed:ACC:2024">R. Reed, H. Schaub, and M. Lahijanian, “Shielded Deep Reinforcement Learning for Complex Spacecraft Specifications,” in <i>American Control Conference (ACC)</i>, Toronto, Canada, 2024. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2403.05693">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.23919/ACC60939.2024.10644855">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Reed-ACC-2024">
+    BibTeX
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Reed-ACC-2024">
+    Abstract
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2403.05693">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.23919/ACC60939.2024.10644855">10.23919/ACC60939.2024.10644855</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Reed:ACC:2024-bibtex')">BibTeX</a></li>
-     <div id="Reed:ACC:2024-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Reed:ACC:2024,
+<div class="modal fade" id="bib-Reed-ACC-2024" tabindex="-1" aria-labelledby="bib-Reed-ACC-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Reed-ACC-2024-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Reed-ACC-2024')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Reed-ACC-2024" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Reed:ACC:2024,
   title = {Shielded Deep Reinforcement Learning for Complex Spacecraft Specifications},
   author = {Reed, Robert and Schaub, Hanspeter and Lahijanian, Morteza},
   booktitle = {American Control Conference (ACC)},
@@ -385,26 +688,74 @@ Ongoing challanges we are investigating include:</p>
   url = {https://arxiv.org/abs/2403.05693}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+<div class="modal fade" id="abs-Reed-ACC-2024" tabindex="-1" aria-labelledby="abs-Reed-ACC-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Reed-ACC-2024-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Autonomous spacecraft control via Shielded Deep Reinforcement Learning (SDRL) has become a rapidly growing research area. However, the construction of shields and the definition of tasking remains informal, resulting in policies with no guarantees on safety and ambiguous goals for the RL agent. In this paper, we first explore the use of formal languages, namely Linear Temporal Logic (LTL), to formalize spacecraft tasks and safety requirements. We then define a manner in which to construct a reward function from a co-safe LTL specification automatically for effective training in SDRL framework. We also investigate methods for constructing a shield from a safe LTL specification for spacecraft applications and propose three designs that provide probabilistic guarantees. We show how these shields interact with different policies and the flexibility of the reward structure through experimentation.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
-<li> <p><span id="Mathiesen:ADHS:2024">F. B. Mathiesen, M. Lahijanian, and L. Laurenti, “IntervalMDP.jl: Accelerated Value Iteration for Interval Markov Decision Processes,” in <i>IFAC Conference on Analysis and Design of Hybrid Systems (ADHS)</i>, 2024. </span></p>
 
- <div id="Mathiesen:ADHS:2024-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Mathiesen:ADHS:2024"><span id="Mathiesen:ADHS:2024">F. B. Mathiesen, M. Lahijanian, and L. Laurenti, “IntervalMDP.jl: Accelerated Value Iteration for Interval Markov Decision Processes,” in <i>IFAC Conference on Analysis and Design of Hybrid Systems (ADHS)</i>, 2024. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2401.04068">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mathiesen-ADHS-2024">
+    BibTeX
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2401.04068">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Mathiesen:ADHS:2024-bibtex')">BibTeX</a></li>
-     <div id="Mathiesen:ADHS:2024-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Mathiesen:ADHS:2024,
+<div class="modal fade" id="bib-Mathiesen-ADHS-2024" tabindex="-1" aria-labelledby="bib-Mathiesen-ADHS-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Mathiesen-ADHS-2024-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Mathiesen-ADHS-2024')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Mathiesen-ADHS-2024" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Mathiesen:ADHS:2024,
   title = {{IntervalMDP.jl: Accelerated Value Iteration for Interval Markov Decision Processes}},
   author = {Mathiesen, Frederik Baymler and Lahijanian, Morteza and Laurenti, Luca},
   booktitle = {IFAC Conference on Analysis and Design of Hybrid Systems (ADHS)},
@@ -417,26 +768,60 @@ Ongoing challanges we are investigating include:</p>
   note = {}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Gracia:L4DC:2024">I. Gracia, D. Boskos, L. Laurenti, and M. Lahijanian, “Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Oxford, UK, 2024. </span></p>
 
- <div id="Gracia:L4DC:2024-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Gracia:L4DC:2024"><span id="Gracia:L4DC:2024">I. Gracia, D. Boskos, L. Laurenti, and M. Lahijanian, “Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Oxford, UK, 2024. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2406.09704">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Gracia-L4DC-2024">
+    BibTeX
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2406.09704">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Gracia:L4DC:2024-bibtex')">BibTeX</a></li>
-     <div id="Gracia:L4DC:2024-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Gracia:L4DC:2024,
+<div class="modal fade" id="bib-Gracia-L4DC-2024" tabindex="-1" aria-labelledby="bib-Gracia-L4DC-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Gracia-L4DC-2024-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Gracia-L4DC-2024')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Gracia-L4DC-2024" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Gracia:L4DC:2024,
   title = {Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances},
   author = {Gracia, Ibon and Boskos, Dimitris and Laurenti, Luca and Lahijanian, Morteza},
   booktitle = {Learning for Dynamics and Control Conference (L4DC)},
@@ -450,29 +835,63 @@ Ongoing challanges we are investigating include:</p>
   note = {}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2023</h2>
-<ol class="bibliography"><li> <p><span id="Skovbekk:LCSS:2023">J. Skovbekk, L. Laurenti, E. Frew, and M. Lahijanian, “Formal Abstraction of General Stochastic Systems via Noise Partitioning,” <i>IEEE Control Systems Letters</i>, pp. 1–1, Dec. 2023. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Skovbekk:LCSS:2023"><span id="Skovbekk:LCSS:2023">J. Skovbekk, L. Laurenti, E. Frew, and M. Lahijanian, “Formal Abstraction of General Stochastic Systems via Noise Partitioning,” <i>IEEE Control Systems Letters</i>, pp. 1–1, Dec. 2023. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2309.10702">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1109/LCSYS.2023.3340621">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Skovbekk-LCSS-2023">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="Skovbekk:LCSS:2023-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2309.10702">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1109/LCSYS.2023.3340621">10.1109/LCSYS.2023.3340621</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Skovbekk:LCSS:2023-bibtex')">BibTeX</a></li>
-     <div id="Skovbekk:LCSS:2023-bibtex" style="display:none;">
-     <pre class="collapse">@article{Skovbekk:LCSS:2023,
+<div class="modal fade" id="bib-Skovbekk-LCSS-2023" tabindex="-1" aria-labelledby="bib-Skovbekk-LCSS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Skovbekk-LCSS-2023-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Skovbekk-LCSS-2023')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Skovbekk-LCSS-2023" style="white-space: pre-wrap; word-wrap: break-word;">@article{Skovbekk:LCSS:2023,
   author = {Skovbekk, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
   journal = {IEEE Control Systems Letters},
   title = {Formal Abstraction of General Stochastic Systems via Noise Partitioning},
@@ -486,30 +905,66 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Reed:LCSS:2023">R. Reed, L. Laurenti, and M. Lahijanian, “Promises of Deep Kernel Learning for Control Synthesis,” <i>IEEE Control Systems Letters</i>, pp. 1–1, Dec. 2023. </span></p>
 
- <div id="Reed:LCSS:2023-materials">
-   <ul class="bibinfo">
-     <!-- 
-     <li><a data-toggle="collapse" href="#Reed:LCSS:2023-abstract">Abstract</a></li>
-      -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Reed:LCSS:2023"><span id="Reed:LCSS:2023">R. Reed, L. Laurenti, and M. Lahijanian, “Promises of Deep Kernel Learning for Control Synthesis,” <i>IEEE Control Systems Letters</i>, pp. 1–1, Dec. 2023. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2309.06569">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1109/LCSYS.2023.3340995">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Reed-LCSS-2023">
+    BibTeX
+  </button>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-Reed-LCSS-2023">
+    Abstract
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2309.06569">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1109/LCSYS.2023.3340995">10.1109/LCSYS.2023.3340995</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Reed:LCSS:2023-bibtex')">BibTeX</a></li>
-     <div id="Reed:LCSS:2023-bibtex" style="display:none;">
-     <pre class="collapse">@article{Reed:LCSS:2023,
+<div class="modal fade" id="bib-Reed-LCSS-2023" tabindex="-1" aria-labelledby="bib-Reed-LCSS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Reed-LCSS-2023-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Reed-LCSS-2023')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Reed-LCSS-2023" style="white-space: pre-wrap; word-wrap: break-word;">@article{Reed:LCSS:2023,
   author = {Reed, Robert and Laurenti, Luca and Lahijanian, Morteza},
   journal = {IEEE Control Systems Letters},
   title = {Promises of Deep Kernel Learning for Control Synthesis},
@@ -523,28 +978,76 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+<div class="modal fade" id="abs-Reed-LCSS-2023" tabindex="-1" aria-labelledby="abs-Reed-LCSS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Reed-LCSS-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Deep Kernel Learning (DKL) combines the representational power of neural networks with the uncertainty quantification of Gaussian Processes. Hence, it is potentially a promising tool to learn and control complex dynamical systems. In this letter, we develop a scalable abstraction-based framework that enables the use of DKL for control synthesis of stochastic dynamical systems against complex specifications. Specifically, we consider temporal logic specifications and create an end-to-end framework that uses DKL to learn an unknown system from data and formally abstracts the DKL model into an interval Markov decision process to perform control synthesis with correctness guarantees. Furthermore, we identify a deep architecture that enables accurate learning and efficient abstraction computation. The effectiveness of our approach is illustrated on various benchmarks, including a 5-D nonlinear stochastic system, showing how control synthesis with DKL can substantially outperform state-of-the-art competitive methods.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
-<li> <p><span id="Adams:ICML:2023">S. Adams, A. Patane, M. Lahijanian, and L. Laurenti, “BNN-DP: Robustness Certification of Bayesian Neural Networks via Dynamic Programming,” in <i>International Conference on Machine Learning (ICML)</i>, Honolulu, HI, USA, 2023, pp. 133–151. </span></p>
 
- <div id="Adams:ICML:2023-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Adams:ICML:2023"><span id="Adams:ICML:2023">S. Adams, A. Patane, M. Lahijanian, and L. Laurenti, “BNN-DP: Robustness Certification of Bayesian Neural Networks via Dynamic Programming,” in <i>International Conference on Machine Learning (ICML)</i>, Honolulu, HI, USA, 2023, pp. 133–151. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2306.10742">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.5555/3618408.3618415">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Adams-ICML-2023">
+    BibTeX
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2306.10742">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.5555/3618408.3618415">10.5555/3618408.3618415</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Adams:ICML:2023-bibtex')">BibTeX</a></li>
-     <div id="Adams:ICML:2023-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Adams:ICML:2023,
+<div class="modal fade" id="bib-Adams-ICML-2023" tabindex="-1" aria-labelledby="bib-Adams-ICML-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Adams-ICML-2023-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Adams-ICML-2023')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Adams-ICML-2023" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Adams:ICML:2023,
   url = {https://arxiv.org/abs/2306.10742},
   title = {BNN-DP: Robustness Certification of Bayesian Neural Networks via Dynamic Programming},
   author = {Adams, Steven and Patane, Andrea and Lahijanian, Morteza and Laurenti, Luca},
@@ -560,28 +1063,62 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Delimpaltadakis:HSCC:2023">G. Delimpaltadakis, M. Lahijanian, M. Mazo Jr., and L. Laurenti, “Interval Markov Decision Processes with Continuous Action-Spaces,” in <i>International Conference on Hybrid Systems: Computation and Control (HSCC)</i>, San Antonio, TX, USA, 2023. </span></p>
 
- <div id="Delimpaltadakis:HSCC:2023-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Delimpaltadakis:HSCC:2023"><span id="Delimpaltadakis:HSCC:2023">G. Delimpaltadakis, M. Lahijanian, M. Mazo Jr., and L. Laurenti, “Interval Markov Decision Processes with Continuous Action-Spaces,” in <i>International Conference on Hybrid Systems: Computation and Control (HSCC)</i>, San Antonio, TX, USA, 2023. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2211.01231">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1145/3575870.3587117">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Delimpaltadakis-HSCC-2023">
+    BibTeX
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2211.01231">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1145/3575870.3587117">10.1145/3575870.3587117</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Delimpaltadakis:HSCC:2023-bibtex')">BibTeX</a></li>
-     <div id="Delimpaltadakis:HSCC:2023-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Delimpaltadakis:HSCC:2023,
+<div class="modal fade" id="bib-Delimpaltadakis-HSCC-2023" tabindex="-1" aria-labelledby="bib-Delimpaltadakis-HSCC-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Delimpaltadakis-HSCC-2023-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Delimpaltadakis-HSCC-2023')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Delimpaltadakis-HSCC-2023" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Delimpaltadakis:HSCC:2023,
   url = {https://arxiv.org/abs/2211.01231},
   author = {Delimpaltadakis, Giannis and Lahijanian, Morteza and Mazo Jr., Manuel and Laurenti, Luca},
   title = {Interval Markov Decision Processes with Continuous Action-Spaces},
@@ -597,29 +1134,63 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2022</h2>
-<ol class="bibliography"><li> <p><span id="Mazouz:NeurIPS:2022">R. Mazouz, K. Muvvala, A. Ratheesh Babu, L. Laurenti, and M. Lahijanian, “Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, vol. 35, pp. 9672–9686. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Mazouz:NeurIPS:2022"><span id="Mazouz:NeurIPS:2022">R. Mazouz, K. Muvvala, A. Ratheesh Babu, L. Laurenti, and M. Lahijanian, “Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, vol. 35, pp. 9672–9686. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2206.07811">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mazouz-NeurIPS-2022">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/N0UVczFtgKo">Video</a>
+  
+</div>
 
- <div id="Mazouz:NeurIPS:2022-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2206.07811">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://youtu.be/N0UVczFtgKo">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Mazouz:NeurIPS:2022-bibtex')">BibTeX</a></li>
-     <div id="Mazouz:NeurIPS:2022-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Mazouz:NeurIPS:2022,
+<div class="modal fade" id="bib-Mazouz-NeurIPS-2022" tabindex="-1" aria-labelledby="bib-Mazouz-NeurIPS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Mazouz-NeurIPS-2022-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Mazouz-NeurIPS-2022')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Mazouz-NeurIPS-2022" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Mazouz:NeurIPS:2022,
   title = {Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions},
   author = {Mazouz, Rayan and Muvvala, Karan and Ratheesh Babu, Akash and Laurenti, Luca and Lahijanian, Morteza},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
@@ -635,28 +1206,62 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Adams:CSL:2022">S. A. Adams, M. Lahijanian, and L. Laurenti, “Formal Control Synthesis for Stochastic Neural Network Dynamic Models,” <i>IEEE Control Systems Letters (L-CSS)</i>, 2022. </span></p>
 
- <div id="Adams:CSL:2022-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Adams:CSL:2022"><span id="Adams:CSL:2022">S. A. Adams, M. Lahijanian, and L. Laurenti, “Formal Control Synthesis for Stochastic Neural Network Dynamic Models,” <i>IEEE Control Systems Letters (L-CSS)</i>, 2022. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2203.05903">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1109/LCSYS.2022.3178143">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Adams-CSL-2022">
+    BibTeX
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2203.05903">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1109/LCSYS.2022.3178143">10.1109/LCSYS.2022.3178143</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Adams:CSL:2022-bibtex')">BibTeX</a></li>
-     <div id="Adams:CSL:2022-bibtex" style="display:none;">
-     <pre class="collapse">@article{Adams:CSL:2022,
+<div class="modal fade" id="bib-Adams-CSL-2022" tabindex="-1" aria-labelledby="bib-Adams-CSL-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Adams-CSL-2022-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Adams-CSL-2022')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Adams-CSL-2022" style="white-space: pre-wrap; word-wrap: break-word;">@article{Adams:CSL:2022,
   title = {Formal Control Synthesis for Stochastic Neural Network Dynamic Models},
   author = {Adams, Steven Adams and Lahijanian, Morteza and Laurenti, Luca},
   journal = {IEEE Control Systems Letters (L-CSS)},
@@ -671,29 +1276,63 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2021</h2>
-<ol class="bibliography"><li> <p><span id="jackson:CDC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Synergistic Offline-Online Control Synthesis via Local Gaussian Process Regression,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2021. </span></p>
+<ol class="bibliography"><li><li>
+<span id="jackson:CDC:2021"><span id="jackson:CDC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Synergistic Offline-Online Control Synthesis via Local Gaussian Process Regression,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2021. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2110.05525">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-jackson-CDC-2021">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/ZuKd_nzaGgY">Video</a>
+  
+</div>
 
- <div id="jackson:CDC:2021-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2110.05525">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://youtu.be/ZuKd_nzaGgY">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('jackson:CDC:2021-bibtex')">BibTeX</a></li>
-     <div id="jackson:CDC:2021-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{jackson:CDC:2021,
+<div class="modal fade" id="bib-jackson-CDC-2021" tabindex="-1" aria-labelledby="bib-jackson-CDC-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-jackson-CDC-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('jackson-CDC-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-jackson-CDC-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{jackson:CDC:2021,
   title = {Synergistic Offline-Online Control Synthesis via Local Gaussian Process Regression},
   author = {Jackson, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
   booktitle = {IEEE Conference on Decision and Control (CDC)},
@@ -706,28 +1345,62 @@ Ongoing challanges we are investigating include:</p>
   videourl = {https://youtu.be/ZuKd_nzaGgY}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Jackson:RSSworshop:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Towards Safe, Abstraction-based Online Learning and Synthesis for Unknown Systems,” in <i>Workshop on Integrating Planning and Learning</i>, 2021. </span></p>
 
- <div id="Jackson:RSSworshop:2021-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Jackson:RSSworshop:2021"><span id="Jackson:RSSworshop:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Towards Safe, Abstraction-based Online Learning and Synthesis for Unknown Systems,” in <i>Workshop on Integrating Planning and Learning</i>, 2021. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://drive.google.com/file/d/1XYq_O_7tLNYQmE7Gr2wx1N88P6OxLFii/view">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Jackson-RSSworshop-2021">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://drive.google.com/file/d/1ollYrtXSVvdt-LFGlA8O4IW3r4hdiCwB/view">Video</a>
+  
+</div>
 
-     
-     <li><a href="https://drive.google.com/file/d/1XYq_O_7tLNYQmE7Gr2wx1N88P6OxLFii/view">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://drive.google.com/file/d/1ollYrtXSVvdt-LFGlA8O4IW3r4hdiCwB/view">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Jackson:RSSworshop:2021-bibtex')">BibTeX</a></li>
-     <div id="Jackson:RSSworshop:2021-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Jackson:RSSworshop:2021,
+<div class="modal fade" id="bib-Jackson-RSSworshop-2021" tabindex="-1" aria-labelledby="bib-Jackson-RSSworshop-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Jackson-RSSworshop-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Jackson-RSSworshop-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Jackson-RSSworshop-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Jackson:RSSworshop:2021,
   title = {Towards Safe, Abstraction-based Online Learning and Synthesis for Unknown Systems},
   author = {Jackson, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
   maintitle = {Robotics: Science and Systems},
@@ -739,28 +1412,62 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="jackson:HSCC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Strategy synthesis for partially-known switched stochastic systems,” in <i>Conference on Hybrid Systems: Computation and Control (HSCC)</i>, 2021, pp. 1–11. </span></p>
 
- <div id="jackson:HSCC:2021-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="jackson:HSCC:2021"><span id="jackson:HSCC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Strategy synthesis for partially-known switched stochastic systems,” in <i>Conference on Hybrid Systems: Computation and Control (HSCC)</i>, 2021, pp. 1–11. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2104.02172">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-jackson-HSCC-2021">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/dE7BpXJ-amQ">Video</a>
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2104.02172">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://youtu.be/dE7BpXJ-amQ">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('jackson:HSCC:2021-bibtex')">BibTeX</a></li>
-     <div id="jackson:HSCC:2021-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{jackson:HSCC:2021,
+<div class="modal fade" id="bib-jackson-HSCC-2021" tabindex="-1" aria-labelledby="bib-jackson-HSCC-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-jackson-HSCC-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('jackson-HSCC-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-jackson-HSCC-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{jackson:HSCC:2021,
   title = {Strategy synthesis for partially-known switched stochastic systems},
   author = {Jackson, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
   booktitle = {Conference on Hybrid Systems: Computation and Control (HSCC)},
@@ -771,29 +1478,63 @@ Ongoing challanges we are investigating include:</p>
   url = {https://arxiv.org/abs/2104.02172}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2020</h2>
-<ol class="bibliography"><li> <p><span id="Jackson:RSSworshop:2020">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Towards Data-driven Verification of Unknown Dynamical Systems,” in <i>Workshop on Robust Autonomy: Tools for Safety in Real-World Uncertain Environments</i>, 2020. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Jackson:RSSworshop:2020"><span id="Jackson:RSSworshop:2020">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Towards Data-driven Verification of Unknown Dynamical Systems,” in <i>Workshop on Robust Autonomy: Tools for Safety in Real-World Uncertain Environments</i>, 2020. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://openreview.net/pdf?id=pc1AU6xLol4">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Jackson-RSSworshop-2020">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://drive.google.com/file/d/13aDPx0bU6yy8apDwdDdyuTeJLBViiqIg/view?usp=sharing">Video</a>
+  
+</div>
 
- <div id="Jackson:RSSworshop:2020-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://openreview.net/pdf?id=pc1AU6xLol4">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://drive.google.com/file/d/13aDPx0bU6yy8apDwdDdyuTeJLBViiqIg/view?usp=sharing">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Jackson:RSSworshop:2020-bibtex')">BibTeX</a></li>
-     <div id="Jackson:RSSworshop:2020-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Jackson:RSSworshop:2020,
+<div class="modal fade" id="bib-Jackson-RSSworshop-2020" tabindex="-1" aria-labelledby="bib-Jackson-RSSworshop-2020-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Jackson-RSSworshop-2020-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Jackson-RSSworshop-2020')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Jackson-RSSworshop-2020" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Jackson:RSSworshop:2020,
   title = {Towards Data-driven Verification of Unknown Dynamical Systems},
   author = {Jackson, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
   maintitle = {Robotics: Science and Systems},
@@ -805,26 +1546,60 @@ Ongoing challanges we are investigating include:</p>
   bibkey = {synth-ml}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="jackson:CDC:2020">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Safety verification of unknown dynamical systems via gaussian process regression,” in <i>2020 IEEE 59th Conference on Decision and Control (CDC)</i>, 2020. </span></p>
 
- <div id="jackson:CDC:2020-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="jackson:CDC:2020"><span id="jackson:CDC:2020">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Safety verification of unknown dynamical systems via gaussian process regression,” in <i>2020 IEEE 59th Conference on Decision and Control (CDC)</i>, 2020. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-jackson-CDC-2020">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/u2hxmc1J4vM">Video</a>
+  
+</div>
 
-     
-     
-     
-     <li><a href="https://youtu.be/u2hxmc1J4vM">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('jackson:CDC:2020-bibtex')">BibTeX</a></li>
-     <div id="jackson:CDC:2020-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{jackson:CDC:2020,
+<div class="modal fade" id="bib-jackson-CDC-2020" tabindex="-1" aria-labelledby="bib-jackson-CDC-2020-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-jackson-CDC-2020-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('jackson-CDC-2020')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-jackson-CDC-2020" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{jackson:CDC:2020,
   title = {Safety verification of unknown dynamical systems via gaussian process regression},
   author = {Jackson, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
   booktitle = {2020 IEEE 59th Conference on Decision and Control (CDC)},
@@ -834,10 +1609,30 @@ Ongoing challanges we are investigating include:</p>
   videourl = {https://youtu.be/u2hxmc1J4vM}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 
   </div>
@@ -872,5 +1667,12 @@ Ongoing challanges we are investigating include:</p>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      // Initialize all tooltips
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
   </body>
 </html>

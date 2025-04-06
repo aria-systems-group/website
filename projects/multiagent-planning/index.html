@@ -66,7 +66,8 @@
         <li class="nav-item research"><a class="nav-link" href="/projects/all.html">RESEARCH</a></li>
         <li class="nav-item publications"><a class="nav-link" href="/publications.html">PUBLICATIONS</a></li>
         <li class="nav-item people"><a class="nav-link" href="/people/all.html">PEOPLE</a></li>
-        <li class="nav-item outreach"><a class="nav-link" href="/outreach.html">OUTREACH</a></li>
+        <li class="nav-item software"><a class="nav-link" href="/software.html">SOFTWARE</a></li>
+        <!-- <li class="nav-item outreach"><a class="nav-link" href="/outreach.html">OUTREACH</a></li> -->
         <li class="nav-item contact"><a class="nav-link" href="/contact.html">CONTACT</a></li>
         <li class="nav-item join"><a class="nav-link" href="/join.html">JOIN</a></li>
     </ul>
@@ -104,25 +105,39 @@
 
 
 <h2 class="bibliography">2023</h2>
-<ol class="bibliography"><li> <p><span id="Theurkauf:RAL:2023">A. Theurkauf, J. Kottinger, N. Ahmed, and M. Lahijanian, “Chance-Constrained Multi-Robot Motion Planning Under Gaussian Uncertainties,” <i>IEEE Robotics and Automation Letters</i>, vol. 9, no. 1, pp. 835–842, Dec. 2023. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Theurkauf:RAL:2023"><span id="Theurkauf:RAL:2023">A. Theurkauf, J. Kottinger, N. Ahmed, and M. Lahijanian, “Chance-Constrained Multi-Robot Motion Planning Under Gaussian Uncertainties,” <i>IEEE Robotics and Automation Letters</i>, vol. 9, no. 1, pp. 835–842, Dec. 2023. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2303.11476">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1109/LRA.2023.3337700">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Theurkauf-RAL-2023">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/ilAlZaoieKg?si=GWa8FD1RHEuJbRlE">Video</a>
+  
+</div>
 
- <div id="Theurkauf:RAL:2023-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2303.11476">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1109/LRA.2023.3337700">10.1109/LRA.2023.3337700</a></li>
-     
-     
-     <li><a href="https://youtu.be/ilAlZaoieKg?si=GWa8FD1RHEuJbRlE">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Theurkauf:RAL:2023-bibtex')">BibTeX</a></li>
-     <div id="Theurkauf:RAL:2023-bibtex" style="display:none;">
-     <pre class="collapse">@article{Theurkauf:RAL:2023,
+<div class="modal fade" id="bib-Theurkauf-RAL-2023" tabindex="-1" aria-labelledby="bib-Theurkauf-RAL-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Theurkauf-RAL-2023-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Theurkauf-RAL-2023')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Theurkauf-RAL-2023" style="white-space: pre-wrap; word-wrap: break-word;">@article{Theurkauf:RAL:2023,
   author = {Theurkauf, Anne and Kottinger, Justin and Ahmed, Nisar and Lahijanian, Morteza},
   journal = {IEEE Robotics and Automation Letters},
   title = {Chance-Constrained Multi-Robot Motion Planning Under Gaussian Uncertainties},
@@ -137,29 +152,63 @@
   bibkey = {ma-planning}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2022</h2>
-<ol class="bibliography"><li> <p><span id="Kottinger:IROS:2022">J. Kottinger, S. Almagor, and M. Lahijanian, “Conflict-based Search for Multi-Robot Motion Planning with Kinodynamic Constraints,” in <i>Int’l Conference on Intelligent Robots and Systems (IROS)</i>, Kyoto, Japan, 2022. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Kottinger:IROS:2022"><span id="Kottinger:IROS:2022">J. Kottinger, S. Almagor, and M. Lahijanian, “Conflict-based Search for Multi-Robot Motion Planning with Kinodynamic Constraints,” in <i>Int’l Conference on Intelligent Robots and Systems (IROS)</i>, Kyoto, Japan, 2022. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2207.00576">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-IROS-2022">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/O39gmj5WVwE">Video</a>
+  
+</div>
 
- <div id="Kottinger:IROS:2022-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2207.00576">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://youtu.be/O39gmj5WVwE">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Kottinger:IROS:2022-bibtex')">BibTeX</a></li>
-     <div id="Kottinger:IROS:2022-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Kottinger:IROS:2022,
+<div class="modal fade" id="bib-Kottinger-IROS-2022" tabindex="-1" aria-labelledby="bib-Kottinger-IROS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Kottinger-IROS-2022-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Kottinger-IROS-2022')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Kottinger-IROS-2022" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Kottinger:IROS:2022,
   title = {Conflict-based Search for Multi-Robot Motion Planning with Kinodynamic Constraints},
   author = {Kottinger, Justin and Almagor, Shaull and Lahijanian, Morteza},
   booktitle = {Int'l Conference on Intelligent Robots and Systems (IROS)},
@@ -173,28 +222,62 @@
   bibkey = {ma-planning}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Kottinger:ICAPS:2022">J. Kottinger, S. Almagor, and M. Lahijanian, “Conflict-Based Search for Explainable Multi-Agent Path Finding,” in <i>Int’l Conference on Automated Planning and Scheduling (ICAPS)</i>, Singapore, 2022. </span></p>
 
- <div id="Kottinger:ICAPS:2022-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Kottinger:ICAPS:2022"><span id="Kottinger:ICAPS:2022">J. Kottinger, S. Almagor, and M. Lahijanian, “Conflict-Based Search for Explainable Multi-Agent Path Finding,” in <i>Int’l Conference on Automated Planning and Scheduling (ICAPS)</i>, Singapore, 2022. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2202.09930">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-ICAPS-2022">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/UeZR3IzVbwM">Video</a>
+  
+</div>
 
-     
-     <li><a href="https://arxiv.org/abs/2202.09930">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://youtu.be/UeZR3IzVbwM">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Kottinger:ICAPS:2022-bibtex')">BibTeX</a></li>
-     <div id="Kottinger:ICAPS:2022-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Kottinger:ICAPS:2022,
+<div class="modal fade" id="bib-Kottinger-ICAPS-2022" tabindex="-1" aria-labelledby="bib-Kottinger-ICAPS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Kottinger-ICAPS-2022-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Kottinger-ICAPS-2022')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Kottinger-ICAPS-2022" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Kottinger:ICAPS:2022,
   title = {Conflict-Based Search for Explainable Multi-Agent Path Finding},
   author = {Kottinger, Justin and Almagor, Shaull and Lahijanian, Morteza},
   booktitle = {Int'l Conference on Automated Planning and Scheduling (ICAPS)},
@@ -207,29 +290,63 @@
   bibkey = {ma-planning}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2021</h2>
-<ol class="bibliography"><li> <p><span id="Kottinger:ICRA:2021">J. Kottinger, S. Almagor, and M. Lahijanian, “MAPS-X: Explainable Multi-Robot Motion Planning via Segmentation,” in <i>Int’l Conference on Robotics and Automation (ICRA)</i>, Xi’an, China, 2021. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Kottinger:ICRA:2021"><span id="Kottinger:ICRA:2021">J. Kottinger, S. Almagor, and M. Lahijanian, “MAPS-X: Explainable Multi-Robot Motion Planning via Segmentation,” in <i>Int’l Conference on Robotics and Automation (ICRA)</i>, Xi’an, China, 2021. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2010.16106">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-ICRA-2021">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://youtu.be/82VLQtOtZ8I">Video</a>
+  
+</div>
 
- <div id="Kottinger:ICRA:2021-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2010.16106">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://youtu.be/82VLQtOtZ8I">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Kottinger:ICRA:2021-bibtex')">BibTeX</a></li>
-     <div id="Kottinger:ICRA:2021-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Kottinger:ICRA:2021,
+<div class="modal fade" id="bib-Kottinger-ICRA-2021" tabindex="-1" aria-labelledby="bib-Kottinger-ICRA-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Kottinger-ICRA-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Kottinger-ICRA-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Kottinger-ICRA-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Kottinger:ICRA:2021,
   title = {{MAPS-X}: Explainable Multi-Robot Motion Planning via Segmentation},
   author = {Kottinger, Justin and Almagor, Shaull and Lahijanian, Morteza},
   booktitle = {Int'l Conference on Robotics and Automation (ICRA)},
@@ -242,29 +359,63 @@
   videourl = {https://youtu.be/82VLQtOtZ8I}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2020</h2>
-<ol class="bibliography"><li> <p><span id="Kottinger:RSSworshop:2020">J. Kottinger, S. Shaull Almagor, and M. Lahijanian, “Explainable Multi-Agent Path Planning,” in <i>Workshop on Explainable and Trustworthy Robot Decision Making for Scientific Data Collection</i>, 2020. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Kottinger:RSSworshop:2020"><span id="Kottinger:RSSworshop:2020">J. Kottinger, S. Shaull Almagor, and M. Lahijanian, “Explainable Multi-Agent Path Planning,” in <i>Workshop on Explainable and Trustworthy Robot Decision Making for Scientific Data Collection</i>, 2020. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://etdm2020.github.io/abstracts/RSS_2020_ETDM_Kottinger_Explainable.pdf">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-RSSworshop-2020">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://drive.google.com/file/d/1wdSedDnLdhASh9RtY1Glwwo24wsAta81/view?usp=drivesdk">Video</a>
+  
+</div>
 
- <div id="Kottinger:RSSworshop:2020-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://etdm2020.github.io/abstracts/RSS_2020_ETDM_Kottinger_Explainable.pdf">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://drive.google.com/file/d/1wdSedDnLdhASh9RtY1Glwwo24wsAta81/view?usp=drivesdk">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Kottinger:RSSworshop:2020-bibtex')">BibTeX</a></li>
-     <div id="Kottinger:RSSworshop:2020-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Kottinger:RSSworshop:2020,
+<div class="modal fade" id="bib-Kottinger-RSSworshop-2020" tabindex="-1" aria-labelledby="bib-Kottinger-RSSworshop-2020-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Kottinger-RSSworshop-2020-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Kottinger-RSSworshop-2020')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Kottinger-RSSworshop-2020" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Kottinger:RSSworshop:2020,
   title = {Explainable Multi-Agent Path Planning},
   author = {Kottinger, Justin and Shaull Almagor, Shaull and Lahijanian, Morteza},
   maintitle = {Robotics: Science and Systems},
@@ -276,26 +427,60 @@
   bibkey = {ma-planning}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="Almagor:AAMAS:2020">S. Almagor and M. Lahijanian, “Explainable Multi Agent Path Finding,” in <i>Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems</i>, Richland, SC, 2020, pp. 34–42. </span></p>
 
- <div id="Almagor:AAMAS:2020-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Almagor:AAMAS:2020"><span id="Almagor:AAMAS:2020">S. Almagor and M. Lahijanian, “Explainable Multi Agent Path Finding,” in <i>Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems</i>, Richland, SC, 2020, pp. 34–42. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://dl.acm.org/doi/abs/10.5555/3398761.3398771">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Almagor-AAMAS-2020">
+    BibTeX
+  </button>
+  
+  
+</div>
 
-     
-     <li><a href="https://dl.acm.org/doi/abs/10.5555/3398761.3398771">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Almagor:AAMAS:2020-bibtex')">BibTeX</a></li>
-     <div id="Almagor:AAMAS:2020-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Almagor:AAMAS:2020,
+<div class="modal fade" id="bib-Almagor-AAMAS-2020" tabindex="-1" aria-labelledby="bib-Almagor-AAMAS-2020-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Almagor-AAMAS-2020-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Almagor-AAMAS-2020')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Almagor-AAMAS-2020" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Almagor:AAMAS:2020,
   author = {Almagor, Shaull and Lahijanian, Morteza},
   title = {Explainable Multi Agent Path Finding},
   year = {2020},
@@ -312,10 +497,30 @@
   url = {https://dl.acm.org/doi/abs/10.5555/3398761.3398771}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 
   </div>
@@ -350,5 +555,12 @@
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      // Initialize all tooltips
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
   </body>
 </html>

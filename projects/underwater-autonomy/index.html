@@ -66,7 +66,8 @@
         <li class="nav-item research"><a class="nav-link" href="/projects/all.html">RESEARCH</a></li>
         <li class="nav-item publications"><a class="nav-link" href="/publications.html">PUBLICATIONS</a></li>
         <li class="nav-item people"><a class="nav-link" href="/people/all.html">PEOPLE</a></li>
-        <li class="nav-item outreach"><a class="nav-link" href="/outreach.html">OUTREACH</a></li>
+        <li class="nav-item software"><a class="nav-link" href="/software.html">SOFTWARE</a></li>
+        <!-- <li class="nav-item outreach"><a class="nav-link" href="/outreach.html">OUTREACH</a></li> -->
         <li class="nav-item contact"><a class="nav-link" href="/contact.html">CONTACT</a></li>
         <li class="nav-item join"><a class="nav-link" href="/join.html">JOIN</a></li>
     </ul>
@@ -103,23 +104,37 @@ Such scenarios pose extremely challenging problems for autonomy, involving decis
 
 
 <h2 class="bibliography">2023</h2>
-<ol class="bibliography"><li> <p><span id="Watanabe:ICAPS:2023">K. Watanabe <i>et al.</i>, “Timed Partial Order Inference Algorithm,” in <i>International Conference on Automated Planning and Scheduling (ICAPS)</i>, Prague, Czech Republic, 2023, pp. 639–647. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Watanabe:ICAPS:2023"><span id="Watanabe:ICAPS:2023">K. Watanabe <i>et al.</i>, “Timed Partial Order Inference Algorithm,” in <i>International Conference on Automated Planning and Scheduling (ICAPS)</i>, Prague, Czech Republic, 2023, pp. 639–647. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://arxiv.org/abs/2302.02501">Direct Link</a>
+  
+  
+  <a class="btn btn-custom" href="http://dx.doi.org/10.1609/icaps.v33i1.27246">Publisher</a>
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Watanabe-ICAPS-2023">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="Watanabe:ICAPS:2023-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://arxiv.org/abs/2302.02501">Direct Link</a></li>
-     
-     
-     <li>DOI: <a href="http://dx.doi.org/10.1609/icaps.v33i1.27246">10.1609/icaps.v33i1.27246</a></li>
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Watanabe:ICAPS:2023-bibtex')">BibTeX</a></li>
-     <div id="Watanabe:ICAPS:2023-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Watanabe:ICAPS:2023,
+<div class="modal fade" id="bib-Watanabe-ICAPS-2023" tabindex="-1" aria-labelledby="bib-Watanabe-ICAPS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Watanabe-ICAPS-2023-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Watanabe-ICAPS-2023')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Watanabe-ICAPS-2023" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Watanabe:ICAPS:2023,
   url = {https://arxiv.org/abs/2302.02501},
   author = {Watanabe, Kandai and Hoxha, Bardh and Prokhorov, Danil and Fainekos, Georgios and Lahijanian, Morteza and Sankaranarayanan, Sriram and Yamaguchi, Tomoya},
   title = {Timed Partial Order Inference Algorithm},
@@ -134,27 +149,61 @@ Such scenarios pose extremely challenging problems for autonomy, involving decis
   bibkey = {longterm-auv}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2022</h2>
-<ol class="bibliography"><li> <p><span id="Berger:NeurIPS:2022">G. O. Berger, M. Narasimhamurthy, K. Watanabe, M. Lahijanian, and S. Sankaranarayanan, “An Algorithm for Learning Switched Linear Dynamics from Data,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, pp. 30419–30431. </span></p>
+<ol class="bibliography"><li><li>
+<span id="Berger:NeurIPS:2022"><span id="Berger:NeurIPS:2022">G. O. Berger, M. Narasimhamurthy, K. Watanabe, M. Lahijanian, and S. Sankaranarayanan, “An Algorithm for Learning Switched Linear Dynamics from Data,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, pp. 30419–30431. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Berger-NeurIPS-2022">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="Berger:NeurIPS:2022-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('Berger:NeurIPS:2022-bibtex')">BibTeX</a></li>
-     <div id="Berger:NeurIPS:2022-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{Berger:NeurIPS:2022,
+<div class="modal fade" id="bib-Berger-NeurIPS-2022" tabindex="-1" aria-labelledby="bib-Berger-NeurIPS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Berger-NeurIPS-2022-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Berger-NeurIPS-2022')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Berger-NeurIPS-2022" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Berger:NeurIPS:2022,
   title = {An Algorithm for Learning Switched Linear Dynamics from Data},
   author = {Berger, Guillaume O and Narasimhamurthy, Monal and Watanabe, Kandai and Lahijanian, Morteza and Sankaranarayanan, Sriram},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
@@ -168,27 +217,61 @@ Such scenarios pose extremely challenging problems for autonomy, involving decis
   bibkey = {longterm-auv}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2021</h2>
-<ol class="bibliography"><li> <p><span id="kandai:WARP:2021">K. Watanabe, N. Renninger, S. Sankaranarayanan, and M. Lahijanian, “Task Learning with Preferences for Planning with Safety Constraints,” in <i>Workshop on Accessibility of Robot Programming and the Work of the Future</i>, 2021. </span></p>
+<ol class="bibliography"><li><li>
+<span id="kandai:WARP:2021"><span id="kandai:WARP:2021">K. Watanabe, N. Renninger, S. Sankaranarayanan, and M. Lahijanian, “Task Learning with Preferences for Planning with Safety Constraints,” in <i>Workshop on Accessibility of Robot Programming and the Work of the Future</i>, 2021. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="https://www.dropbox.com/s/inykp3a5d4iuq7j/Submission_3.pdf?dl=0%7D">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-kandai-WARP-2021">
+    BibTeX
+  </button>
+  
+  
+</div>
 
- <div id="kandai:WARP:2021-materials">
-   <ul class="bibinfo">
-     <!--  -->
-
-     
-     <li><a href="https://www.dropbox.com/s/inykp3a5d4iuq7j/Submission_3.pdf?dl=0%7D">Direct Link</a></li>
-     
-     
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('kandai:WARP:2021-bibtex')">BibTeX</a></li>
-     <div id="kandai:WARP:2021-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{kandai:WARP:2021,
+<div class="modal fade" id="bib-kandai-WARP-2021" tabindex="-1" aria-labelledby="bib-kandai-WARP-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-kandai-WARP-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('kandai-WARP-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-kandai-WARP-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{kandai:WARP:2021,
   title = {Task Learning with Preferences for Planning with Safety Constraints},
   author = {Watanabe, Kandai and Renninger, Nicholas and Sankaranarayanan, Sriram and Lahijanian, Morteza},
   booktitle = {Workshop on Accessibility of Robot Programming and the Work of the Future},
@@ -198,28 +281,62 @@ Such scenarios pose extremely challenging problems for autonomy, involving decis
   bibkey = {longterm-auv}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
 </li>
-<li> <p><span id="kandai:IROS:2021">K. Watanabe, N. Renninger, S. Sankaranarayanan, and M. Lahijanian, “Probabilistic Specification Learning for Planning with Safety Constraints,” in <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2021. </span></p>
 
- <div id="kandai:IROS:2021-materials">
-   <ul class="bibinfo">
-     <!--  -->
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="kandai:IROS:2021"><span id="kandai:IROS:2021">K. Watanabe, N. Renninger, S. Sankaranarayanan, and M. Lahijanian, “Probabilistic Specification Learning for Planning with Safety Constraints,” in <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2021. </span></span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  
+  <a class="btn btn-custom" href="http://mortezalahijanian.com/papers/IROS2021.pdf">Direct Link</a>
+  
+  
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-kandai-IROS-2021">
+    BibTeX
+  </button>
+  
+  
+  <a class="btn btn-custom" href="https://www.youtube.com/watch?v=nfrxq_VGDPQ">Video</a>
+  
+</div>
 
-     
-     <li><a href="http://mortezalahijanian.com/papers/IROS2021.pdf">Direct Link</a></li>
-     
-     
-     
-     <li><a href="https://www.youtube.com/watch?v=nfrxq_VGDPQ">Video</a></li>
-     
-
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('kandai:IROS:2021-bibtex')">BibTeX</a></li>
-     <div id="kandai:IROS:2021-bibtex" style="display:none;">
-     <pre class="collapse">@inproceedings{kandai:IROS:2021,
+<div class="modal fade" id="bib-kandai-IROS-2021" tabindex="-1" aria-labelledby="bib-kandai-IROS-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-kandai-IROS-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('kandai-IROS-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-kandai-IROS-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{kandai:IROS:2021,
   title = {Probabilistic Specification Learning for Planning with Safety Constraints},
   author = {Watanabe, Kandai and Renninger, Nicholas and Sankaranarayanan, Sriram and Lahijanian, Morteza},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
@@ -231,10 +348,30 @@ Such scenarios pose extremely challenging problems for autonomy, involving decis
   bibkey = {longterm-auv}
 }
 </pre>
-     </div> -->
-   </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
- </div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 
   </div>
@@ -269,5 +406,12 @@ Such scenarios pose extremely challenging problems for autonomy, involving decis
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      // Initialize all tooltips
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
   </body>
 </html>
