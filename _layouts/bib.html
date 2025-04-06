@@ -1,27 +1,77 @@
 ---
 ---
- <p>{{reference}}</p>
+<li>
+<span id="{{key}}">{{reference}}</span>
+<br>
+<div class="btn-group btn-group-sm btn-group-custom" role="group">
+  {% if entry.url %}
+  <a class="btn btn-custom" href="{{entry.url}}">Direct Link</a>
+  {% endif %}
+  {% if entry.doi %}
+  <a class="btn btn-custom" href="http://dx.doi.org/{{entry.doi}}">Publisher</a>
+  {% endif %}
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-{{key | replace: ':', '-'}}">
+    BibTeX
+  </button>
+  {% if entry.abstract %}
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-{{key | replace: ':', '-'}}">
+    Abstract
+  </button>
+  {% endif %}
+  {% if entry.videourl %}
+  <a class="btn btn-custom" href="{{entry.videourl}}">Video</a>
+  {% endif %}
+</div>
 
- <div id="{{key}}-materials">
-   <ul class="bibinfo">
-     <!-- {% if entry.abstract %}
-     <li><a data-toggle="collapse" href="#{{key}}-abstract">Abstract</a></li>
-     {% endif %} -->
+<div class="modal fade" id="bib-{{key | replace: ':', '-'}}" tabindex="-1" aria-labelledby="bib-{{key | replace: ':', '-'}}-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-{{key | replace: ':', '-'}}-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('{{key | replace: ':', '-'}}')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-{{key | replace: ':', '-'}}" style="white-space: pre-wrap; word-wrap: break-word;">{{entry.bibtex}}</pre>
+      </div>
+    </div>
+  </div>
+</div>
 
-     {% if entry.url %}
-     <li><a href="{{ entry.url }}">Direct Link</a></li>
-     {% endif %}
-     {% if entry.doi %}
-     <li>DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a></li>
-     {% endif %}
-     {% if entry.videourl %}
-     <li><a href="{{entry.videourl}}">Video</a></li>
-     {% endif %}
+{% if entry.abstract %}
+<div class="modal fade" id="abs-{{key | replace: ':', '-'}}" tabindex="-1" aria-labelledby="abs-{{key | replace: ':', '-'}}-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-{{key | replace: ':', '-'}}-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{entry.abstract}}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+</li>
 
-     <!-- <li><a data-toggle="collapse" href="javascript:toggleDiv('{{key}}-bibtex')">BibTeX</a></li>
-     <div id="{{key}}-bibtex" style="display:none;">
-     <pre class="collapse">{{entry.bibtex}}</pre>
-     </div> -->
-   </ul>
-
- </div>
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>

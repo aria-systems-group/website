@@ -175,11 +175,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $lighterGray;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $lighterGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -315,7 +315,7 @@ body.join li.join
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $lighterGray;
 }
 
 .posts > .post:last-child {
@@ -347,7 +347,7 @@ body.join li.join
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $lighterGray;
 }
 
 footer {
@@ -359,6 +359,22 @@ footer {
 /*********************/
 /*  CUSTOM ELEMENTS  */
 /*********************/
+
+// Custom button styles
+.btn-custom {
+  border: 1px solid $white;
+  background-color: $lighterGray;
+  color: $darkGray;
+}
+
+.btn-custom:hover {
+  background-color: $lightGray;
+}
+
+// Copy button in modal
+.modal-copy-btn:hover {
+  background-color: $lighterGray;
+}
 
 // Bibliography list formatting
 ol.bibliography {
@@ -393,7 +409,7 @@ ul.bibinfo {
 }
 
 .bottom-border {
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $lighterGray;
 }
 
 .content-container.people img {
