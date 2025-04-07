@@ -4,23 +4,21 @@
 <span id="{{key}}">{{reference}}</span>
 <br>
 <div class="btn-group" role="group">
-  {% if entry.url %}
-  <a class="btn btn-custom" href="{{entry.url}}">pdf</a>
-  {% endif %}
-  {% if entry.doi %}
-  <a class="btn btn-custom" href="http://dx.doi.org/{{entry.doi}}">publisher</a>
-  {% endif %}
+  <a class="btn btn-custom {% unless entry.url %}disabled{% endunless %}" href="{{entry.url}}" {% unless entry.url %}aria-disabled="true" tabindex="-1"{% endunless %}>
+    pdf
+  </a>
+  <a class="btn btn-custom {% unless entry.doi %}disabled{% endunless %}" href="http://dx.doi.org/{{entry.doi}}" {% unless entry.doi %}aria-disabled="true" tabindex="-1"{% endunless %}>
+    publisher
+  </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-{{key | replace: ':', '-'}}">
     bibtex
   </button>
-  {% if entry.abstract %}
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#abs-{{key | replace: ':', '-'}}">
+  <button class="btn btn-custom {% unless entry.abstract %}disabled{% endunless %}" type="button" data-bs-toggle="modal" data-bs-target="#abs-{{key | replace: ':', '-'}}" {% unless entry.abstract %}disabled{% endunless %}>
     abstract
   </button>
-  {% endif %}
-  {% if entry.videourl %}
-  <a class="btn btn-custom" href="{{entry.videourl}}">video</a>
-  {% endif %}
+  <a class="btn btn-custom {% unless entry.videourl %}disabled{% endunless %}" href="{{entry.videourl}}" {% unless entry.videourl %}aria-disabled="true" tabindex="-1"{% endunless %}>
+    video
+  </a>
 </div>
 
 <div class="modal fade" id="bib-{{key | replace: ':', '-'}}" tabindex="-1" aria-labelledby="bib-{{key | replace: ':', '-'}}-label" aria-hidden="true">

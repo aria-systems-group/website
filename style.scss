@@ -447,11 +447,14 @@ footer {
 .btn-custom {
   border: 1px solid $lightGray;
   background-color: $lighterGray;
-  color: $darkGray;
   font-size: 0.8rem;
   color: $blue;
   padding: 0.2rem 0.45rem;
   line-height: 1;
+}
+
+.btn-custom.disabled {
+  color: $gray;
 }
 
 .btn-custom:hover {
@@ -461,6 +464,7 @@ footer {
 // Copy button in modal
 .modal-copy-btn:hover {
   background-color: $lighterGray;
+  transition: background-color 0.05s ease;
 }
 
 // Bibliography list formatting
