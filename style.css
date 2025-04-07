@@ -460,11 +460,14 @@ footer {
 .btn-custom {
   border: 1px solid #999;
   background-color: #eee;
-  color: #333;
   font-size: 0.8rem;
   color: #0f7699;
   padding: 0.2rem 0.45rem;
   line-height: 1;
+}
+
+.btn-custom.disabled {
+  color: #777;
 }
 
 .btn-custom:hover {
@@ -473,6 +476,7 @@ footer {
 
 .modal-copy-btn:hover {
   background-color: #eee;
+  transition: background-color 0.05s ease;
 }
 
 ol.bibliography {
