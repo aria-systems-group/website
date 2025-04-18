@@ -403,6 +403,8 @@
   pages={17--32},
   year={2020},
   publisher={IEEE},
+  url={https://ieeexplore.ieee.org/document/9003411},
+  abstract={Stochastic processes are expressive mathematical tools for modeling real-world systems that are subject to uncertainty. It is hence crucial to be able to formally analyze the behavior of these processes, especially in safety-critical applications. Most of the existing formal methods are not designed for continuous-time processes, and those that are typically suffering from state explosion in practice. This article introduces a theoretical framework and a scalable computational method for formal analysis and control synthesis for switched diffusions, a class of stochastic models with linear dynamics that are continuous in both time and space domains; the focus is on safety with possible extensions to other properties. The proposed framework first constructs a finite abstraction in the form of an uncertain Markov process through discretization of both time and space domains. The errors caused by the discretization in each domain are formally characterized and cast into the abstraction model. Then, a strategy that maximizes the probability of the safety property and is robust against the errors is synthesized over the abstraction model. Finally, this robust strategy is mapped to a switching strategy for the stochastic processes that guarantees the safety property. The framework is demonstrated in three case studies, including one that illustrates the tradeoff of the error contribution by the time and space discretization parameters.},
   DOI={10.1109/tac.2020.2975028},
 }
 
@@ -462,8 +464,10 @@
   author={Wells, Andrew M and Lahijanian, Morteza and Kavraki, Lydia E and Vardi, Moshe Y},
   booktitle={International Symposium on Games, Automata, Logics, and Formal Verification (GandALF)},
   year={2020},
+  doi={https://doi.org/10.4204/EPTCS.326.11},
+  abstract={Many systems are naturally modeled as Markov Decision Processes (MDPs), combining probabilities and strategic actions. Given a model of a system as an MDP and some logical specification of system behavior, the goal of synthesis is to find a policy that maximizes the probability of achieving this behavior. A popular choice for defining behaviors is Linear Temporal Logic (LTL). Policy synthesis on MDPs for properties specified in LTL has been well studied. LTL, however, is defined over infinite traces, while many properties of interest are inherently finite. Linear Temporal Logic over finite traces (LTLf) has been used to express such properties, but no tools exist to solve policy synthesis for MDP behaviors given finite-trace properties. We present two algorithms for solving this synthesis problem: the first via reduction of LTLf to LTL and the second using native tools for LTLf. We compare the scalability of these two approaches for synthesis and show that the native approach offers better scalability compared to existing automaton generation tools for LTL.},
   videourl={https://www.youtube.com/watch?v=U4pB4iDfDzM},
-  url={https://arxiv.org/abs/2009.10883}
+  url={https://arxiv.org/abs/2009.10883},
 }
 
 @inproceedings{jackson:HSCC:2021,
@@ -474,6 +478,11 @@
   year={2021},
   videourl={https://youtu.be/dE7BpXJ-amQ},
   bibkey = {synth-ml},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  isbn = {9781450383394},
+  doi = {10.1145/3447928.3456649},
+  abstract={We present a data-driven framework for strategy synthesis for partially-known switched stochastic systems. The properties of the system are specified using linear temporal logic (LTL) over finite traces (LTLf), which is as expressive as LTL and enables interpretations over finite behaviors. The framework first learns the unknown dynamics via Gaussian process regression. Then, it builds a formal abstraction of the switched system in terms of an uncertain Markov model, namely an Interval Markov Decision Process (IMDP), by accounting for both the stochastic behavior of the system and the uncertainty in the learning step. Then, we synthesize a strategy on the resulting IMDP that maximizes the satisfaction probability of the LTLf specification and is robust against all the uncertainties in the abstraction. This strategy is then refined into a switching strategy for the original stochastic system. We show that this strategy is near-optimal and provide a bound on its distance (error) to the optimal strategy. We experimentally validate our framework on various case studies, including both linear and non-linear switched stochastic systems.},
   url={https://arxiv.org/abs/2104.02172}
 }
 
@@ -487,6 +496,7 @@
   publisher =    {IEEE},
   bibkey = {ma-planning},
   doi={10.1109/ICRA48506.2021.9561893},
+  abstract={Traditional multi-robot motion planning (MMP) focuses on computing trajectories for multiple robots acting in an environment, such that the robots do not collide when the trajectories are taken simultaneously. In safety-critical applications, a human supervisor may want to verify that the plan is indeed collision-free. In this work, we propose a notion of explanation for a plan of MMP, based on visualization of the plan as a short sequence of images representing time segments, where in each time segment the trajectories of the agents are disjoint, clearly illustrating the safety of the plan. We show that standard notions of optimality (e.g., makespan) may create conflict with short explanations. Thus, we propose meta-algorithms, namely multi-agent plan segmenting-X (MAPS-X) and its lazy variant, that can be plugged on existing centralized sampling-based tree planners X to produce plans with good explanations using a desirable number of images. We demonstrate the efficacy of this explanation-planning scheme and extensively evaluate the performance of MAPS-X and its lazy variant in various environments and agent dynamics.},
   url = {https://arxiv.org/abs/2010.16106},
   videourl = {https://youtu.be/82VLQtOtZ8I}
 }
@@ -554,16 +564,17 @@
 }
 
 @article{Pairet:TASE:2021,
-  title={Online Mapping and Motion Planning under Uncertainty for Probabilistically Safe Autonomous Navigation},
+  title={Online Mapping and Motion Planning under Uncertainty for Safe Navigation in Unknown Environments},
   author={Pairet,{\`E}ric and Hern{\'a}ndez, Juan David and Carreras, Marc and Petillot, Yvan and Lahijanian, Morteza},
   journal={IEEE Transactions on Automation Science and Engineering},
-  volume={},
-  number={},
-  year={2021},
-  month={},
-  pages={},
+  volume={19},
+  number={4},
+  year={2022},
+  month={Nov},
+  pages={3356-3378},
   publisher={IEEE},
   DOI={10.1109/TASE.2021.3118737},
+  abstract={Safe autonomous navigation is an essential and challenging problem for robots operating in highly unstructured or completely unknown environments. Under these conditions, not only robotic systems must deal with limited localization information but also their maneuverability is constrained by their dynamics and often suffers from uncertainty. In order to cope with these constraints, this article proposes an uncertainty-based framework for mapping and planning feasible motions online with probabilistic safety guarantees. The proposed approach deals with the motion, probabilistic safety, and online computation constraints by: 1) incrementally mapping the surroundings to build an uncertainty-aware representation of the environment and 2) iteratively (re)planning trajectories to goal that is kinodynamically feasible and probabilistically safe through a multilayered sampling-based planner in the belief space. In-depth empirical analyses illustrate some important properties of this approach, namely: 1) the multilayered planning strategy enables rapid exploration of the high-dimensional belief space while preserving asymptotic optimality and completeness guarantees and 2) the proposed routine for probabilistic collision checking results in tighter probability bounds in comparison to other uncertainty-aware planners in the literature. Furthermore, real-world in-water experimental evaluation on a nonholonomic torpedo-shaped autonomous underwater vehicle and simulated trials in an urban environment on an unmanned aerial vehicle demonstrate the efficacy of the method and its suitability for systems with limited onboard computational power. Note to Practitioners—Emergent robotic applications require operating in previously unmapped scenarios. This article presents a unified mapping–planning strategy that enables robots to navigate autonomously and safely in harsh environments.},
   bibkey={safe-navigation},
 }
 
@@ -621,6 +632,8 @@
   publisher={IEEE},
   address={Atlanta, GA, USA},
   url={https://arxiv.org/abs/2403.05693},
+  doi={10.23919/ACC53348.2022.9867762},
+  abstract={This paper considers the problem of autonomous spacecraft control for imaging missions, subject to safety constraints. The controller chooses between discrete flight modes to image a target with different sensor types. The safety constraints include maintaining safe battery levels, reaction wheel speeds, and body rates. The proposed approach applies shielded deep reinforcement learning (SDRL) to autonomously command spacecraft flight modes, where the imaging requirements are communicated to the agent through a finite-state machine (FSM). The training is done in a target- and orbit-agnostic manner to create a single artificial neural network that can operate in a range of conditions. The FSM specifies which sensor type the agent should use for the next image. Simulation results based on a spacecraft tasked on Boulder, CO, USA demonstrate that this approach is effective for commanding a spacecraft safely while meeting predefined imaging requirements. This work also demonstrates how an agent trained on Boulder is capable of being applied to other Earth-targets as well as targets on the Moon with similar performance.},
   note= {},
 }
 
@@ -657,14 +670,15 @@
   title={Formal Control Synthesis for Stochastic Neural Network Dynamic Models},
   author={Adams, Steven Adams and Lahijanian, Morteza and Laurenti, Luca},
   journal={IEEE Control Systems Letters (L-CSS)},
-  volume={},
+  volume={6},
   number={},
   year={2022},
   month={},
-  pages={},
+  pages={2858-2863},
   publisher={IEEE},
   DOI={10.1109/LCSYS.2022.3178143},
   url={https://arxiv.org/abs/2203.05903},
+  abstract={Neural networks (NNs) are emerging as powerful tools to represent the dynamics of control systems with complicated physics or black-box components. Due to complexity of NNs, however, existing methods are unable to synthesize complex behaviors with guarantees for NN dynamic models (NNDMs). This letter introduces a control synthesis framework for stochastic NNDMs with performance guarantees. The focus is on specifications expressed in linear temporal logic interpreted over finite traces (LTLf), and the approach is based on finite abstraction. Specifically, we leverage recent techniques for convex relaxation of NNs to formally abstract a NNDM into an interval Markov decision process (IMDP). Then, a strategy that maximizes the probability of satisfying a given specification is synthesized over the IMDP and mapped back to the underlying NNDM. We show that the process of abstracting NNDMs to IMDPs reduces to a set of convex optimization problems, hence guaranteeing efficiency. We also present an adaptive refinement procedure that makes the framework scalable. On several case studies, we illustrate that our framework is able to provide non-trivial guarantees of correctness for NNDMs with architectures of up to 5 hidden layers and hundreds of neurons per layer.},
   bibkey={synth-ml},
 }
 
@@ -724,6 +738,7 @@
   abstract={We present an algorithm for learning switched linear dynamical systems in discrete time from noisy observations of the system's full state or output. Switched linear systems use multiple linear dynamical modes to fit the data within some desired tolerance. They arise quite naturally in applications to robotics and cyber-physical systems. Learning switched systems from data is a NP-hard problem that is nearly identical to the k-linear regression problem of fitting k > 1 linear models to the data. A direct mixed-integer linear programming (MILP) approach yields time complexity that is exponential in the number of data points. In this paper, we modify the problem formulation to yield an algorithm that is linear in the size of the data while remaining exponential in the number of state variables and the desired number of modes. To do so, we combine classic ideas from the ellipsoidal method for solving convex optimization problems, and well-known oracle separation results in non-smooth optimization. We demonstrate our approach on a set of microbenchmarks and a few interesting real-world problems. Our evaluation suggests that the benefits of this algorithm can be made practical even against highly optimized off-the-shelf MILP solvers.},
   publisher={Curran Associates, Inc.},
   year={2022},
+  isbn = {9781713871088},
   volume = {35},
   pages={30419--30431},
   address = {New Orleans, Louisiana, USA},
@@ -853,6 +868,7 @@
   month= {July},
   note={},
   doi={10.5555/3618408.3618415},
+  abstract =   {In this paper, we introduce BNN-DP, an efficient algorithmic framework for analysis of adversarial robustness of Bayesian Neural Networks (BNNs). Given a compact set of input points $T\subset \mathbb{R}^n$, BNN-DP computes lower and upper bounds on the BNN’s predictions for all the points in $T$. The framework is based on an interpretation of BNNs as stochastic dynamical systems, which enables the use of Dynamic Programming (DP) algorithms to bound the prediction range along the layers of the network. Specifically, the method uses bound propagation techniques and convex relaxations to derive a backward recursion procedure to over-approximate the prediction range of the BNN with piecewise affine functions. The algorithm is general and can handle both regression and classification tasks. On a set of experiments on various regression and classification tasks and BNN architectures, we show that BNN-DP outperforms state-of-the-art methods by up to four orders of magnitude in both tightness of the bounds and computational efficiency.},
   bibkey = {synth-ml},
 }
 
@@ -897,6 +913,7 @@
   number={},
   pages={1-1},
   month= {December},
+  abstract={Verifying the performance of safety-critical, stochastic systems with complex noise distributions is difficult. We introduce a general procedure for the finite abstraction of nonlinear stochastic systems with non-standard (e.g., non-affine, non-symmetric, non-unimodal) noise distributions for verification purposes. The method uses a finite partitioning of the noise domain to construct an interval Markov chain (IMC) abstraction of the system via transition probability intervals. Noise partitioning allows for a general class of distributions and structures, including multiplicative and mixture models, and admits both known and data-driven systems. The partitions required for optimal transition bounds are specified for systems that are monotonic with respect to the noise, and explicit partitions are provided for affine and multiplicative structures. By the soundness of the abstraction procedure, verification on the IMC provides guarantees on the stochastic system against a temporal logic specification. In addition, we present a novel refinement-free algorithm that improves the verification results. Case studies on linear and nonlinear systems with non-Gaussian noise, including a data-driven example, demonstrate the generality and effectiveness of the method without introducing excessive conservatism.},
   doi={10.1109/LCSYS.2023.3340621},
   url={https://arxiv.org/abs/2309.10702},
   bibkey = {synth-ml},
