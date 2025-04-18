@@ -486,6 +486,7 @@
   month =        {May},
   publisher =    {IEEE},
   bibkey = {ma-planning},
+  doi={10.1109/ICRA48506.2021.9561893},
   url = {https://arxiv.org/abs/2010.16106},
   videourl = {https://youtu.be/82VLQtOtZ8I}
 }
@@ -498,6 +499,8 @@
   address =      {Xi'an, China},
   month =        {May},
   publisher =    {IEEE},
+  abstract = {Robots have begun operating and collaborating with humans in industrial and social settings. This collaboration introduces challenges: the robot must plan while taking the human’s actions into account. In prior work, the problem was posed as a 2-player deterministic game, with a limited number of human moves. The limit on human moves is unintuitive, and in many settings determinism is undesirable. In this paper, we present a novel planning method for collaborative human-robot manipulation tasks via probabilistic synthesis. We introduce a probabilistic manipulation domain that captures the interaction by allowing for both robot and human actions with states that represent the configurations of the objects in the workspace. The task is specified using Linear Temporal Logic over finite traces (LTLf). We then transform our manipulation domain into a Markov Decision Process (MDP) and synthesize an optimal policy to satisfy the specification on this MDP. We present two novel contributions: a formalization of probabilistic manipulation domains allowing us to apply existing techniques and a comparison of different encodings of these domains. Our framework is validated on a physical UR5 robot.},
+  doi={10.1109/ICRA48506.2021.9561297},
   url={http://mortezalahijanian.com/papers/ICRA2021_wells.pdf},
   videourl={https://youtu.be/pOFurtoTD9Y},
   bibkey = {maniprs},
@@ -643,6 +646,8 @@
   address =      {Singapore},
   month =        {June},
   publisher =    {AAAI Press},
+  doi={10.1609/icaps.v32i1.19859},
+  abstract={The goal of the Multi-Agent Path Finding (MAPF) problem is to find non-colliding paths for agents in an environment, such that each agent reaches its goal from its initial location. In safety-critical applications, a human supervisor may want to verify that the plan is indeed collision-free. To this end, a recent work introduces a notion of explainability for MAPF based on a visualization of the plan as a short sequence of images representing time segments, where in each time segment the trajectories of the agents are disjoint. Then, the problem of Explainable MAPF via Segmentation asks for a set of non-colliding paths that admit a short-enough explanation. Explainable MAPF adds a new difficulty to MAPF, in that it is NP-hard with respect to the size of the environment, and not just the number of agents. Thus, traditional MAPF algorithms are not equipped to directly handle Explainable MAPF. In this work, we adapt Conflict Based Search (CBS), a well-studied algorithm for MAPF, to handle Explainable MAPF. We show how to add explainability constraints on top of the standard CBS tree and its underlying A* search. We examine the usefulness of this approach and, in particular, the trade-off between planning time and explainability.},
   url={https://arxiv.org/abs/2202.09930},
   videourl={https://youtu.be/UeZR3IzVbwM},
   bibkey = {ma-planning},
@@ -672,6 +677,8 @@
   month =        {Oct.},
   publisher =    {IEEE},
   note = {},
+  doi={10.1109/IROS47612.2022.9982018},
+  abstract={Multi-robot motion planning (MRMP) is the fundamental problem of finding non-colliding trajectories for multiple robots acting in an environment, under kinodynamic constraints. Due to its complexity, existing algorithms are either incomplete, or utilize simplifying assumptions. This work introduces Kinodynamic Conflict-Based Search (K-CBS), a decentralized MRMP algorithm that is general, scalable, and probabilistically complete. The algorithm takes inspiration from successful solutions to the discrete analogue of MRMP over finite graphs, known as Multi-Agent Path Finding (MAPF). Specifically, we adapt ideas from Conflict-Based Search (CBS)-a popular decentralized MAPF algorithm-to the MRMP setting. The novelty of our approach is that we work directly in the continuous domain, without discretization. In particular, the kinodynamic constraints are treated natively. K-CBS plans for each robot individually using a low-level planner and grows a conflict tree to resolve collisions between robots by defining constraints. The low-level planner can be any sampling-based, tree-search algorithm for kinodynamic robots, thus lifting existing planners for single robots to the multi-robot setting. We show that K-CBS inherits the (probabilistic) completeness of the low-level planner. We illustrate the generality and performance of K-CBS in several case studies and benchmarks.},
   url={https://arxiv.org/abs/2207.00576},
   videourl={https://youtu.be/O39gmj5WVwE},
   bibkey = {ma-planning},
@@ -998,6 +1005,7 @@
   issn = {0004-3702},
   doi = {10.1016/j.artint.2024.104087},
   bibkey = {exp-mapf},
+  url={https://www.sciencedirect.com/science/article/abs/pii/S0004370224000237},
   abstract={Multi-Agent Path Finding (MAPF) is the problem of planning paths for agents to reach their targets from their start locations, such that the agents do not collide while executing the plan. In many settings, the plan (or a digest thereof) is conveyed to a supervising entity, e.g., for confirmation before execution, for a report, etc. In such cases, we wish to convey that the plan is collision-free with minimal amount of information. To this end, we propose an explanation scheme for MAPF. The scheme decomposes a plan into segments such that within each segment, the agents' paths are disjoint. We can then convey the plan whilst convincing that it is collision-free, using a small number of frames (dubbed an explanation). We can also measure the simplicity of a plan by the number of segments required for the decomposition. We study the complexity of algorithmic problems that arise by the explanation scheme and the tradeoff between the length (makespan) of a plan and its minimal decomposition. We also introduce two centralized (i.e. runs on a single CPU with full knowledge of the multi-agent system) algorithms for planning with explanations. One is based on a coupled search algorithm similar to A⁎, and the other is a decoupled method based on Conflict-Based Search (CBS). We refer to the latter as Explanation-Guided CBS (XG-CBS), which uses a low-level search for individual agents and maintains a high-level conflict tree to guide the low-level search to avoid collisions as well as increasing the number of segments. We propose four approaches to the low-level search of XG-CBS by modifying A⁎ for explanations and analyze their effects on the completeness of XG-CBS. Finally, we highlight important aspects of the proposed explanation scheme in various MAPF problems and empirically evaluate the performance of the proposed planning algorithms in a series of benchmark problems.},
 }
 
