@@ -112,7 +112,7 @@
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Theurkauf-ICRA-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Theurkauf-ICRA-2023" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Theurkauf-ICRA-2023" >
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -154,6 +154,20 @@
 </div>
 
 
+<div class="modal fade" id="abs-Theurkauf-ICRA-2023" tabindex="-1" aria-labelledby="abs-Theurkauf-ICRA-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Theurkauf-ICRA-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We consider the problem of motion and communication planning under uncertainty with limited information from a remote sensor network. Because the remote sensors are power and bandwidth limited, we use event-triggered (ET) estimation to manage communication costs. We introduce a fast and efficient sampling-based planner which computes motion plans coupled with ET communication strategies that minimize communication costs, while satisfying constraints on the probability of reaching the goal region and the point-wise probability of collision. We derive a novel method for offline propagation of the expected state distribution, and corresponding bounds on this distribution. These bounds are used to evaluate the chance constraints in the algorithm. Case studies establish the validity of our approach and demonstrate computational efficiency and asymptotic optimality of the planner.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
 
 <script>
@@ -181,13 +195,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2207.08971" >
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/CDC51059.2022.9992826" >
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Theurkauf-CDC-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Theurkauf-CDC-2022" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Theurkauf-CDC-2022" >
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/mhP-DbxLnTY" >
@@ -213,6 +227,7 @@ async function copyBibtex(key) {
   author = {Theurkauf, Anne and Ahmed, Nisar and Lahijanian, Morteza},
   booktitle = {IEEE Conference on Decision and Control (CDC)},
   url = {https://arxiv.org/abs/2207.08971},
+  doi = {10.1109/CDC51059.2022.9992826},
   publisher = {IEEE},
   year = {2022},
   pages = {},
@@ -228,6 +243,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Theurkauf-CDC-2022" tabindex="-1" aria-labelledby="abs-Theurkauf-CDC-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Theurkauf-CDC-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This work considers the problem of resource-performance trade-off analysis for a system consisting of an active agent and a sensor network. Specifically, we focus on Event-triggered (ET) estimation, which allows communication of measurements only when deemed useful, e.g., when Kalman filter innovations exceed some threshold. We introduce a framework for ET-threshold strategy synthesis that optimally trades off resource consumption with task performance. Our approach is based on a novel belief space discretization technique that abstracts a continuous-space dynamics model for ET estimation to a finite Markov decision process. We show this abstraction method is more efficient than alternatives and also benefits from interpretability. Then, we leverage off-the-shelf tools to compute the set of all optimal trade-offs between resource consumption and task performance. Given a choice from this set, we synthesize an ET-threshold strategy that achieves the desirable behavior. Simulated results show our approach identifies nontrivial trade-offs between performance and energy savings, with only modest computational effort.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 

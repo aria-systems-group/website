@@ -118,7 +118,7 @@
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Theurkauf-RAL-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Theurkauf-RAL-2023" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Theurkauf-RAL-2023" >
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/ilAlZaoieKg?si=GWa8FD1RHEuJbRlE" >
@@ -159,6 +159,20 @@
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Theurkauf-RAL-2023" tabindex="-1" aria-labelledby="abs-Theurkauf-RAL-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Theurkauf-RAL-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We consider a chance-constrained multi-robot motion planning problem in the presence of Gaussian motion and sensor noise. Our proposed algorithm, CC-K-CBS, leverages the scalability of kinodynamic conflict-based search (K-CBS) in conjunction with the efficiency of Gaussian belief trees as used in the Belief-A framework, and inherits the completeness guarantees of Belief-A’s low-level sampling-based planner. We also develop three different methods for robot-robot probabilistic collision checking, which trade off computation with accuracy. Our algorithm generates motion plans driving each robot from its initial to goal state while accounting for uncertainty evolution with chance-constrained safety guarantees. Benchmarks compare computation time to conservatism of the collision checkers, in addition to characterizing the performance of the planner as a whole. Results show that CC-K-CBS scales up to 30 robots.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
