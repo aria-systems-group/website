@@ -117,7 +117,7 @@ Such scenarios pose extremely challenging problems for autonomy, involving decis
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Watanabe-ICAPS-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Watanabe-ICAPS-2023" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Watanabe-ICAPS-2023" >
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -159,6 +159,20 @@ Such scenarios pose extremely challenging problems for autonomy, involving decis
 </div>
 
 
+<div class="modal fade" id="abs-Watanabe-ICAPS-2023" tabindex="-1" aria-labelledby="abs-Watanabe-ICAPS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Watanabe-ICAPS-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        In this work, we propose the model of timed partial orders (TPOs) for specifying workflow schedules, especially for modeling manufacturing processes. TPOs integrate partial orders over events in a workflow, specifying “happens-before” relations, with timing constraints specified using guards and resets on clocks – an idea borrowed from timed-automata specifications. TPOs naturally allow us to capture event ordering, along with a restricted but useful class of timing relationships. Next, we consider the problem of mining TPO schedules from workflow logs, which include events along with their time stamps. We demonstrate a relationship between formulating TPOs and the graph-coloring problem, and present an algorithm for learning TPOs with correctness guarantees. We demonstrate our approach on synthetic datasets, including two datasets inspired by real-life applications of aircraft turnaround and gameplay videos of the Overcooked computer game. Our TPO mining algorithm can infer TPOs involving hundreds of events from thousands of data-points within a few seconds. We show that the resulting TPOs provide useful insights into the dependencies and timing constraints for workflows.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
 
 <script>
@@ -180,10 +194,10 @@ async function copyBibtex(key) {
 </li></ol>
 <h2 class="bibliography">2022</h2>
 <ol class="bibliography"><li><li>
-<span id="Berger:NeurIPS:2022"><span id="Berger:NeurIPS:2022">G. O. Berger, M. Narasimhamurthy, K. Watanabe, M. Lahijanian, and S. Sankaranarayanan, “An Algorithm for Learning Switched Linear Dynamics from Data,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, pp. 30419–30431. </span></span>
+<span id="Berger:NeurIPS:2022"><span id="Berger:NeurIPS:2022">G. O. Berger, M. Narasimhamurthy, K. Watanabe, M. Lahijanian, and S. Sankaranarayanan, “An Algorithm for Learning Switched Linear Dynamics from Data,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, vol. 35, pp. 30419–30431. </span></span>
 <br>
 <div class="btn-group" role="group">
-  <a class="btn btn-custom " href="" >
+  <a class="btn btn-custom " href="https://proceedings.neurips.cc/paper_files/paper/2022/file/c415cd32375a3a020598334eb110dd29-Paper-Conference.pdf" >
     pdf
   </a>
   <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
@@ -192,7 +206,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Berger-NeurIPS-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Berger-NeurIPS-2022" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Berger-NeurIPS-2022" >
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -217,9 +231,10 @@ async function copyBibtex(key) {
   title = {An Algorithm for Learning Switched Linear Dynamics from Data},
   author = {Berger, Guillaume O and Narasimhamurthy, Monal and Watanabe, Kandai and Lahijanian, Morteza and Sankaranarayanan, Sriram},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-  url = {},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/c415cd32375a3a020598334eb110dd29-Paper-Conference.pdf},
   publisher = {Curran Associates, Inc.},
   year = {2022},
+  volume = {35},
   pages = {30419--30431},
   address = {New Orleans, Louisiana, USA},
   month = nov,
@@ -232,6 +247,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Berger-NeurIPS-2022" tabindex="-1" aria-labelledby="abs-Berger-NeurIPS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Berger-NeurIPS-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We present an algorithm for learning switched linear dynamical systems in discrete time from noisy observations of the system’s full state or output. Switched linear systems use multiple linear dynamical modes to fit the data within some desired tolerance. They arise quite naturally in applications to robotics and cyber-physical systems. Learning switched systems from data is a NP-hard problem that is nearly identical to the k-linear regression problem of fitting k > 1 linear models to the data. A direct mixed-integer linear programming (MILP) approach yields time complexity that is exponential in the number of data points. In this paper, we modify the problem formulation to yield an algorithm that is linear in the size of the data while remaining exponential in the number of state variables and the desired number of modes. To do so, we combine classic ideas from the ellipsoidal method for solving convex optimization problems, and well-known oracle separation results in non-smooth optimization. We demonstrate our approach on a set of microbenchmarks and a few interesting real-world problems. Our evaluation suggests that the benefits of this algorithm can be made practical even against highly optimized off-the-shelf MILP solvers.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -329,13 +358,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="http://mortezalahijanian.com/papers/IROS2021.pdf" >
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/IROS51168.2021.9636712" >
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-kandai-IROS-2021">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-kandai-IROS-2021" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-kandai-IROS-2021" >
     abstract
   </button>
   <a class="btn btn-custom " href="https://www.youtube.com/watch?v=nfrxq_VGDPQ" >
@@ -359,6 +388,7 @@ async function copyBibtex(key) {
         <pre id="bibtex-kandai-IROS-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{kandai:IROS:2021,
   title = {Probabilistic Specification Learning for Planning with Safety Constraints},
   author = {Watanabe, Kandai and Renninger, Nicholas and Sankaranarayanan, Sriram and Lahijanian, Morteza},
+  doi = {10.1109/IROS51168.2021.9636712},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   month = sep,
   year = {2021},
@@ -373,6 +403,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-kandai-IROS-2021" tabindex="-1" aria-labelledby="abs-kandai-IROS-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-kandai-IROS-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper proposes a framework for learning task specifications from demonstrations, while ensuring that the learned specifications do not violate safety constraints. Furthermore, we show how these specifications can be used in a planning problem to control the robot under environments that can be different from those encountered during the learning phase. We formulate the specification learning problem as a grammatical inference problem, using probabilistic automata to represent specifications. The edge probabilities of the resulting automata represent the demonstrator’s preferences. The main novelty in our approach is to incorporate the safety property during the learning process. We prove that the resulting automaton always respects a pre-specified safety property, and furthermore, the proposed method can easily be included in any Evidence-Driven State Merging (EDSM)-based automaton learning scheme. Finally, we introduce a planning algorithm that produces the most desirable plan by maximizing the probability of an accepting trace of the automaton. Case studies show that our algorithm learns the true probability distribution most accurately while maintaining safety. Since, specification is detached from the robot’s environment model, a satisfying plan can be synthesized for a variety of different robots and environments including both mobile robots and manipulators.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 

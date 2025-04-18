@@ -201,13 +201,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2207.00576" >
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/IROS47612.2022.9982018" >
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-IROS-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-IROS-2022" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-IROS-2022" >
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/O39gmj5WVwE" >
@@ -237,6 +237,7 @@ async function copyBibtex(key) {
   month = oct,
   publisher = {IEEE},
   note = {},
+  doi = {10.1109/IROS47612.2022.9982018},
   url = {https://arxiv.org/abs/2207.00576},
   videourl = {https://youtu.be/O39gmj5WVwE},
   bibkey = {ma-planning}
@@ -247,6 +248,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Kottinger-IROS-2022" tabindex="-1" aria-labelledby="abs-Kottinger-IROS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Kottinger-IROS-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Multi-robot motion planning (MRMP) is the fundamental problem of finding non-colliding trajectories for multiple robots acting in an environment, under kinodynamic constraints. Due to its complexity, existing algorithms are either incomplete, or utilize simplifying assumptions. This work introduces Kinodynamic Conflict-Based Search (K-CBS), a decentralized MRMP algorithm that is general, scalable, and probabilistically complete. The algorithm takes inspiration from successful solutions to the discrete analogue of MRMP over finite graphs, known as Multi-Agent Path Finding (MAPF). Specifically, we adapt ideas from Conflict-Based Search (CBS)-a popular decentralized MAPF algorithm-to the MRMP setting. The novelty of our approach is that we work directly in the continuous domain, without discretization. In particular, the kinodynamic constraints are treated natively. K-CBS plans for each robot individually using a low-level planner and grows a conflict tree to resolve collisions between robots by defining constraints. The low-level planner can be any sampling-based, tree-search algorithm for kinodynamic robots, thus lifting existing planners for single robots to the multi-robot setting. We show that K-CBS inherits the (probabilistic) completeness of the low-level planner. We illustrate the generality and performance of K-CBS in several case studies and benchmarks.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -274,13 +289,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2202.09930" >
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1609/icaps.v32i1.19859" >
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-ICAPS-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-ICAPS-2022" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-ICAPS-2022" >
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/UeZR3IzVbwM" >
@@ -309,6 +324,7 @@ async function copyBibtex(key) {
   address = {Singapore},
   month = jun,
   publisher = {AAAI Press},
+  doi = {10.1609/icaps.v32i1.19859},
   url = {https://arxiv.org/abs/2202.09930},
   videourl = {https://youtu.be/UeZR3IzVbwM},
   bibkey = {ma-planning}
@@ -319,6 +335,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Kottinger-ICAPS-2022" tabindex="-1" aria-labelledby="abs-Kottinger-ICAPS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Kottinger-ICAPS-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The goal of the Multi-Agent Path Finding (MAPF) problem is to find non-colliding paths for agents in an environment, such that each agent reaches its goal from its initial location. In safety-critical applications, a human supervisor may want to verify that the plan is indeed collision-free. To this end, a recent work introduces a notion of explainability for MAPF based on a visualization of the plan as a short sequence of images representing time segments, where in each time segment the trajectories of the agents are disjoint. Then, the problem of Explainable MAPF via Segmentation asks for a set of non-colliding paths that admit a short-enough explanation. Explainable MAPF adds a new difficulty to MAPF, in that it is NP-hard with respect to the size of the environment, and not just the number of agents. Thus, traditional MAPF algorithms are not equipped to directly handle Explainable MAPF. In this work, we adapt Conflict Based Search (CBS), a well-studied algorithm for MAPF, to handle Explainable MAPF. We show how to add explainability constraints on top of the standard CBS tree and its underlying A* search. We examine the usefulness of this approach and, in particular, the trade-off between planning time and explainability.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -347,7 +377,7 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2010.16106" >
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/ICRA48506.2021.9561893" >
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-ICRA-2021">
@@ -383,6 +413,7 @@ async function copyBibtex(key) {
   month = may,
   publisher = {IEEE},
   bibkey = {ma-planning},
+  doi = {10.1109/ICRA48506.2021.9561893},
   url = {https://arxiv.org/abs/2010.16106},
   videourl = {https://youtu.be/82VLQtOtZ8I}
 }

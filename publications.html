@@ -1329,13 +1329,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2405.00687">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/ICRA57147.2024.10611547">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Watanabe-ICRA-2024">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Watanabe-ICRA-2024" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Watanabe-ICRA-2024">
     abstract
   </button>
   <a class="btn btn-custom " href="https://www.youtube.com/watch?v=_1YuUj3fuV0&amp;feature=youtu.be">
@@ -1366,6 +1366,7 @@ async function copyBibtex(key) {
   organization = {IEEE},
   bibkey = {tpo-planning},
   videourl = {https://www.youtube.com/watch?v=_1YuUj3fuV0&amp;feature=youtu.be},
+  doi = {10.1109/ICRA57147.2024.10611547},
   url = {https://arxiv.org/abs/2405.00687}
 }
 </pre>
@@ -1374,6 +1375,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Watanabe-ICRA-2024" tabindex="-1" aria-labelledby="abs-Watanabe-ICRA-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Watanabe-ICRA-2024-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper addresses the challenge of planning a sequence of tasks to be performed by multiple robots while minimizing the overall completion time subject to timing and precedence constraints. Our approach uses the Timed Partial Orders (TPO) model to specify these constraints. We translate this problem into a Traveling Salesman Problem (TSP) variant with timing and precedent constraints, and we solve it as a Mixed Integer Linear Programming (MILP) problem. Our contributions include a general planning framework for TPO specifications, a MILP formulation accommodating time windows and precedent constraints, its extension to multi-robot scenarios, and a method to quantify plan robustness. We demonstrate our framework on several case studies, including an aircraft turnaround task involving three Jackal robots, highlighting the approach’s potential applicability to important real-world problems. Our benchmark results show that our MILP method outperforms state-of-the-art open-source TSP solvers OR-Tools.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -1401,13 +1416,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2403.04910">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/ICRA57147.2024.10611623">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Muvvala-ICRA-2024">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Muvvala-ICRA-2024" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Muvvala-ICRA-2024">
     abstract
   </button>
   <a class="btn btn-custom " href="https://www.youtube.com/watch?v=OTosSD7yPA0">
@@ -1438,7 +1453,8 @@ async function copyBibtex(key) {
   organization = {IEEE},
   bibkey = {maniprs},
   videourl = {https://www.youtube.com/watch?v=OTosSD7yPA0},
-  url = {https://arxiv.org/abs/2403.04910}
+  url = {https://arxiv.org/abs/2403.04910},
+  doi = {10.1109/ICRA57147.2024.10611623}
 }
 </pre>
       </div>
@@ -1446,6 +1462,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Muvvala-ICRA-2024" tabindex="-1" aria-labelledby="abs-Muvvala-ICRA-2024-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Muvvala-ICRA-2024-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        As robots become more prevalent, the complexity of robot-robot, robot-human, and robot-environment interactions increases. In these interactions, a robot needs to consider not only the effects of its own actions, but also the effects of other agents’ actions and the possible interactions between agents. Previous works have considered reactive synthesis, where the human/environment is modeled as a deterministic, adversarial agent; as well as probabilistic synthesis, where the human/environment is modeled via a Markov chain. While they provide strong theoretical frameworks, there are still many aspects of human-robot interaction that cannot be fully expressed and many assumptions that must be made in each model. In this work, we propose stochastic games as a general model for human-robot interaction, which subsumes the expressivity of all previous representations. In addition, it allows us to make fewer modeling assumptions and leads to more natural and powerful models of interaction. We introduce the semantics of this abstraction and show how existing tools can be utilized to synthesize strategies to achieve complex tasks with guarantees. Further, we discuss the current computational limitations and improve the scalability by two orders of magnitude by a new way of constructing models for PRISM-games.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -1470,7 +1500,7 @@ async function copyBibtex(key) {
 <span id="Kottinger:AIJ:2024"><span id="Kottinger:AIJ:2024">S. Almagor, J. Kottinger, and M. Lahijanian, “Temporal Segmentation in Multi-Agent Path Finding with Applications to Explainability,” <i>Artificial Intelligence</i>, vol. 330, p. 104087, 2024. </span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="https://www.sciencedirect.com/science/article/abs/pii/S0004370224000237">
     pdf
   </a>
   <a class="btn btn-custom " href="http://dx.doi.org/10.1016/j.artint.2024.104087">
@@ -1509,7 +1539,8 @@ async function copyBibtex(key) {
   year = {2024},
   issn = {0004-3702},
   doi = {10.1016/j.artint.2024.104087},
-  bibkey = {exp-mapf}
+  bibkey = {exp-mapf},
+  url = {https://www.sciencedirect.com/science/article/abs/pii/S0004370224000237}
 }
 </pre>
       </div>
@@ -1526,7 +1557,7 @@ async function copyBibtex(key) {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        
+        Multi-Agent Path Finding (MAPF) is the problem of planning paths for agents to reach their targets from their start locations, such that the agents do not collide while executing the plan. In many settings, the plan (or a digest thereof) is conveyed to a supervising entity, e.g., for confirmation before execution, for a report, etc. In such cases, we wish to convey that the plan is collision-free with minimal amount of information. To this end, we propose an explanation scheme for MAPF. The scheme decomposes a plan into segments such that within each segment, the agents’ paths are disjoint. We can then convey the plan whilst convincing that it is collision-free, using a small number of frames (dubbed an explanation). We can also measure the simplicity of a plan by the number of segments required for the decomposition. We study the complexity of algorithmic problems that arise by the explanation scheme and the tradeoff between the length (makespan) of a plan and its minimal decomposition. We also introduce two centralized (i.e. runs on a single CPU with full knowledge of the multi-agent system) algorithms for planning with explanations. One is based on a coupled search algorithm similar to A⁎, and the other is a decoupled method based on Conflict-Based Search (CBS). We refer to the latter as Explanation-Guided CBS (XG-CBS), which uses a low-level search for individual agents and maintains a high-level conflict tree to guide the low-level search to avoid collisions as well as increasing the number of segments. We propose four approaches to the low-level search of XG-CBS by modifying A⁎ for explanations and analyze their effects on the completeness of XG-CBS. Finally, we highlight important aspects of the proposed explanation scheme in various MAPF problems and empirically evaluate the performance of the proposed planning algorithms in a series of benchmark problems.
       </div>
     </div>
   </div>
@@ -1885,7 +1916,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Muvvala-IROS-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Muvvala-IROS-2023" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Muvvala-IROS-2023">
     abstract
   </button>
   <a class="btn btn-custom " href="https://www.youtube.com/watch?v=uy88Cc8DFfQ">
@@ -1926,6 +1957,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Muvvala-IROS-2023" tabindex="-1" aria-labelledby="abs-Muvvala-IROS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Muvvala-IROS-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This work introduces efficient symbolic algorithms for quantitative reactive synthesis. We consider resource-constrained robotic manipulators that need to interact with a human to achieve a complex task expressed in linear temporal logic. Our framework generates reactive strategies that not only guarantee task completion but also seek cooperation with the human when possible. We model the interaction as a two-player game and consider regret-minimizing strategies to encourage cooperation. We use symbolic representation of the game to enable scalability. For synthesis, we first introduce value iteration algorithms for such games with min-max objectives. Then, we extend our method to the regret-minimizing objectives. Our benchmarks reveal that our the symbolic framework not only significantly improves computation time (up to an order of magnitude) but also can scale up to much larger instances of manipulation problems with up to 2× number of objects and locations than the state of the art.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -2047,7 +2092,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Watanabe-ICAPS-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Watanabe-ICAPS-2023" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Watanabe-ICAPS-2023">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -2088,6 +2133,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Watanabe-ICAPS-2023" tabindex="-1" aria-labelledby="abs-Watanabe-ICAPS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Watanabe-ICAPS-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        In this work, we propose the model of timed partial orders (TPOs) for specifying workflow schedules, especially for modeling manufacturing processes. TPOs integrate partial orders over events in a workflow, specifying “happens-before” relations, with timing constraints specified using guards and resets on clocks – an idea borrowed from timed-automata specifications. TPOs naturally allow us to capture event ordering, along with a restricted but useful class of timing relationships. Next, we consider the problem of mining TPO schedules from workflow logs, which include events along with their time stamps. We demonstrate a relationship between formulating TPOs and the graph-coloring problem, and present an algorithm for learning TPOs with correctness guarantees. We demonstrate our approach on synthetic datasets, including two datasets inspired by real-life applications of aircraft turnaround and gameplay videos of the Overcooked computer game. Our TPO mining algorithm can infer TPOs involving hundreds of events from thousands of data-points within a few seconds. We show that the resulting TPOs provide useful insights into the dependencies and timing constraints for workflows.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -2498,7 +2557,7 @@ async function copyBibtex(key) {
 <span id="McMahon:AeroConf:2023"><span id="McMahon:AeroConf:2023">J. McMahon <i>et al.</i>, “REASON-RECOURSE Software for Science Operations of Autonomous Robotic Landers,” in <i>IEEE Aerospace Conference (AERO)</i>, Big Sky, MT, USA, 2023, pp. 1–11. </span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="https://ieeexplore.ieee.org/document/10115533">
     pdf
   </a>
   <a class="btn btn-custom " href="http://dx.doi.org/10.1109/AERO55745.2023.10115533">
@@ -2507,7 +2566,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-McMahon-AeroConf-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-McMahon-AeroConf-2023" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-McMahon-AeroConf-2023">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -2532,6 +2591,7 @@ async function copyBibtex(key) {
   title = {REASON-RECOURSE Software for Science Operations of Autonomous Robotic Landers},
   author = {McMahon, Jay and Ahmed, Nisar and Lahijanian, Morteza and Amorese, Peter and Deka, Taralicin and Muvvala, Karan and Shakerin, Kian and Slack, Trevor and Wakayama, Shohei},
   booktitle = {IEEE Aerospace Conference (AERO)},
+  url = {https://ieeexplore.ieee.org/document/10115533},
   year = {2023},
   pages = {1-11},
   organization = {IEEE},
@@ -2545,6 +2605,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-McMahon-AeroConf-2023" tabindex="-1" aria-labelledby="abs-McMahon-AeroConf-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-McMahon-AeroConf-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Future planetary exploration missions on the surface of distant bodies such as Europa or Enceladus can’t rely on human-in-the-loop operations due to time delays, dynamic environments, limited mission lifetimes, as well as the many unknown unknowns inherent in the exploration of such environments. Thus our robotic explorers must be capable of autonomous operations to ensure continued operations and to try to maximize the amount and quality of the scientific data gathered from each mission. To advance our technology toward this goal, we are developing a system to maximize the science obtained by a robotic lander and delivered to scientists on Earth with minimal asynchronous human interaction. The autonomy architecture consists of two main components: REASON (Robust Exploration with Autonomous Science on-board) and RECOURSE (Ranked Evaluation of Contingent Opportunities for Uninterrupted Remote Science Exploration) for efficient and useful scientific communication between scientists and robot. The key advantage to this design is in its ability to continuously operate and adapt despite the constraints of high-latency, low-bandwith communications and an uncertain environment which today would require ground-in-the-loop operations. This paper presents the initial version of the REASON-RECOURSE system. Details of the implementation of the scientist interface and interaction with the ground software - RECOURSE - and the on-board robotic planning software - REASON - are given. Demonstration of the operation using NASA’s OceanWATERS testbed will be shown.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -2730,10 +2804,10 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Berger:NeurIPS:2022"><span id="Berger:NeurIPS:2022">G. O. Berger, M. Narasimhamurthy, K. Watanabe, M. Lahijanian, and S. Sankaranarayanan, “An Algorithm for Learning Switched Linear Dynamics from Data,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, pp. 30419–30431. </span></span>
+<span id="Berger:NeurIPS:2022"><span id="Berger:NeurIPS:2022">G. O. Berger, M. Narasimhamurthy, K. Watanabe, M. Lahijanian, and S. Sankaranarayanan, “An Algorithm for Learning Switched Linear Dynamics from Data,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, vol. 35, pp. 30419–30431. </span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom " href="">
+  <a class="btn btn-custom " href="https://proceedings.neurips.cc/paper_files/paper/2022/file/c415cd32375a3a020598334eb110dd29-Paper-Conference.pdf">
     pdf
   </a>
   <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
@@ -2742,7 +2816,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Berger-NeurIPS-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Berger-NeurIPS-2022" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Berger-NeurIPS-2022">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -2767,9 +2841,10 @@ async function copyBibtex(key) {
   title = {An Algorithm for Learning Switched Linear Dynamics from Data},
   author = {Berger, Guillaume O and Narasimhamurthy, Monal and Watanabe, Kandai and Lahijanian, Morteza and Sankaranarayanan, Sriram},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-  url = {},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/c415cd32375a3a020598334eb110dd29-Paper-Conference.pdf},
   publisher = {Curran Associates, Inc.},
   year = {2022},
+  volume = {35},
   pages = {30419--30431},
   address = {New Orleans, Louisiana, USA},
   month = nov,
@@ -2782,6 +2857,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Berger-NeurIPS-2022" tabindex="-1" aria-labelledby="abs-Berger-NeurIPS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Berger-NeurIPS-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We present an algorithm for learning switched linear dynamical systems in discrete time from noisy observations of the system’s full state or output. Switched linear systems use multiple linear dynamical modes to fit the data within some desired tolerance. They arise quite naturally in applications to robotics and cyber-physical systems. Learning switched systems from data is a NP-hard problem that is nearly identical to the k-linear regression problem of fitting k &gt; 1 linear models to the data. A direct mixed-integer linear programming (MILP) approach yields time complexity that is exponential in the number of data points. In this paper, we modify the problem formulation to yield an algorithm that is linear in the size of the data while remaining exponential in the number of state variables and the desired number of modes. To do so, we combine classic ideas from the ellipsoidal method for solving convex optimization problems, and well-known oracle separation results in non-smooth optimization. We demonstrate our approach on a set of microbenchmarks and a few interesting real-world problems. Our evaluation suggests that the benefits of this algorithm can be made practical even against highly optimized off-the-shelf MILP solvers.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -2884,13 +2973,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2207.00576">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/IROS47612.2022.9982018">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-IROS-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-IROS-2022" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-IROS-2022">
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/O39gmj5WVwE">
@@ -2920,6 +3009,7 @@ async function copyBibtex(key) {
   month = oct,
   publisher = {IEEE},
   note = {},
+  doi = {10.1109/IROS47612.2022.9982018},
   url = {https://arxiv.org/abs/2207.00576},
   videourl = {https://youtu.be/O39gmj5WVwE},
   bibkey = {ma-planning}
@@ -2930,6 +3020,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Kottinger-IROS-2022" tabindex="-1" aria-labelledby="abs-Kottinger-IROS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Kottinger-IROS-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Multi-robot motion planning (MRMP) is the fundamental problem of finding non-colliding trajectories for multiple robots acting in an environment, under kinodynamic constraints. Due to its complexity, existing algorithms are either incomplete, or utilize simplifying assumptions. This work introduces Kinodynamic Conflict-Based Search (K-CBS), a decentralized MRMP algorithm that is general, scalable, and probabilistically complete. The algorithm takes inspiration from successful solutions to the discrete analogue of MRMP over finite graphs, known as Multi-Agent Path Finding (MAPF). Specifically, we adapt ideas from Conflict-Based Search (CBS)-a popular decentralized MAPF algorithm-to the MRMP setting. The novelty of our approach is that we work directly in the continuous domain, without discretization. In particular, the kinodynamic constraints are treated natively. K-CBS plans for each robot individually using a low-level planner and grows a conflict tree to resolve collisions between robots by defining constraints. The low-level planner can be any sampling-based, tree-search algorithm for kinodynamic robots, thus lifting existing planners for single robots to the multi-robot setting. We show that K-CBS inherits the (probabilistic) completeness of the low-level planner. We illustrate the generality and performance of K-CBS in several case studies and benchmarks.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -3029,13 +3133,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2202.09930">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1609/icaps.v32i1.19859">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-ICAPS-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-ICAPS-2022" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Kottinger-ICAPS-2022">
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/UeZR3IzVbwM">
@@ -3064,6 +3168,7 @@ async function copyBibtex(key) {
   address = {Singapore},
   month = jun,
   publisher = {AAAI Press},
+  doi = {10.1609/icaps.v32i1.19859},
   url = {https://arxiv.org/abs/2202.09930},
   videourl = {https://youtu.be/UeZR3IzVbwM},
   bibkey = {ma-planning}
@@ -3074,6 +3179,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Kottinger-ICAPS-2022" tabindex="-1" aria-labelledby="abs-Kottinger-ICAPS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Kottinger-ICAPS-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The goal of the Multi-Agent Path Finding (MAPF) problem is to find non-colliding paths for agents in an environment, such that each agent reaches its goal from its initial location. In safety-critical applications, a human supervisor may want to verify that the plan is indeed collision-free. To this end, a recent work introduces a notion of explainability for MAPF based on a visualization of the plan as a short sequence of images representing time segments, where in each time segment the trajectories of the agents are disjoint. Then, the problem of Explainable MAPF via Segmentation asks for a set of non-colliding paths that admit a short-enough explanation. Explainable MAPF adds a new difficulty to MAPF, in that it is NP-hard with respect to the size of the environment, and not just the number of agents. Thus, traditional MAPF algorithms are not equipped to directly handle Explainable MAPF. In this work, we adapt Conflict Based Search (CBS), a well-studied algorithm for MAPF, to handle Explainable MAPF. We show how to add explainability constraints on top of the standard CBS tree and its underlying A* search. We examine the usefulness of this approach and, in particular, the trade-off between planning time and explainability.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -3179,7 +3298,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Muvvala-2022-ICRA">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Muvvala-2022-ICRA" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Muvvala-2022-ICRA">
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/ABZb1g36Kv4">
@@ -3221,6 +3340,20 @@ async function copyBibtex(key) {
 </div>
 
 
+<div class="modal fade" id="abs-Muvvala-2022-ICRA" tabindex="-1" aria-labelledby="abs-Muvvala-2022-ICRA-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Muvvala-2022-ICRA-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        As robots gain capabilities to enter our humancentric world, they require formalism and algorithms that enable smart and efficient interactions. This is challenging, especially for robotic manipulators with complex tasks that may require collaboration with humans. Prior works approach this problem through reactive synthesis and generate strategies for the robot that guarantee task completion by assuming an adversarial human. While this assumption gives a sound solution, it leads to an “unfriendly” robot that is agnostic to the human intentions. We relax this assumption by formulating the problem using the notion of regret. We identify an appropriate definition for regret and develop regret-minimizing synthesis framework that enables the robot to seek cooperation when possible while preserving task completion guarantees. We illus-trate the efficacy of our framework via various case studies.
+      </div>
+    </div>
+  </div>
+</div>
+
 </li>
 
 <script>
@@ -3244,7 +3377,7 @@ async function copyBibtex(key) {
 <span id="McMahon:2022:AeroConf"><span id="McMahon:2022:AeroConf">J. McMahon <i>et al.</i>, “Expert-Informed Autonomous Science Planning for In-situ Observations and Discoveries,” in <i>2022 IEEE Aerospace Conference (AERO)</i>, 2022, pp. 1–11. </span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="https://ieeexplore.ieee.org/document/9843445">
     pdf
   </a>
   <a class="btn btn-custom " href="http://dx.doi.org/10.1109/AERO53065.2022.9843445">
@@ -3253,7 +3386,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-McMahon-2022-AeroConf">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-McMahon-2022-AeroConf" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-McMahon-2022-AeroConf">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -3278,6 +3411,7 @@ async function copyBibtex(key) {
   title = {Expert-Informed Autonomous Science Planning for In-situ Observations and Discoveries},
   author = {McMahon, Jay and Ahmed, Nisar and Lahijanian, Morteza and Amorese, Peter and Deka, Taralicin and Muvvala, Karan and Slack, Trevor and Wakayama, Shohei},
   booktitle = {2022 IEEE Aerospace Conference (AERO)},
+  url = {https://ieeexplore.ieee.org/document/9843445},
   month = mar,
   year = {2022},
   pages = {1-11},
@@ -3291,6 +3425,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-McMahon-2022-AeroConf" tabindex="-1" aria-labelledby="abs-McMahon-2022-AeroConf-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-McMahon-2022-AeroConf-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Future planetary exploration missions on the surface of distant bodies such as Europa or Enceladus can’t rely on human-in-the-loop operations due to time delays, dynamic environments, limited mission lifetimes, as well as the many unknown unknowns inherent in the exploration of such environments. Thus our robotic explorers must be capable of autonomous operations to ensure continued operations and to try to maximize the amount and quality of the scientific data gathered from each mission. To advance our technology toward this goal, we are developing a system to maximize the science obtained by a robotic lander and delivered to scientists on Earth with minimal asynchronous human interaction. The autonomy architecture consists of three main components: Shared Science Value Maps (SSVMs), which function as an interface between REASON (Robust Exploration with Autonomous Science onboard) and RECOURSE (Ranked Evaluation of Contingent Opportunities for Uninterrupted Remote Science Exploration) for efficient and useful scientific communication between scientists and robot. The key advantage to this design is in its ability to continuously operate and adapt despite the constraints of high-latency, low-bandwith communications and an uncertain environment which today would require ground-in-the-loop operations. This paper presents the overview of our architecture and initial results on the development of such a system. These results will focus on progress made in developing the details of the SSVM interface between human scientists and robotic explorer and the ability of REASON to act on the SSVM to develop plans on-board that attempt to maximize science obtained while being guaranteed to respect any relevant system and safety constraints.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -3534,13 +3682,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="http://mortezalahijanian.com/papers/IROS2021.pdf">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/IROS51168.2021.9636712">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-kandai-IROS-2021">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-kandai-IROS-2021" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-kandai-IROS-2021">
     abstract
   </button>
   <a class="btn btn-custom " href="https://www.youtube.com/watch?v=nfrxq_VGDPQ">
@@ -3564,6 +3712,7 @@ async function copyBibtex(key) {
         <pre id="bibtex-kandai-IROS-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{kandai:IROS:2021,
   title = {Probabilistic Specification Learning for Planning with Safety Constraints},
   author = {Watanabe, Kandai and Renninger, Nicholas and Sankaranarayanan, Sriram and Lahijanian, Morteza},
+  doi = {10.1109/IROS51168.2021.9636712},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   month = sep,
   year = {2021},
@@ -3578,6 +3727,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-kandai-IROS-2021" tabindex="-1" aria-labelledby="abs-kandai-IROS-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-kandai-IROS-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper proposes a framework for learning task specifications from demonstrations, while ensuring that the learned specifications do not violate safety constraints. Furthermore, we show how these specifications can be used in a planning problem to control the robot under environments that can be different from those encountered during the learning phase. We formulate the specification learning problem as a grammatical inference problem, using probabilistic automata to represent specifications. The edge probabilities of the resulting automata represent the demonstrator’s preferences. The main novelty in our approach is to incorporate the safety property during the learning process. We prove that the resulting automaton always respects a pre-specified safety property, and furthermore, the proposed method can easily be included in any Evidence-Driven State Merging (EDSM)-based automaton learning scheme. Finally, we introduce a planning algorithm that produces the most desirable plan by maximizing the probability of an accepting trace of the automaton. Case studies show that our algorithm learns the true probability distribution most accurately while maintaining safety. Since, specification is detached from the robot’s environment model, a satisfying plan can be synthesized for a variety of different robots and environments including both mobile robots and manipulators.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -3746,7 +3909,7 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="https://arxiv.org/abs/2010.16106">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/ICRA48506.2021.9561893">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kottinger-ICRA-2021">
@@ -3782,6 +3945,7 @@ async function copyBibtex(key) {
   month = may,
   publisher = {IEEE},
   bibkey = {ma-planning},
+  doi = {10.1109/ICRA48506.2021.9561893},
   url = {https://arxiv.org/abs/2010.16106},
   videourl = {https://youtu.be/82VLQtOtZ8I}
 }
@@ -3818,13 +3982,13 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="http://mortezalahijanian.com/papers/ICRA2021_wells.pdf">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/ICRA48506.2021.9561297">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Wells-ICRA-2021">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Wells-ICRA-2021" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Wells-ICRA-2021">
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/pOFurtoTD9Y">
@@ -3853,6 +4017,7 @@ async function copyBibtex(key) {
   address = {Xi'an, China},
   month = may,
   publisher = {IEEE},
+  doi = {10.1109/ICRA48506.2021.9561297},
   url = {http://mortezalahijanian.com/papers/ICRA2021_wells.pdf},
   videourl = {https://youtu.be/pOFurtoTD9Y},
   bibkey = {maniprs}
@@ -3863,6 +4028,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Wells-ICRA-2021" tabindex="-1" aria-labelledby="abs-Wells-ICRA-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Wells-ICRA-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Robots have begun operating and collaborating with humans in industrial and social settings. This collaboration introduces challenges: the robot must plan while taking the human’s actions into account. In prior work, the problem was posed as a 2-player deterministic game, with a limited number of human moves. The limit on human moves is unintuitive, and in many settings determinism is undesirable. In this paper, we present a novel planning method for collaborative human-robot manipulation tasks via probabilistic synthesis. We introduce a probabilistic manipulation domain that captures the interaction by allowing for both robot and human actions with states that represent the configurations of the objects in the workspace. The task is specified using Linear Temporal Logic over finite traces (LTLf). We then transform our manipulation domain into a Markov Decision Process (MDP) and synthesize an optimal policy to satisfy the specification on this MDP. We present two novel contributions: a formalization of probabilistic manipulation domains allowing us to apply existing techniques and a comparison of different encodings of these domains. Our framework is validated on a physical UR5 robot.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
