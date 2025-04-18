@@ -115,7 +115,7 @@
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Amorese-IROS-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Amorese-IROS-2023" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Amorese-IROS-2023" >
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -146,6 +146,7 @@
   pages = {2071-2077},
   address = {Detroit, MI, USA},
   month = oct,
+  videoulr = {https://www.youtube.com/watch?v=HNXegnNg5_w&ab_channel=ARIASystemsGroup},
   doi = {10.1109/IROS55552.2023.10342351},
   bibkey = {coldtech}
 }
@@ -155,6 +156,20 @@
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Amorese-IROS-2023" tabindex="-1" aria-labelledby="abs-Amorese-IROS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Amorese-IROS-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Autonomous robots are increasingly utilized in realistic scenarios with multiple complex tasks. In these scenarios, there may be a preferred way of completing the tasks, but it is often in conflict with optimal execution. Recent work studies preference-based planning, however, they have yet to extend the notion of preference to the behavior of the robot with respect to each task. In this work, we introduce a novel notion of preference that provides a generalized framework to express preferences over individual tasks as well as their relations. We perform an optimal trade-off (Pareto) analysis between behaviors that adhere to the user’s preference and the ones that are resource optimal. We introduce an efficient planning framework that generates Pareto-optimal plans given user’s preference by extending A* search. Further, we show a method of computing the entire Pareto front (the set of all optimal trade-offs) via an adaptation of a multi-objective A* algorithm. We also present a search heuristic to enable scalability. We illustrate the power of the framework on both mobile robots and manipulators. Our benchmarks show the effectiveness of the heuristic with up to 2-orders of magnitude speedup.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
