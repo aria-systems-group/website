@@ -989,7 +989,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Skovbekk-LCSS-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Skovbekk-LCSS-2023" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Skovbekk-LCSS-2023" >
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -1029,6 +1029,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Skovbekk-LCSS-2023" tabindex="-1" aria-labelledby="abs-Skovbekk-LCSS-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Skovbekk-LCSS-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Verifying the performance of safety-critical, stochastic systems with complex noise distributions is difficult. We introduce a general procedure for the finite abstraction of nonlinear stochastic systems with non-standard (e.g., non-affine, non-symmetric, non-unimodal) noise distributions for verification purposes. The method uses a finite partitioning of the noise domain to construct an interval Markov chain (IMC) abstraction of the system via transition probability intervals. Noise partitioning allows for a general class of distributions and structures, including multiplicative and mixture models, and admits both known and data-driven systems. The partitions required for optimal transition bounds are specified for systems that are monotonic with respect to the noise, and explicit partitions are provided for affine and multiplicative structures. By the soundness of the abstraction procedure, verification on the IMC provides guarantees on the stochastic system against a temporal logic specification. In addition, we present a novel refinement-free algorithm that improves the verification results. Case studies on linear and nonlinear systems with non-Gaussian noise, including a data-driven example, demonstrate the generality and effectiveness of the method without introducing excessive conservatism.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -1149,7 +1163,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Adams-ICML-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Adams-ICML-2023" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Adams-ICML-2023" >
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -1191,6 +1205,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Adams-ICML-2023" tabindex="-1" aria-labelledby="abs-Adams-ICML-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Adams-ICML-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        In this paper, we introduce BNN-DP, an efficient algorithmic framework for analysis of adversarial robustness of Bayesian Neural Networks (BNNs). Given a compact set of input points T⊂\mathbbR^n, BNN-DP computes lower and upper bounds on the BNN’s predictions for all the points in T. The framework is based on an interpretation of BNNs as stochastic dynamical systems, which enables the use of Dynamic Programming (DP) algorithms to bound the prediction range along the layers of the network. Specifically, the method uses bound propagation techniques and convex relaxations to derive a backward recursion procedure to over-approximate the prediction range of the BNN with piecewise affine functions. The algorithm is general and can handle both regression and classification tasks. On a set of experiments on various regression and classification tasks and BNN architectures, we show that BNN-DP outperforms state-of-the-art methods by up to four orders of magnitude in both tightness of the bounds and computational efficiency.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -1363,7 +1391,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Adams:CSL:2022"><span id="Adams:CSL:2022">S. A. Adams, M. Lahijanian, and L. Laurenti, “Formal Control Synthesis for Stochastic Neural Network Dynamic Models,” <i>IEEE Control Systems Letters (L-CSS)</i>, 2022. </span></span>
+<span id="Adams:CSL:2022"><span id="Adams:CSL:2022">S. A. Adams, M. Lahijanian, and L. Laurenti, “Formal Control Synthesis for Stochastic Neural Network Dynamic Models,” <i>IEEE Control Systems Letters (L-CSS)</i>, vol. 6, pp. 2858–2863, 2022. </span></span>
 <br>
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2203.05903" >
@@ -1375,7 +1403,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Adams-CSL-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Adams-CSL-2022" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Adams-CSL-2022" >
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -1400,11 +1428,11 @@ async function copyBibtex(key) {
   title = {Formal Control Synthesis for Stochastic Neural Network Dynamic Models},
   author = {Adams, Steven Adams and Lahijanian, Morteza and Laurenti, Luca},
   journal = {IEEE Control Systems Letters (L-CSS)},
-  volume = {},
+  volume = {6},
   number = {},
   year = {2022},
   month = {},
-  pages = {},
+  pages = {2858-2863},
   publisher = {IEEE},
   doi = {10.1109/LCSYS.2022.3178143},
   url = {https://arxiv.org/abs/2203.05903},
@@ -1416,6 +1444,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Adams-CSL-2022" tabindex="-1" aria-labelledby="abs-Adams-CSL-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Adams-CSL-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Neural networks (NNs) are emerging as powerful tools to represent the dynamics of control systems with complicated physics or black-box components. Due to complexity of NNs, however, existing methods are unable to synthesize complex behaviors with guarantees for NN dynamic models (NNDMs). This letter introduces a control synthesis framework for stochastic NNDMs with performance guarantees. The focus is on specifications expressed in linear temporal logic interpreted over finite traces (LTLf), and the approach is based on finite abstraction. Specifically, we leverage recent techniques for convex relaxation of NNs to formally abstract a NNDM into an interval Markov decision process (IMDP). Then, a strategy that maximizes the probability of satisfying a given specification is synthesized over the IMDP and mapped back to the underlying NNDM. We show that the process of abstracting NNDMs to IMDPs reduces to a set of convex optimization problems, hence guaranteeing efficiency. We also present an adaptive refinement procedure that makes the framework scalable. On several case studies, we illustrate that our framework is able to provide non-trivial guarantees of correctness for NNDMs with architectures of up to 5 hidden layers and hundreds of neurons per layer.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -1581,19 +1623,19 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="jackson:HSCC:2021"><span id="jackson:HSCC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Strategy synthesis for partially-known switched stochastic systems,” in <i>Conference on Hybrid Systems: Computation and Control (HSCC)</i>, 2021, pp. 1–11. </span></span>
+<span id="jackson:HSCC:2021"><span id="jackson:HSCC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Strategy synthesis for partially-known switched stochastic systems,” in <i>Conference on Hybrid Systems: Computation and Control (HSCC)</i>, New York, NY, USA, 2021, pp. 1–11. </span></span>
 <br>
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2104.02172" >
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1145/3447928.3456649" >
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-jackson-HSCC-2021">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-jackson-HSCC-2021" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-jackson-HSCC-2021" >
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/dE7BpXJ-amQ" >
@@ -1622,6 +1664,10 @@ async function copyBibtex(key) {
   year = {2021},
   videourl = {https://youtu.be/dE7BpXJ-amQ},
   bibkey = {synth-ml},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  isbn = {9781450383394},
+  doi = {10.1145/3447928.3456649},
   url = {https://arxiv.org/abs/2104.02172}
 }
 </pre>
@@ -1630,6 +1676,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-jackson-HSCC-2021" tabindex="-1" aria-labelledby="abs-jackson-HSCC-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-jackson-HSCC-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We present a data-driven framework for strategy synthesis for partially-known switched stochastic systems. The properties of the system are specified using linear temporal logic (LTL) over finite traces (LTLf), which is as expressive as LTL and enables interpretations over finite behaviors. The framework first learns the unknown dynamics via Gaussian process regression. Then, it builds a formal abstraction of the switched system in terms of an uncertain Markov model, namely an Interval Markov Decision Process (IMDP), by accounting for both the stochastic behavior of the system and the uncertainty in the learning step. Then, we synthesize a strategy on the resulting IMDP that maximizes the satisfaction probability of the LTLf specification and is robust against all the uncertainties in the abstraction. This strategy is then refined into a switching strategy for the original stochastic system. We show that this strategy is near-optimal and provide a bound on its distance (error) to the optimal strategy. We experimentally validate our framework on various case studies, including both linear and non-linear switched stochastic systems.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 

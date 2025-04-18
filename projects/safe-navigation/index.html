@@ -680,6 +680,93 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
+<span id="Pairet:TASE:2021"><span id="Pairet:TASE:2021">È. Pairet, J. D. Hernández, M. Carreras, Y. Petillot, and M. Lahijanian, “Online Mapping and Motion Planning under Uncertainty for Safe Navigation in Unknown Environments,” <i>IEEE Transactions on Automation Science and Engineering</i>, vol. 19, no. 4, pp. 3356–3378, Nov. 2022. </span></span>
+<br>
+<div class="btn-group" role="group">
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/TASE.2021.3118737" >
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Pairet-TASE-2021">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Pairet-TASE-2021" >
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Pairet-TASE-2021" tabindex="-1" aria-labelledby="bib-Pairet-TASE-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Pairet-TASE-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Pairet-TASE-2021')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Pairet-TASE-2021" style="white-space: pre-wrap; word-wrap: break-word;">@article{Pairet:TASE:2021,
+  title = {Online Mapping and Motion Planning under Uncertainty for Safe Navigation in Unknown Environments},
+  author = {Pairet, {\`E}ric and Hern{\'a}ndez, Juan David and Carreras, Marc and Petillot, Yvan and Lahijanian, Morteza},
+  journal = {IEEE Transactions on Automation Science and Engineering},
+  volume = {19},
+  number = {4},
+  year = {2022},
+  month = nov,
+  pages = {3356-3378},
+  publisher = {IEEE},
+  doi = {10.1109/TASE.2021.3118737},
+  bibkey = {safe-navigation}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Pairet-TASE-2021" tabindex="-1" aria-labelledby="abs-Pairet-TASE-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Pairet-TASE-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Safe autonomous navigation is an essential and challenging problem for robots operating in highly unstructured or completely unknown environments. Under these conditions, not only robotic systems must deal with limited localization information but also their maneuverability is constrained by their dynamics and often suffers from uncertainty. In order to cope with these constraints, this article proposes an uncertainty-based framework for mapping and planning feasible motions online with probabilistic safety guarantees. The proposed approach deals with the motion, probabilistic safety, and online computation constraints by: 1) incrementally mapping the surroundings to build an uncertainty-aware representation of the environment and 2) iteratively (re)planning trajectories to goal that is kinodynamically feasible and probabilistically safe through a multilayered sampling-based planner in the belief space. In-depth empirical analyses illustrate some important properties of this approach, namely: 1) the multilayered planning strategy enables rapid exploration of the high-dimensional belief space while preserving asymptotic optimality and completeness guarantees and 2) the proposed routine for probabilistic collision checking results in tighter probability bounds in comparison to other uncertainty-aware planners in the literature. Furthermore, real-world in-water experimental evaluation on a nonholonomic torpedo-shaped autonomous underwater vehicle and simulated trials in an urban environment on an unmanned aerial vehicle demonstrate the efficacy of the method and its suitability for systems with limited onboard computational power. Note to Practitioners—Emergent robotic applications require operating in previously unmapped scenarios. This article presents a unified mapping–planning strategy that enables robots to navigate autonomously and safely in harsh environments.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="ho:2022:ICRA"><span id="ho:2022:ICRA">Q. H. Ho, Z. Sunberg, and M. Lahijanian, “Gaussian Belief Trees for Chance Constrained Asymptotically Optimal Motion Planning,” in <i>International Conference on Robotics and Automation (ICRA)</i>, 2022. </span></span>
 <br>
 <div class="btn-group" role="group">
@@ -723,80 +810,6 @@ async function copyBibtex(key) {
   note = {},
   url = {https://arxiv.org/abs/2202.12407},
   videourl = {https://youtu.be/AEa878AuYLc},
-  bibkey = {safe-navigation}
-}
-</pre>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</li>
-
-<script>
-async function copyBibtex(key) {
-  // Get the BibTeX content
-  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
-  const button = event.target;
-  const originalIcon = button.innerHTML;
-  
-  await navigator.clipboard.writeText(bibtexContent);
-  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
-  
-  // Reset button icon after 2 seconds
-  setTimeout(() => {
-    button.innerHTML = originalIcon;
-  }, 2000);
-}
-</script>
-</li></ol>
-<h2 class="bibliography">2021</h2>
-<ol class="bibliography"><li><li>
-<span id="Pairet:TASE:2021"><span id="Pairet:TASE:2021">È. Pairet, J. D. Hernández, M. Carreras, Y. Petillot, and M. Lahijanian, “Online Mapping and Motion Planning under Uncertainty for Probabilistically Safe Autonomous Navigation,” <i>IEEE Transactions on Automation Science and Engineering</i>, 2021. </span></span>
-<br>
-<div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
-    pdf
-  </a>
-  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/TASE.2021.3118737" >
-    publisher
-  </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Pairet-TASE-2021">
-    bibtex
-  </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Pairet-TASE-2021" disabled>
-    abstract
-  </button>
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
-    video
-  </a>
-</div>
-
-<div class="modal fade" id="bib-Pairet-TASE-2021" tabindex="-1" aria-labelledby="bib-Pairet-TASE-2021-label" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 id="bib-Pairet-TASE-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Pairet-TASE-2021')" title="Copy to clipboard">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
-          </svg>
-        </button>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-Pairet-TASE-2021" style="white-space: pre-wrap; word-wrap: break-word;">@article{Pairet:TASE:2021,
-  title = {Online Mapping and Motion Planning under Uncertainty for Probabilistically Safe Autonomous Navigation},
-  author = {Pairet, {\`E}ric and Hern{\'a}ndez, Juan David and Carreras, Marc and Petillot, Yvan and Lahijanian, Morteza},
-  journal = {IEEE Transactions on Automation Science and Engineering},
-  volume = {},
-  number = {},
-  year = {2021},
-  month = {},
-  pages = {},
-  publisher = {IEEE},
-  doi = {10.1109/TASE.2021.3118737},
   bibkey = {safe-navigation}
 }
 </pre>
