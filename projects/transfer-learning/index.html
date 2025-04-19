@@ -1743,6 +1743,95 @@ async function copyBibtex(key) {
 </li></ol>
 <h2 class="bibliography">2020</h2>
 <ol class="bibliography"><li><li>
+<span id="jackson:CDC:2020"><span id="jackson:CDC:2020">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Safety verification of unknown dynamical systems via gaussian process regression,” in <i>IEEE 59th Conference on Decision and Control (CDC)</i>, 2020, pp. 860–866. </span></span>
+<br>
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2004.01821" >
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/CDC42340.2020.9303814" >
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-jackson-CDC-2020">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-jackson-CDC-2020" >
+    abstract
+  </button>
+  <a class="btn btn-custom " href="https://youtu.be/u2hxmc1J4vM" >
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-jackson-CDC-2020" tabindex="-1" aria-labelledby="bib-jackson-CDC-2020-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-jackson-CDC-2020-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('jackson-CDC-2020')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-jackson-CDC-2020" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{jackson:CDC:2020,
+  title = {Safety verification of unknown dynamical systems via gaussian process regression},
+  author = {Jackson, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
+  booktitle = {IEEE 59th Conference on Decision and Control (CDC)},
+  year = {2020},
+  publisher = {IEEE},
+  bibkey = {synth-ml},
+  videourl = {https://youtu.be/u2hxmc1J4vM},
+  url = {https://arxiv.org/abs/2004.01821},
+  doi = {10.1109/CDC42340.2020.9303814},
+  month = dec,
+  pages = {860–-866},
+  numpages = {7},
+  location = {Jeju Island, Korea (South)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-jackson-CDC-2020" tabindex="-1" aria-labelledby="abs-jackson-CDC-2020-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-jackson-CDC-2020-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The deployment of autonomous systems that operate in unstructured environments necessitates algorithms to verify their safety. This can be challenging due to, e.g., black-box components in the control software, or undermodelled dynamics that prevent model-based verification. We present a novel verification framework for an unknown dynamical system from a given set of noisy observations of the dynamics. Using Gaussian processes trained on this data set, the framework abstracts the system as an uncertain Markov process with discrete states defined over the safe set. The transition bounds of the abstraction are derived from the probabilistic error bounds between the regression and underlying system. An existing approach for verifying safety properties over uncertain Markov processes then generates safety guarantees. We demonstrate the versatility of the framework on several examples, including switched and nonlinear systems.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="Jackson:RSSworshop:2020"><span id="Jackson:RSSworshop:2020">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Towards Data-driven Verification of Unknown Dynamical Systems,” in <i>Workshop on Robust Autonomy: Tools for Safety in Real-World Uncertain Environments</i>, 2020. </span></span>
 <br>
 <div class="btn-group" role="group">
@@ -1786,75 +1875,6 @@ async function copyBibtex(key) {
   url = {https://openreview.net/pdf?id=pc1AU6xLol4},
   videourl = {https://drive.google.com/file/d/13aDPx0bU6yy8apDwdDdyuTeJLBViiqIg/view?usp=sharing},
   bibkey = {synth-ml}
-}
-</pre>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</li>
-
-<script>
-async function copyBibtex(key) {
-  // Get the BibTeX content
-  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
-  const button = event.target;
-  const originalIcon = button.innerHTML;
-  
-  await navigator.clipboard.writeText(bibtexContent);
-  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
-  
-  // Reset button icon after 2 seconds
-  setTimeout(() => {
-    button.innerHTML = originalIcon;
-  }, 2000);
-}
-</script>
-</li>
-<li><li>
-<span id="jackson:CDC:2020"><span id="jackson:CDC:2020">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Safety verification of unknown dynamical systems via gaussian process regression,” in <i>2020 IEEE 59th Conference on Decision and Control (CDC)</i>, 2020. </span></span>
-<br>
-<div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
-    pdf
-  </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
-    publisher
-  </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-jackson-CDC-2020">
-    bibtex
-  </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-jackson-CDC-2020" disabled>
-    abstract
-  </button>
-  <a class="btn btn-custom " href="https://youtu.be/u2hxmc1J4vM" >
-    video
-  </a>
-</div>
-
-<div class="modal fade" id="bib-jackson-CDC-2020" tabindex="-1" aria-labelledby="bib-jackson-CDC-2020-label" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 id="bib-jackson-CDC-2020-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('jackson-CDC-2020')" title="Copy to clipboard">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
-          </svg>
-        </button>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-jackson-CDC-2020" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{jackson:CDC:2020,
-  title = {Safety verification of unknown dynamical systems via gaussian process regression},
-  author = {Jackson, John and Laurenti, Luca and Frew, Eric and Lahijanian, Morteza},
-  booktitle = {2020 IEEE 59th Conference on Decision and Control (CDC)},
-  year = {2020},
-  publisher = {IEEE},
-  bibkey = {synth-ml},
-  videourl = {https://youtu.be/u2hxmc1J4vM}
 }
 </pre>
       </div>
