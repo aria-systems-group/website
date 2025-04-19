@@ -1494,19 +1494,19 @@ async function copyBibtex(key) {
 </li></ol>
 <h2 class="bibliography">2021</h2>
 <ol class="bibliography"><li><li>
-<span id="jackson:CDC:2021"><span id="jackson:CDC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Synergistic Offline-Online Control Synthesis via Local Gaussian Process Regression,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2021. </span></span>
+<span id="jackson:CDC:2021"><span id="jackson:CDC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Synergistic Offline-Online Control Synthesis via Local Gaussian Process Regression,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2021, pp. 2232–2239. </span></span>
 <br>
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2110.05525" >
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/CDC45484.2021.9683557" >
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-jackson-CDC-2021">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-jackson-CDC-2021" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-jackson-CDC-2021" >
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/ZuKd_nzaGgY" >
@@ -1534,10 +1534,13 @@ async function copyBibtex(key) {
   month = dec,
   year = {2021},
   organization = {IEEE},
+  pages = {2232--2239},
+  location = {Austin, TX, USA},
   note = {},
-  bibkey = {synth-ml},
   url = {https://arxiv.org/abs/2110.05525},
-  videourl = {https://youtu.be/ZuKd_nzaGgY}
+  videourl = {https://youtu.be/ZuKd_nzaGgY},
+  doi = {10.1109/CDC45484.2021.9683557},
+  bibkey = {synth-ml}
 }
 </pre>
       </div>
@@ -1545,6 +1548,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-jackson-CDC-2021" tabindex="-1" aria-labelledby="abs-jackson-CDC-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-jackson-CDC-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Autonomous systems often have complex and possibly unknown dynamics due to, e.g., black-box components. This leads to unpredictable behaviors and makes control design with performance guarantees a major challenge. This paper presents a data-driven control synthesis framework for such systems subject to linear temporal logic on finite traces (LTLf) specifications. The framework combines a baseline (offline) controller with a novel online controller and refinement procedure that improves the baseline guarantees as new data is collected. The baseline controller is computed offline on an uncertain abstraction constructed using Gaussian process (GP) regression on a given dataset. The offline controller provides a lower bound on the probability of satisfying the LTLf specification, which may be far from optimal due to both discretization and regression errors. The synergy arises from the online controller using the offline abstraction along with the current state and new data to choose the next best action. The online controller may improve the baseline guarantees since it avoids the discretization error and reduces regression error as new data is collected. The new data are also used to refine the abstraction and offline controller using local GP regression, which significantly reduces the computation overhead. Evaluations show the efficacy of the proposed offline-online framework, especially when compared against the offline controller.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 

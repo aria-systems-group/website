@@ -533,16 +533,16 @@ async function copyBibtex(key) {
 <span id="Almagor:AAMAS:2020"><span id="Almagor:AAMAS:2020">S. Almagor and M. Lahijanian, “Explainable Multi Agent Path Finding,” in <i>Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems</i>, Richland, SC, 2020, pp. 34–42. </span></span>
 <br>
 <div class="btn-group" role="group">
-  <a class="btn btn-custom " href="https://dl.acm.org/doi/abs/10.5555/3398761.3398771" >
+  <a class="btn btn-custom " href="https://shaull.github.io/pub/AL20.pdf" >
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/https://dl.acm.org/doi/abs/10.5555/3398761.3398771" >
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Almagor-AAMAS-2020">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Almagor-AAMAS-2020" disabled>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Almagor-AAMAS-2020" >
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -577,7 +577,8 @@ async function copyBibtex(key) {
   location = {Auckland, New Zealand},
   series = {AAMAS ’20},
   bibkey = {ma-planning},
-  url = {https://dl.acm.org/doi/abs/10.5555/3398761.3398771}
+  doi = {https://dl.acm.org/doi/abs/10.5555/3398761.3398771},
+  url = {https://shaull.github.io/pub/AL20.pdf}
 }
 </pre>
       </div>
@@ -585,6 +586,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Almagor-AAMAS-2020" tabindex="-1" aria-labelledby="abs-Almagor-AAMAS-2020-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Almagor-AAMAS-2020-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Multi Agent Path Finding (MAPF) is the problem of planning paths for agents to reach their targets from their start locations, such that the agents do not collide while executing the plan. In safety-critical systems, the plan is typically checked by a human supervisor, who decides on whether to allow its execution. In such cases, we wish to convince the human that the plan is indeed collision free.To this end, we propose an explanation scheme for MAPF, which bases explanations on simplicity of visual verification by human’s cognitive process. The scheme decomposes a plan into segments such that within each segment, the paths of the agents are disjoint. Then, we can convince the supervisor that the plan is collision free using a small number of images (dubbed an explanation). In addition, we can measure the simplicity of a plan by the number of segments required for the decomposition. We study the complexity of algorithmic problems that arise by the explanation scheme, as well as the tradeoff between the length (makespan) of a plan and its minimal decomposition. We also provide experimental results of our scheme both in a continuous and in a discrete setting.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 

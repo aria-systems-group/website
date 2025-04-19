@@ -3766,19 +3766,19 @@ async function copyBibtex(key) {
 </li></ol>
 <h2 class="bibliography">2021</h2>
 <ol class="bibliography"><li><li>
-<span id="jackson:CDC:2021"><span id="jackson:CDC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Synergistic Offline-Online Control Synthesis via Local Gaussian Process Regression,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2021. </span></span>
+<span id="jackson:CDC:2021"><span id="jackson:CDC:2021">J. Jackson, L. Laurenti, E. Frew, and M. Lahijanian, “Synergistic Offline-Online Control Synthesis via Local Gaussian Process Regression,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2021, pp. 2232–2239. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2110.05525">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/CDC45484.2021.9683557">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-jackson-CDC-2021">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-jackson-CDC-2021" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-jackson-CDC-2021">
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/ZuKd_nzaGgY">
@@ -3806,10 +3806,13 @@ async function copyBibtex(key) {
   month = dec,
   year = {2021},
   organization = {IEEE},
+  pages = {2232--2239},
+  location = {Austin, TX, USA},
   note = {},
-  bibkey = {synth-ml},
   url = {https://arxiv.org/abs/2110.05525},
-  videourl = {https://youtu.be/ZuKd_nzaGgY}
+  videourl = {https://youtu.be/ZuKd_nzaGgY},
+  doi = {10.1109/CDC45484.2021.9683557},
+  bibkey = {synth-ml}
 }
 </pre>
       </div>
@@ -3817,6 +3820,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-jackson-CDC-2021" tabindex="-1" aria-labelledby="abs-jackson-CDC-2021-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-jackson-CDC-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Autonomous systems often have complex and possibly unknown dynamics due to, e.g., black-box components. This leads to unpredictable behaviors and makes control design with performance guarantees a major challenge. This paper presents a data-driven control synthesis framework for such systems subject to linear temporal logic on finite traces (LTLf) specifications. The framework combines a baseline (offline) controller with a novel online controller and refinement procedure that improves the baseline guarantees as new data is collected. The baseline controller is computed offline on an uncertain abstraction constructed using Gaussian process (GP) regression on a given dataset. The offline controller provides a lower bound on the probability of satisfying the LTLf specification, which may be far from optimal due to both discretization and regression errors. The synergy arises from the online controller using the offline abstraction along with the current state and new data to choose the next best action. The online controller may improve the baseline guarantees since it avoids the discretization error and reduces regression error as new data is collected. The new data are also used to refine the abstraction and offline controller using local GP regression, which significantly reduces the computation overhead. Evaluations show the efficacy of the proposed offline-online framework, especially when compared against the offline controller.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -4628,16 +4645,16 @@ async function copyBibtex(key) {
 <span id="Almagor:AAMAS:2020"><span id="Almagor:AAMAS:2020">S. Almagor and M. Lahijanian, “Explainable Multi Agent Path Finding,” in <i>Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems</i>, Richland, SC, 2020, pp. 34–42. </span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom " href="https://dl.acm.org/doi/abs/10.5555/3398761.3398771">
+  <a class="btn btn-custom " href="https://shaull.github.io/pub/AL20.pdf">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/https://dl.acm.org/doi/abs/10.5555/3398761.3398771">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Almagor-AAMAS-2020">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Almagor-AAMAS-2020" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Almagor-AAMAS-2020">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -4672,7 +4689,8 @@ async function copyBibtex(key) {
   location = {Auckland, New Zealand},
   series = {AAMAS ’20},
   bibkey = {ma-planning},
-  url = {https://dl.acm.org/doi/abs/10.5555/3398761.3398771}
+  doi = {https://dl.acm.org/doi/abs/10.5555/3398761.3398771},
+  url = {https://shaull.github.io/pub/AL20.pdf}
 }
 </pre>
       </div>
@@ -4680,6 +4698,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Almagor-AAMAS-2020" tabindex="-1" aria-labelledby="abs-Almagor-AAMAS-2020-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Almagor-AAMAS-2020-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Multi Agent Path Finding (MAPF) is the problem of planning paths for agents to reach their targets from their start locations, such that the agents do not collide while executing the plan. In safety-critical systems, the plan is typically checked by a human supervisor, who decides on whether to allow its execution. In such cases, we wish to convince the human that the plan is indeed collision free.To this end, we propose an explanation scheme for MAPF, which bases explanations on simplicity of visual verification by human’s cognitive process. The scheme decomposes a plan into segments such that within each segment, the paths of the agents are disjoint. Then, we can convince the supervisor that the plan is collision free using a small number of images (dubbed an explanation). In addition, we can measure the simplicity of a plan by the number of segments required for the decomposition. We study the complexity of algorithmic problems that arise by the explanation scheme, as well as the tradeoff between the length (makespan) of a plan and its minimal decomposition. We also provide experimental results of our scheme both in a continuous and in a discrete setting.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
