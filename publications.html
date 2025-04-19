@@ -702,7 +702,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Mazouz:CDC:2024"><span id="Mazouz:CDC:2024">R. Mazouz, J. Skovbekk, F. B. Mathiesen, E. Frew, L. Laurenti, and M. Lahijanian, “Data-Driven Permissible Safe Control with Barrier Certificates,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2024. </span></span>
+<span id="Mazouz:CDC:2024"><span id="Mazouz:CDC:2024">R. Mazouz, J. Skovbekk, F. B. Mathiesen, E. Frew, L. Laurenti, and M. Lahijanian, “Data-Driven Permissible Safe Control with Barrier Certificates,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2024, vol. 8, pp. 6844–6849. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2405.00136">
@@ -739,8 +739,9 @@ async function copyBibtex(key) {
   title = {Data-Driven Permissible Safe Control with Barrier Certificates},
   author = {Mazouz, Rayan and Skovbekk, John and Mathiesen, Frederik Baymler and Frew, Eric and Laurenti, Luca and Lahijanian, Morteza},
   booktitle = {IEEE Conference on Decision and Control (CDC)},
-  pages = {},
+  pages = {6844 --6849},
   year = {2024},
+  volume = {8},
   month = dec,
   publisher = {IEEE},
   doi = {10.1109/CDC56724.2024.10886850},
@@ -3079,7 +3080,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Mazouz:NeurIPS:2022"><span id="Mazouz:NeurIPS:2022">R. Mazouz, K. Muvvala, A. Ratheesh Babu, L. Laurenti, and M. Lahijanian, “Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions,” in <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, New Orleans, Louisiana, USA, 2022, vol. 35, pp. 9672–9686. </span></span>
+<span id="Mazouz:NeurIPS:2022"><span id="Mazouz:NeurIPS:2022">R. Mazouz, K. Muvvala, A. Ratheesh Babu, L. Laurenti, and M. Lahijanian, “Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions,” New Orleans, Louisiana, USA, 2022, vol. 35, pp. 9672–9686. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2206.07811">
@@ -3091,7 +3092,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mazouz-NeurIPS-2022">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Mazouz-NeurIPS-2022" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Mazouz-NeurIPS-2022">
     abstract
   </button>
   <a class="btn btn-custom " href="https://youtu.be/N0UVczFtgKo">
@@ -3115,9 +3116,8 @@ async function copyBibtex(key) {
         <pre id="bibtex-Mazouz-NeurIPS-2022" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Mazouz:NeurIPS:2022,
   title = {Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions},
   author = {Mazouz, Rayan and Muvvala, Karan and Ratheesh Babu, Akash and Laurenti, Luca and Lahijanian, Morteza},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
   url = {https://arxiv.org/abs/2206.07811},
-  publisher = {Curran Associates, Inc.},
+  publisher = {Advances in Neural Information Processing Systems},
   year = {2022},
   volume = {35},
   pages = {9672--9686},
@@ -3133,6 +3133,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Mazouz-NeurIPS-2022" tabindex="-1" aria-labelledby="abs-Mazouz-NeurIPS-2022-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Mazouz-NeurIPS-2022-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Neural Networks (NNs) have been successfully employed to represent the state evolution of complex dynamical systems. Such models, referred to as NN dynamic models (NNDMs), use iterative noisy predictions of NN to estimate a distribution of system trajectories over time. Despite their accuracy, safety analysis of NNDMs is known to be a challenging problem and remains largely unexplored. To address this issue, in this paper, we introduce a method of providing safety guarantees for NNDMs. Our approach is based on stochastic barrier functions, whose relation with safety are analogous to that of Lyapunov functions with stability. We first show a method of synthesizing stochastic barrier functions for NNDMs via a convex optimization problem, which in turn provides a lower bound on the system’s safety probability. A key step in our method is the employment of the recent convex approximation results for NNs to find piece-wise linear bounds, which allow the formulation of the barrier function synthesis problem as a sum-of-squares optimization program. If the obtained safety probability is above the desired threshold, the system is certified. Otherwise, we introduce a method of generating controls for the system that robustly minimize the unsafety probability in a minimally-invasive manner. We exploit the convexity property of the barrier function to formulate the optimal control synthesis problem as a linear program. Experimental results illustrate the efficacy of the method. Namely, they show that the method can scale to multi-dimensional NNDMs with multiple layers and hundreds of neurons per layer, and that the controller can significantly improve the safety probability.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
