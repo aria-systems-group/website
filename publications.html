@@ -5062,76 +5062,6 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Cauchi:HSCC:2019"><span id="Cauchi:HSCC:2019">N. Cauchi, L. Laurenti, M. Lahijanian, A. Abate, M. Kwiatkowska, and L. Cardelli, “Efficiency through Uncertainty: Scalable Formal Synthesis for Stochastic Hybrid Systems,” in <i>Proceedings of the 2019 22nd ACM International Conference on Hybrid Systems: Computation and Control</i>, Montreal, QC, Canada, 2019. </span></span>
-<br />
-<div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
-    pdf
-  </a>
-  <a class="btn btn-custom " href="http://dx.doi.org/10.1145/3302504.3311805">
-    publisher
-  </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Cauchi-HSCC-2019">
-    bibtex
-  </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Cauchi-HSCC-2019" disabled="">
-    abstract
-  </button>
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
-    video
-  </a>
-</div>
-
-<div class="modal fade" id="bib-Cauchi-HSCC-2019" tabindex="-1" aria-labelledby="bib-Cauchi-HSCC-2019-label" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 id="bib-Cauchi-HSCC-2019-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Cauchi-HSCC-2019')" title="Copy to clipboard">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
-          </svg>
-        </button>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-Cauchi-HSCC-2019" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Cauchi:HSCC:2019,
-  author = {Cauchi, Nathalie and Laurenti, Luca and Lahijanian, Morteza and Abate, Alessandro and Kwiatkowska, Marta and Cardelli, Luca},
-  title = {Efficiency through Uncertainty: Scalable Formal Synthesis for Stochastic Hybrid Systems},
-  booktitle = {Proceedings of the 2019 22nd ACM International Conference on Hybrid Systems: Computation and Control},
-  year = {2019},
-  month = apr,
-  address = {Montreal, QC, Canada},
-  publisher = {ACM},
-  doi = {10.1145/3302504.3311805}
-}
-</pre>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</li>
-
-<script>
-async function copyBibtex(key) {
-  // Get the BibTeX content
-  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
-  const button = event.target;
-  const originalIcon = button.innerHTML;
-  
-  await navigator.clipboard.writeText(bibtexContent);
-  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
-  
-  // Reset button icon after 2 seconds
-  setTimeout(() => {
-    button.innerHTML = originalIcon;
-  }, 2000);
-}
-</script>
-</li>
-<li><li>
 <span id="Hahn:TOMACS:2019"><span id="Hahn:TOMACS:2019">E. M. Hahn, V. Hashemi, H. Hermanns, M. Lahijanian, and A. Turrini, “Interval Markov decision processes with multiple objectives: From Robust strategies to Pareto curves,” <i>ACM Transactions on Modeling and Computer Simulation</i>, vol. 29, no. 4, pp. 1–31, 2019. </span></span>
 <br />
 <div class="btn-group" role="group">
@@ -5182,6 +5112,96 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Cauchi:HSCC:2019"><span id="Cauchi:HSCC:2019">N. Cauchi, L. Laurenti, M. Lahijanian, A. Abate, M. Kwiatkowska, and L. Cardelli, “Efficiency through Uncertainty: Scalable Formal Synthesis for Stochastic Hybrid Systems,” in <i>Proceedings of the 22nd ACM International Conference on Hybrid Systems: Computation and Control</i>, New York, NY, USA, 2019, pp. 240–251. </span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/1901.01576">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1145/3302504.3311805">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Cauchi-HSCC-2019">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Cauchi-HSCC-2019">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Cauchi-HSCC-2019" tabindex="-1" aria-labelledby="bib-Cauchi-HSCC-2019-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Cauchi-HSCC-2019-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Cauchi-HSCC-2019')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Cauchi-HSCC-2019" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Cauchi:HSCC:2019,
+  author = {Cauchi, Nathalie and Laurenti, Luca and Lahijanian, Morteza and Abate, Alessandro and Kwiatkowska, Marta and Cardelli, Luca},
+  title = {Efficiency through Uncertainty: Scalable Formal Synthesis for Stochastic Hybrid Systems},
+  year = {2019},
+  isbn = {9781450362825},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://arxiv.org/abs/1901.01576},
+  doi = {10.1145/3302504.3311805},
+  booktitle = {Proceedings of the 22nd ACM International Conference on Hybrid Systems: Computation and Control},
+  pages = {240-–251},
+  numpages = {12},
+  keywords = {verification, synthesis, stochastic processes, model checking, interval Markov decision processes, hybrid systems, formal methods},
+  location = {Montreal, Quebec, Canada},
+  series = {HSCC '19}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Cauchi-HSCC-2019" tabindex="-1" aria-labelledby="abs-Cauchi-HSCC-2019-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Cauchi-HSCC-2019-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This work targets the development of an efficient abstraction method for formal analysis and control synthesis of discrete-time stochastic hybrid systems (SHS) with linear dynamics. The focus is on temporal logic specifications over both finite- and infinite-time horizons. The framework constructs a finite abstraction as a class of uncertain Markov models known as interval Markov decision process (IMDP). Then, a strategy that maximizes the satisfaction probability of the given specification is synthesized over the IMDP and mapped to the underlying SHS. In contrast to existing formal approaches, which are by and large limited to finite-time properties and rely on conservative over-approximations, we show that the exact abstraction error can be computed as a solution of convex optimization problems and can be embedded into the IMDP abstraction. This is later used in the synthesis step over both bounded- and unbounded-time properties, mitigating the known state-space explosion problem. Our experimental validation of the new approach compared to existing abstraction-based approaches shows: (i) significant (orders of magnitude) reduction of the abstraction error; (ii) marked speed-ups; and (iii) boosted scalability, allowing in particular to verify models with more than 10 continuous variables.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
