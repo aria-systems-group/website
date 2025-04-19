@@ -365,14 +365,21 @@
 }
 
 @INPROCEEDINGS{Cauchi:HSCC:2019,
-  AUTHOR =       {Nathalie Cauchi and Luca Laurenti and Morteza Lahijanian and Alessandro Abate and Marta Kwiatkowska and Luca Cardelli},
-  TITLE =        {Efficiency through Uncertainty: Scalable Formal Synthesis for Stochastic Hybrid Systems},
-  BOOKTITLE =    {Proceedings of the 2019 22nd ACM International Conference on Hybrid Systems: Computation and Control},
-  YEAR =         {2019},
-  month =        {Apr.},
-  address =      {Montreal, QC, Canada},
-  publisher =    {ACM},
-  DOI = {10.1145/3302504.3311805},
+  AUTHOR = {Nathalie Cauchi and Luca Laurenti and Morteza Lahijanian and Alessandro Abate and Marta Kwiatkowska and Luca Cardelli},
+  TITLE =  {Efficiency through Uncertainty: Scalable Formal Synthesis for Stochastic Hybrid Systems},
+  year = {2019},
+  isbn = {9781450362825},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://arxiv.org/abs/1901.01576},
+  doi = {10.1145/3302504.3311805},
+  abstract = {This work targets the development of an efficient abstraction method for formal analysis and control synthesis of discrete-time stochastic hybrid systems (SHS) with linear dynamics. The focus is on temporal logic specifications over both finite- and infinite-time horizons. The framework constructs a finite abstraction as a class of uncertain Markov models known as interval Markov decision process (IMDP). Then, a strategy that maximizes the satisfaction probability of the given specification is synthesized over the IMDP and mapped to the underlying SHS. In contrast to existing formal approaches, which are by and large limited to finite-time properties and rely on conservative over-approximations, we show that the exact abstraction error can be computed as a solution of convex optimization problems and can be embedded into the IMDP abstraction. This is later used in the synthesis step over both bounded- and unbounded-time properties, mitigating the known state-space explosion problem. Our experimental validation of the new approach compared to existing abstraction-based approaches shows: (i) significant (orders of magnitude) reduction of the abstraction error; (ii) marked speed-ups; and (iii) boosted scalability, allowing in particular to verify models with more than 10 continuous variables.},
+  booktitle = {Proceedings of the 22nd ACM International Conference on Hybrid Systems: Computation and Control},
+  pages = {240-–251},
+  numpages = {12},
+  keywords = {verification, synthesis, stochastic processes, model checking, interval Markov decision processes, hybrid systems, formal methods},
+  location = {Montreal, Quebec, Canada},
+  series = {HSCC '19}
 }
 
 @inproceedings{Eiras:CAVS:2019,
