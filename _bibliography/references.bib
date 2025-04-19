@@ -421,8 +421,10 @@
   keywords = {path planning, mapf, explainability, motion planning, path finding, multi-agent systems},
   location = {Auckland, New Zealand},
   series = {AAMAS ’20},
+  abstract = {Multi Agent Path Finding (MAPF) is the problem of planning paths for agents to reach their targets from their start locations, such that the agents do not collide while executing the plan. In safety-critical systems, the plan is typically checked by a human supervisor, who decides on whether to allow its execution. In such cases, we wish to convince the human that the plan is indeed collision free.To this end, we propose an explanation scheme for MAPF, which bases explanations on simplicity of visual verification by human's cognitive process. The scheme decomposes a plan into segments such that within each segment, the paths of the agents are disjoint. Then, we can convince the supervisor that the plan is collision free using a small number of images (dubbed an explanation). In addition, we can measure the simplicity of a plan by the number of segments required for the decomposition. We study the complexity of algorithmic problems that arise by the explanation scheme, as well as the tradeoff between the length (makespan) of a plan and its minimal decomposition. We also provide experimental results of our scheme both in a continuous and in a discrete setting.},
   bibkey = {ma-planning},
-  url = {https://dl.acm.org/doi/abs/10.5555/3398761.3398771},
+  doi = {https://dl.acm.org/doi/abs/10.5555/3398761.3398771},
+  url={https://shaull.github.io/pub/AL20.pdf},
 }
 
 @inproceedings{Jackson:RSSworshop:2020,
@@ -587,10 +589,13 @@
   month={Dec},
   year={2021},
   organization={IEEE},
+  pages={2232--2239},
+  location = {Austin, TX, USA}
   note = {},
-  bibkey = {synth-ml},
   url={https://arxiv.org/abs/2110.05525},
   videourl={https://youtu.be/ZuKd_nzaGgY},
+  doi={10.1109/CDC45484.2021.9683557},
+  abstract={Autonomous systems often have complex and possibly unknown dynamics due to, e.g., black-box components. This leads to unpredictable behaviors and makes control design with performance guarantees a major challenge. This paper presents a data-driven control synthesis framework for such systems subject to linear temporal logic on finite traces (LTLf) specifications. The framework combines a baseline (offline) controller with a novel online controller and refinement procedure that improves the baseline guarantees as new data is collected. The baseline controller is computed offline on an uncertain abstraction constructed using Gaussian process (GP) regression on a given dataset. The offline controller provides a lower bound on the probability of satisfying the LTLf specification, which may be far from optimal due to both discretization and regression errors. The synergy arises from the online controller using the offline abstraction along with the current state and new data to choose the next best action. The online controller may improve the baseline guarantees since it avoids the discretization error and reduces regression error as new data is collected. The new data are also used to refine the abstraction and offline controller using local GP regression, which significantly reduces the computation overhead. Evaluations show the efficacy of the proposed offline-online framework, especially when compared against the offline controller.},
   bibkey={synth-ml}
 }
 
