@@ -2296,7 +2296,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Ho-ICRA-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Ho-ICRA-2023" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Ho-ICRA-2023">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -2324,7 +2324,7 @@ async function copyBibtex(key) {
   booktitle = {International Conference on Robotics and Automation (ICRA)},
   publisher = {IEEE},
   year = {2023},
-  pages = {5723-5729},
+  pages = {5723--5729},
   address = {London, England, UK},
   month = may,
   note = {},
@@ -2337,6 +2337,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Ho-ICRA-2023" tabindex="-1" aria-labelledby="abs-Ho-ICRA-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Ho-ICRA-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper presents a new multi-layered algorithm for motion planning under motion and sensing uncertainties for Linear Temporal Logic specifications. We propose a technique to guide a sampling-based search tree in the combined task and belief space using trajectories from a simplified model of the system, to make the problem computationally tractable. Our method eliminates the need to construct fine and accurate finite abstractions. We prove correctness and probabilistic completeness of our algorithm, and illustrate the benefits of our approach on several case studies. Our results show that guidance with a simplified belief space model allows for significant speed-up in planning for complex specifications.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -2370,7 +2384,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Ilyes-ICRA-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Ilyes-ICRA-2023" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Ilyes-ICRA-2023">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -2398,7 +2412,7 @@ async function copyBibtex(key) {
   booktitle = {International Conference on Robotics and Automation (ICRA)},
   publisher = {IEEE},
   year = {2023},
-  pages = {5716-5722},
+  pages = {5716--5722},
   address = {London, England, UK},
   month = may,
   note = {},
@@ -2411,6 +2425,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Ilyes-ICRA-2023" tabindex="-1" aria-labelledby="abs-Ilyes-ICRA-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Ilyes-ICRA-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        In this work, we present a novel robustness measure for continuous-time stochastic trajectories with respect to Signal Temporal Logic (STL) specifications. We show the soundness of the measure and develop a monitor for reasoning about partial trajectories. Using this monitor, we introduce an STL sampling-based motion planning algorithm for robots under uncertainty. Given a minimum robustness requirement, this algorithm finds satisfying motion plans; alternatively, the algorithm also optimizes for the measure. We prove probabilistic completeness and asymptotic optimality of the motion planner with respect to the measure, and demonstrate the effectiveness of our approach on several case studies.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -2532,7 +2560,7 @@ async function copyBibtex(key) {
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Delimpaltadakis-HSCC-2023">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Delimpaltadakis-HSCC-2023" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Delimpaltadakis-HSCC-2023">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -2574,6 +2602,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Delimpaltadakis-HSCC-2023" tabindex="-1" aria-labelledby="abs-Delimpaltadakis-HSCC-2023-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Delimpaltadakis-HSCC-2023-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Interval Markov Decision Processes (IMDPs) are finite-state uncertain Markov models, where the transition probabilities belong to intervals. Recently, there has been a surge of research on employing IMDPs as abstractions of stochastic systems for control synthesis. However, due to the absence of algorithms for synthesis over IMDPs with continuous action-spaces, the action-space is assumed discrete a-priori, which is a restrictive assumption for many applications. Motivated by this, we introduce continuous-action IMDPs (caIMDPs), where the bounds on transition probabilities are functions of the action variables, and study value iteration for maximizing expected cumulative rewards. Specifically, we decompose the max-min problem associated to value iteration to |𝒬| max problems, where |𝒬| is the number of states of the caIMDP. Then, exploiting the simple form of these max problems, we identify cases where value iteration over caIMDPs can be solved efficiently (e.g., with linear or convex programming). We also gain other interesting insights: e.g., in certain cases where the action set 𝒜 is a polytope, synthesis over a discrete-action IMDP, where the actions are the vertices of 𝒜, is sufficient for optimality. We demonstrate our results on a numerical example. Finally, we include a short discussion on employing caIMDPs as abstractions for control synthesis.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
@@ -2863,7 +2905,7 @@ async function copyBibtex(key) {
 <span id="Pairet:TASE:2021"><span id="Pairet:TASE:2021">È. Pairet, J. D. Hernández, M. Carreras, Y. Petillot, and M. Lahijanian, “Online Mapping and Motion Planning under Uncertainty for Safe Navigation in Unknown Environments,” <i>IEEE Transactions on Automation Science and Engineering</i>, vol. 19, no. 4, pp. 3356–3378, Nov. 2022. </span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2004.12317">
     pdf
   </a>
   <a class="btn btn-custom " href="http://dx.doi.org/10.1109/TASE.2021.3118737">
@@ -2903,6 +2945,7 @@ async function copyBibtex(key) {
   month = nov,
   pages = {3356-3378},
   publisher = {IEEE},
+  url = {https://arxiv.org/abs/2004.12317},
   doi = {10.1109/TASE.2021.3118737},
   bibkey = {safe-navigation}
 }
