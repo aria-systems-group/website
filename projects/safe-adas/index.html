@@ -98,6 +98,93 @@
 
 <h2 class="bibliography">2019</h2>
 <ol class="bibliography"><li><li>
+<span id="Wu:IROS:2019"><span id="Wu:IROS:2019">M. Wu <i>et al.</i>, “Gaze-based Intention Anticipation over Driving Manoeuvres in Semi-Autonomous Vehicles,” in <i>2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2019, pp. 6210–6216. </span></span>
+<br>
+<div class="btn-group" role="group">
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/IROS40897.2019.8967779" >
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Wu-IROS-2019">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Wu-IROS-2019" >
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Wu-IROS-2019" tabindex="-1" aria-labelledby="bib-Wu-IROS-2019-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Wu-IROS-2019-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Wu-IROS-2019')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Wu-IROS-2019" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Wu:IROS:2019,
+  title = {Gaze-based Intention Anticipation over Driving Manoeuvres in Semi-Autonomous Vehicles},
+  booktitle = {2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  month = nov,
+  year = {2019},
+  pages = {6210–-6216},
+  author = {Wu, Min and Louw, Tyron and Lahijanian, Morteza and Ruan, Wenjie and Huang, Xiaowei and Merat, Natasha and Kwiatkowska, Marta},
+  publisher = {IEEE},
+  numpages = {7},
+  location = {Macau, China},
+  doi = {10.1109/IROS40897.2019.8967779},
+  bibkey = {safe-adas}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Wu-IROS-2019" tabindex="-1" aria-labelledby="abs-Wu-IROS-2019-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Wu-IROS-2019-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Anticipating a human collaborator’s intention enables safe and efficient interaction between a human and an autonomous system. Specifically, in the context of semiautonomous driving, studies have revealed that correct and timely prediction of the driver’s intention needs to be an essential part of Advanced Driver Assistance System (ADAS) design. To this end, we propose a framework that exploits drivers’ time-series eye gaze and fixation patterns to anticipate their real-time intention over possible future manoeuvres, enabling a smart and collaborative ADAS that can aid drivers to overcome safety-critical situations. The method models human intention as the latent states of a hidden Markov model and uses probabilistic dynamic time warping distributions to capture the temporal characteristics of the observation patterns of the drivers. The method is evaluated on a data set of 124 experiments from 75 drivers collected in a safety-critical semi-autonomous driving scenario. The results illustrate the efficacy of the framework by correctly anticipating the drivers’ intentions about 3 seconds beforehand with over 90% accuracy.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="Eirsa:RSSworshop:2019"><span id="Eirsa:RSSworshop:2019">F. Eiras and M. Lahijanian, “Towards Provably Correct Driver Assistance Systems through Stochastic Cognitive Modeling,” in <i>Robotics: Science and Systems Workshop on Robust Autonomy: Tools for Safety in Real-World Uncertain Environments</i>, 2019. </span></span>
 <br>
 <div class="btn-group" role="group">
@@ -138,76 +225,6 @@
   year = {2019},
   month = jun,
   url = {https://openreview.net/pdf?id=H1luEtWjTE},
-  bibkey = {safe-adas}
-}
-</pre>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</li>
-
-<script>
-async function copyBibtex(key) {
-  // Get the BibTeX content
-  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
-  const button = event.target;
-  const originalIcon = button.innerHTML;
-  
-  await navigator.clipboard.writeText(bibtexContent);
-  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
-  
-  // Reset button icon after 2 seconds
-  setTimeout(() => {
-    button.innerHTML = originalIcon;
-  }, 2000);
-}
-</script>
-</li>
-<li><li>
-<span id="Wu:IROS:2019"><span id="Wu:IROS:2019">M. Wu <i>et al.</i>, “Gaze-based Intention Anticipation over Driving Manoeuvres in Semi-Autonomous Vehicles,” in <i>Proceedings of the IEEE International Conference on Intelligent Robots and Systems</i>, 2019, pp. 6210–6216. </span></span>
-<br>
-<div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
-    pdf
-  </a>
-  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/IROS40897.2019.8967779" >
-    publisher
-  </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Wu-IROS-2019">
-    bibtex
-  </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Wu-IROS-2019" disabled>
-    abstract
-  </button>
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
-    video
-  </a>
-</div>
-
-<div class="modal fade" id="bib-Wu-IROS-2019" tabindex="-1" aria-labelledby="bib-Wu-IROS-2019-label" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 id="bib-Wu-IROS-2019-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Wu-IROS-2019')" title="Copy to clipboard">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
-          </svg>
-        </button>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-Wu-IROS-2019" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Wu:IROS:2019,
-  title = {Gaze-based Intention Anticipation over Driving Manoeuvres in Semi-Autonomous Vehicles},
-  booktitle = {Proceedings of the IEEE International Conference on Intelligent Robots and Systems},
-  year = {2019},
-  pages = {6210--6216},
-  author = {Wu, Min and Louw, Tyron and Lahijanian, Morteza and Ruan, Wenjie and Huang, Xiaowei and Merat, Natasha and Kwiatkowska, Marta},
-  publisher = {IEEE},
-  doi = {10.1109/IROS40897.2019.8967779},
   bibkey = {safe-adas}
 }
 </pre>
