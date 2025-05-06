@@ -98,6 +98,97 @@
 <p>The project is a critical step towards making robots collaborative with and responsive to humans while allowing the human to be in control. This research will develop a framework for human-robot collaboration that integrates reactive synthesis from formal methods with robotic planning methods. By tightly combining the development of synthesis methods with robotics, it will pursue the development of a framework that is intuitive and scalable. The focus is on task-level collaboration as opposed to physical interaction with a human.</p>
 
 
+<h2 class="bibliography">2025</h2>
+<ol class="bibliography"><li><li>
+<span id="Muvvala:IJCAI:2025"><span id="Muvvala:IJCAI:2025">K. Muvvala, Q. H. Ho, and M. Lahijanian, “Beyond winning strategies: Admissible and admissible winning strategies for quantitative reachability games,” in <i>Proceedings of the Thirty-Third International Joint Conference on
+               Artificial Intelligence (IJCAI)</i>, Montreal, Quebec, Canada, 2025. (accepted)</span></span>
+<br>
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="arXiv preprint arXiv:2408.13369" >
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/" >
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Muvvala-IJCAI-2025">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Muvvala-IJCAI-2025" >
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Muvvala-IJCAI-2025" tabindex="-1" aria-labelledby="bib-Muvvala-IJCAI-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Muvvala-IJCAI-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Muvvala-IJCAI-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Muvvala-IJCAI-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Muvvala:IJCAI:2025,
+  title = {Beyond winning strategies: Admissible and admissible winning strategies for quantitative reachability games},
+  author = {Muvvala, Karan and Ho, Qi Heng and Lahijanian, Morteza},
+  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
+                 Artificial Intelligence (IJCAI)},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  month = aug,
+  year = {2025},
+  address = {Montreal, Quebec, Canada},
+  pages = {},
+  doi = {},
+  bibkey = {maniprs},
+  url = {arXiv preprint arXiv:2408.13369},
+  note = {(accepted)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Muvvala-IJCAI-2025" tabindex="-1" aria-labelledby="abs-Muvvala-IJCAI-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Muvvala-IJCAI-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Classical reactive synthesis approaches aim to synthesize a reactive system that always satisfies a given specifications. These approaches often reduce to playing a two-player zero-sum game where the goal is to synthesize a winning strategy. However, in many pragmatic domains, such as robotics, a winning strategy does not always exist, yet it is desirable for the system to make an effort to satisfy its requirements instead of "giving up". To this end, this paper investigates the notion of admissible strategies, which formalize "doing-your-best", in quantitative reachability games. We show that, unlike the qualitative case, quantitative admissible strategies are history-dependent even for finite payoff functions, making synthesis a challenging task. In addition, we prove that admissible strategies always exist but may produce undesirable optimistic behaviors. To mitigate this, we propose admissible winning strategies, which enforce the best possible outcome while being admissible. We show that both strategies always exist but are not memoryless. We provide necessary and sufficient conditions for the existence of both strategies and propose synthesis algorithms. Finally, we illustrate the strategies on gridworld and robot manipulator domains.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li></ol>
 <h2 class="bibliography">2024</h2>
 <ol class="bibliography"><li><li>
 <span id="Muvvala:ICRA:2024"><span id="Muvvala:ICRA:2024">K. Muvvala, A. Wells, M. Lahijanian, L. Kavraki, and M. Vardi, “Stochastic Games for Interactive Manipulation Domains,” in <i>2024 IEEE Conference on Robotics and Automation (ICRA)</i>, Yokohama, Japan, 2024. </span></span>
