@@ -263,6 +263,95 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
+<span id="Kong:UAI:2025"><span id="Kong:UAI:2025">C.-W. K. Kong, L. Laurenti, J. McMahon, and M. Lahijanian, “Error Bounds for Physics-Informed Neural Networks in Fokker-Planck PDEs,” in <i>Proceedings of the Forty-First Conference on Uncertainty in Artificial Intelligence (UAI)</i>, Rio de Janeiro, Brazil, 2025. (accepted)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2410.22371">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Kong-UAI-2025">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Kong-UAI-2025">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Kong-UAI-2025" tabindex="-1" aria-labelledby="bib-Kong-UAI-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Kong-UAI-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Kong-UAI-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Kong-UAI-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Kong:UAI:2025,
+  title = {Error Bounds for Physics-Informed Neural Networks in Fokker-Planck PDEs},
+  author = {Kong, Chun-Wei Kong and Laurenti, Luca and McMahon, Jay and Lahijanian, Morteza},
+  booktitle = {Proceedings of the Forty-First Conference on Uncertainty in Artificial Intelligence (UAI)},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  organizer = {PMLR},
+  month = jul,
+  year = {2025},
+  address = {Rio de Janeiro, Brazil},
+  pages = {},
+  doi = {},
+  bibkey = {synth-ml},
+  url = {https://arxiv.org/abs/2410.22371},
+  note = {(accepted)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Kong-UAI-2025" tabindex="-1" aria-labelledby="abs-Kong-UAI-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Kong-UAI-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Stochastic differential equations are commonly used to describe the evolution of stochastic processes. The state uncertainty of such processes is best represented by the probability density function (PDF), whose evolution is governed by the Fokker-Planck partial differential equation (FP-PDE). However, it is generally infeasible to solve the FP-PDE in closed form. In this work, we show that physics-informed neural networks (PINNs) can be trained to approximate the solution PDF. Our main contribution is the analysis of PINN approximation error: we develop a theoretical framework to construct tight error bounds using PINNs. In addition, we derive a practical error bound that can be efficiently constructed with standard training methods. We discuss that this error-bound framework generalizes to approximate solutions of other linear PDEs. Empirical results on nonlinear, high-dimensional, and chaotic systems validate the correctness of our error bounds while demonstrating the scalability of PINNs and their significant computational speedup in obtaining accurate PDF solutions compared to the Monte Carlo approach.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="Gracia:L4DC:2025"><span id="Gracia:L4DC:2025">I. Gracia, L. Laurenti, M. Mazo Jr., A. Abate, and M. Lahijanian, “Temporal Logic Control for Nonlinear Stochastic Systems Under Unknown Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Ann Arbor, MI, USA, 2025. (accepted)</span></span>
 <br />
 <div class="btn-group" role="group">
