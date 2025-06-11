@@ -51,8 +51,9 @@ jobs:
 
       - name: Encrypting the internal webpage 
         run: |
-          staticrypt --version
           ls ./_site
+          npm ls staticrypt
+          npx staticrypt --version
           npx staticrypt ./_site/internal.html -p ${{ secrets.INTERNAL_PAGE_PW }} --short
           mv ./encrypted/internal.html ./_site/internal.html
       - name: 🚀 Deploying the website 
