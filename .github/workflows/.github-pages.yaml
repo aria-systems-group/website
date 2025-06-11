@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '16'
       - run: | 
-          npm install -g staticrypt
+          npm install -g staticrypt@2.6.1
           
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -46,7 +46,6 @@ jobs:
 
       - name: Encrypting the internal webpage 
         run: |
-          npm install -g staticrypt@3.0.0
           ls ./_site
           staticrypt ./_site/internal.html -p ${{ secrets.INTERNAL_PAGE_PW }} --short
           mv ./encrypted/internal.html ./_site/internal.html
