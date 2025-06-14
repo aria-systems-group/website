@@ -15,8 +15,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
-      # - run: | 
-          # npm install -g staticrypt@2.6.1
           
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -44,18 +42,16 @@ jobs:
         with:
           enable_cache: true
 
-      - name: Initialize NPM and install staticrypt locally
+      - name: Download Staticrypt binary
         run: |
-          npm init -y
-          npm install staticrypt@2.6.1 --save-dev
+          curl -L -o staticrypt https://github.com/robinmoisson/staticrypt/releases/download/2.3.0/staticrypt-linux
+          chmod +x staticrypt
 
       - name: Encrypting the internal webpage 
         run: |
-          ls ./_site
-          npm ls staticrypt
-          npx staticrypt --version
-          npx staticrypt ./_site/internal.html -p ${{ secrets.INTERNAL_PAGE_PW }} --short
+          ./staticrypt ./_site/internal.html -p ${{ secrets.INTERNAL_PAGE_PW }} --short
           mv ./encrypted/internal.html ./_site/internal.html
+          
       - name: 🚀 Deploying the website 
         uses: peaceiris/actions-gh-pages@v3
         with:
