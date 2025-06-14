@@ -5992,16 +5992,16 @@ async function copyBibtex(key) {
 <span id="Lahijanian:CDC:2016"><span id="Lahijanian:CDC:2016">M. Lahijanian and M. Kwiatkowska, “Specification Revision for Markov Decision Processes with Optimal Trade-off,” in <i>Proceedings of the IEEE 55th Conference on Decision and Control</i>, 2016, pp. 7411–7418. </span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="https://www.prismmodelchecker.org/papers/cdc16.pdf">
     pdf
   </a>
-  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/CDC.2016.7799414">
     publisher
   </a>
   <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Lahijanian-CDC-2016">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Lahijanian-CDC-2016" disabled="">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Lahijanian-CDC-2016">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -6029,7 +6029,9 @@ async function copyBibtex(key) {
   pages = {7411--7418},
   year = {2016},
   month = dec,
-  publisher = {IEEE}
+  publisher = {IEEE},
+  doi = {10.1109/CDC.2016.7799414},
+  url = {https://www.prismmodelchecker.org/papers/cdc16.pdf}
 }
 </pre>
       </div>
@@ -6037,6 +6039,20 @@ async function copyBibtex(key) {
   </div>
 </div>
 
+
+<div class="modal fade" id="abs-Lahijanian-CDC-2016" tabindex="-1" aria-labelledby="abs-Lahijanian-CDC-2016-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Lahijanian-CDC-2016-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Optimal control policy synthesis for probabilistic systems from high-level specifications is increasingly often studied. One major question that is commonly faced, however, is what to do when the optimal probability of achieving the specification is not satisfactory? We address this question by viewing the specification as a soft constraint and present a synthesis framework for MDPs that encodes and automates specification revision in a trade-off for higher probability. The method uses co-safe LTL as the specification language and quantifies the revisions to the specification according to user-defined proposition costs. The framework computes a control policy that optimizes the trade-off between the probability of satisfaction and the cost of specification revision. The key idea of the method is a rule for the composition of the MDP, the automaton representing the specification, and the proposition costs such that all possible specification revisions along with their costs and probabilities of satisfaction are captured in one structure. The problem is then reduced to multi-objective optimization on an MDP. The power of the method is illustrated though simulations of a complex robotic scenario.
+      </div>
+    </div>
+  </div>
+</div>
 
 </li>
 
