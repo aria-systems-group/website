@@ -13,7 +13,7 @@ picture-link:
 header-link:  
 ---
 
-Hi I'm a first-year PhD student. I hold a Bachelor of Science in Aeronautics and Astronautics from National Cheng Kung University in Taiwan, and a Master of Science in Aerospace Engineering from the University of Michigan, Ann Arbor. I am interested in pushing the boundaries of space exploration using autonomous systems. I am co-advised by Dr. Jay McMahon.
+Hi I'm a PhD student. I hold a Bachelor of Science in Aeronautics and Astronautics from National Cheng Kung University in Taiwan, and a Master of Science in Aerospace Engineering from the University of Michigan, Ann Arbor. I am interested in pushing the boundaries of space exploration using autonomous systems. I am co-advised by Dr. Jay McMahon.
 
 <!--more-->
 
