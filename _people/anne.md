@@ -3,7 +3,8 @@ name: Anne Theurkauf
 ordering: 4
 email: anne.theurkauf@colorado.edu
 program: PhD Candidate
-status: current
+status: alumnus
+year-graduated: 2025
 picture: /assets/images/anne_theurkauf_304x400.jpg 
 picture-link: 
 header-link:
