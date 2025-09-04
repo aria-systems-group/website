@@ -96,6 +96,94 @@
 
 <h2 class="bibliography">2025</h2>
 <ol class="bibliography"><li><li>
+<span id="Mazouz:CDC:2025"><span id="Mazouz:CDC:2025">R. Mazouz, L. Laurenti, and M. Lahijanian, “Piecewise Control Barrier Functions for Stochastic Systems,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2025. (accepted)</span></span>
+<br>
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2507.17703" >
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/" >
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mazouz-CDC-2025">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Mazouz-CDC-2025" >
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Mazouz-CDC-2025" tabindex="-1" aria-labelledby="bib-Mazouz-CDC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Mazouz-CDC-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Mazouz-CDC-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Mazouz-CDC-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Mazouz:CDC:2025,
+  title = {Piecewise Control Barrier Functions for Stochastic Systems},
+  author = {Mazouz, Rayan and Laurenti, Luca and Lahijanian, Morteza},
+  booktitle = {IEEE Conference on Decision and Control (CDC)},
+  publisher = {},
+  month = dec,
+  year = {2025},
+  address = {},
+  pages = {},
+  doi = {},
+  bibkey = {synth-ml},
+  url = {https://arxiv.org/abs/2507.17703},
+  note = {(accepted)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Mazouz-CDC-2025" tabindex="-1" aria-labelledby="abs-Mazouz-CDC-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Mazouz-CDC-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper presents a method for the simultaneous synthesis of a barrier certificate and a safe controller for discrete-time nonlinear stochastic systems. Our approach, based on piecewise stochastic control barrier functions, reduces the synthesis problem to a minimax optimization, which we solve exactly using a dual linear program with zero gap. This enables the joint optimization of the barrier certificate and safe controller within a single formulation. The method accommodates stochastic dynamics with additive noise and a bounded continuous control set. The synthesized controllers and barrier certificates provide a formally guaranteed lower bound on probabilistic safety. Case studies on linear and nonlinear stochastic systems validate the effectiveness of our approach.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="Reed:ACC:2025"><span id="Reed:ACC:2025">R. Reed and M. Lahijanian, “Learning-Based Shielding for Safe Autonomy under Unknown Dynamics,” in <i>American Control Conference (ACC)</i>, Denver, CO, USA, 2025. (accepted)</span></span>
 <br>
 <div class="btn-group" role="group">
