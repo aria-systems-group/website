@@ -1329,3 +1329,20 @@
   abstract={Stochastic Barrier Functions (SBFs) certify the safety of stochastic systems by formulating a functional optimization problem, which state-of-the-art methods solve using Sum-of-Squares (SoS) polynomials. This work focuses on polynomial SBFs and introduces a new formulation based on Bernstein polynomials and provides a comparative analysis of its theoretical and empirical performance against SoS methods. We show that the Bernstein formulation leads to a linear program (LP), in contrast to the semi-definite program (SDP) required for SoS, and that its relaxations exhibit favorable theoretical convergence properties. However, our empirical results reveal that the Bernstein approach struggles to match SoS in practical performance, exposing an intriguing gap between theoretical advantages and real-world feasibility.},
   bibkey={synth-ml},
 }
+
+@inproceedings{Mazouz:CDC:2025,
+  title={Piecewise Control Barrier Functions for Stochastic Systems},
+  author={Mazouz, Rayan and Laurenti, Luca and Lahijanian, Morteza},
+  booktitle= {IEEE Conference on Decision and Control (CDC)},
+  publisher = {},
+  month={Dec.},
+  year={2025},
+  address = {},
+  pages = {},
+  doi = {},
+  bibkey={synth-ml},
+  url={https://arxiv.org/abs/2507.17703},
+  note={(accepted)},
+  abstract={This paper presents a method for the simultaneous synthesis of a barrier certificate and a safe controller for discrete-time nonlinear stochastic systems. Our approach, based on piecewise stochastic control barrier functions, reduces the synthesis problem to a minimax optimization, which we solve exactly using a dual linear program with zero gap. This enables the joint optimization of the barrier certificate and safe controller within a single formulation. The method accommodates stochastic dynamics with additive noise and a bounded continuous control set. The synthesized controllers and barrier certificates provide a formally guaranteed lower bound on probabilistic safety. Case studies on linear and nonlinear stochastic systems validate the effectiveness of our approach.},
+}
+
