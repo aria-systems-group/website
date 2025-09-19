@@ -1231,6 +1231,92 @@ async function copyBibtex(key) {
   }, 2000);
 }
 </script>
+</li>
+<li><li>
+<span id="amorese:TRO:2025"><span id="amorese:TRO:2025">P. Amorese, S. Wakayama, N. Ahmed, and M. Lahijanian, “Online Pareto-Optimal Decision-Making for Complex Tasks Using Active Inference,” <i>IEEE Transactions on Robotics (TRO)</i>, vol. 41, pp. 5378–5395, 2025. </span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2406.11984">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/10.1109/TRO.2025.3600155">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-amorese-TRO-2025">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-amorese-TRO-2025">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-amorese-TRO-2025" tabindex="-1" aria-labelledby="bib-amorese-TRO-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-amorese-TRO-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('amorese-TRO-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-amorese-TRO-2025" style="white-space: pre-wrap; word-wrap: break-word;">@article{amorese:TRO:2025,
+  author = {Amorese, Peter and Wakayama, Shohei and Ahmed, Nisar and Lahijanian, Morteza},
+  journal = {IEEE Transactions on Robotics (TRO)},
+  title = {Online Pareto-Optimal Decision-Making for Complex Tasks Using Active Inference},
+  year = {2025},
+  volume = {41},
+  number = {},
+  pages = {5378-5395},
+  keywords = {Robots;Costs;Planning;Stochastic processes;User preference;Decision making;Uncertainty;Floors;Cost function;Safety;Active inference;formal synthesis;multiobjective decision-making},
+  doi = {10.1109/TRO.2025.3600155},
+  url = {https://arxiv.org/abs/2406.11984}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-amorese-TRO-2025" tabindex="-1" aria-labelledby="abs-amorese-TRO-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-amorese-TRO-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        When a robot autonomously performs a complex task, it frequently must balance competing objectives while maintaining safety. This becomes more difficult in uncertain environments with stochastic outcomes. Enhancing transparency in the robot’s behavior and aligning with user preferences are also crucial. This article introduces a novel framework for multiobjective reinforcement learning that ensures safe task execution, optimizes tradeoffs between objectives, and adheres to user preferences. The framework has two main layers: a multiobjective task planner and a high-level selector. The planning layer generates a set of optimal tradeoff plans that guarantee satisfaction of a temporal logic task. The selector uses active inference to decide which generated plan best complies with user preferences and aids learning. Operating iteratively, the framework updates a parameterized learning model based on collected data. Case studies and benchmarks on both manipulation and mobile robots show that our framework outperforms other methods and (i) learns multiple optimal tradeoffs, (ii) adheres to a user preference, and (iii) allows the user to adjust the balance between (i) and (ii).
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2024</h2>
 <ol class="bibliography"><li><li>
