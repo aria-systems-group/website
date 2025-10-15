@@ -1,6 +1,6 @@
 ---
 name: Rayan Mazouz
-ordering: 7
+ordering: 2
 email: rayan.mazouz@colorado.edu
 program: PhD Student
 status: current

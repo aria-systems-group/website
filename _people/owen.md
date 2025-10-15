@@ -1,7 +1,7 @@
 ---
 name: Owen Kranz
 layout: extraleft
-ordering: 19
+ordering: 9
 email: owen.kranz@colorado.edu
 program: PhD Student
 status: current

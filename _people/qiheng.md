@@ -1,6 +1,6 @@
 ---
 name: Qi Heng Ho
-ordering: 5
+ordering: 1
 email: qi.ho@colorado.edu
 program: PhD Candidate
 status: current

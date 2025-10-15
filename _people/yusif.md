@@ -1,7 +1,7 @@
 ---
 name: Yusif Razzaq
 layout: extraleft 
-ordering: 18
+ordering: 8
 email: yusif.razzaq@colorado.edu
 program: PhD Student
 status: current

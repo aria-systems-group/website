@@ -1,6 +1,6 @@
 ---
 name: Robert Reed
-ordering: 13 
+ordering: 4
 email: robert.reed-1@colorado.edu
 program: PhD Student
 status: current

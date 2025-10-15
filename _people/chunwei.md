@@ -1,7 +1,7 @@
 ---
 name: Chun-Wei Kong
 layout: extraleft 
-ordering: 16
+ordering: 7
 email: Chun-Wei.Kong@colorado.edu
 program: PhD Student
 status: current

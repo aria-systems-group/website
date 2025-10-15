@@ -1,6 +1,6 @@
 ---
 name: Ibon Gracia                             # Your name
-ordering: 6                                     # Order to be appeared in the page
+ordering: 5                                     # Order to be appeared in the page
 email: ibon.gracia@colorado.edu              # Your Email Address
 program: PhD Student                            # The program you are enrolled in
 status: current                                 # Choose either current or alumnus

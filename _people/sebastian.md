@@ -1,7 +1,7 @@
 ---
 name: Sebastian Escobar
 layout: extraleft
-ordering: 20
+ordering: 11
 email: sebastian.escobar@colorado.edu
 program: MS Student
 status: current

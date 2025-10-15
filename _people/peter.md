@@ -1,7 +1,7 @@
 ---
 name: Peter Amorese
 layout: extraleft 
-ordering: 15 
+ordering: 6 
 email: peter.amorese@colorado.edu
 program: PhD Student
 status: current
