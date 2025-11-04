@@ -261,6 +261,94 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
+<span id="Theurkauf:IROS:2025"><span id="Theurkauf:IROS:2025">A. Theurkauf, N. Ahmed, and M. Lahijanian, “Multi-Robot Motion Planning with Cooperative Localization,” in <i>IEEE/RSJ International Conference on Intelligent Robots and Systems</i>, China, 2025. </span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2504.06429">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Theurkauf-IROS-2025">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Theurkauf-IROS-2025">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Theurkauf-IROS-2025" tabindex="-1" aria-labelledby="bib-Theurkauf-IROS-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Theurkauf-IROS-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Theurkauf-IROS-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Theurkauf-IROS-2025" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Theurkauf:IROS:2025,
+  url = {https://arxiv.org/abs/2504.06429},
+  author = {Theurkauf, Anne and Ahmed, Nisar and Lahijanian, Morteza},
+  title = {Multi-Robot Motion Planning with Cooperative Localization},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  publisher = {IEEE},
+  year = {2025},
+  pages = {},
+  address = {China},
+  month = oct,
+  note = {},
+  doi = {},
+  bibkey = {ma-planning}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Theurkauf-IROS-2025" tabindex="-1" aria-labelledby="abs-Theurkauf-IROS-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Theurkauf-IROS-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We consider the uncertain multi-robot motion planning (MRMP) problem with cooperative localization (CL-MRMP), under both motion and measurement noise, where each robot can act as a sensor for its nearby teammates. We formalize CL-MRMP as a chance-constrained motion planning problem, and propose a safety-guaranteed algorithm that explicitly accounts for robot-robot correlations. Our approach extends a sampling-based planner to solve CL-MRMP while preserving probabilistic completeness. To improve efficiency, we introduce novel biasing techniques. We evaluate our method across diverse benchmarks, demonstrating its effectiveness in generating motion plans, with significant performance gains from biasing strategies.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="Muvvala:IJCAI:2025"><span id="Muvvala:IJCAI:2025">K. Muvvala, Q. H. Ho, and M. Lahijanian, “Beyond winning strategies: Admissible and admissible winning strategies for quantitative reachability games,” in <i>Proceedings of the Thirty-fourth International Joint Conference on
                Artificial Intelligence (IJCAI)</i>, Montreal, Quebec, Canada, 2025. </span></span>
 <br />
@@ -1233,7 +1321,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="amorese:TRO:2025"><span id="amorese:TRO:2025">P. Amorese, S. Wakayama, N. Ahmed, and M. Lahijanian, “Online Pareto-Optimal Decision-Making for Complex Tasks Using Active Inference,” <i>IEEE Transactions on Robotics (TRO)</i>, vol. 41, pp. 5378–5395, 2025. </span></span>
+<span id="Amorese:TRO:2025"><span id="Amorese:TRO:2025">P. Amorese, S. Wakayama, N. Ahmed, and M. Lahijanian, “Online Pareto-Optimal Decision-Making for Complex Tasks Using Active Inference,” <i>IEEE Transactions on Robotics (TRO)</i>, vol. 41, pp. 5378–5395, 2025. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2406.11984">
@@ -1242,10 +1330,10 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="http://dx.doi.org/10.1109/TRO.2025.3600155">
     publisher
   </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-amorese-TRO-2025">
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Amorese-TRO-2025">
     bibtex
   </button>
-  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-amorese-TRO-2025">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Amorese-TRO-2025">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -1253,12 +1341,12 @@ async function copyBibtex(key) {
   </a>
 </div>
 
-<div class="modal fade" id="bib-amorese-TRO-2025" tabindex="-1" aria-labelledby="bib-amorese-TRO-2025-label" aria-hidden="true">
+<div class="modal fade" id="bib-Amorese-TRO-2025" tabindex="-1" aria-labelledby="bib-Amorese-TRO-2025-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 id="bib-amorese-TRO-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('amorese-TRO-2025')" title="Copy to clipboard">
+        <h5 id="bib-Amorese-TRO-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Amorese-TRO-2025')" title="Copy to clipboard">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
           </svg>
@@ -1266,7 +1354,7 @@ async function copyBibtex(key) {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-amorese-TRO-2025" style="white-space: pre-wrap; word-wrap: break-word;">@article{amorese:TRO:2025,
+        <pre id="bibtex-Amorese-TRO-2025" style="white-space: pre-wrap; word-wrap: break-word;">@article{Amorese:TRO:2025,
   author = {Amorese, Peter and Wakayama, Shohei and Ahmed, Nisar and Lahijanian, Morteza},
   journal = {IEEE Transactions on Robotics (TRO)},
   title = {Online Pareto-Optimal Decision-Making for Complex Tasks Using Active Inference},
@@ -1285,11 +1373,11 @@ async function copyBibtex(key) {
 </div>
 
 
-<div class="modal fade" id="abs-amorese-TRO-2025" tabindex="-1" aria-labelledby="abs-amorese-TRO-2025-label" aria-hidden="true">
+<div class="modal fade" id="abs-Amorese-TRO-2025" tabindex="-1" aria-labelledby="abs-Amorese-TRO-2025-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="abs-amorese-TRO-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <h5 class="modal-title" id="abs-Amorese-TRO-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -1934,7 +2022,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Gracia:L4DC:2024"><span id="Gracia:L4DC:2024">I. Gracia, D. Boskos, L. Laurenti, and M. Lahijanian, “Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances,” in <i>Proceedings of the 6th Annual Learning for Dynamics &amp; Control Conference (L4DC)</i>, Oxford, UK, 2024, vol. 242, pp. 1633–1645. </span></span>
+<span id="Gracia:L4DC:2024"><span id="Gracia:L4DC:2024">I. Gracia, D. Boskos, L. Laurenti, and M. Lahijanian, “Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Oxford, UK, 2024, vol. 242, pp. 1633–1645. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2406.09704">
@@ -1970,7 +2058,7 @@ async function copyBibtex(key) {
         <pre id="bibtex-Gracia-L4DC-2024" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Gracia:L4DC:2024,
   title = {Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances},
   author = {Gracia, Ibon and Boskos, Dimitris and Laurenti, Luca and Lahijanian, Morteza},
-  booktitle = {Proceedings of the 6th Annual Learning for Dynamics &amp; Control Conference (L4DC)},
+  booktitle = {Learning for Dynamics and Control Conference (L4DC)},
   month = jul,
   year = {2024},
   address = {Oxford, UK},
@@ -4643,7 +4731,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="kandai:IROS:2021"><span id="kandai:IROS:2021">K. Watanabe, N. Renninger, S. Sankaranarayanan, and M. Lahijanian, “Probabilistic Specification Learning for Planning with Safety Constraints,” in <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2021. </span></span>
+<span id="Watanabe:IROS:2021"><span id="Watanabe:IROS:2021">K. Watanabe, N. Renninger, S. Sankaranarayanan, and M. Lahijanian, “Probabilistic Specification Learning for Planning with Safety Constraints,” in <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2021. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="http://mortezalahijanian.com/papers/IROS2021.pdf">
@@ -4652,10 +4740,10 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="http://dx.doi.org/10.1109/IROS51168.2021.9636712">
     publisher
   </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-kandai-IROS-2021">
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Watanabe-IROS-2021">
     bibtex
   </button>
-  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-kandai-IROS-2021">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Watanabe-IROS-2021">
     abstract
   </button>
   <a class="btn btn-custom " href="https://www.youtube.com/watch?v=nfrxq_VGDPQ">
@@ -4663,12 +4751,12 @@ async function copyBibtex(key) {
   </a>
 </div>
 
-<div class="modal fade" id="bib-kandai-IROS-2021" tabindex="-1" aria-labelledby="bib-kandai-IROS-2021-label" aria-hidden="true">
+<div class="modal fade" id="bib-Watanabe-IROS-2021" tabindex="-1" aria-labelledby="bib-Watanabe-IROS-2021-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 id="bib-kandai-IROS-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('kandai-IROS-2021')" title="Copy to clipboard">
+        <h5 id="bib-Watanabe-IROS-2021-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Watanabe-IROS-2021')" title="Copy to clipboard">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
           </svg>
@@ -4676,7 +4764,7 @@ async function copyBibtex(key) {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-kandai-IROS-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{kandai:IROS:2021,
+        <pre id="bibtex-Watanabe-IROS-2021" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Watanabe:IROS:2021,
   title = {Probabilistic Specification Learning for Planning with Safety Constraints},
   author = {Watanabe, Kandai and Renninger, Nicholas and Sankaranarayanan, Sriram and Lahijanian, Morteza},
   doi = {10.1109/IROS51168.2021.9636712},
@@ -4695,11 +4783,11 @@ async function copyBibtex(key) {
 </div>
 
 
-<div class="modal fade" id="abs-kandai-IROS-2021" tabindex="-1" aria-labelledby="abs-kandai-IROS-2021-label" aria-hidden="true">
+<div class="modal fade" id="abs-Watanabe-IROS-2021" tabindex="-1" aria-labelledby="abs-Watanabe-IROS-2021-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="abs-kandai-IROS-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <h5 class="modal-title" id="abs-Watanabe-IROS-2021-label" style="margin: 7px 0 0 0;">Abstract</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -5364,7 +5452,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="laurenti2020formal"><span id="laurenti2020formal">L. Laurenti, M. Lahijanian, A. Abate, L. Cardelli, and M. Kwiatkowska, “Formal and efficient synthesis for continuous-time linear stochastic hybrid processes,” <i>IEEE Transactions on Automatic Control</i>, vol. 66, no. 1, pp. 17–32, 2020. </span></span>
+<span id="Laurenti:TAC:2020"><span id="Laurenti:TAC:2020">L. Laurenti, M. Lahijanian, A. Abate, L. Cardelli, and M. Kwiatkowska, “Formal and efficient synthesis for continuous-time linear stochastic hybrid processes,” <i>IEEE Transactions on Automatic Control</i>, vol. 66, no. 1, pp. 17–32, 2020. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://ieeexplore.ieee.org/document/9003411">
@@ -5373,10 +5461,10 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="http://dx.doi.org/10.1109/tac.2020.2975028">
     publisher
   </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-laurenti2020formal">
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Laurenti-TAC-2020">
     bibtex
   </button>
-  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-laurenti2020formal">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Laurenti-TAC-2020">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -5384,12 +5472,12 @@ async function copyBibtex(key) {
   </a>
 </div>
 
-<div class="modal fade" id="bib-laurenti2020formal" tabindex="-1" aria-labelledby="bib-laurenti2020formal-label" aria-hidden="true">
+<div class="modal fade" id="bib-Laurenti-TAC-2020" tabindex="-1" aria-labelledby="bib-Laurenti-TAC-2020-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 id="bib-laurenti2020formal-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('laurenti2020formal')" title="Copy to clipboard">
+        <h5 id="bib-Laurenti-TAC-2020-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Laurenti-TAC-2020')" title="Copy to clipboard">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
           </svg>
@@ -5397,7 +5485,7 @@ async function copyBibtex(key) {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-laurenti2020formal" style="white-space: pre-wrap; word-wrap: break-word;">@article{laurenti2020formal,
+        <pre id="bibtex-Laurenti-TAC-2020" style="white-space: pre-wrap; word-wrap: break-word;">@article{Laurenti:TAC:2020,
   title = {Formal and efficient synthesis for continuous-time linear stochastic hybrid processes},
   author = {Laurenti, Luca and Lahijanian, Morteza and Abate, Alessandro and Cardelli, Luca and Kwiatkowska, Marta},
   journal = {IEEE Transactions on Automatic Control},
@@ -5416,11 +5504,11 @@ async function copyBibtex(key) {
 </div>
 
 
-<div class="modal fade" id="abs-laurenti2020formal" tabindex="-1" aria-labelledby="abs-laurenti2020formal-label" aria-hidden="true">
+<div class="modal fade" id="abs-Laurenti-TAC-2020" tabindex="-1" aria-labelledby="abs-Laurenti-TAC-2020-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="abs-laurenti2020formal-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <h5 class="modal-title" id="abs-Laurenti-TAC-2020-label" style="margin: 7px 0 0 0;">Abstract</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -5541,7 +5629,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="wells2020ltlf"><span id="wells2020ltlf">A. M. Wells, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “LTLf Synthesis on Probabilistic Systems,” in <i>International Symposium on Games, Automata, Logics, and Formal Verification (GandALF)</i>, 2020. </span></span>
+<span id="Wells:GandALF:2020"><span id="Wells:GandALF:2020">A. M. Wells, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “LTLf Synthesis on Probabilistic Systems,” in <i>International Symposium on Games, Automata, Logics, and Formal Verification (GandALF)</i>, 2020. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom " href="https://arxiv.org/abs/2009.10883">
@@ -5550,10 +5638,10 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="http://dx.doi.org/https://doi.org/10.4204/EPTCS.326.11">
     publisher
   </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-wells2020ltlf">
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Wells-GandALF-2020">
     bibtex
   </button>
-  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-wells2020ltlf">
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Wells-GandALF-2020">
     abstract
   </button>
   <a class="btn btn-custom " href="https://www.youtube.com/watch?v=U4pB4iDfDzM">
@@ -5561,12 +5649,12 @@ async function copyBibtex(key) {
   </a>
 </div>
 
-<div class="modal fade" id="bib-wells2020ltlf" tabindex="-1" aria-labelledby="bib-wells2020ltlf-label" aria-hidden="true">
+<div class="modal fade" id="bib-Wells-GandALF-2020" tabindex="-1" aria-labelledby="bib-Wells-GandALF-2020-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 id="bib-wells2020ltlf-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('wells2020ltlf')" title="Copy to clipboard">
+        <h5 id="bib-Wells-GandALF-2020-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Wells-GandALF-2020')" title="Copy to clipboard">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
           </svg>
@@ -5574,7 +5662,7 @@ async function copyBibtex(key) {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-wells2020ltlf" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{wells2020ltlf,
+        <pre id="bibtex-Wells-GandALF-2020" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Wells:GandALF:2020,
   title = {LTLf Synthesis on Probabilistic Systems},
   author = {Wells, Andrew M and Lahijanian, Morteza and Kavraki, Lydia E and Vardi, Moshe Y},
   booktitle = {International Symposium on Games, Automata, Logics, and Formal Verification (GandALF)},
@@ -5590,11 +5678,11 @@ async function copyBibtex(key) {
 </div>
 
 
-<div class="modal fade" id="abs-wells2020ltlf" tabindex="-1" aria-labelledby="abs-wells2020ltlf-label" aria-hidden="true">
+<div class="modal fade" id="abs-Wells-GandALF-2020" tabindex="-1" aria-labelledby="abs-Wells-GandALF-2020-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="abs-wells2020ltlf-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <h5 class="modal-title" id="abs-Wells-GandALF-2020-label" style="margin: 7px 0 0 0;">Abstract</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -6224,7 +6312,7 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Lahijanian:RAL-resource:2018"><span id="Lahijanian:RAL-resource:2018">M. Lahijanian <i>et al.</i>, “Resource-performance tradeoff analysis for mobile robots,” <i>IEEE Robotics and Automation Letters</i>, vol. 3, no. 3, pp. 1840–1847, 2018. </span></span>
+<span id="Lahijanian:RAL:2018"><span id="Lahijanian:RAL:2018">M. Lahijanian <i>et al.</i>, “Resource-performance tradeoff analysis for mobile robots,” <i>IEEE Robotics and Automation Letters</i>, vol. 3, no. 3, pp. 1840–1847, 2018. </span></span>
 <br />
 <div class="btn-group" role="group">
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -6233,10 +6321,10 @@ async function copyBibtex(key) {
   <a class="btn btn-custom " href="http://dx.doi.org/10.1109/lra.2018.2803814">
     publisher
   </a>
-  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Lahijanian-RAL-resource-2018">
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Lahijanian-RAL-2018">
     bibtex
   </button>
-  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Lahijanian-RAL-resource-2018" disabled="">
+  <button class="btn btn-custom disabled" type="button" data-bs-toggle="modal" data-bs-target="#abs-Lahijanian-RAL-2018" disabled="">
     abstract
   </button>
   <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
@@ -6244,12 +6332,12 @@ async function copyBibtex(key) {
   </a>
 </div>
 
-<div class="modal fade" id="bib-Lahijanian-RAL-resource-2018" tabindex="-1" aria-labelledby="bib-Lahijanian-RAL-resource-2018-label" aria-hidden="true">
+<div class="modal fade" id="bib-Lahijanian-RAL-2018" tabindex="-1" aria-labelledby="bib-Lahijanian-RAL-2018-label" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 id="bib-Lahijanian-RAL-resource-2018-label" style="margin: 7px 0 0 0;">BibTeX</h5>
-        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Lahijanian-RAL-resource-2018')" title="Copy to clipboard">
+        <h5 id="bib-Lahijanian-RAL-2018-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Lahijanian-RAL-2018')" title="Copy to clipboard">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
           </svg>
@@ -6257,7 +6345,7 @@ async function copyBibtex(key) {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
-        <pre id="bibtex-Lahijanian-RAL-resource-2018" style="white-space: pre-wrap; word-wrap: break-word;">@article{Lahijanian:RAL-resource:2018,
+        <pre id="bibtex-Lahijanian-RAL-2018" style="white-space: pre-wrap; word-wrap: break-word;">@article{Lahijanian:RAL:2018,
   title = {Resource-performance tradeoff analysis for mobile robots},
   author = {Lahijanian, Morteza and Svorenova, Maria and Morye, Akshay A and Yeomans, Brian and Rao, Dushyant and Posner, Ingmar and Newman, Paul and Kress-Gazit, Hadas and Kwiatkowska, Marta},
   journal = {IEEE Robotics and Automation Letters},
