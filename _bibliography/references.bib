@@ -316,7 +316,8 @@
   DOI = {10.1109/LRA.2018.2853642},
 }
 
-@article{Lahijanian:RAL-resource:2018,
+
+@article{Lahijanian:RAL:2018,
   title={Resource-performance tradeoff analysis for mobile robots},
   author={Lahijanian, Morteza and Svorenova, Maria and Morye, Akshay A and Yeomans, Brian and Rao, Dushyant and Posner, Ingmar and Newman, Paul and Kress-Gazit, Hadas and Kwiatkowska, Marta},
   journal={IEEE Robotics and Automation Letters},
@@ -409,7 +410,7 @@
   bibkey={maniprs},
 }
 
-@article{laurenti2020formal,
+@article{Laurenti:TAC:2020,
   title={Formal and efficient synthesis for continuous-time linear stochastic hybrid processes},
   author={Laurenti, Luca and Lahijanian, Morteza and Abate, Alessandro and Cardelli, Luca and Kwiatkowska, Marta},
   journal={IEEE Transactions on Automatic Control},
@@ -483,7 +484,7 @@
   location = {Jeju Island, Korea (South)}
 }
 
-@inproceedings{wells2020ltlf,
+@inproceedings{Wells:GandALF:2020,
   title={LTLf Synthesis on Probabilistic Systems},
   author={Wells, Andrew M and Lahijanian, Morteza and Kavraki, Lydia E and Vardi, Moshe Y},
   booktitle={International Symposium on Games, Automata, Logics, and Formal Verification (GandALF)},
@@ -562,7 +563,7 @@
   bibkey = {longterm-auv}
 }
 
-@inproceedings{kandai:IROS:2021,
+@inproceedings{Watanabe:IROS:2021,
   title={Probabilistic Specification Learning for Planning with Safety Constraints},
   author={Watanabe, Kandai and Renninger, Nicholas and Sankaranarayanan, Sriram and Lahijanian, Morteza},
   doi={10.1109/IROS51168.2021.9636712},
@@ -1134,7 +1135,7 @@
 @inproceedings{Gracia:L4DC:2024,
   title={Data-Driven Strategy Synthesis for Stochastic Systems with Unknown Nonlinear Disturbances},
   author={Gracia, Ibon and Boskos, Dimitris and Laurenti, Luca and Lahijanian, Morteza},
-  booktitle={Proceedings of the 6th Annual Learning for Dynamics &amp; Control Conference (L4DC)},
+  booktitle={Learning for Dynamics and Control Conference (L4DC)},
   month={July},
   year={2024},
   address = {Oxford, UK},
@@ -1391,7 +1392,7 @@
   abstract={We study fault identification in discrete-time nonlinear systems with additive Gaussian white noise. We introduce a Bayesian framework that explicitly accounts for unmodeled faults under reasonable assumptions. Our approach hinges on a new quantitative diagnosability definition, revealing when passive fault identification (FID) is fundamentally limited by the control sequence. To overcome such limitations, we propose an active FID strategy that designs control inputs for better fault identification. Numerical studies on a two-water tank system and a Mars satellite show that our method achieves lower failure rates and shorter identification delays than passive techniques.},
 }
 
-@article{amorese:TRO:2025,
+@article{Amorese:TRO:2025,
   author={Amorese, Peter and Wakayama, Shohei and Ahmed, Nisar and Lahijanian, Morteza},
   journal={IEEE Transactions on Robotics (TRO)}, 
   title={Online Pareto-Optimal Decision-Making for Complex Tasks Using Active Inference}, 
@@ -1403,4 +1404,20 @@
   doi={10.1109/TRO.2025.3600155},
   url={https://arxiv.org/abs/2406.11984},
   abstract={When a robot autonomously performs a complex task, it frequently must balance competing objectives while maintaining safety. This becomes more difficult in uncertain environments with stochastic outcomes. Enhancing transparency in the robot’s behavior and aligning with user preferences are also crucial. This article introduces a novel framework for multiobjective reinforcement learning that ensures safe task execution, optimizes tradeoffs between objectives, and adheres to user preferences. The framework has two main layers: a multiobjective task planner and a high-level selector. The planning layer generates a set of optimal tradeoff plans that guarantee satisfaction of a temporal logic task. The selector uses active inference to decide which generated plan best complies with user preferences and aids learning. Operating iteratively, the framework updates a parameterized learning model based on collected data. Case studies and benchmarks on both manipulation and mobile robots show that our framework outperforms other methods and (i) learns multiple optimal tradeoffs, (ii) adheres to a user preference, and (iii) allows the user to adjust the balance between (i) and (ii).}
+}
+
+@inproceedings{Theurkauf:IROS:2025,
+  url = {https://arxiv.org/abs/2504.06429},
+  author = {Theurkauf, Anne and Ahmed, Nisar and Lahijanian, Morteza},
+  title = {Multi-Robot Motion Planning with Cooperative Localization},
+  abstract={We consider the uncertain multi-robot motion planning (MRMP) problem with cooperative localization (CL-MRMP), under both motion and measurement noise, where each robot can act as a sensor for its nearby teammates. We formalize CL-MRMP as a chance-constrained motion planning problem, and propose a safety-guaranteed algorithm that explicitly accounts for robot-robot correlations. Our approach extends a sampling-based planner to solve CL-MRMP while preserving probabilistic completeness. To improve efficiency, we introduce novel biasing techniques. We evaluate our method across diverse benchmarks, demonstrating its effectiveness in generating motion plans, with significant performance gains from biasing strategies.},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  publisher = {IEEE},
+  year = {2025},
+  pages={},
+  address= {China},
+  month= {Oct},
+  note={},
+  doi={},
+  bibkey = {ma-planning},
 }
