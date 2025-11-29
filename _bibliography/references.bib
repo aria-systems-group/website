@@ -1247,7 +1247,7 @@
   keywords = {Data-driven modeling, Formal logic, Formal verification, Gaussian processes, Markov decision processes, Bayesian inference, data-driven certification},
   abstract = {Leveraging autonomous systems in safety-critical scenarios requires verifying their behaviors in the presence of uncertainties and black-box components that influence the system dynamics. In this work, we develop a framework for verifying discrete-time dynamical systems with unmodelled dynamics and noisy measurements against temporal logic specifications from an input-output dataset. The verification framework employs Gaussian process (GP) regression to learn the unknown dynamics from the dataset and abstracts the continuous-space system as a finite-state, uncertain Markov decision process (MDP). This abstraction relies on space discretization and transition probability intervals that capture the uncertainty due to the error in GP regression by using reproducible kernel Hilbert space analysis as well as the uncertainty induced by discretization. The framework utilizes existing model checking tools for verification of the uncertain MDP abstraction against a given temporal logic specification. We establish the correctness of extending the verification results on the abstraction created from noisy measurements to the underlying system. We show that the computational complexity of the framework is polynomial in the size of the dataset and discrete abstraction. The complexity analysis illustrates a trade-off between the quality of the verification results and the computational burden to handle larger datasets and finer abstractions. Finally, we demonstrate the efficacy of our learning and verification framework on several case studies with linear, nonlinear, and switched dynamical systems.},
   bibkey={synth-ml},
-  note={(accepted)},
+  note={},
   }
 
 @inproceedings{Reed:ACC:2025,
@@ -1258,7 +1258,7 @@
   year={2025},
   organization={IEEE},
   address = {Denver, CO, USA},
-  note={(accepted)},
+  note={},
   bibkey = {synth-ml},
   url={https://arxiv.org/abs/2410.07359},
   Abstract={Shielding is a common method used to guarantee the safety of a system under a black-box controller, such as a neural network controller from deep reinforcement learning (DRL), with simpler, verified controllers. Existing shielding methods rely on formal verification through Markov Decision Processes (MDPs), assuming either known or finite-state models, which limits their applicability to DRL settings with unknown, continuous-state systems. This paper addresses these limitations by proposing a data-driven shielding methodology that guarantees safety for unknown systems under black-box controllers. The approach leverages Deep Kernel Learning to model the systems' one-step evolution with uncertainty quantification and constructs a finite-state abstraction as an Interval MDP (IMDP). By focusing on safety properties expressed in safe linear temporal logic (safe LTL), we develop an algorithm that computes the maximally permissive set of safe policies on the IMDP, ensuring avoidance of unsafe states. The algorithms soundness and computational complexity are demonstrated through theoretical proofs and experiments on nonlinear systems, including a high-dimensional autonomous spacecraft scenario.},
@@ -1275,7 +1275,7 @@
   organization={PMLR},
   bibkey={synth-ml},
   url={https://sites.google.com/umich.edu/l4dc2025/},
-  note={(accepted)},
+  note={},
   abstract={In this paper, we present a novel framework to synthesize robust strategies for discrete-time nonlinear systems with random disturbances that are unknown, against temporal logic specifications. The proposed framework is data-driven and abstraction-based: leveraging observations of the system, our approach learns a high-confidence abstraction of the system in the form of an uncertain Markov decision process (UMDP). The uncertainty in the resulting UMDP is used to formally account for both the error in abstracting the system and for the uncertainty coming from the data. Critically, we show that for any given state-action pair in the resulting UMDP, the uncertainty in the transition probabilities can be represented as a convex polytope obtained by a two-layer state discretization and concentration inequalities. This allows us to obtain tighter uncertainty estimates compared to existing approaches, and guarantees efficiency, as we tailor a synthesis algorithm exploiting the structure of this UMDP. We empirically validate our approach on several case studies, showing substantially improved performance compared to the state-of-the-art.},
 }
 
@@ -1306,11 +1306,11 @@
   month={Jul.},
   year={2025},
   address = {Rio de Janeiro, Brazil},
-  pages = {},
+  pages = {2291--2324},
   doi = {},
   bibkey={synth-ml},
   url={https://arxiv.org/abs/2410.22371},
-  note={(accepted)},
+  note={},
   abstract={Stochastic differential equations are commonly used to describe the evolution of stochastic processes. The state uncertainty of such processes is best represented by the probability density function (PDF), whose evolution is governed by the Fokker-Planck partial differential equation (FP-PDE). However, it is generally infeasible to solve the FP-PDE in closed form. In this work, we show that physics-informed neural networks (PINNs) can be trained to approximate the solution PDF. Our main contribution is the analysis of PINN approximation error: we develop a theoretical framework to construct tight error bounds using PINNs. In addition, we derive a practical error bound that can be efficiently constructed with standard training methods. We discuss that this error-bound framework generalizes to approximate solutions of other linear PDEs. Empirical results on nonlinear, high-dimensional, and chaotic systems validate the correctness of our error bounds while demonstrating the scalability of PINNs and their significant computational speedup in obtaining accurate PDF solutions compared to the Monte Carlo approach.},
 }
 
@@ -1343,7 +1343,7 @@
   doi = {},
   bibkey={synth-ml},
   url={https://arxiv.org/abs/2507.17703},
-  note={(accepted)},
+  note={(to appear)},
   abstract={This paper presents a method for the simultaneous synthesis of a barrier certificate and a safe controller for discrete-time nonlinear stochastic systems. Our approach, based on piecewise stochastic control barrier functions, reduces the synthesis problem to a minimax optimization, which we solve exactly using a dual linear program with zero gap. This enables the joint optimization of the barrier certificate and safe controller within a single formulation. The method accommodates stochastic dynamics with additive noise and a bounded continuous control set. The synthesized controllers and barrier certificates provide a formally guaranteed lower bound on probabilistic safety. Case studies on linear and nonlinear stochastic systems validate the effectiveness of our approach.},
 }
 
@@ -1388,7 +1388,7 @@
   doi = {},
   bibkey={synth-ml},
   url={https://www.arxiv.org/abs/2509.04708},
-  note={(accepted)},
+  note={(to appear)},
   abstract={We study fault identification in discrete-time nonlinear systems with additive Gaussian white noise. We introduce a Bayesian framework that explicitly accounts for unmodeled faults under reasonable assumptions. Our approach hinges on a new quantitative diagnosability definition, revealing when passive fault identification (FID) is fundamentally limited by the control sequence. To overcome such limitations, we propose an active FID strategy that designs control inputs for better fault identification. Numerical studies on a two-water tank system and a Mars satellite show that our method achieves lower failure rates and shorter identification delays than passive techniques.},
 }
 
