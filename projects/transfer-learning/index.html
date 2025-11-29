@@ -94,6 +94,96 @@
 <p>This project investigates a novel correct-by-construction controller synthesis scheme for these systems by embracing ideas from Gaussian processes and control Barrier functions. If successful, this could allow safety controllers developed for one type of autonomous vehicle to be transferred to another of a wholly new type – or for use in a new environment all together – while still ensuring the original safety guarantee.  This would enable safe deployment of multiple (similar) systems using the same control architecture specifically designed for only one of them; hence, a significant increase in efficiency in the design process.  The resulting algorithms of this project will be tested on underwater and aerial vehicles with an eye to future applications to other CPS domains.</p>
 
 
+<h2 class="bibliography">2026</h2>
+<ol class="bibliography"><li><li>
+<span id="Amorese:AAAI:2026"><span id="Amorese:AAAI:2026">P. Amorese and M. Lahijanian, “Universal Learning of Stochastic Dynamics for Exact Belief Propagation using Bernstein Normalizing Flows,” in <i>The 40th AAAI Conference on Artificial Intelligence</i>, Singapore, 2026. (to appear)</span></span>
+<br>
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2509.15533" >
+    pdf
+  </a>
+  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Amorese-AAAI-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Amorese-AAAI-2026" >
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Amorese-AAAI-2026" tabindex="-1" aria-labelledby="bib-Amorese-AAAI-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Amorese-AAAI-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Amorese-AAAI-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Amorese-AAAI-2026" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Amorese:AAAI:2026,
+  title = {Universal Learning of Stochastic Dynamics for Exact Belief Propagation using Bernstein Normalizing Flows},
+  author = {Amorese, Peter and Lahijanian, Morteza},
+  booktitle = {The 40th AAAI Conference on Artificial Intelligence},
+  year = {2026},
+  volume = {},
+  number = {},
+  pages = {},
+  month = jan,
+  address = {Singapore},
+  publisher = {{AAAI} Press},
+  url = {https://arxiv.org/abs/2509.15533},
+  note = {(to appear)},
+  bibkey = {synth-ml}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Amorese-AAAI-2026" tabindex="-1" aria-labelledby="abs-Amorese-AAAI-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Amorese-AAAI-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Predicting the distribution of future states in a stochastic system, known as belief propagation, is fundamental to reasoning under uncertainty. However, nonlinear dynamics often make analytical belief propagation intractable, requiring approximate methods. When the system model is unknown and must be learned from data, a key question arises: can we learn a model that (i) universally approximates general nonlinear stochastic dynamics, and (ii) supports analytical belief propagation? This paper establishes the theoretical foundations for a class of models that satisfy both properties. The proposed approach combines the expressiveness of normalizing flows for density estimation with the analytical tractability of Bernstein polynomials. Empirical results show the efficacy of our learned model over state-of-the-art data-driven methods for belief propagation, especially for highly non-linear systems with non-additive, non-Gaussian noise.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li></ol>
 <h2 class="bibliography">2025</h2>
 <ol class="bibliography"><li><li>
 <span id="Mazouz:CDC:2025"><span id="Mazouz:CDC:2025">R. Mazouz, L. Laurenti, and M. Lahijanian, “Piecewise Control Barrier Functions for Stochastic Systems,” in <i>IEEE Conference on Decision and Control (CDC)</i>, 2025. (accepted)</span></span>
