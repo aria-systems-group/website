@@ -47,15 +47,16 @@ Assistant Professor  <br>
 Virginia Tech  <br>
 <!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> -->
 
+- **[Malika Meghjani](https://www.malikameghjani.com/)** <br>
+Assistant Professor  <br>
+Singapore University of Technology and Design  <br>
+<!-- [angela.schoellig@utoronto.ca](mailto:angela.schoellig@utoronto.ca) -->
+
 - **[Morteza Lahijanian](https://www.colorado.edu/aerospace/morteza-lahijanian)**<br>
 Associate Professor  <br>
 University of Colorado Boulder  <br>
 <!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> -->
 
-<!-- - **[Angela Schoellig](https://www.dynsyslab.org/prof-angela-schoellig/)** <br>
-Professor of Robotics  <br>
-TU Munich and Univ. of Toronto  <br> -->
-<!-- [angela.schoellig@utoronto.ca](mailto:angela.schoellig@utoronto.ca) -->
 
 
 
