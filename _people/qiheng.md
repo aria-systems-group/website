@@ -2,8 +2,10 @@
 name: Qi Heng Ho
 ordering: 1
 email: qi.ho@colorado.edu
-program: PhD Candidate
-status: current
+program: PhD
+status: alumnus
+current-position: Assistant Professor at Virginia Tech
+year-graduated: 2025
 picture: /assets/images/qi_heng_ho.jpg 
 picture-link: https://qihengho.netlify.app/
 header-link: https://qihengho.netlify.app/
