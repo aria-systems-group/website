@@ -2,8 +2,9 @@
 name: Anne Theurkauf
 ordering: 4
 email: anne.theurkauf@colorado.edu
-program: PhD Candidate
+program: PhD
 status: alumnus
+current-position: Boston Dynamics
 year-graduated: 2025
 picture: /assets/images/anne_theurkauf_304x400.jpg 
 picture-link: 
