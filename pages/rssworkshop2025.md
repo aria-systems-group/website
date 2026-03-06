@@ -60,26 +60,6 @@ Planning and control under sensing uncertainty
 
 
 
-## Organizers
-
-- **[Qi Heng Ho](https://www.aoe.vt.edu/people/faculty/qi-heng-ho.html)**<br>
-Assistant Professor  <br>
-Virginia Tech  <br>
-<!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> -->
-
-- **[Malika Meghjani](https://www.malikameghjani.com/)** <br>
-Assistant Professor  <br>
-Singapore University of Technology and Design  <br>
-<!-- [angela.schoellig@utoronto.ca](mailto:angela.schoellig@utoronto.ca) -->
-
-- **[Morteza Lahijanian](https://www.colorado.edu/aerospace/morteza-lahijanian)**<br>
-Associate Professor  <br>
-University of Colorado Boulder  <br>
-<!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> -->
-
-
-
-
 ## Invited Speakers and Panelists (confirmed)
 
 
@@ -116,5 +96,23 @@ Some of the abstracts may be invited to be extended into an article for publicat
 - 11:30 - 12:00	&nbsp;&nbsp;&nbsp;&nbsp; Invited Speaker 5
 - 12:00 - 12:15	&nbsp;&nbsp;&nbsp;&nbsp; Poster Spotlight Talks
 - 12:15 - 13:00	&nbsp;&nbsp;&nbsp;&nbsp; Panel Discussion and Debate
+
+
+## Organizers
+
+- **[Qi Heng Ho](https://www.aoe.vt.edu/people/faculty/qi-heng-ho.html)**<br>
+Assistant Professor  <br>
+Virginia Tech  <br>
+<!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> -->
+
+- **[Malika Meghjani](https://www.malikameghjani.com/)** <br>
+Assistant Professor  <br>
+Singapore University of Technology and Design  <br>
+<!-- [angela.schoellig@utoronto.ca](mailto:angela.schoellig@utoronto.ca) -->
+
+- **[Morteza Lahijanian](https://www.colorado.edu/aerospace/morteza-lahijanian)**<br>
+Associate Professor  <br>
+University of Colorado Boulder  <br>
+<!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> -->
 
 
