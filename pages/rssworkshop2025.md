@@ -36,7 +36,7 @@ This workshop addresses the critical need for techniques that account for imperf
 
 Relevant Keywords:
 
-Planning and control under sensing uncertainty
+- Planning and control under sensing uncertainty
 - Vision-based control, VLM/VLAs
 - Active Perception and Information Gathering
 - Context/situation-aware planning and control
