@@ -60,12 +60,14 @@ Relevant Keywords:
 
 
 
-## Invited Speakers and Panelists (confirmed)
+## Invited Speakers and Panelists
 
 
-- [Hannah Kurniawati](hanna.kurniawati@anu.edu.au), Professor, Australian National University 
-- [Fabio Ramos](fabio.ramos@sydney.edu.au), Professor, University of Sydney & NVIDIA
-- [Yiannis Kantaros](ioannisk@wustl.edu), Assistant Professor, Washington University in St. Louis
+- [Hannah Kurniawati](hanna.kurniawati@anu.edu.au) (confirmed), Professor, Australian National University 
+- [Fabio Ramos](fabio.ramos@sydney.edu.au) (confirmed), Professor, University of Sydney & NVIDIA
+- [Yiannis Kantaros](ioannisk@wustl.edu) (confirmed), Assistant Professor, Washington University in St. Louis
+- [Joelle Pineau](jpineau@cs.mcgill.ca) (tentative), Professor, McGill University
+- [Jen Jen Chung](Jenjen.chung@uq.edu.au) (tentative), Associate Professor, University of Queensland
 
 
 ## Submission Info
