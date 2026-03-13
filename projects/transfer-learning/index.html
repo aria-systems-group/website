@@ -358,6 +358,95 @@ async function copyBibtex(key) {
   }, 2000);
 }
 </script>
+</li>
+<li><li>
+<span id="Mazouz:AUTOMATICA:2026"><span id="Mazouz:AUTOMATICA:2026">R. Mazouz, F. Mathiesen, L. Laurenti, and M. Lahijanian, “Piecewise Stochastic Barrier Functions,” <i>International Federation of Automatic Control (Automatica)</i>, 2026. (to appear)</span></span>
+<br>
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2404.16986" >
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/" >
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mazouz-AUTOMATICA-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Mazouz-AUTOMATICA-2026" >
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Mazouz-AUTOMATICA-2026" tabindex="-1" aria-labelledby="bib-Mazouz-AUTOMATICA-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Mazouz-AUTOMATICA-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Mazouz-AUTOMATICA-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Mazouz-AUTOMATICA-2026" style="white-space: pre-wrap; word-wrap: break-word;">@article{Mazouz:AUTOMATICA:2026,
+  title = {Piecewise Stochastic Barrier Functions},
+  author = {Mazouz, Rayan and Mathiesen, Frederik and Laurenti, Luca and Lahijanian, Morteza},
+  journal = {International Federation of Automatic Control (Automatica)},
+  volume = {},
+  pages = {},
+  year = {2026},
+  publisher = {IFAC},
+  issn = {},
+  doi = {},
+  url = {https://arxiv.org/abs/2404.16986},
+  keywords = {Barrier Certificates, Stochastic Systems, Probabilistic Safety, Convex Optimization, Formal Verification},
+  bibkey = {synth-ml},
+  note = {(to appear)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Mazouz-AUTOMATICA-2026" tabindex="-1" aria-labelledby="abs-Mazouz-AUTOMATICA-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Mazouz-AUTOMATICA-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper presents a novel stochastic barrier function (SBF) framework for safety analysis of stochastic systems based on piecewise (PW) functions. We first outline a general formulation of PW-SBFs. Then, we focus on PW-Constant (PWC) SBFs and show how their simplicity yields computational advantages for general stochastic systems. Specifically, we prove that synthesis of PWC-SBFs reduces to a minimax optimization problem. Then, we introduce three efficient algorithms to solve this problem, each offering distinct advantages and disadvantages. The first algorithm is based on dual linear programming (LP), which provides an exact solution to the minimax optimization problem. The second is a more scalable algorithm based on iterative counter-example guided synthesis, which involves solving two smaller LPs. The third algorithm solves the minimax problem using gradient descent, which admits even better scalability. We provide an extensive evaluation of these methods on various case studies, including neural network dynamic models, nonlinear switched systems, and high-dimensional linear systems. Our benchmarks demonstrate that PWC-SBFs outperform state-of-the-art methods, namely sum-of-squares and neural barrier functions, and can scale to eight dimensional systems.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2025</h2>
 <ol class="bibliography"><li><li>
