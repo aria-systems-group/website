@@ -174,6 +174,94 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
+<span id="Gracia:HSCC:2026"><span id="Gracia:HSCC:2026">I. Gracia and M. Lahijanian, “Data-Driven Control via Conditional Mean Embeddings: Formal Guarantees via Uncertain MDP Abstraction,” in <i>International Conference on Hybrid Systems: Computation and Control (HSCC)</i>, Saint Malo, France, 2026. </span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/pdf/2512.13940">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Gracia-HSCC-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Gracia-HSCC-2026">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Gracia-HSCC-2026" tabindex="-1" aria-labelledby="bib-Gracia-HSCC-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Gracia-HSCC-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Gracia-HSCC-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Gracia-HSCC-2026" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Gracia:HSCC:2026,
+  url = {https://arxiv.org/pdf/2512.13940},
+  author = {Gracia, Ibon and Lahijanian, Morteza},
+  title = {Data-Driven Control via Conditional Mean Embeddings: Formal Guarantees via Uncertain MDP Abstraction},
+  booktitle = {International Conference on Hybrid Systems: Computation and Control (HSCC)},
+  publisher = {ACM},
+  year = {2026},
+  pages = {},
+  address = {Saint Malo, France},
+  month = may,
+  note = {},
+  isbn = {},
+  doi = {}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Gracia-HSCC-2026" tabindex="-1" aria-labelledby="abs-Gracia-HSCC-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Gracia-HSCC-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Controlling stochastic systems with unknown dynamics and under complex specifications is specially challenging in safety-critical settings, where performance guarantees are essential. We propose a data-driven policy synthesis framework that yields formal perfor- mance guarantees for such systems using conditional mean embeddings (CMEs) and uncertain Markov decision processes (UMDPs). From trajectory data, we learn the system’s transition kernel as a CME, then construct a finite-state UMDP abstraction whose transition uncertainties capture learning and discretization errors. Next, we generate a policy with formal performance bounds through robust dynamic programming. We demonstrate and empirically validate our method through a temperature regulation benchmark.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="Amorese:AAAI:2026"><span id="Amorese:AAAI:2026">P. Amorese and M. Lahijanian, “Universal Learning of Stochastic Dynamics for Exact Belief Propagation using Bernstein Normalizing Flows,” in <i>The 40th AAAI Conference on Artificial Intelligence (AAAI)</i>, Singapore, 2026. </span></span>
 <br />
 <div class="btn-group" role="group">
@@ -1058,7 +1146,7 @@ async function copyBibtex(key) {
 <span id="Gracia:L4DC:2025"><span id="Gracia:L4DC:2025">I. Gracia, L. Laurenti, M. Mazo Jr., A. Abate, and M. Lahijanian, “Temporal Logic Control for Nonlinear Stochastic Systems Under Unknown Disturbances,” in <i>Learning for Dynamics and Control Conference (L4DC)</i>, Ann Arbor, MI, USA, 2025. </span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom " href="https://sites.google.com/umich.edu/l4dc2025/">
+  <a class="btn btn-custom " href="https://proceedings.mlr.press/v283/gracia25a.html">
     pdf
   </a>
   <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
@@ -1098,7 +1186,7 @@ async function copyBibtex(key) {
   series = {Proceedings of Machine Learning Research},
   organization = {PMLR},
   bibkey = {synth-ml},
-  url = {https://sites.google.com/umich.edu/l4dc2025/},
+  url = {https://proceedings.mlr.press/v283/gracia25a.html},
   note = {}
 }
 </pre>
