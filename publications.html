@@ -86,10 +86,10 @@
   <div class="entry">
     <h2 class="bibliography">2026</h2>
 <ol class="bibliography"><li><li>
-<span id="Amorese:AISTATS:2026"><span id="Amorese:AISTATS:2026">P. Amorese and M. Lahijanian, “Learning Markov Processes as Sum-of-Square Forms for Analytical Belief Propagation,” in <i>The 29th Annual Conference on Artificial Intelligence and Statistics (AISTATS)</i>, Tangier, Morocco, 2026. (accepted)</span></span>
+<span id="Amorese:AISTATS:2026"><span id="Amorese:AISTATS:2026">P. Amorese and M. Lahijanian, “Learning Markov Processes as Sum-of-Square Forms for Analytical Belief Propagation,” in <i>The 29th Annual Conference on Artificial Intelligence and Statistics (AISTATS)</i>, Tangier, Morocco, 2026. (to appear)</span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2604.07525">
     pdf
   </a>
   <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
@@ -130,7 +130,8 @@
   month = may,
   address = {Tangier, Morocco},
   publisher = {PMLR},
-  note = {(accepted)},
+  url = {https://arxiv.org/abs/2604.07525},
+  note = {(to appear)},
   bibkey = {synth-ml}
 }
 </pre>
@@ -174,10 +175,10 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
-<span id="Gracia:HSCC:2026"><span id="Gracia:HSCC:2026">I. Gracia and M. Lahijanian, “Data-Driven Control via Conditional Mean Embeddings: Formal Guarantees via Uncertain MDP Abstraction,” in <i>International Conference on Hybrid Systems: Computation and Control (HSCC)</i>, Saint Malo, France, 2026. </span></span>
+<span id="Gracia:HSCC:2026"><span id="Gracia:HSCC:2026">I. Gracia and M. Lahijanian, “Data-Driven Control via Conditional Mean Embeddings: Formal Guarantees via Uncertain MDP Abstraction,” in <i>International Conference on Hybrid Systems: Computation and Control (HSCC)</i>, Saint Malo, France, 2026. (to appear)</span></span>
 <br />
 <div class="btn-group" role="group">
-  <a class="btn btn-custom " href="https://arxiv.org/pdf/2512.13940">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2512.13940">
     pdf
   </a>
   <a class="btn btn-custom " href="http://dx.doi.org/">
@@ -208,7 +209,6 @@ async function copyBibtex(key) {
       </div>
       <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
         <pre id="bibtex-Gracia-HSCC-2026" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Gracia:HSCC:2026,
-  url = {https://arxiv.org/pdf/2512.13940},
   author = {Gracia, Ibon and Lahijanian, Morteza},
   title = {Data-Driven Control via Conditional Mean Embeddings: Formal Guarantees via Uncertain MDP Abstraction},
   booktitle = {International Conference on Hybrid Systems: Computation and Control (HSCC)},
@@ -217,9 +217,11 @@ async function copyBibtex(key) {
   pages = {},
   address = {Saint Malo, France},
   month = may,
-  note = {},
+  note = {(to appear)},
   isbn = {},
-  doi = {}
+  doi = {},
+  url = {https://arxiv.org/abs/2512.13940},
+  bibkey = {}
 }
 </pre>
       </div>
@@ -237,6 +239,96 @@ async function copyBibtex(key) {
       </div>
       <div class="modal-body">
         Controlling stochastic systems with unknown dynamics and under complex specifications is specially challenging in safety-critical settings, where performance guarantees are essential. We propose a data-driven policy synthesis framework that yields formal perfor- mance guarantees for such systems using conditional mean embeddings (CMEs) and uncertain Markov decision processes (UMDPs). From trajectory data, we learn the system’s transition kernel as a CME, then construct a finite-state UMDP abstraction whose transition uncertainties capture learning and discretization errors. Next, we generate a policy with formal performance bounds through robust dynamic programming. We demonstrate and empirically validate our method through a temperature regulation benchmark.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Amorese:HSCC:2026"><span id="Amorese:HSCC:2026">P. Amorese and M. Lahijanian, “Learning Nonlinear Continuous-Time Systems for Formal Uncertainty Propagation and Probabilistic Evaluation,” in <i>International Conference on Hybrid Systems: Computation and Control (HSCC)</i>, 2026. (to appear)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2604.07525">
+    pdf
+  </a>
+  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Amorese-HSCC-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Amorese-HSCC-2026">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Amorese-HSCC-2026" tabindex="-1" aria-labelledby="bib-Amorese-HSCC-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Amorese-HSCC-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Amorese-HSCC-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Amorese-HSCC-2026" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Amorese:HSCC:2026,
+  title = {Learning Nonlinear Continuous-Time Systems for Formal Uncertainty Propagation and Probabilistic Evaluation},
+  author = {Amorese, Peter and Lahijanian, Morteza},
+  booktitle = {International Conference on Hybrid Systems: Computation and Control (HSCC)},
+  year = {2026},
+  volume = {},
+  number = {},
+  pages = {},
+  month = may,
+  address = {},
+  publisher = {ACM},
+  keywords = {Uncertainty Propagation, Nonlinear Ordinary Differential Equations, Taylor Series Approximation, Continuum Dynamics, Reachability},
+  url = {https://arxiv.org/abs/2604.07525},
+  note = {(to appear)},
+  bibkey = {synth-ml}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Amorese-HSCC-2026" tabindex="-1" aria-labelledby="abs-Amorese-HSCC-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Amorese-HSCC-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Nonlinear ordinary differential equations (ODEs) are powerful tools for modeling real-world dynamical systems. However, propagating initial state uncertainty through nonlinear dynamics, especially when the ODE is unknown and learned from data, remains a major challenge. This paper introduces a novel continuum dynamics perspective for model learning that enables formal uncertainty propagation by constructing Taylor series approximations of probabilistic events. We establish sufficient conditions for the soundness of the approach and prove its asymptotic convergence. Empirical results demonstrate the framework’s effectiveness, particularly when predicting rare events.
       </div>
     </div>
   </div>
