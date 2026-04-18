@@ -5,7 +5,7 @@ email: Kandai.Watanabe@colorado.edu
 program: PhD
 status: alumnus
 year-graduated: 2024 
-current-position: Applied Intuition
+current-position: Google
 picture: /assets/images/kandai.jpg 
 picture-link: https://watakandai.github.io/ 
 header-link: https://watakandai.github.io/
