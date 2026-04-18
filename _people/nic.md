@@ -5,6 +5,7 @@ ordering: 17
 email: nicolas.perrault@colorado.edu
 program: MS
 status: alumnus
+current-position: Autonomy and Robotics Software Engineer at CX2
 picture: /assets/images/nic_perrault.jpg 
 extra-picture: /assets/images/nic_perrault.jpg 
 year-graduated: 2025
