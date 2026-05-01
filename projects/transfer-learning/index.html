@@ -538,6 +538,95 @@ async function copyBibtex(key) {
   }, 2000);
 }
 </script>
+</li>
+<li><li>
+<span id="Elimelech:CPS:2026"><span id="Elimelech:CPS:2026">K. Elimelech, M. Lahijanian, L. E. Kavraki, and M. Y. Vardi, “Falsification of Autonomous Systems in Rich Environments,” <i>Transactions on Cyber-Physical Systems</i>, 2026. (to appear)</span></span>
+<br>
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2412.17992" >
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/https://doi.org/10.1145/3801740" >
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Elimelech-CPS-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Elimelech-CPS-2026" >
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Elimelech-CPS-2026" tabindex="-1" aria-labelledby="bib-Elimelech-CPS-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Elimelech-CPS-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Elimelech-CPS-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Elimelech-CPS-2026" style="white-space: pre-wrap; word-wrap: break-word;">@article{Elimelech:CPS:2026,
+  title = {Falsification of Autonomous Systems in Rich Environments},
+  author = {Elimelech, Khen and Lahijanian, Morteza and Kavraki, Lydia E. and Vardi, Moshe Y.},
+  journal = {Transactions on Cyber-Physical Systems},
+  volume = {},
+  pages = {},
+  year = {2026},
+  publisher = {ACM},
+  issn = {},
+  doi = {https://doi.org/10.1145/3801740},
+  url = {https://arxiv.org/abs/2412.17992},
+  keywords = {},
+  bibkey = {synth-ml},
+  note = {(to appear)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Elimelech-CPS-2026" tabindex="-1" aria-labelledby="abs-Elimelech-CPS-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Elimelech-CPS-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Validating the behavior of autonomous Cyber-Physical Systems (CPS) and Artificial Intelligence (AI) agents, which rely on automated controllers, is an objective of great importance. In recent years, Neural-Network (NN) controllers have been demonstrating great promise and experiencing tremendous popularity. Unfortunately, such learned controllers are often not certified and can cause the system to suffer from unpredictable or unsafe behavior. To mitigate this issue, a great effort has been dedicated to automated verification of systems. Specifically, works in the category of “black-box testing” rely on repeated system simulations to find a falsifying counterexample—a system run that violates a specification. As running high-fidelity simulations is computationally demanding, the goal of falsification approaches is to minimize the simulation effort needed to return a falsifying example. This often proves to be a great challenge, especially when the tested controller is well-trained. This work contributes a novel falsification approach for autonomous systems under formal specification operating in uncertain environments. We are especially interested in CPS operating in rich, semantically-defined, open environments, which yield high-dimensional, simulation-dependent sensor observations as inputs to the controller. Our approach introduces a novel reformulation of the falsification problem as the problem of planning a trajectory for a “meta-system,” which wraps and encapsulates the examined system; we call this approach: meta-planning. This approach results in testing fewer inputs, compared to serial input sampling, while making minimal assumptions on the system, and posing no limitation on the specification, environment, or controller, which is treated as a black-box. It also avoids redundant calculations and requires less effort for each test, by invoking only incremental updates to the autonomous-system’s trajectory at each iteration, using partial simulations. This formulation can be solved with standard sampling-based motion-planning techniques (like RRT), can gradually integrate domain knowledge to improve the search, based on its availability, and can even work with no domain knowledge at all. We support these ideas with an experimental study on falsification of an obstacle-avoiding autonomous car with a NN controller, where meta-planning demonstrates superior performance over alternative approaches.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 <h2 class="bibliography">2025</h2>
 <ol class="bibliography"><li><li>
