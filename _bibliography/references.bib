@@ -1528,3 +1528,20 @@
   bibkey = {synth-ml},
 }
 
+@article{Elimelech:CPS:2026,
+  title = {Falsification of Autonomous Systems in Rich Environments},
+  author = {Elimelech, Khen and Lahijanian, Morteza and Kavraki, Lydia E. and Vardi, Moshe Y.},
+  journal = {Transactions on Cyber-Physical Systems},
+  volume = {},
+  pages = {},
+  year = {2026},
+  publisher={ACM},
+  issn = {},
+  doi = {https://doi.org/10.1145/3801740},
+  url = {https://arxiv.org/abs/2412.17992},
+  keywords = {},
+  abstract = {Validating the behavior of autonomous Cyber-Physical Systems (CPS) and Artificial Intelligence (AI) agents, which rely on automated controllers, is an objective of great importance. In recent years, Neural-Network (NN) controllers have been demonstrating great promise and experiencing tremendous popularity. Unfortunately, such learned controllers are often not certified and can cause the system to suffer from unpredictable or unsafe behavior. To mitigate this issue, a great effort has been dedicated to automated verification of systems. Specifically, works in the category of “black-box testing” rely on repeated system simulations to find a falsifying counterexample—a system run that violates a specification. As running high-fidelity simulations is computationally demanding, the goal of falsification approaches is to minimize the simulation effort needed to return a falsifying example. This often proves to be a great challenge, especially when the tested controller is well-trained. This work contributes a novel falsification approach for autonomous systems under formal specification operating in uncertain environments. We are especially interested in CPS operating in rich, semantically-defined, open environments, which yield high-dimensional, simulation-dependent sensor observations as inputs to the controller. Our approach introduces a novel reformulation of the falsification problem as the problem of planning a trajectory for a “meta-system,” which wraps and encapsulates the examined system; we call this approach: meta-planning. This approach results in testing fewer inputs, compared to serial input sampling, while making minimal assumptions on the system, and posing no limitation on the specification, environment, or controller, which is treated as a black-box. It also avoids redundant calculations and requires less effort for each test, by invoking only incremental updates to the autonomous-system's trajectory at each iteration, using partial simulations. This formulation can be solved with standard sampling-based motion-planning techniques (like RRT), can gradually integrate domain knowledge to improve the search, based on its availability, and can even work with no domain knowledge at all. We support these ideas with an experimental study on falsification of an obstacle-avoiding autonomous car with a NN controller, where meta-planning demonstrates superior performance over alternative approaches.},
+  bibkey={synth-ml},
+  note={(to appear)},
+}
+
