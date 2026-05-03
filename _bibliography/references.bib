@@ -1299,7 +1299,7 @@
 
 @inproceedings{Kong:UAI:2025,
   title={Error Bounds for Physics-Informed Neural Networks in Fokker-Planck PDEs},
-  author={Kong, Chun-Wei, and Laurenti, Luca and McMahon, Jay  and Lahijanian, Morteza},
+  author={Kong, Chun-Wei and Laurenti, Luca and McMahon, Jay  and Lahijanian, Morteza},
   booktitle = {Proceedings of the Forty-First Conference on Uncertainty in Artificial Intelligence (UAI)},
   publisher = {International Joint Conferences on Artificial Intelligence Organization},
   organizer = {PMLR},
@@ -1545,3 +1545,19 @@
   note={(to appear)},
 }
 
+@inproceedings{Kong:NeuS:2026,
+  title={Training with Hard Constraints: Learning Neural Certificates and Controllers for SDEs},
+  author={Kong, Chun-Wei and Escobar, Sebastian and Gracia, Ibon and McMahon, Jay and Lahijanian, Morteza},
+  booktitle = {Proceedings of the International Conference on Neuro-symbolic Systems (NeuS)},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  organizer = {PMLR},
+  month={Jun.},
+  year={2026},
+  address = {Los Angeles, CA, USA},
+  pages = {},
+  doi = {},
+  bibkey={synth-ml},
+  url={https://arxiv.org/abs/2602.23526},
+  note={(accepted)},
+  abstract={Due to their expressive power, neural networks (NNs) are promising templates for functional optimization problems, particularly for reach-avoid certificate generation for systems governed by stochastic differential equations (SDEs). However, ensuring hard-constraint satisfaction remains a major challenge. In this work, we propose two constraint-driven training frameworks with guarantees for supermartingale-based neural certificate construction and controller synthesis for SDEs. The first approach enforces certificate inequalities via domain discretization and a bound-based loss, guaranteeing global validity once the loss reaches zero. We show that this method also enables joint NN controller-certificate synthesis with hard guarantees. For high-dimensional systems where discretization becomes prohibitive, we introduce a partition-free, scenario-based training method that provides arbitrarily tight PAC guarantees for certificate constraint satisfaction. Benchmarks demonstrate scalability of the bound-based method up to 5D, outperforming the state of the art, and scalability of the scenario-based approach to at least 10D with high-confidence guarantees.},
+}
