@@ -26,65 +26,60 @@ Yet, properly accounting for sensors and their imperfections is notoriously diff
 
 This workshop addresses the critical need for techniques that account for imperfect perception during planning. Our focus is on strategies where robots do not just react to sensory data, but actively plan by reasoning over sensory information and limitations (e.g., neural network labeling faults or field-of-view constraints). Particular emphasis is on robust techniques with safety considerations. The objective is to gather researchers and practitioners in the broad area of perception-aware autonomy. We attempt to highlight recent advances in these communities, discuss open problems and main challenges, and lay out new research directions. -->
 
-As autonomous robotic systems transition from structured to unstructured, high-stakes environments, the traditional decoupling between perception, planning, and control is untenable. Imperfections in these subsystems are inevitable byproducts of operating in the physical world. Failure to account for them leads to overconfident behaviors, where a robot assumes an accurate world state despite partial or imperfect measurements and observations. In safety-critical settings, this can result in catastrophic failures, navigation paths leading to collisions with unseen obstacles or loss of localization or tracking.
+## Overview
+
+Autonomous robotic systems are increasingly deployed in unstructured, open-world, and safety-critical environments, where sensing and perception are inherently imperfect. Classical modular autonomy pipelines often assume that perception provides a sufficiently accurate state estimate for planning and control. In practice, however, robots must operate under partial observability, uncertain semantic information, limited fields of view, noisy localization, and perception modules that may degrade under distribution shift.
+
+At the same time, modern perception systems are shifting from geometric state estimation toward richer, semantic and language-conditioned representations. Advances in vision-language models (VLMs), vision-language-action (VLA) systems, and large-scale multimodal learning enable robots not only to recognize objects, but to reason about context, relationships, and the implications of their actions. These developments introduce new opportunities for more general and context-aware autonomy, but also raise fundamental challenges: how should such high-dimensional, semantic, and often uncertain representations interface with planning and control? How can semantic reasoning be translated into actionable decisions with reliability and safety guarantees? These developments blur the boundary between perception and decision-making, making the design of their interface a central challenge.
+
+This workshop examines emerging challenges in tightly coupled perception, planning, and control under these new conditions. In particular, we focus on settings where decision-making must operate over uncertain, high-dimensional, and semantically structured representations, rather than well-defined state estimates. We are interested in both modular and end-to-end approaches, and the trade-offs between explicit modeling of uncertainty and implicit reasoning in learned systems. The workshop will bring together researchers from robotics, machine learning, controls, formal methods, and field robotics to foster interdisciplinary discussion on perception-aware autonomy. Our goal is to identify key open problems at the interface of perception and decision-making, evaluate emerging paradigms enabled by modern learned perception, and outline principled directions for building reliable autonomous systems in the real world.
+
+<br>
 
 
-On the other end, properly accounting for sensors and their imperfections is notoriously difficult. Tightly coupling perception, planning, and control requires reasoning over very high-dimensional problem spaces, which is often computationally prohibitive for real-time robotics applications. Additionally, accurate modeling of sensor and perception uncertainty is complicated due to the increasingly black-box nature of modern perception stacks.
+## Discussion Questions
+
+- How should uncertainty from perception—especially from learned and semantic models—be represented and incorporated into planning and control?
+
+- How can high-dimensional perception outputs be translated into representations, constraints, and objectives for decision-making?
+
+- What representations best support both reasoning and control (e.g., belief states, scene graphs, latent/world models), and how should they be constructed?
+
+- How do we reason about context, interactions, and temporal dynamics in perception-aware planning?
+
+- How do learned planning and control methods interact with learned perception, and what new challenges arise when both perception and decision-making are data-driven?
+
+- What new failure modes arise from modern learned perception systems (e.g., hallucination, distribution shift), and how should decision-making and control systems account for them?
+
+- What are the trade-offs between modular pipelines and end-to-end learning approaches in perception, planning, and control?
+
+- What is the role of formal guarantees and verification when perception is uncertain, learned, and semantically rich?
+
+- How should we evaluate perception-aware autonomy? What benchmarks, datasets, and metrics are needed to measure reliability and safety in real-world deployment?
 
 
-This workshop addresses the critical need for techniques that account for imperfect perception during robot planning and control. Our focus is on methods where robots do not just react to sensory data, but actively plan by reasoning over sensory information and limitations (e.g., neural network labeling faults or field-of-view constraints). Particular emphasis is on robust techniques for open-set tasks while maintaining safety considerations. The objective is to gather researchers and practitioners in the broad area of perception-aware autonomy. Our goal is to highlight the importance of tightly coupled perception, planning, and control, especially in safety critical and open-ended scenarios. We will showcase recent advances in these communities, discuss open problems and main challenges, and lay out new research directions.
+## Call for Papers
 
-Relevant Keywords:
+We invite submissions of extended abstracts to share novel ideas on topics relevant to the workshop themes, which include but are not limited to:
 
 - Planning and control under sensing uncertainty
-- Vision-based control, VLM/VLAs
-- Active Perception and Information Gathering
-- Context/situation-aware planning and control
-- Classification, Object and Semantic Uncertainty 
+- Vision-based and learned perception (including VLM/VLAs)
+- Active perception and information gathering
+- Context-aware and semantic planning and control
+- Classification, object, and semantic uncertainty 
 - Partially Observable Markov Decision Processes
-- Sim-to-Real Transfer & Uncertainty Quantification
+- Sim-to-real transfer and uncertainty quantification
+- Multi-agent interaction with semantic information
+- Learned planning and control
 
+We welcome both ongoing work and recently published results. Accepted contributions will be presented as posters during the workshop, with selected submissions invited for spotlight talks. All accepted abstracts and posters will be made publicly available on the workshop website. This is a non-archival venue, and submissions may be published elsewhere. Abstracts should be a maximum of 2 pages long in RSS paper format.
 
-<br>
+### Important Dates
+- Abstract submission: May 24, 2026
+- Notification: June 7, 2026
+- Workshop: July 17, 2026
 
-
-**Main questions:**
-
-- How to quantify data uncertainty for the purposes of planning and control?
-- How can we move beyond treating perception as a "black-box" and instead quantify sensing uncertainty in a form that is directly actionable for controllers?
-- How do we ensure robust and reliable performance when integrating high-dimensional sensing (e.g., vision-based NN controllers) into safety-critical decision-making loops?
-- Is end-to-end learning (e.g., with VLA) the path forward, when data is available?
-- What is the role of formal guarantees in providing trust for autonomous systems that rely on imperfect, learning-based perception modules?
-- What are the available tools and benchmarks for perception-based autonomy?
-- How to define/agree on a set of standard benchmark problems?
-
-
-
-## Invited Speakers and Panelists
-
-
-- [Hannah Kurniawati](hanna.kurniawati@anu.edu.au) (confirmed), Professor, Australian National University 
-- [Fabio Ramos](fabio.ramos@sydney.edu.au) (confirmed), Professor, University of Sydney & NVIDIA
-- [Yiannis Kantaros](ioannisk@wustl.edu) (confirmed), Assistant Professor, Washington University in St. Louis
-- [Joelle Pineau](jpineau@cs.mcgill.ca) (tentative), Professor, McGill University
-- [Jen Jen Chung](Jenjen.chung@uq.edu.au) (tentative), Associate Professor, University of Queensland
-
-
-## Submission Info
-
-We invite submissions of poster abstracts on any topic within the theme of the workshop. We accept published and ongoing work. The authors of the accepted abstracts will present their posters at the workshop. In addition, the pdf file of the posters along with their abstracts will be made available for general public on the workshop website. 
-
-Abstracts should be 1-2 page long in RSS paper format and are submitted through [EasyChair]().
-
-Some of the abstracts may be invited to be extended into an article for publication in a special issue of a journal.
-
-<br>
-
-<!-- **Important Dates**
-- Abstract submission: June 8, 2023
-- Notification: June 10, 2023
-- Camera Ready: July 3, 2023
-- Workshop: July 10, 2023 -->
+Submissions should be made to OpenReview 
 
 
 ## Tentative Schedule
@@ -98,6 +93,13 @@ Some of the abstracts may be invited to be extended into an article for publicat
 - 11:30 - 12:00	&nbsp;&nbsp;&nbsp;&nbsp; Invited Speaker 5
 - 12:00 - 12:15	&nbsp;&nbsp;&nbsp;&nbsp; Poster Spotlight Talks
 - 12:15 - 13:00	&nbsp;&nbsp;&nbsp;&nbsp; Panel Discussion and Debate
+
+
+<!--## Invited Speakers and Panelists
+
+- [Hannah Kurniawati](hanna.kurniawati@anu.edu.au), Professor, Australian National University 
+- [Yiannis Kantaros](ioannisk@wustl.edu) (confirmed), Assistant Professor, Washington University in St. Louis
+- And more TBD-->
 
 
 ## Organizers
