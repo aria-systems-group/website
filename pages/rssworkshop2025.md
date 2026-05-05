@@ -72,17 +72,16 @@ We invite submissions of extended abstracts to share novel ideas on topics relev
 - Multi-agent interaction with semantic information
 - Learned planning and control
 
-We welcome both ongoing work and recently published results. Accepted contributions will be presented as posters during the workshop, with selected submissions invited for spotlight talks. All accepted abstracts and posters will be made publicly available on the workshop website. This is a non-archival venue, and submissions may be published elsewhere. Abstracts should be a maximum of 2 pages long in RSS paper format.
+We welcome both ongoing work and recently published results. Accepted contributions will be presented as posters during the workshop, with selected submissions invited for spotlight talks. All accepted abstracts and posters will be made publicly available on the workshop website. This is a non-archival venue, and submissions may be published elsewhere. Abstracts should be a maximum of 2 pages long in RSS paper format. Submission link: Openreview (TBD).
 
 ### Important Dates
-- Abstract submission: May 24, 2026
-- Notification: June 7, 2026
+- Abstract submission: June 5, 2026
+- Notification: June 12, 2026
 - Workshop: July 17, 2026
 
-Submissions should be made to OpenReview 
 
 
-## Tentative Schedule
+<!--## Tentative Schedule
 
 - 8:45 - 9:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome and Introduction
 - 9:00 - 9:30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Invited Speaker 1 
@@ -92,7 +91,7 @@ Submissions should be made to OpenReview
 - 11:00 - 11:30	&nbsp;&nbsp;&nbsp;&nbsp; Invited Speaker 4
 - 11:30 - 12:00	&nbsp;&nbsp;&nbsp;&nbsp; Invited Speaker 5
 - 12:00 - 12:15	&nbsp;&nbsp;&nbsp;&nbsp; Poster Spotlight Talks
-- 12:15 - 13:00	&nbsp;&nbsp;&nbsp;&nbsp; Panel Discussion and Debate
+- 12:15 - 13:00	&nbsp;&nbsp;&nbsp;&nbsp; Panel Discussion and Debate-->
 
 
 <!--## Invited Speakers and Panelists
