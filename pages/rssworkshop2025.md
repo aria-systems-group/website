@@ -72,7 +72,7 @@ We invite submissions of extended abstracts to share novel ideas on topics relev
 - Multi-agent interaction with semantic information
 - Learned planning and control
 
-We welcome both ongoing work and recently published results. Accepted contributions will be presented as posters during the workshop, with selected submissions invited for spotlight talks. All accepted abstracts and posters will be made publicly available on the workshop website. This is a non-archival venue, and submissions may be published elsewhere. Abstracts should be a maximum of 2 pages long in RSS paper format. Submission link: Openreview (TBD).
+We welcome both ongoing work and recently published results. Accepted contributions will be presented as posters during the workshop, with selected submissions invited for spotlight talks. All accepted abstracts and posters will be made publicly available on the workshop website. This is a non-archival venue, and submissions may be published elsewhere. Abstracts should be a maximum of 2 pages long in RSS paper format. Submission link: [https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS](https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS).
 
 ### Important Dates
 - Abstract submission: June 5, 2026
