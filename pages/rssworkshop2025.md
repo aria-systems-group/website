@@ -1,5 +1,5 @@
 ---
-title: RSS Workshop on <br> Planning and Control with Imperfect Sensors and Perception 
+title: RSS Workshop on Planning and Control with Imperfect Sensors and Perception 
 layout: page 
 permalink: /workshops/planning-perception.html
 class: no-nav
@@ -118,4 +118,4 @@ Associate Professor  <br>
 University of Colorado Boulder  <br>
 <!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> -->
 
-
+For inquiries, please contact: rss2026wpcis@gmail.com
