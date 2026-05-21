@@ -4,16 +4,16 @@ layout: page
 permalink: /workshops/planning-perception.html
 class: no-nav
 ---
-<figure>
-  <img src="/assets/images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
-</figure>
 <div style="display: flex; justify-content: space-around; text-align: center;">
   <div><span class="meta-icon">📅</span> July 17, 2026</div>
   <div><span class="meta-icon">🕐</span>Submissions due June 5</div>
   <div><span class="meta-icon">📄</span> 2-page extended abstract</div>
 </div>
+<figure>
+  <img src="/assets/images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
+</figure>
 
-<br>
+<!-- <br> -->
 <!-- **Title:**  -->
 
 <!-- **<span style="color:blue">Description</style>** -->
