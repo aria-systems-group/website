@@ -5,7 +5,7 @@ permalink: /workshops/planning-perception.html
 class: no-nav
 ---
 <figure>
-  <img src="images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
+  <img src="/assets/images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
 </figure>
 
 <br>
