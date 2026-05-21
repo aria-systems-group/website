@@ -4,21 +4,9 @@ layout: page
 permalink: /workshops/planning-perception.html
 class: no-nav
 ---
-<div style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap; padding-top: 16px; border-top: 0.5px solid var(--color-border-tertiary);">
-    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--color-text-secondary);">
-          <i class="ti ti-calendar" style="font-size: 16px;" aria-hidden="true"></i>
-          <span>July 17, 2026</span>
-    </div>
-    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--color-text-secondary);">
-          <i class="ti ti-clock" style="font-size: 16px;" aria-hidden="true"></i>
-          <span>Submissions due June 5</span>
-    </div>
-    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--color-text-secondary);">
-          <i class="ti ti-file-text" style="font-size: 16px;" aria-hidden="true"></i>
-          <span>2-page extended abstract</span>
-    </div>
-</div>
 
+<span>July 17, 2026</span>		<span>Submissions due June 5</span>		<span>2-page extended abstract</span>
+    
 
 <br>
 <!-- **Title:**  -->
