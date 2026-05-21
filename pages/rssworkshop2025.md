@@ -7,6 +7,30 @@ class: no-nav
 <figure>
   <img src="/assets/images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
 </figure>
+<div class="workshop-meta">
+  <div class="meta-item">
+    <span class="meta-icon">📅</span>
+    <div>
+      <div class="meta-label">Workshop</div>
+      <div class="meta-value">July 17, 2026</div>
+    </div>
+  </div>
+  <div class="meta-item">
+    <span class="meta-icon">⏰</span>
+    <div>
+      <div class="meta-label">Submissions due</div>
+      <div class="meta-value">June 5, 2026</div>
+    </div>
+  </div>
+  <div class="meta-item">
+    <span class="meta-icon">📄</span>
+    <div>
+      <div class="meta-label">Page limit</div>
+      <div class="meta-value">2 pages</div>
+    </div>
+  </div>
+</div>
+
 
 <br>
 <!-- **Title:**  -->
