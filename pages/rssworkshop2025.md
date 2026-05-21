@@ -4,9 +4,9 @@ layout: page
 permalink: /workshops/planning-perception.html
 class: no-nav
 ---
-
-<span>July 17, 2026</span>		<span>Submissions due June 5</span>		<span>2-page extended abstract</span>
-    
+<figure>
+  <img src="assests/images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
+</figure>
 
 <br>
 <!-- **Title:**  -->
