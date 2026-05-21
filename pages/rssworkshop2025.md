@@ -7,8 +7,11 @@ class: no-nav
 <figure>
   <img src="/assets/images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
 </figure>
-<span class="meta-icon">📅</span> July 17, 2026 <span class="meta-icon">⏰</span>Submissions due June 5, 2026 <span class="meta-icon">📄</span>Page limit: 2 pages
-
+<div style="display: flex; justify-content: space-around; text-align: center;">
+  <div><span class="meta-icon">📅</span> July 17, 2026</div>
+  <div><span class="meta-icon">🕐</span>Submissions due June 5</div>
+  <div><span class="meta-icon">📄</span> 2-page extended abstract</div>
+</div>
 
 <br>
 <!-- **Title:**  -->
