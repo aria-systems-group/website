@@ -1,5 +1,6 @@
 ---
-title: RSS Workshop on Planning and Control with Imperfect Sensors and Perception 
+title: RSS Workshop on 
+Planning and Control with Imperfect Sensors and Perception 
 layout: page 
 permalink: /workshops/planning-perception.html
 class: no-nav
