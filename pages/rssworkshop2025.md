@@ -108,16 +108,16 @@ We welcome both ongoing work and recently published results. Accepted contributi
 - **[Qi Heng Ho](https://www.aoe.vt.edu/people/faculty/qi-heng-ho.html)**<br>
 Assistant Professor  <br>
 Virginia Tech  <br>
-[qihengho@vt.edu](mailto:qihengho@vt.edu)<br>
+<!-- [qihengho@vt.edu](mailto:qihengho@vt.edu)<br> -->
 
 - **[Malika Meghjani](https://www.malikameghjani.com/)** <br>
 Assistant Professor  <br>
 Singapore University of Technology and Design  <br>
-[malika_meghjani@sutd.edu.sg](mailto:malika_meghjani@sutd.edu.sg)<br>
+<!-- [malika_meghjani@sutd.edu.sg](mailto:malika_meghjani@sutd.edu.sg)<br> -->
 
 - **[Morteza Lahijanian](https://www.colorado.edu/aerospace/morteza-lahijanian)**<br>
 Associate Professor  <br>
 University of Colorado Boulder  <br>
-[morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br>
+<!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> -->
 
 For inquiries, please contact: [rss2026wpcis@gmail.com](mailto:rss2026wpcis@gmail.com)
