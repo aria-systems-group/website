@@ -4,14 +4,15 @@ layout: page
 permalink: /workshops/planning-perception.html
 class: no-nav
 ---
-<div style="display: flex; justify-content: space-around; text-align: center;">
-  <div><span class="meta-icon">📅</span> July 17, 2026</div>
-  <div><span class="meta-icon">🕐</span>Submissions due June 5</div>
-  <div><span class="meta-icon">📄</span> 2-page extended abstract</div>
-</div>
 <figure>
   <img src="/assets/images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
 </figure>
+<div style="display: flex; justify-content: space-around; text-align: center;">
+  <div><span class="meta-icon">🗒</span> July 17, 2026</div>
+  <div><span class="meta-icon">🕐</span> Submissions due June 5</div>
+  <div><span class="meta-icon">📄</span> 2-page extended abstract</div>
+  <div><span class="meta-icon">📤</span> [Submit here](https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS)</div>
+</div>
 
 <!-- <br> -->
 <!-- **Title:**  -->
@@ -24,7 +25,7 @@ class: no-nav
 
 **We are sad to say that the workshop will not take place as part of RSS this year.  Many of the invited speakers are unfortunately unable to attend the workshop in person.  Since that affects the quality of the workshop, we decided to postpone it to another conference to ensure that the workshop will be productive with a good turnout.  We will soon make an announcement which conference we will target next.** -->
 
-<br>
+<!-- <br> -->
 
 <!-- As autonomous robotic systems transition from controlled labs to unstructured, high-stakes environments, the traditional decoupling between perception, planning, and control is becoming untenable. Imperfections in these subsystems are inescapable byproducts of operating in the physical world. Failure to account for them leads to overconfident behaviors, where a robot assumes an accurate world state despite partial or imperfect measurements and observations. In safety-critical settings, this can result in catastrophic failures, such as collisions with unseen obstacles or loss of localization or tracking in feature-poor areas.
 
