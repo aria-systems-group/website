@@ -17,10 +17,10 @@ class: no-nav
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
-    /*padding: 16px 0;*/
+    /*padding: 8px 0;*/
     /*margin: 24px 0;*/
-    /*border-top: 1px solid #e0e0e0;*/
-    /*border-bottom: 1px solid #e0e0e0;*/
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
   }
   .nav-toggle {
     display: inline-block;
