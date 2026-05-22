@@ -64,7 +64,7 @@
   <a href="#call-for-papers" class="nav-toggle">Call for papers</a>
   <a href="#important-dates" class="nav-toggle">Important dates</a>
   <a href="#organizers" class="nav-toggle">Organizers</a>
-  <a href="" class="nav-toggle">Invited Speakers</a>
+  <a href="#invited-speakers" class="nav-toggle">Invited Speakers</a>
   <a href="" class="nav-toggle">Program</a>
 </nav>
 
@@ -107,8 +107,65 @@
     border-color: #2c3a4f;
   }
   /* Offset the scroll position so the heading isn't hidden under any fixed header */
-  #about, #call-for-papers, #important-dates, #organizers {
+  #about, #call-for-papers, #important-dates, #invited-speakers, #organizers {
     scroll-margin-top: 24px;
+  }
+</style>
+
+<style>
+  .people-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin: 24px 0 32px 0;
+  }
+
+  .person-card {
+    text-align: center;
+    padding: 18px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+
+  .person-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+  }
+
+  .person-card h3 {
+    margin: 8px 0 4px 0;
+    font-size: 18px;
+  }
+
+  .person-card p {
+    margin: 2px 0;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+  .person-card .role {
+    font-weight: 500;
+    color: #2c3a4f;
+  }
+
+  .person-card .tbd-face {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #eeeeee;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 12px auto;
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
   }
 </style>
 
@@ -235,28 +292,63 @@ This workshop addresses the critical need for techniques that account for imperf
 - [Yiannis Kantaros](ioannisk@wustl.edu) (confirmed), Assistant Professor, Washington University in St. Louis
 - And more TBD-->
 
+<hr />
+
+<h2 id="invited-speakers">Invited Speakers and Panelists</h2>
+
+<div class="people-grid">
+
+  <div class="person-card">
+    <img src="/assets/images/hanna-kurniawati.jpg" alt="Hanna Kurniawati" />
+    <h3><a href="https://comp.anu.edu.au/people/hanna-kurniawati/">Hanna Kurniawati</a></h3>
+    <p class="role">Professor</p>
+    <p>Australian National University</p>
+  </div>
+
+  <div class="person-card">
+    <img src="/assets/images/Yiannis-Kantaros1.jpg" alt="Yiannis Kantaros" />
+    <h3><a href="https://sites.wustl.edu/kantaros/">Yiannis Kantaros</a></h3>
+    <p class="role">Assistant Professor</p>
+    <p>Washington University in St. Louis</p>
+  </div>
+
+  <div class="person-card">
+    <img src="/assets/images/talak_people.jpg" alt="Rajat Talak" />
+    <h3><a href="https://www.rajattalak.com/">Rajat Talak</a></h3>
+    <p class="role">Assistant Professor</p>
+    <p>National University of Singapore</p>
+  </div>
+
+</div>
+
+<hr />
+
 <h2 id="organizers">Organizers</h2>
 
-<ul>
-  <li>
-    <p><strong><a href="https://www.aoe.vt.edu/people/faculty/qi-heng-ho.html">Qi Heng Ho</a></strong><br />
-Assistant Professor  <br />
-Virginia Tech  <br />
-<!-- [qihengho@vt.edu](mailto:qihengho@vt.edu)<br> --></p>
-  </li>
-  <li>
-    <p><strong><a href="https://www.malikameghjani.com/">Malika Meghjani</a></strong> <br />
-Assistant Professor  <br />
-Singapore University of Technology and Design  <br />
-<!-- [malika_meghjani@sutd.edu.sg](mailto:malika_meghjani@sutd.edu.sg)<br> --></p>
-  </li>
-  <li>
-    <p><strong><a href="https://www.colorado.edu/aerospace/morteza-lahijanian">Morteza Lahijanian</a></strong><br />
-Associate Professor  <br />
-University of Colorado Boulder  <br />
-<!-- [morteza.lahijanian@colorado.edu](mailto:morteza.lahijanian@colorado.edu)<br> --></p>
-  </li>
-</ul>
+<div class="people-grid">
+
+  <div class="person-card">
+    <img src="/assets/images/qihengho.jpg" alt="Qi Heng Ho" />
+    <h3><a href="https://www.aoe.vt.edu/people/faculty/qi-heng-ho.html">Qi Heng Ho</a></h3>
+    <p class="role">Assistant Professor</p>
+    <p>Virginia Tech</p>
+  </div>
+
+  <div class="person-card">
+    <img src="/assets/images/Malika%20Meghjani%20Profile.jpg" alt="Malika Meghjani" />
+    <h3><a href="https://www.malikameghjani.com/">Malika Meghjani</a></h3>
+    <p class="role">Assistant Professor</p>
+    <p>Singapore University of Technology and Design</p>
+  </div>
+
+  <div class="person-card">
+    <img src="/assets/images/morteza-lahijanian-304x405.jpeg" alt="Morteza Lahijanian" />
+    <h3><a href="https://www.colorado.edu/aerospace/morteza-lahijanian">Morteza Lahijanian</a></h3>
+    <p class="role">Associate Professor</p>
+    <p>University of Colorado Boulder</p>
+  </div>
+
+</div>
 
 <p>For inquiries, please contact: <a href="mailto:rss2026wpcis@gmail.com">rss2026wpcis@gmail.com</a></p>
 
