@@ -9,6 +9,8 @@ class: no-nav
   <a href="#call-for-papers" class="nav-toggle">Call for papers</a>
   <a href="#important-dates" class="nav-toggle">Important dates</a>
   <a href="#organizers" class="nav-toggle">Organizers</a>
+  <a href="" class="nav-toggle">Invited Speakers</a>
+  <a href="" class="nav-toggle">Program</a>
 </nav>
 
 <style>
@@ -17,7 +19,7 @@ class: no-nav
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
-    /*padding: 8px 0;*/
+    padding: 2px 0;
     /*margin: 24px 0;*/
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
