@@ -4,6 +4,47 @@ layout: page
 permalink: /workshops/planning-perception.html
 class: no-nav
 ---
+<nav class="workshop-nav">
+  <a href="#about" class="nav-toggle">About</a>
+  <a href="#call-for-papers" class="nav-toggle">Call for papers</a>
+  <a href="#important-dates" class="nav-toggle">Important dates</a>
+  <a href="#organizers" class="nav-toggle">Organizers</a>
+</nav>
+
+<style>
+  .workshop-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px 0;
+    margin: 24px 0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .nav-toggle {
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c3a4f;
+    background: #f5f5f5;
+    border: 1px solid #d8d8d8;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  .nav-toggle:hover {
+    background: #2c3a4f;
+    color: #fff;
+    border-color: #2c3a4f;
+  }
+  /* Offset the scroll position so the heading isn't hidden under any fixed header */
+  #about, #call-for-papers, #important-dates, #organizers {
+    scroll-margin-top: 24px;
+  }
+</style>
+
 <figure>
   <img src="/assets/images/rssworkshopbanner2.jpg" alt="Planning and Control with Imperfect Sensors and Perception">
 </figure>
@@ -33,9 +74,9 @@ Yet, properly accounting for sensors and their imperfections is notoriously diff
 
 This workshop addresses the critical need for techniques that account for imperfect perception during planning. Our focus is on strategies where robots do not just react to sensory data, but actively plan by reasoning over sensory information and limitations (e.g., neural network labeling faults or field-of-view constraints). Particular emphasis is on robust techniques with safety considerations. The objective is to gather researchers and practitioners in the broad area of perception-aware autonomy. We attempt to highlight recent advances in these communities, discuss open problems and main challenges, and lay out new research directions. -->
 
-## Overview
+<h2 id="about">Overview</h2>
 
-<p>Autonomous robotic systems are increasingly deployed in unstructured, open-world, and safety-critical environments, where sensing and perception are inherently imperfect. Classical modular autonomy pipelines often assume that perception provides a sufficiently accurate state estimate for planning and control. In practice, however, robots must operate under partial observability, uncertain semantic information, limited fields of view, noisy localization, and perception modules that may degrade under distribution shift.</p>
+Autonomous robotic systems are increasingly deployed in unstructured, open-world, and safety-critical environments, where sensing and perception are inherently imperfect. Classical modular autonomy pipelines often assume that perception provides a sufficiently accurate state estimate for planning and control. In practice, however, robots must operate under partial observability, uncertain semantic information, limited fields of view, noisy localization, and perception modules that may degrade under distribution shift.
 
 At the same time, modern perception systems are shifting from geometric state estimation toward richer, semantic and language-conditioned representations. Advances in vision-language models (VLMs), vision-language-action (VLA) systems, and large-scale multimodal learning enable robots not only to recognize objects, but to reason about context, relationships, and the implications of their actions. These developments introduce new opportunities for more general and context-aware autonomy, but also raise fundamental challenges: how should such high-dimensional, semantic, and often uncertain representations interface with planning and control? How can semantic reasoning be translated into actionable decisions with reliability and safety guarantees? These developments blur the boundary between perception and decision-making, making the design of their interface a central challenge.
 
@@ -65,7 +106,7 @@ This workshop examines emerging challenges in tightly coupled perception, planni
 - How should we evaluate perception-aware autonomy? What benchmarks, datasets, and metrics are needed to measure reliability and safety in real-world deployment?
 
 
-## Call for Papers
+<h2 id="call-for-papers">Call for Papers</h2>
 
 We invite submissions of extended abstracts to share novel ideas on topics relevant to the workshop themes, which include but are not limited to:
 
@@ -83,7 +124,7 @@ We welcome both ongoing work and recently published results. Accepted contributi
 
 - **Submission link:** [https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS](https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS).
 
-### Important Dates
+<h3 id="important-dates">Important Dates</h3>
 - Abstract submission: June 5, 2026
 - Notification: June 12, 2026
 - Workshop: July 17, 2026
@@ -110,7 +151,8 @@ We welcome both ongoing work and recently published results. Accepted contributi
 - And more TBD-->
 
 
-## Organizers
+<h2 id="organizers">Organizers</h2>
+
 
 - **[Qi Heng Ho](https://www.aoe.vt.edu/people/faculty/qi-heng-ho.html)**<br>
 Assistant Professor  <br>
