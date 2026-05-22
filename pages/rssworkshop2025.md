@@ -7,12 +7,12 @@ class: no-nav
 <figure>
   <img src="/assets/images/rssworkshopbanner2.jpg" alt="Planning and Control with Imperfect Sensors and Perception">
 </figure>
-<div style="display: flex; justify-content: space-around; text-align: center;">
+<!-- <div style="display: flex; justify-content: space-around; text-align: center;"> -->
   <!-- <div><span class="meta-icon">🗒</span> July 17, 2026</div> -->
-  <div><span class="meta-icon">🕐</span> Submissions due June 5</div>
-  <div><span class="meta-icon">📄</span> 2-page extended abstract</div>
-  <div><span class="meta-icon">📤</span> <a href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS">Submit here</a></div>
-</div>
+  <!-- <div><span class="meta-icon">🕐</span> Submissions due June 5</div> -->
+  <!-- <div><span class="meta-icon">📄</span> 2-page extended abstract</div> -->
+  <!-- <div><span class="meta-icon">📤</span> <a href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS">Submit here</a></div> -->
+<!-- </div> -->
 
 <!-- <br> -->
 <!-- **Title:**  -->
