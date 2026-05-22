@@ -5,7 +5,7 @@ permalink: /workshops/planning-perception.html
 class: no-nav
 ---
 <figure>
-  <img src="/assets/images/rssworkshopbanner.png" alt="Planning and Control with Imperfect Sensors and Perception">
+  <img src="/assets/images/rssworkshopbanner.jpg" alt="Planning and Control with Imperfect Sensors and Perception">
 </figure>
 <div style="display: flex; justify-content: space-around; text-align: center;">
   <div><span class="meta-icon">🗒</span> July 17, 2026</div>
