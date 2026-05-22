@@ -25,15 +25,15 @@ class: no-nav
     border-bottom: 1px solid #e0e0e0;
   }
   .nav-toggle {
-    padding: 12px 18px;
+    display: inline-block;
+    padding: 8px 18px;
     font-size: 14px;
     font-weight: 500;
     color: #2c3a4f;
     background: #f5f5f5;
     border: 1px solid #d8d8d8;
-    border-radius: 4px;
+    border-radius: 20px;
     text-decoration: none;
-    text-align: center;
     transition: background 0.15s, color 0.15s;
   }
   .nav-toggle:hover {
