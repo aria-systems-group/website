@@ -107,6 +107,7 @@ This workshop examines emerging challenges in tightly coupled perception, planni
 
 - How should we evaluate perception-aware autonomy? What benchmarks, datasets, and metrics are needed to measure reliability and safety in real-world deployment?
 
+<hr>
 
 <h2 id="call-for-papers">Call for Papers</h2>
 
@@ -126,11 +127,12 @@ We welcome both ongoing work and recently published results. Accepted contributi
 
 - **Submission link:** [https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS](https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS).
 
+<hr>
 <h3 id="important-dates">Important Dates</h3>
 - Abstract submission: June 5, 2026
 - Notification: June 12, 2026
 - Workshop: July 17, 2026
-
+<hr>
 
 
 <!--## Tentative Schedule
