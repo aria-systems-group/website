@@ -59,7 +59,48 @@
   <h1>RSS Workshop on <br> Planning and Control with Imperfect Sensors and Perception</h1>
 
   <div class="entry">
-    <figure>
+    <nav class="workshop-nav">
+  <a href="#about" class="nav-toggle">About</a>
+  <a href="#call-for-papers" class="nav-toggle">Call for papers</a>
+  <a href="#important-dates" class="nav-toggle">Important dates</a>
+  <a href="#organizers" class="nav-toggle">Organizers</a>
+</nav>
+
+<style>
+  .workshop-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px 0;
+    margin: 24px 0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .nav-toggle {
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c3a4f;
+    background: #f5f5f5;
+    border: 1px solid #d8d8d8;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  .nav-toggle:hover {
+    background: #2c3a4f;
+    color: #fff;
+    border-color: #2c3a4f;
+  }
+  /* Offset the scroll position so the heading isn't hidden under any fixed header */
+  #about, #call-for-papers, #important-dates, #organizers {
+    scroll-margin-top: 24px;
+  }
+</style>
+
+<figure>
   <img src="/assets/images/rssworkshopbanner2.jpg" alt="Planning and Control with Imperfect Sensors and Perception" />
 </figure>
 <!-- <div style="display: flex; justify-content: space-around; text-align: center;"> -->
@@ -88,7 +129,7 @@ Yet, properly accounting for sensors and their imperfections is notoriously diff
 
 This workshop addresses the critical need for techniques that account for imperfect perception during planning. Our focus is on strategies where robots do not just react to sensory data, but actively plan by reasoning over sensory information and limitations (e.g., neural network labeling faults or field-of-view constraints). Particular emphasis is on robust techniques with safety considerations. The objective is to gather researchers and practitioners in the broad area of perception-aware autonomy. We attempt to highlight recent advances in these communities, discuss open problems and main challenges, and lay out new research directions. -->
 
-<h2 id="overview">Overview</h2>
+<h2 id="about">Overview</h2>
 
 <p>Autonomous robotic systems are increasingly deployed in unstructured, open-world, and safety-critical environments, where sensing and perception are inherently imperfect. Classical modular autonomy pipelines often assume that perception provides a sufficiently accurate state estimate for planning and control. In practice, however, robots must operate under partial observability, uncertain semantic information, limited fields of view, noisy localization, and perception modules that may degrade under distribution shift.</p>
 
