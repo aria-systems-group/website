@@ -41,7 +41,7 @@ class: no-nav
     color: #2c3a4f;
     background: #f5f5f5;
     border: 1px solid #d8d8d8;
-    border-radius: 1px;
+    border-radius: 0.5px;
     text-decoration: none;
     text-align: center;
     transition: background 0.15s, color 0.15s;
