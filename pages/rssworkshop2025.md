@@ -35,7 +35,7 @@ class: no-nav
     border-radius: 20px;
     text-decoration: none;
     transition: background 0.15s, color 0.15s;*/
-    padding: 6px 18px;
+    padding: 6px 28px;
     font-size: 14px;
     font-weight: 500;
     color: #2c3a4f;
