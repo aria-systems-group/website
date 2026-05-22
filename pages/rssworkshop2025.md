@@ -11,7 +11,7 @@ class: no-nav
   <div><span class="meta-icon">🗒</span> July 17, 2026</div>
   <div><span class="meta-icon">🕐</span> Submissions due June 5</div>
   <div><span class="meta-icon">📄</span> 2-page extended abstract</div>
-  <div><span class="meta-icon">📤</span> [Submit here](https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS)</div>
+  <div><span class="meta-icon">📤</span> <a href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/WPCIS">Submit here</a></div>
 </div>
 
 <!-- <br> -->
