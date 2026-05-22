@@ -271,7 +271,7 @@ We welcome both ongoing work and recently published results. Accepted contributi
   </div>
 
   <div class="person-card">
-    <img src="/assets/images/morteza-lahijanian-200.jpg" alt="Morteza Lahijanian">
+    <img src="/assets/images/morteza-lahijanian-200.jpeg" alt="Morteza Lahijanian">
     <h3><a href="https://www.colorado.edu/aerospace/morteza-lahijanian">Morteza Lahijanian</a></h3>
     <p class="role">Associate Professor</p>
     <p>University of Colorado Boulder</p>
