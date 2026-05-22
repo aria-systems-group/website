@@ -199,7 +199,6 @@ We welcome both ongoing work and recently published results. Accepted contributi
 - Abstract submission: June 5, 2026
 - Notification: June 12, 2026
 - Workshop: July 17, 2026
-<hr>
 
 
 <!--## Tentative Schedule
