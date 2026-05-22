@@ -84,10 +84,10 @@ At the same time, modern perception systems are shifting from geometric state es
 
 This workshop examines emerging challenges in tightly coupled perception, planning, and control under these new conditions. In particular, we focus on settings where decision-making must operate over uncertain, high-dimensional, and semantically structured representations, rather than well-defined state estimates. We are interested in both modular and end-to-end approaches, and the trade-offs between explicit modeling of uncertainty and implicit reasoning in learned systems. The workshop will bring together researchers from robotics, machine learning, controls, formal methods, and field robotics to foster interdisciplinary discussion on perception-aware autonomy. Our goal is to identify key open problems at the interface of perception and decision-making, evaluate emerging paradigms enabled by modern learned perception, and outline principled directions for building reliable autonomous systems in the real world.
 
-<br>
+<!-- <br> -->
 
 
-## Discussion Questions
+### Discussion Questions
 
 - How should uncertainty from perception—especially from learned and semantic models—be represented and incorporated into planning and control?
 
