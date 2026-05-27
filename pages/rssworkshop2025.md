@@ -248,8 +248,8 @@ We welcome both ongoing work and recently published results. Accepted contributi
   </div>
 
   <div class="person-card">
-    <img src="" alt="TBA">
-    <h3><a href="">TBA</a></h3>
+    <img src="/assets/images/tba-placeholder.jpg" alt="TBA">
+    <h3><a href="">To Be Announced</a></h3>
     <p class="role"></p>
     <p></p>
   </div>
