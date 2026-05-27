@@ -247,6 +247,13 @@ We welcome both ongoing work and recently published results. Accepted contributi
     <p>National University of Singapore</p>
   </div>
 
+  <div class="person-card">
+    <img src="" alt="TBA">
+    <h3><a href="">TBA</a></h3>
+    <p class="role"></p>
+    <p></p>
+  </div>
+
 </div>
 
 <hr>
@@ -284,7 +291,7 @@ For inquiries, please contact: [rss2026wpcis@gmail.com](mailto:rss2026wpcis@gmai
 <hr>
 
 <h2 id="program">Program</h2>
-<p><em>All times are local to the conference venue (July 17, 2026).</em></p>
+All times are <em>local</em> to the conference venue (July 17, 2026).
 
 <!-- <table style="width:100%; border-collapse: collapse;">
   <thead>
