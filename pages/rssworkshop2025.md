@@ -248,10 +248,10 @@ We welcome both ongoing work and recently published results. Accepted contributi
   </div>
 
   <div class="person-card">
-    <img src="/assets/images/tba-placeholder.jpg" alt="TBA">
-    <h3><a href="">To Be Announced</a></h3>
-    <p class="role"></p>
-    <p></p>
+    <img src="/assets/images/jon_decastro.png" alt="Jonathan DeCastro">
+    <h3><a href="https://jadecastro.github.io">Jonathan DeCastro</a></h3>
+    <p class="role">Research Scientist</p>
+    <p>Toyota Research Institute</p>
   </div>
 
 </div>
