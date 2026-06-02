@@ -235,7 +235,7 @@ We welcome both ongoing work and recently published results. Accepted contributi
 
   <div class="person-card">
     <img src="/assets/images/Yiannis-Kantaros1.jpg" alt="Yiannis Kantaros">
-    <h3><a href="https://sites.wustl.edu/kantaros/">Yiannis Kantaros</a></h3>
+    <h3><a href="https://engineering.washu.edu/faculty/Yiannis-Kantaros.html">Yiannis Kantaros</a></h3>
     <p class="role">Assistant Professor</p>
     <p>Washington University in St. Louis</p>
   </div>
