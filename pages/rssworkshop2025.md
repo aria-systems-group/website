@@ -197,7 +197,7 @@ We welcome both ongoing work and recently published results. Accepted contributi
 <hr>
 <h3 id="important-dates">Important Dates</h3>
 - Abstract submission: June 5, 2026 (11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a>)
-- Notification: June 12, 2026
+- Notification: ~~June 12, 2026~~ June 14, 2026
 - Workshop: July 17, 2026
 
 
