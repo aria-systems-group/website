@@ -1487,9 +1487,6 @@
   bibkey={synth-ml},
   note={(to appear)},
 }
-  
-
-
 
 @inproceedings{Gracia:HSCC:2026,
   author = {Gracia, Ibon and Lahijanian, Morteza},
@@ -1562,21 +1559,18 @@
   abstract={Due to their expressive power, neural networks (NNs) are promising templates for functional optimization problems, particularly for reach-avoid certificate generation for systems governed by stochastic differential equations (SDEs). However, ensuring hard-constraint satisfaction remains a major challenge. In this work, we propose two constraint-driven training frameworks with guarantees for supermartingale-based neural certificate construction and controller synthesis for SDEs. The first approach enforces certificate inequalities via domain discretization and a bound-based loss, guaranteeing global validity once the loss reaches zero. We show that this method also enables joint NN controller-certificate synthesis with hard guarantees. For high-dimensional systems where discretization becomes prohibitive, we introduce a partition-free, scenario-based training method that provides arbitrarily tight PAC guarantees for certificate constraint satisfaction. Benchmarks demonstrate scalability of the bound-based method up to 5D, outperforming the state of the art, and scalability of the scenario-based approach to at least 10D with high-confidence guarantees.},
 }
 
-
-@article{Mazouz:QEST:2026,
-  title = {StochasticBarrier.jl: A Toolbox for Stochastic Barrier Function Synthesis},
-  author = {Mazouz, Rayan and Mathiesen, Frederik and Laurenti, Luca and Lahijanian, Morteza},
-  journal = {International Joint Conference on Quantitative Evaluation of Systems and Formal Modeling and Analysis of Timed System},
-  volume = {},
+@inproceedings{Mazouz:QEST:2026,
+  title={StochasticBarrier.jl: A Toolbox for Stochastic Barrier Function Synthesis},
+  author={Mazouz, Rayan and Mathiesen, Frederik and Laurenti, Luca and Lahijanian, Morteza},
+  booktitle = {International Joint Conference on Quantitative Evaluation of Systems and Formal Modeling and Analysis of Timed System (QEST + FORMATS)},
+  publisher = {Springer Nature},
+  month={Sept.},
+  year={2026},
+  address = {Liverpool, UK},
   pages = {},
-  year = {2026},
-  publisher={Springer Nature},
-  issn = {},
   doi = {},
-  url = {https://arxiv.org/abs/2602.20359},
-  keywords = {Barrier Certificates, Stochastic Systems, Probabilistic Safety, Convex Optimization, Formal Verification},
-  abstract = {We present StochasticBarrier.jl, an open-source Julia- based toolbox for generating Stochastic Barrier Functions (SBFs) for safety verification of discrete-time stochastic systems with additive Gaussian noise. StochasticBarrier.jl certifies linear, polynomial, and piecewise affine (PWA) systems. The latter enables verification for a wide range of system dynamics, including general nonlinear types. The toolbox implements a Sum-of-Squares (SOS) optimization approach, as well as methods based on piecewise constant (PWC) functions. For SOS-based SBFs, StochasticBarrier.jl leverages semi-definite programming solvers, while for PWC SBFs, it offers three engines: two using linear programming (LP) and one based on gradient descent (GD). Benchmarking StochasticBarrier.jl against the state-of-the-art shows that the tool outperforms existing tools in computation time, safety probability bounds, and scalability across over 30 case studies. Compared to its closest competitor, StochasticBarrier.jl is up to four orders of magnitude faster, achieves significant safety probability improvements, and supports higher-dimensional systems},
   bibkey={synth-ml},
-  note={(to appear)},
+  url={https://arxiv.org/abs/2602.20359},
+  note={(accepted)},
+  abstract = {We present StochasticBarrier.jl, an open-source Julia- based toolbox for generating Stochastic Barrier Functions (SBFs) for safety verification of discrete-time stochastic systems with additive Gaussian noise. StochasticBarrier.jl certifies linear, polynomial, and piecewise affine (PWA) systems. The latter enables verification for a wide range of system dynamics, including general nonlinear types. The toolbox implements a Sum-of-Squares (SOS) optimization approach, as well as methods based on piecewise constant (PWC) functions. For SOS-based SBFs, StochasticBarrier.jl leverages semi-definite programming solvers, while for PWC SBFs, it offers three engines: two using linear programming (LP) and one based on gradient descent (GD). Benchmarking StochasticBarrier.jl against the state-of-the-art shows that the tool outperforms existing tools in computation time, safety probability bounds, and scalability across over 30 case studies. Compared to its closest competitor, StochasticBarrier.jl is up to four orders of magnitude faster, achieves significant safety probability improvements, and supports higher-dimensional systems},
 }
-  
