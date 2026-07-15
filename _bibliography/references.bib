@@ -1574,3 +1574,19 @@
   note={(accepted)},
   abstract = {We present StochasticBarrier.jl, an open-source Julia- based toolbox for generating Stochastic Barrier Functions (SBFs) for safety verification of discrete-time stochastic systems with additive Gaussian noise. StochasticBarrier.jl certifies linear, polynomial, and piecewise affine (PWA) systems. The latter enables verification for a wide range of system dynamics, including general nonlinear types. The toolbox implements a Sum-of-Squares (SOS) optimization approach, as well as methods based on piecewise constant (PWC) functions. For SOS-based SBFs, StochasticBarrier.jl leverages semi-definite programming solvers, while for PWC SBFs, it offers three engines: two using linear programming (LP) and one based on gradient descent (GD). Benchmarking StochasticBarrier.jl against the state-of-the-art shows that the tool outperforms existing tools in computation time, safety probability bounds, and scalability across over 30 case studies. Compared to its closest competitor, StochasticBarrier.jl is up to four orders of magnitude faster, achieves significant safety probability improvements, and supports higher-dimensional systems},
 }
+
+@inproceedings{Mazouz:CDC:2026,
+  title={Stochastic Barrier Certificates in the Presence of Dynamic Obstacles},
+  author={Mazouz, Rayan and Laurenti, Luca and Lahijanian, Morteza},
+  booktitle= {IEEE Conference on Decision and Control (CDC)},
+  publisher = {IEEE},
+  month={Dec.},
+  year={2026},
+  address = {Hawaii, USA},
+  pages = {},
+  doi = {},
+  bibkey={synth-ml},
+  url={https://arxiv.org/abs/2604.20208},
+  note={(accepted)},
+  abstract={Safety of stochastic dynamic systems in environments with dynamic obstacles is studied in this paper through the lens of stochastic barrier functions. We introduce both time-invariant and time-varying barrier certificates for discrete-time, continuous-space systems subject to uncertainty, which provide certified lower bounds on the probability of remaining within a safe set over a finite horizon. These certificates explicitly account for time-varying unsafe regions induced by obstacle dynamics. By leveraging Bellman's optimality perspective, the time-varying formulation directly captures temporal structure and yields less conservative bounds than state-of-the-art approaches. By restricting certificates to polynomial functions, we show that time-varying barrier synthesis can be formulated as a convex sum-of-squares program, enabling tractable optimization. Empirical evaluations on nonlinear systems with dynamic obstacles show that time-varying certificates consistently achieve tight guarantees, demonstrating improved accuracy and scalability over state-of-the-art methods.},
+}
