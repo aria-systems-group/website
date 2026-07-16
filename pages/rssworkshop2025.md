@@ -256,7 +256,7 @@ We welcome both ongoing work and recently published results. Accepted contributi
 
 </div>
 
-<h3>Talk Details</h3>
+<h3>Invited Talks</h3>
 
 <div class="talks-list">
 
