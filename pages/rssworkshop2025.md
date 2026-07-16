@@ -319,12 +319,14 @@ We welcome both ongoing work and recently published results. Accepted contributi
 <div class="talks-list">
 
   <div class="talk-card">
-    <p class="talk-speaker">Hanna Kurniawati</p>
-    <p class="talk-title">[TITLE PLACEHOLDER]</p>
-    <details class="talk-abstract">
+    <p class="role"><b>Hanna Kurniawati</b></p>
+    <ul>
+      <li><p class="talk-title">TBA</p></li>
+      <li><details class="talk-abstract">
       <summary>Abstract</summary>
-      <p>[ABSTRACT PLACEHOLDER]</p>
-    </details>
+      <p>TBA</p>
+    </details></li>
+    </ul>
   </div>
 
   <div class="talk-card">
