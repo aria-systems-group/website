@@ -325,6 +325,7 @@ We welcome both ongoing work and recently published results. Accepted contributi
       <p>TBA</p>
     </details>
   </div>
+  <br>
 
   <div class="talk-card">
     <b>Yiannis Kantaros</b><br>
