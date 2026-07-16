@@ -355,7 +355,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     <tr>
       <td class="time">2:10 – 2:40 PM</td>
       <td>Invited Talk: Hanna Kurniawati<br> 
-        <span style="color: #666666;"> -- Title: TBA</span>
+        <span style="color: #666666;"> -- POMDP Planning: Where are we now? </span>
       </td>
     </tr>
     <tr>
@@ -375,7 +375,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     <tr>
       <td class="time">4:00 – 4:30 PM</td>
       <td>Invited Talk: Rajat Talak<br> 
-        <span style="color: #666666;"> -- Title: TBA</span>
+        <span style="color: #666666;"> -- Hierarchical Representations for Robot Perception</span>
       </td>
     </tr>
     <tr>
