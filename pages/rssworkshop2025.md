@@ -365,7 +365,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
           <br>
           In this talk, I will present a new autonomy architecture that enables robots equipped with AI-enabled perception systems to complete semantic tasks in unknown environments with a user-specified success probability. The proposed architecture integrates AI-enabled perception, conformal prediction-based uncertainty quantification, and planning within a unified framework that propagates calibrated estimates of perceptual uncertainty from perception to decision-making. This introspective reasoning capability over perceptual uncertainty enables robots to determine when to safely act versus when to actively gather additional information to reduce uncertainty. In turn, this yields closed-loop mission completion guarantees that are agnostic to specific sensor models and noise characteristics. The talk will conclude with simulation and hardware case studies that empirically validate these assurance guarantees and discuss open challenges toward achieving assured perception-enabled autonomy in complex real-world environments. 
         </details>
-        </td>
+      </td>
     </tr>
     <tr>
       <td class="time">3:10 – 3:30 PM</td>
@@ -394,12 +394,6 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
   </tbody>
 </table>
 
-<hr>
-
-<h3 id="important-dates">Important Dates</h3>
-- Abstract submission: June 5, 2026 (11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a>)
-- Notification: ~~June 12, 2026~~ June 14, 2026
-- Workshop: July 17, 2026
 
 <hr>
 <h2 id="accepted-papers">Accepted Abstracts</h2>
