@@ -343,7 +343,7 @@ We welcome both ongoing work and recently published results. Accepted contributi
     <b>Rajat Talak</b><br>
     Title: TBA<br>
     <details class="talk-abstract">
-      <summary><b>Abstract</b></summary>
+      <summary>Abstract</summary>
       TBA
     </details>
   </div>
