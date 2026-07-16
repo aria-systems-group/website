@@ -353,14 +353,12 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     </tr>
     <tr>
       <td class="time">2:10 – 2:40 PM</td>
-      <td>Invited Talk: Hanna Kurniawati<br>
-          <span style="color: #666666;">Title: TBA</span>
+      <td>Invited Talk: Hanna Kurniawati <span style="color: #666666;"> -- Title: TBA</span>
       </td>
     </tr>
     <tr>
       <td class="time">2:40 – 3:10 PM</td>
-      <td>Invited Talk: Yiannis Kantaros<br>
-          <span style="color: #666666;">Assured Autonomy in Unknown Environments with Uncertainty-aware Perception</span>
+      <td>Invited Talk: Yiannis Kantaros <span style="color: #666666;"> -- Assured Autonomy in Unknown Environments with Uncertainty-aware Perception</span>
       </td>
     </tr>
     <tr>
@@ -373,14 +371,12 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     </tr>
     <tr>
       <td class="time">4:00 – 4:30 PM</td>
-      <td>Invited Talk: Rajat Talak<br>
-          <span style="color: #666666;">Title: TBA</span>
+      <td>Invited Talk: Rajat Talak <span style="color: #666666;"> -- Title: TBA</span>
       </td>
     </tr>
     <tr>
       <td class="time">4:30 – 5:00 PM</td>
-      <td>Invited Talk: Jonathan DeCastro<br>
-          <span style="color: #666666;">Planning Through the Partner: Joint World Models of Physics and Intent under Imperfect Observation</span>
+      <td>Invited Talk: Jonathan DeCastro <span style="color: #666666;"> -- Planning Through the Partner: Joint World Models of Physics and Intent under Imperfect Observation</span>
       </td>
     </tr>
     <tr class="highlight">
