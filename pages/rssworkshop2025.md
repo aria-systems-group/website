@@ -342,8 +342,8 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
 <table class="schedule">
   <thead>
     <tr>
-      <th>Time</th>
-      <th>Session</th>
+      <th><b>Time</b></th>
+      <th><b>Session</b></th>
     </tr>
   </thead>
   <tbody>
@@ -356,7 +356,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
       <td>
         Invited Talk: Hanna Kurniawati
         <details class="program-toggle">
-          &nbsp;&nbsp;<summary>Title &amp; Abstract</summary>
+          <summary>Title &amp; Abstract</summary>
           <p class="program-talk-title">TBA</p>
           <p class="program-talk-abstract">TBA</p>
         </details>
@@ -367,7 +367,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
       <td>
         Invited Talk: Yiannis Kantaros
         <details class="program-toggle">
-          &nbsp;&nbsp;<summary>Title &amp; Abstract</summary>
+          <summary>Title &amp; Abstract</summary>
           <p class="program-talk-title">Assured Autonomy in Unknown Environments with Uncertainty-aware Perception</p>
           <p class="program-talk-abstract">Designing robots that can navigate unfamiliar environments while accomplishing complex tasks is a fundamental challenge in embodied intelligence. Although recent advances in AI-enabled perception have led to impressive empirical capabilities, these systems often provide limited reasoning about perceptual uncertainty, resulting in overconfident decisions and limited performance or safety assurances in unknown environments.
           <br>
@@ -388,7 +388,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
       <td>
         Invited Talk: Rajat Talak
         <details class="program-toggle">
-          &nbsp;&nbsp;<summary>Title &amp; Abstract</summary>
+          <summary>Title &amp; Abstract</summary>
           <p class="program-talk-title">TBA</p>
           <p class="program-talk-abstract">TBA</p>
         </details>
@@ -399,7 +399,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
       <td>
         Invited Talk: Jonathan DeCastro
         <details class="program-toggle">
-          &nbsp;&nbsp;<summary>Title &amp; Abstract</summary>
+          <summary>Title &amp; Abstract</summary>
           <p class="program-talk-title">Planning Through the Partner: Joint World Models of Physics and Intent under Imperfect Observation</p>
           <p class="program-talk-abstract">When a perception-planning-control loop includes a human partner, planning with the human is the paramount challenge. The partner can be characterized as a system with partial observability, uncertain dynamics arising from goal-directed behavior, and time-delayed closed-loop reactions -- all of which we can only probe only partially through quantitative and qualitative measures. Typical planning and control systems assume well-behaved dynamics and passive sensing; this assumption breaks for partner-aware planning at multiple levels. I will discuss how my group approaches this class of problems by learning the right mix of representations from data, folding reactivity into planning, and constructing safety filters that structurally respect human input. I will also discuss how we assess reliability using real and simulated human participants. I close with a set of open challenges we face in perceiving human partners across driving and robotics.</p>
         </details>
@@ -418,58 +418,104 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
 
 
 <hr>
-<h2 id="accepted-papers">Accepted Abstracts</h2>
-<ol class="papers-list">
-  <li>
-    <span class="paper-title">NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception.</span>
-    <span class="paper-authors">Zhiyang Dou, John U. Onyemelukwe, Hangxing Zhang, Heng Zhang, Minghao Guo, Yunsheng Tian, Michal Piotr Lipiec, Joshua Jacob, Chao Liu, Peter Yichen Chen, Yuri Ivanov, Wojciech Matusik</span>
-  </li>
-  <li>
-    <span class="paper-title">Belief-Guided Interactive Perception for Manipulation in Clutter under Noisy Proprioception.</span>
-    <span class="paper-authors">Yuxiao Zhu, Jinzhou Li, Yifei Dong, Haoyu Li, Xinyuan Luo, Xianyi Cheng</span>
-  </li>
-  <li>
-    <span class="paper-title">Uncertainty-resilient Formation Control in Maritime Buoy Swarms.</span>
-    <span class="paper-authors">Siddhant Shrivastava, Malika Meghjani</span>
-  </li>
-  <!-- <li>
-    <span class="paper-title">Safety Assessment of Black-Box Robotic Systems via POMDP Planning of Adversarial Agents</span>
-    <span class="paper-authors">Ivan Ang, Hanna Kurniawati</span>
-  </li> -->
-  <li>
-    <span class="paper-title">Perception and Planning Framework for Agile UAV Landing on Marine Vessels in Rough Seas.</span>
-    <span class="paper-authors">Filip Novák, Ondřej Procházka, Tomáš Báča, Parakh M. Gupta, Robert Penicka, Martin Saska</span>
-  </li>
-  <li>
-    <span class="paper-title">Attention-Based Multi-MAV Planning and Control under Imperfect Sensing.</span>
-    <span class="paper-authors">Seokbeom Lee, Richard Lee Kim, Il-chul Moon</span>
-  </li>
-  <li>
-    <span class="paper-title">A Unified AI-Driven Edge Framework for Autonomous Search and Rescue Drone Mission Planning.</span>
-    <span class="paper-authors">Christos Chronis, Iraklis Varlamis, Georgios Th. Papadopoulos</span>
-  </li>
-  <li>
-    <span class="paper-title">DAM-VLA: Decoupled Asynchronous Multimodal Vision Language Action Model.</span>
-    <span class="paper-authors">Pankhuri Vanjani, Zhuoyue Li, Jakub Suliga, Moritz Reuss, Gianluca Geraci, Xinkai Jiang, Rudolf Lioutikov</span>
-  </li>
-  <li>
-    <span class="paper-title">Task-Relevant Depth Quality Metrics for Suction Grasping.</span>
-    <span class="paper-authors">Shivansh Inamdar</span>
-  </li>
-  <li>
-    <span class="paper-title">Inference on a Budget: Planning Over Imperfect Observations in Heterogeneous Multi-Robot Teams.</span>
-    <span class="paper-authors">A Manicka Praveen, Yi Loo, Malika Meghjani</span>
-  </li>
-  <li>
-    <span class="paper-title">Subterra: An Open-Source Validated Benchmark for GNSS-Denied Tunnel Navigation.</span>
-    <span class="paper-authors">Badrikanath Praharaj, Abhishek S, Sreeram M.V</span>
-  </li>
-  <li>
-    <span class="paper-title">SENTINEL: Quantifying Sensing Uncertainty on Range-Only LiDAR without Training Data.</span>
-    <span class="paper-authors">Sreeram M.V, Badrikanath Praharaj, Abhishek S</span>
-  </li>
-  <li>
-    <span class="paper-title">SensorPerch: Sense Wherever and Whenever it Matters.</span>
-    <span class="paper-authors">Zhanxin Wu, Ruofei Tong, Tapomayukh Bhattacharjee</span>
-  </li>
-</ol>
+
+<h2 id="program">Program</h2>
+All times are <em>local</em> to the conference venue (July 17, 2026).
+<table class="schedule">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Session</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="highlight">
+      <td class="time">2:00 – 2:10 PM</td>
+      <td>Opening remarks</td>
+    </tr>
+    <tr>
+      <td class="time">2:10 – 2:40 PM</td>
+      <td>
+        Invited Talk: Hanna Kurniawati
+        <br>
+        <span class="program-abstract-link" onclick="document.getElementById('talk-modal-kurniawati').style.display='flex';">Title &amp; Abstract</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="time">2:40 – 3:10 PM</td>
+      <td>
+        Invited Talk: Yiannis Kantaros
+        <br>
+        <span class="program-abstract-link" onclick="document.getElementById('talk-modal-kantaros').style.display='flex';">Title &amp; Abstract</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="time">3:10 – 3:30 PM</td>
+      <td>Lightning Talks</td>
+    </tr>
+    <tr class="break">
+      <td class="time">3:30 – 4:00 PM</td>
+      <td>Coffee break &amp; poster session</td>
+    </tr>
+    <tr>
+      <td class="time">4:00 – 4:30 PM</td>
+      <td>
+        Invited Talk: Rajat Talak
+        <br>
+        <span class="program-abstract-link" onclick="document.getElementById('talk-modal-talak').style.display='flex';">Title &amp; Abstract</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="time">4:30 – 5:00 PM</td>
+      <td>
+        Invited Talk: Jonathan DeCastro
+        <br>
+        <span class="program-abstract-link" onclick="document.getElementById('talk-modal-decastro').style.display='flex';">Title &amp; Abstract</span>
+      </td>
+    </tr>
+    <tr class="highlight">
+      <td class="time">5:00 – 5:50 PM</td>
+      <td>Panel discussion &amp; debate</td>
+    </tr>
+    <tr class="highlight">
+      <td class="time">5:50 – 6:00 PM</td>
+      <td>Closing remarks</td>
+    </tr>
+  </tbody>
+</table>
+
+<div id="talk-modal-kurniawati" class="talk-modal-overlay" onclick="if(event.target===this) this.style.display='none';">
+  <div class="talk-modal-box">
+    <span class="talk-modal-close" onclick="document.getElementById('talk-modal-kurniawati').style.display='none';">&times;</span>
+    <h3>Hanna Kurniawati</h3>
+    <p class="modal-talk-title">[TITLE PLACEHOLDER]</p>
+    <p class="modal-talk-abstract">[ABSTRACT PLACEHOLDER]</p>
+  </div>
+</div>
+
+<div id="talk-modal-kantaros" class="talk-modal-overlay" onclick="if(event.target===this) this.style.display='none';">
+  <div class="talk-modal-box">
+    <span class="talk-modal-close" onclick="document.getElementById('talk-modal-kantaros').style.display='none';">&times;</span>
+    <h3>Yiannis Kantaros</h3>
+    <p class="modal-talk-title">[TITLE PLACEHOLDER]</p>
+    <p class="modal-talk-abstract">[ABSTRACT PLACEHOLDER]</p>
+  </div>
+</div>
+
+<div id="talk-modal-talak" class="talk-modal-overlay" onclick="if(event.target===this) this.style.display='none';">
+  <div class="talk-modal-box">
+    <span class="talk-modal-close" onclick="document.getElementById('talk-modal-talak').style.display='none';">&times;</span>
+    <h3>Rajat Talak</h3>
+    <p class="modal-talk-title">[TITLE PLACEHOLDER]</p>
+    <p class="modal-talk-abstract">[ABSTRACT PLACEHOLDER]</p>
+  </div>
+</div>
+
+<div id="talk-modal-decastro" class="talk-modal-overlay" onclick="if(event.target===this) this.style.display='none';">
+  <div class="talk-modal-box">
+    <span class="talk-modal-close" onclick="document.getElementById('talk-modal-decastro').style.display='none';">&times;</span>
+    <h3>Jonathan DeCastro</h3>
+    <p class="modal-talk-title">[TITLE PLACEHOLDER]</p>
+    <p class="modal-talk-abstract">[ABSTRACT PLACEHOLDER]</p>
+  </div>
+</div>
