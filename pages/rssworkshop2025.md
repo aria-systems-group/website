@@ -364,8 +364,8 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     </tr>
     <tr>
       <td class="time">2:40 – 3:10 PM</td>
-      <td>Invited Talk: Yiannis Kantaros
-          <p class="program-talk-title">Assured Autonomy in Unknown Environments with Uncertainty-aware Perception</p>
+      <td>Invited Talk: Yiannis Kantaros<br>
+          <span class="program-talk-title">Assured Autonomy in Unknown Environments with Uncertainty-aware Perception</span>
       </td>
     </tr>
     <tr>
