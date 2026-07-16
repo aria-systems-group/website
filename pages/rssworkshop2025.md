@@ -263,10 +263,10 @@ We welcome both ongoing work and recently published results. Accepted contributi
 
   <div class="talk-card">
     <b>Hanna Kurniawati</b><br>
-    Title: TBA<br>
+    POMDP Planning: Where are we now?<br>
     <details class="talk-abstract">
       <summary>Abstract</summary>
-      TBA
+      Partially Observable Markov Decision Processes (POMDPs) is the principled framework for sequential decision-making under uncertainty. It is also a powerful general framework for the  decision-making side of robotics. In this talk, I will present our lab’s recent work in developing fully vectorised POMDP planner, which can be run fully in CPU or fully in GPU. This work enables POMDP planning to utilise massive parallelisation without complicated scheduling. I will briefly present how such a POMDP planner can be integrated with component-wise model learning to significantly reduce data requirements. If time permits, I will also present our work on using POMDPs to provide user-friendly assessment of robot’s safety.
     </details>
   </div>
   <br>
@@ -285,10 +285,10 @@ We welcome both ongoing work and recently published results. Accepted contributi
 
   <div class="talk-card">
     <b>Rajat Talak</b><br>
-    Title: TBA<br>
+    Hierarchical Representations for Robot Perception<br>
     <details class="talk-abstract">
       <summary>Abstract</summary>
-      TBA
+      Hierarchical 3D Scene Graphs (3DSG) have emerged as an actionable and scalable representation for long-term autonomy incorporating metric, semantic, and topological information in the scene. However, the question of scene representation / scene abstraction is more fundamental -- what are the right scene representations / abstractions for a robot and how do we build them? I will discuss recent progress we have made in hierarchical scene representation (Hickory to Hydra++), and conclude with some thoughts on how abstraction / scene representation can help ameliorate imperfect sensing. 
     </details>
   </div>
   <br>
