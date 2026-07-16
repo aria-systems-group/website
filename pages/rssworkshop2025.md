@@ -11,7 +11,7 @@ class: no-nav
   <a href="#organizers" class="nav-toggle">Organizers</a>
   <a href="#invited-speakers" class="nav-toggle">Invited Speakers</a>
   <a href="#program" class="nav-toggle">Program</a>
-  <a href="#accepted-papers" class="nav-toggle">Accepted Papers</a>
+  <a href="#accepted-papers" class="nav-toggle">Accepted Posters</a>
 </nav>
 
 <style>
@@ -398,7 +398,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
 
 <hr>
 
-<h2 id="accepted-papers">Accepted Abstracts</h2>
+<h2 id="accepted-papers">Accepted Posters</h2>
 <ol class="papers-list">
   <li>
     <span class="paper-title">NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception.</span>
