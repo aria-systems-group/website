@@ -354,8 +354,12 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     <tr>
       <td class="time">2:10 – 2:40 PM</td>
       <td>
-        Invited Talk: Hanna Kurniawati<br>
-          <span style="color: #000000;">TBA</span>
+        Invited Talk: Hanna Kurniawati
+        <details class="program-toggle">
+          <summary>Title &amp; Abstract</summary>
+          <p class="program-talk-title">TBA</p>
+          <p class="program-talk-abstract">TBA</p>
+        </details>
       </td>
     </tr>
     <tr>
@@ -375,16 +379,23 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     <tr>
       <td class="time">4:00 – 4:30 PM</td>
       <td>
-        Invited Talk: Rajat Talak<br>
-          <span style="color: #000000;">TBA</span>
+        Invited Talk: Rajat Talak
+        <details class="program-toggle">
+          <summary>Title &amp; Abstract</summary>
+          <p class="program-talk-title">TBA</p>
+          <p class="program-talk-abstract">TBA</p>
+        </details>
       </td>
     </tr>
     <tr>
       <td class="time">4:30 – 5:00 PM</td>
       <td>
         Invited Talk: Jonathan DeCastro
-        <details class="program-toggle"><br>
-          <span style="color: #000000;">Planning Through the Partner: Joint World Models of Physics and Intent under Imperfect Observation</span>
+        <details class="program-toggle">
+          <summary>Title &amp; Abstract</summary>
+          <p class="program-talk-title">Planning Through the Partner: Joint World Models of Physics and Intent under Imperfect Observation</p>
+          <p class="program-talk-abstract">When a perception-planning-control loop includes a human partner, planning with the human is the paramount challenge. The partner can be characterized as a system with partial observability, uncertain dynamics arising from goal-directed behavior, and time-delayed closed-loop reactions -- all of which we can only probe only partially through quantitative and qualitative measures. Typical planning and control systems assume well-behaved dynamics and passive sensing; this assumption breaks for partner-aware planning at multiple levels. I will discuss how my group approaches this class of problems by learning the right mix of representations from data, folding reactivity into planning, and constructing safety filters that structurally respect human input. I will also discuss how we assess reliability using real and simulated human participants. I close with a set of open challenges we face in perceiving human partners across driving and robotics.</p>
+        </details>
       </td>
     </tr>
     <tr class="highlight">
