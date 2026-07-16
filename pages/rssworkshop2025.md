@@ -353,13 +353,8 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     </tr>
     <tr>
       <td class="time">2:10 – 2:40 PM</td>
-      <td>
-        Invited Talk: Hanna Kurniawati
-        <details class="program-toggle">
-          <summary>Title &amp; Abstract</summary>
-          <p class="program-talk-title">TBA</p>
-          <p class="program-talk-abstract">TBA</p>
-        </details>
+      <td>Invited Talk: Hanna Kurniawati<br>
+          <span style="color: #000000;">TBA</span>
       </td>
     </tr>
     <tr>
