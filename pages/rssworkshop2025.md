@@ -353,11 +353,25 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     </tr>
     <tr>
       <td class="time">2:10 – 2:40 PM</td>
-      <td>Invited Talk: Hanna Kurniawati</td>
+      <td>
+        Invited Talk: Hanna Kurniawati
+        <details class="program-toggle">
+          <summary>Title &amp; Abstract</summary>
+          <p class="program-talk-title">[TITLE PLACEHOLDER]</p>
+          <p class="program-talk-abstract">[ABSTRACT PLACEHOLDER]</p>
+        </details>
+      </td>
     </tr>
     <tr>
       <td class="time">2:40 – 3:10 PM</td>
-      <td>Invited Talk: Yiannis Kantaros</td>
+      <td>
+        Invited Talk: Yiannis Kantaros
+        <details class="program-toggle">
+          <summary>Title &amp; Abstract</summary>
+          <p class="program-talk-title">[TITLE PLACEHOLDER]</p>
+          <p class="program-talk-abstract">[ABSTRACT PLACEHOLDER]</p>
+        </details>
+      </td>
     </tr>
     <tr>
       <td class="time">3:10 – 3:30 PM</td>
@@ -369,11 +383,25 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     </tr>
     <tr>
       <td class="time">4:00 – 4:30 PM</td>
-      <td>Invited Talk: Rajat Talak</td>
+      <td>
+        Invited Talk: Rajat Talak
+        <details class="program-toggle">
+          <summary>Title &amp; Abstract</summary>
+          <p class="program-talk-title">[TITLE PLACEHOLDER]</p>
+          <p class="program-talk-abstract">[ABSTRACT PLACEHOLDER]</p>
+        </details>
+      </td>
     </tr>
     <tr>
       <td class="time">4:30 – 5:00 PM</td>
-      <td>Invited Talk: Jonathan DeCastro</td>
+      <td>
+        Invited Talk: Jonathan DeCastro
+        <details class="program-toggle">
+          <summary>Title &amp; Abstract</summary>
+          <p class="program-talk-title">[TITLE PLACEHOLDER]</p>
+          <p class="program-talk-abstract">[ABSTRACT PLACEHOLDER]</p>
+        </details>
+      </td>
     </tr>
     <tr class="highlight">
       <td class="time">5:00 – 5:50 PM</td>
