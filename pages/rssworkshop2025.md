@@ -321,11 +321,12 @@ We welcome both ongoing work and recently published results. Accepted contributi
   <div class="talk-card">
     <p class="role"><b>Hanna Kurniawati</b></p>
     <ul>
-      <li><p class="talk-title">TBA</p></li>
-      <li><details class="talk-abstract">
+      <li>Title: TBA
+      <details class="talk-abstract">
       <summary>Abstract</summary>
       <p>TBA</p>
-    </details></li>
+    </details>
+    </li>
     </ul>
   </div>
 
