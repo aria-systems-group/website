@@ -322,7 +322,7 @@ We welcome both ongoing work and recently published results. Accepted contributi
     Title: TBA<br>
     <details class="talk-abstract">
       <summary>Abstract</summary>
-      <p>TBA</p>
+      TBA
     </details>
   </div>
   <br>
@@ -340,32 +340,25 @@ We welcome both ongoing work and recently published results. Accepted contributi
   <br>
 
   <div class="talk-card">
-    <p class="role"><b>Rajat Talak</b></p>
-    <ul>
-      <li><b>Title: TBA</b>
-      <details class="talk-abstract">
+    <b>Rajat Talak</b><br>
+    Title: TBA<br>
+    <details class="talk-abstract">
       <summary><b>Abstract</b></summary>
-      <p>TBA</p>
+      TBA
     </details>
-    </li>
-    </ul>
   </div>
+  <br>
 
   <div class="talk-card">
-    <p class="role"><b>Jonathan DeCastro</b></p>
-    <ul>
-      <li><b>Planning Through the Partner: Joint World Models of Physics and Intent under Imperfect Observation</b>
-        <details class="talk-abstract">
-          <summary>Abstract</summary>
-      <p>When a perception-planning-control loop includes a human partner, planning with the human is the paramount challenge. The partner can be characterized as a system with partial observability, uncertain dynamics arising from goal-directed behavior, and time-delayed closed-loop reactions -- all of which we can only probe only partially through quantitative and qualitative measures. Typical planning and control systems assume well-behaved dynamics and passive sensing; this assumption breaks for partner-aware planning at multiple levels. I will discuss how my group approaches this class of problems by learning the right mix of representations from data, folding reactivity into planning, and constructing safety filters that structurally respect human input. I will also discuss how we assess reliability using real and simulated human participants. I close with a set of open challenges we face in perceiving human partners across driving and robotics.</p>
+    <b>Jonathan DeCastro</b><br>
+    Planning Through the Partner: Joint World Models of Physics and Intent under Imperfect Observation<br>
+    <details class="talk-abstract">
+      <summary>Abstract</summary>
+      When a perception-planning-control loop includes a human partner, planning with the human is the paramount challenge. The partner can be characterized as a system with partial observability, uncertain dynamics arising from goal-directed behavior, and time-delayed closed-loop reactions -- all of which we can only probe only partially through quantitative and qualitative measures. Typical planning and control systems assume well-behaved dynamics and passive sensing; this assumption breaks for partner-aware planning at multiple levels. I will discuss how my group approaches this class of problems by learning the right mix of representations from data, folding reactivity into planning, and constructing safety filters that structurally respect human input. I will also discuss how we assess reliability using real and simulated human participants. I close with a set of open challenges we face in perceiving human partners across driving and robotics.
     </details>
-    </li>
-    </ul>
   </div>
 
 </div>
-
-
 
 <hr>
 
