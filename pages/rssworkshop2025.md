@@ -364,15 +364,8 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
     </tr>
     <tr>
       <td class="time">2:40 – 3:10 PM</td>
-      <td>
-        Invited Talk: Yiannis Kantaros
-        <details class="program-toggle">
-          <summary>Title &amp; Abstract</summary>
+      <td>Invited Talk: Yiannis Kantaros
           <p class="program-talk-title">Assured Autonomy in Unknown Environments with Uncertainty-aware Perception</p>
-          <p class="program-talk-abstract">Designing robots that can navigate unfamiliar environments while accomplishing complex tasks is a fundamental challenge in embodied intelligence. Although recent advances in AI-enabled perception have led to impressive empirical capabilities, these systems often provide limited reasoning about perceptual uncertainty, resulting in overconfident decisions and limited performance or safety assurances in unknown environments.
-          <br>
-          In this talk, I will present a new autonomy architecture that enables robots equipped with AI-enabled perception systems to complete semantic tasks in unknown environments with a user-specified success probability. The proposed architecture integrates AI-enabled perception, conformal prediction-based uncertainty quantification, and planning within a unified framework that propagates calibrated estimates of perceptual uncertainty from perception to decision-making. This introspective reasoning capability over perceptual uncertainty enables robots to determine when to safely act versus when to actively gather additional information to reduce uncertainty. In turn, this yields closed-loop mission completion guarantees that are agnostic to specific sensor models and noise characteristics. The talk will conclude with simulation and hardware case studies that empirically validate these assurance guarantees and discuss open challenges toward achieving assured perception-enabled autonomy in complex real-world environments.</p>
-        </details>
       </td>
     </tr>
     <tr>
@@ -418,6 +411,7 @@ All times are <em>local</em> to the conference venue (July 17, 2026).
 
 
 <hr>
+
 <h2 id="accepted-papers">Accepted Abstracts</h2>
 <ol class="papers-list">
   <li>
