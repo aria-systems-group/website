@@ -174,6 +174,182 @@ async function copyBibtex(key) {
 </script>
 </li>
 <li><li>
+<span id="Gracia:CDC:2026"><span id="Gracia:CDC:2026">I. Gracia and M. Lahijanian, “On the Optimality of Uncertain MDP Abstractions,” in <i>IEEE Conference on Decision and Control (CDC)</i>, Hawaii, USA, 2026. (accepted)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2604.13377">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Gracia-CDC-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Gracia-CDC-2026">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Gracia-CDC-2026" tabindex="-1" aria-labelledby="bib-Gracia-CDC-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Gracia-CDC-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Gracia-CDC-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Gracia-CDC-2026" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Gracia:CDC:2026,
+  title = {On the Optimality of Uncertain MDP Abstractions},
+  author = {Gracia, Ibon and Lahijanian, Morteza},
+  booktitle = {IEEE Conference on Decision and Control (CDC)},
+  publisher = {IEEE},
+  month = dec,
+  year = {2026},
+  address = {Hawaii, USA},
+  pages = {},
+  doi = {},
+  bibkey = {synth-ml},
+  url = {https://arxiv.org/abs/2604.13377},
+  note = {(accepted)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Gracia-CDC-2026" tabindex="-1" aria-labelledby="abs-Gracia-CDC-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Gracia-CDC-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We study the asymptotic optimality of abstraction-based control synthesis algorithms. Specifically, we consider uncertain MDP (UMDP) abstraction, and investigate whether refinement leads to optimal results, i.e., an optimal controller and zero error bound. Additionally, we study completeness of abstraction-refinement algorithms, i.e., that the algorithm produces near-optimal results in finite time. The focus is on nonlinear stochastic systems with general vector fields and temporal logic specifications. We present an algorithm that abstracts the system into a UMDP and synthesizes a controller with performance guarantees via robust dynamic programming. Then, the algorithm iteratively refines the abstraction until a near-optimality criterion is met. A thorough theoretical analysis reveals a sufficient condition, which we denote vanishing ambiguity, guaranteeing asymptotic optimality of the abstraction process and completeness of the algorithm. We show that set-valued MDP abstractions satisfy this criterion, whereas interval MDP abstractions lack such a guarantee.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Gracia:CDC:2027"><span id="Gracia:CDC:2027">C.-W. Kong, Z. Donovan, M. Lahijanian, and J. McMahon, “Certified Stochastic Control via Covariance Steering with Pick-to-Learn,” in <i>IEEE Conference on Decision and Control (CDC)</i>, Hawaii, USA, 2026. (accepted)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2607.21086">
+    pdf
+  </a>
+  <a class="btn btn-custom " href="http://dx.doi.org/">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Gracia-CDC-2027">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Gracia-CDC-2027">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Gracia-CDC-2027" tabindex="-1" aria-labelledby="bib-Gracia-CDC-2027-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Gracia-CDC-2027-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Gracia-CDC-2027')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Gracia-CDC-2027" style="white-space: pre-wrap; word-wrap: break-word;">@inproceedings{Gracia:CDC:2027,
+  title = {Certified Stochastic Control via Covariance Steering with Pick-to-Learn},
+  author = {Kong, Chun-Wei and Donovan, Zachary and Lahijanian, Morteza and McMahon, Jay},
+  booktitle = {IEEE Conference on Decision and Control (CDC)},
+  publisher = {IEEE},
+  month = dec,
+  year = {2026},
+  address = {Hawaii, USA},
+  pages = {},
+  doi = {},
+  bibkey = {synth-ml},
+  url = {https://arxiv.org/abs/2607.21086},
+  note = {(accepted)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Gracia-CDC-2027" tabindex="-1" aria-labelledby="abs-Gracia-CDC-2027-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Gracia-CDC-2027-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We present CS-P2L, a framework coupling covariance steering (CS) with the Pick-to-Learn (P2L) meta-algorithm for certified controller synthesis over high-fidelity stochastic simulators. The method iteratively evaluates policies on simulator rollouts, tightens surrogate constraints using the worst-case violations, and provides compression-based probabilistic guarantees on the true violation probability given a confidence level. On a spacecraft powered-descent problem with uncertain gravity, CS-P2L certifies a violation bound of 4.9% with 600 rollouts, whereas standalone covariance steering underestimates the violation rate by roughly a factor of two.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
 <span id="Mazouz:QEST:2026"><span id="Mazouz:QEST:2026">R. Mazouz, F. Mathiesen, L. Laurenti, and M. Lahijanian, “StochasticBarrier.jl: A Toolbox for Stochastic Barrier Function Synthesis,” in <i>International Joint Conference on Quantitative Evaluation of Systems and Formal Modeling and Analysis of Timed System (QEST + FORMATS)</i>, Liverpool, UK, 2026. (accepted)</span></span>
 <br />
 <div class="btn-group" role="group">
