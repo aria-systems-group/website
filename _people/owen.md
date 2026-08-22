@@ -3,7 +3,7 @@ name: Owen Kranz
 layout: extraleft
 ordering: 11
 email: owen.kranz@colorado.edu
-program: PhD Student
+program: MS Student
 status: current
 picture: /assets/images/owen_kranz.png
 picture-link: 

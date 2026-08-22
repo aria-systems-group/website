@@ -5,7 +5,7 @@ email: sebastian.escobar@colorado.edu
 program: MS
 status: alumnus
 year-graduated: 2026
-current-position: Engineering, 
+current-position: Spacecraft Engineer, GNC Autonomy
 picture: /assets/images/sebastian_escobar.png
 picture-link: 
 header-link: 

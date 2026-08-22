@@ -2,7 +2,7 @@
 name: Robert Reed
 ordering: 4
 email: robert.reed-1@colorado.edu
-program: PhD Student
+program: PhD Candidate
 status: current
 picture: /assets/images/robert.png
 picture-link: https://robertlreed.github.io/
