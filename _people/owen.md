@@ -5,7 +5,7 @@ ordering: 11
 email: owen.kranz@colorado.edu
 program: MS Student
 status: current
-picture: /assets/images/owen_kranz.png
+picture: /assets/images/owen_kranz.jpg
 picture-link: 
 header-link: 
 ---
