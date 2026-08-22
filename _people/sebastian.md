@@ -4,7 +4,7 @@ ordering: 1
 email: sebastian.escobar@colorado.edu
 program: MS
 status: alumnus
-year-graduated: 2025 
+year-graduated: 2026
 current-position: Engineering, 
 picture: /assets/images/sebastian_escobar.png
 picture-link: 
