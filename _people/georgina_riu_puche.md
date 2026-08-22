@@ -5,7 +5,7 @@ ordering: 11
 email: Georgina.RiuPuche@colorado.edu
 program: PhD Student
 status: current
-picture: /assets/images/georgina_riu_pushe.jpg
+picture: /assets/images/georgina_riu_puche.jpg
 picture-link: 
 header-link: 
 ---
