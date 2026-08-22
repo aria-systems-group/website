@@ -1,10 +1,11 @@
 ---
 name: Sebastian Escobar
-layout: extraleft
-ordering: 11
+ordering: 1
 email: sebastian.escobar@colorado.edu
-program: MS Student
-status: current
+program: MS
+status: alumnus
+year-graduated: 2025 
+current-position: Engineering, 
 picture: /assets/images/sebastian_escobar.png
 picture-link: 
 header-link: 

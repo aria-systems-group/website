@@ -1,7 +1,7 @@
 ---
 name: Emily Maxwell
 layout: extraleft
-ordering: 10
+ordering: 12
 email: emily.maxwell@colorado.edu
 program: MS Student
 status: current
