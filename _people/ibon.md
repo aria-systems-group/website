@@ -4,7 +4,7 @@ ordering: 5                                     # Order to be appeared in the pa
 email: ibon.gracia@colorado.edu              # Your Email Address
 program: PhD Student                            # The program you are enrolled in
 status: current                                 # Choose either current or alumnus
-picture: /assets/images/ibon_gracia2.png    # Path to your image file
+picture: /assets/images/ibon_gracia2.jpg    # Path to your image file
 picture-link:               # Your website link
 header-link:                # Your website link
 ---
