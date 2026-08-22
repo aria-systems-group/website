@@ -3,7 +3,7 @@ name: Karan Muvvala
 layout: extraleft
 ordering: 3
 email: karan.muvvala@colorado.edu
-program: PhD Student
+program: PhD Candidate
 status: current
 picture: /assets/images/karan_muuvala_304.jpg
 picture-link: https://muvvalakaran.github.io/
