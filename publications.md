@@ -5,4 +5,10 @@ permalink: /publications.html
 class: publications
 ---
 
-{% bibliography %}
+# Under Review
+
+{% bibliography --query @*[note=(under review)] %}
+
+# Publications
+
+{% bibliography --query @*[note!=(under review)] %}
