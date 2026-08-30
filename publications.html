@@ -580,6 +580,170 @@ async function copyBibtex(key) {
   }, 2000);
 }
 </script>
+</li>
+<li><li>
+<span id="Perrault:Arxiv:2026"><span id="Perrault:Arxiv:2026">N. Perrault, Q. H. Ho, and M. Lahijanian, “Kino-PAX^+: Near-Optimal Massively Parallel Kinodynamic Sampling-based Motion Planner,” <i>arXiv preprint arXiv:2602.02846</i>. (under review)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2602.02846">
+    pdf
+  </a>
+  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Perrault-Arxiv-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Perrault-Arxiv-2026">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Perrault-Arxiv-2026" tabindex="-1" aria-labelledby="bib-Perrault-Arxiv-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Perrault-Arxiv-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Perrault-Arxiv-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Perrault-Arxiv-2026" style="white-space: pre-wrap; word-wrap: break-word;">@article{Perrault:Arxiv:2026,
+  title = {Kino-PAX$^+$: Near-Optimal Massively Parallel Kinodynamic Sampling-based Motion Planner},
+  author = {Perrault, Nicolas and Ho, Qi Heng and Lahijanian, Morteza},
+  journal = {arXiv preprint arXiv:2602.02846},
+  year = {},
+  url = {https://arxiv.org/abs/2602.02846},
+  note = {(under review)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Perrault-Arxiv-2026" tabindex="-1" aria-labelledby="abs-Perrault-Arxiv-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Perrault-Arxiv-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sampling-based motion planners (SBMPs) are widely used for robot motion planning with complex kinodynamic constraints in high-dimensional spaces, yet they struggle to achieve <i>real-time</i> performance due to their serial computation design. Recent efforts to parallelize SBMPs have achieved significant speedups in finding feasible solutions; however, they provide no guarantees of optimizing an objective function. We introduce Kino-PAX+, a massively parallel kinodynamic SBMP with asymptotic near-optimal guarantees. Kino-PAX+ builds a sparse tree of dynamically feasible trajectories by decomposing traditionally serial operations into three massively parallel subroutines. The algorithm focuses computation on the most promising nodes within local neighborhoods for propagation and refinement, enabling rapid improvement of solution cost. We prove that, while maintaining probabilistic δ-robust completeness, this focus on promising nodes ensures asymptotic δ-robust near-optimality. Our results show that Kino-PAX+ finds solutions up to three orders of magnitude faster than existing serial methods and achieves lower solution costs than a state-of-the-art GPU-based planner.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Watanabe:Arxiv:2026"><span id="Watanabe:Arxiv:2026">K. Watanabe, N. Renninger, S. Sankaranarayanan, and M. Lahijanian, “Learning specifications for reactive synthesis with safety constraints,” <i>arXiv preprint arXiv:2601.05533</i>. (under review)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2601.05533">
+    pdf
+  </a>
+  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Watanabe-Arxiv-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Watanabe-Arxiv-2026">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Watanabe-Arxiv-2026" tabindex="-1" aria-labelledby="bib-Watanabe-Arxiv-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Watanabe-Arxiv-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Watanabe-Arxiv-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Watanabe-Arxiv-2026" style="white-space: pre-wrap; word-wrap: break-word;">@article{Watanabe:Arxiv:2026,
+  title = {Learning specifications for reactive synthesis with safety constraints},
+  author = {Watanabe, Kandai and Renninger, Nicholas and Sankaranarayanan, Sriram and Lahijanian, Morteza},
+  journal = {arXiv preprint arXiv:2601.05533},
+  year = {},
+  url = {https://arxiv.org/abs/2601.05533},
+  note = {(under review)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Watanabe-Arxiv-2026" tabindex="-1" aria-labelledby="abs-Watanabe-Arxiv-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Watanabe-Arxiv-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper presents a novel approach to learning from demonstration that enables robots to autonomously execute complex tasks in dynamic environments. We model latent tasks as probabilistic formal languages and introduce a tailored reactive synthesis framework that balances robot costs with user task preferences. Our methodology focuses on safety-constrained learning and inferring formal task specifications as Probabilistic Deterministic Finite Automata (PDFA). We adapt existing evidence-driven state merging algorithms and incorporate safety requirements throughout the learning process to ensure that the learned PDFA always complies with safety constraints. Furthermore, we introduce a multi-objective reactive synthesis algorithm that generates deterministic strategies that are guaranteed to satisfy the PDFA task while optimizing the trade-offs between user preferences and robot costs, resulting in a Pareto front of optimal solutions. Our approach models the interaction as a two-player game between the robot and the environment, accounting for dynamic changes. We present a computationally-tractable value iteration algorithm to generate the Pareto front and the corresponding deterministic strategies. Comprehensive experimental results demonstrate the effectiveness of our algorithms across various robots and tasks, showing that the learned PDFA never includes unsafe behaviors and that synthesized strategies consistently achieve the task while meeting both the robot cost and user-preference requirements.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 
 <h3 id="published"><u>Published</u></h3>
