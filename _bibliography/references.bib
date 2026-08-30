@@ -1654,5 +1654,34 @@
   abstract={We present a provably safe sampling-based motion planning algorithm for robotic systems affected by random disturbances of unknown distribution. We consider systems with linear or linearizable dynamics evolving in workspace with arbitrary-shaped obstacles subject to state and control constraints. Safety requirements are formulated as chance-constraints. Our approach leverages data from trajectories of the system to learn a Wasserstein ambiguity tube, i.e., a sequence of ambiguity sets, which contains the trajectory of the system's state distribution with high confidence. This ambiguity tube is then used in a probabilistically complete algorithm to grow a sampling-based motion planning tree that respects the constraints of the problem. We show that learning several lower-dimensional ambiguity tubes instead of a single high-dimensional one effectively reduces the conservatism and boosts scalability. Additionally, we design an efficient bandit-based validity checker that remarkably increases the empirical performance of our approach without sacrificing probabilistic completeness. Case studies show our algorithm finds valid plans in cluttered environments under strict safety thresholds, outperforming state-of-the-art methods.}
 }
 
+@article{Reed:Arxiv:2025,
+  title={Verification of Unknown Dynamical Systems via Autoencoder Latent Space},
+  author={Reed, Robert and Laurenti, Luca and Lahijanian, Morteza},
+  journal={arXiv preprint arXiv:2512.13593},
+  year={},
+  url={https://arxiv.org/abs/2512.13593},
+  note={(under review)},
+  abstract={Formal verification provides a powerful framework for proving that dynamical systems satisfy their specifications. However, these techniques face scalability challenges in high-dimensional settings, as they often rely on state-space discretization which grows exponentially with dimension. Learning-based approaches to dimensionality reduction, utilizing neural networks and autoencoders, have shown great potential to alleviate this problem. However, ensuring correctness of latent space verification results remains an open question. In this work, we provide a formal approach to reduce the dimensionality of systems via convex autoencoders and learn the dynamics in the latent space through a kernel-based method. We then construct a finite abstraction from the learned model in the latent space and guarantee that the abstraction contains the true behaviors of the original system. We show that the verification results in the latent space can be mapped back to the original system. Finally, we demonstrate the approach on multiple systems, including a 26D system controlled by a neural network, showing significant scalability improvements.}
+}
+
+@article{Ho:Arxiv:2026,
+  title={Sampling-based Task and Kinodynamic Motion Planning under Semantic Uncertainty},
+  author={Ho, Qi Heng and Sunberg, Zachary N and Lahijanian, Morteza},
+  journal={arXiv preprint arXiv:2604.00401},
+  year={},
+  url={https://arxiv.org/abs/2604.00401},
+  note={(under review)},
+  abstract={This paper tackles the problem of integrated task and kinodynamic motion planning in uncertain environments. We consider a robot with nonlinear dynamics tasked with a Linear Temporal Logic over finite traces LTLf specification operating in a partially observable environment. Specifically, the uncertainty is in the semantic labels of the environment. We show how the problem can be modeled as a Partially Observable Stochastic Hybrid System that captures the robot dynamics, $\ltlf$ task, and uncertainty in the environment state variables. We propose an anytime algorithm that takes advantage of the structure of the hybrid system, and combines the effectiveness of decision-making techniques and sampling-based motion planning. We prove the soundness and asymptotic optimality of the algorithm. Results show the efficacy of our algorithm in uncertain environments, and that it consistently outperforms baseline methods.}
+}
+
+@article{Mazouz:Arxiv:2026reach-avoid,
+  title={Time-Varying Reach-Avoid Control Certificates for Stochastic Systems},
+  author={Mazouz, Rayan and Laurenti, Luca and Lahijanian, Morteza},
+  journal={arXiv preprint arXiv:2603.25816},
+  year={},
+  url={https://arxiv.org/abs/2603.25816},
+  note={(under review)},
+  abstract={Reach-avoid analysis is fundamental to reasoning about the safety and goal-reaching behavior of dynamical systems, and serves as a foundation for specifying and verifying more complex control objectives. This paper introduces a reach-avoid certificate framework for discrete-time, continuous-space stochastic systems over both finite- and infinite-horizon settings. We propose two formulations: time-varying and time-invariant certificates. We also show how these certificates can be synthesized using sum-of-squares (SOS) optimization, providing a convex formulation for verifying a given controller. Furthermore, we present an SOS-based method for the joint synthesis of an optimal feedback controller and its corresponding reach-avoid certificate, enabling the maximization of the probability of reaching the target set while avoiding unsafe regions. Case studies and benchmark results demonstrate the efficacy of the proposed framework in certifying and controlling stochastic systems with continuous state and action spaces.}
+}
 
 
