@@ -8,9 +8,11 @@ hide-title: true
 
 # Publications
 
-## Under Review
+**Under Review**
 
 {% bibliography --query @*[note=(under review)] %}
 
+
+## Published
 
 {% bibliography --query @*[note!=(under review)] %}
