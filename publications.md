@@ -1,8 +1,9 @@
 ---
-title: Publications 
-layout: page 
+title: Publications
+layout: page
 permalink: /publications.html
 class: publications
+hide-title: true
 ---
 
 # Under Review
