@@ -334,6 +334,252 @@ async function copyBibtex(key) {
   }, 2000);
 }
 </script>
+</li>
+<li><li>
+<span id="Reed:Arxiv:2025"><span id="Reed:Arxiv:2025">R. Reed, L. Laurenti, and M. Lahijanian, “Verification of Unknown Dynamical Systems via Autoencoder Latent Space,” <i>arXiv preprint arXiv:2512.13593</i>. (under review)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2512.13593">
+    pdf
+  </a>
+  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Reed-Arxiv-2025">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Reed-Arxiv-2025">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Reed-Arxiv-2025" tabindex="-1" aria-labelledby="bib-Reed-Arxiv-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Reed-Arxiv-2025-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Reed-Arxiv-2025')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Reed-Arxiv-2025" style="white-space: pre-wrap; word-wrap: break-word;">@article{Reed:Arxiv:2025,
+  title = {Verification of Unknown Dynamical Systems via Autoencoder Latent Space},
+  author = {Reed, Robert and Laurenti, Luca and Lahijanian, Morteza},
+  journal = {arXiv preprint arXiv:2512.13593},
+  year = {},
+  url = {https://arxiv.org/abs/2512.13593},
+  note = {(under review)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Reed-Arxiv-2025" tabindex="-1" aria-labelledby="abs-Reed-Arxiv-2025-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Reed-Arxiv-2025-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Formal verification provides a powerful framework for proving that dynamical systems satisfy their specifications. However, these techniques face scalability challenges in high-dimensional settings, as they often rely on state-space discretization which grows exponentially with dimension. Learning-based approaches to dimensionality reduction, utilizing neural networks and autoencoders, have shown great potential to alleviate this problem. However, ensuring correctness of latent space verification results remains an open question. In this work, we provide a formal approach to reduce the dimensionality of systems via convex autoencoders and learn the dynamics in the latent space through a kernel-based method. We then construct a finite abstraction from the learned model in the latent space and guarantee that the abstraction contains the true behaviors of the original system. We show that the verification results in the latent space can be mapped back to the original system. Finally, we demonstrate the approach on multiple systems, including a 26D system controlled by a neural network, showing significant scalability improvements.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Ho:Arxiv:2026"><span id="Ho:Arxiv:2026">Q. H. Ho, Z. N. Sunberg, and M. Lahijanian, “Sampling-based Task and Kinodynamic Motion Planning under Semantic Uncertainty,” <i>arXiv preprint arXiv:2604.00401</i>. (under review)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2604.00401">
+    pdf
+  </a>
+  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Ho-Arxiv-2026">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Ho-Arxiv-2026">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Ho-Arxiv-2026" tabindex="-1" aria-labelledby="bib-Ho-Arxiv-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Ho-Arxiv-2026-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Ho-Arxiv-2026')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Ho-Arxiv-2026" style="white-space: pre-wrap; word-wrap: break-word;">@article{Ho:Arxiv:2026,
+  title = {Sampling-based Task and Kinodynamic Motion Planning under Semantic Uncertainty},
+  author = {Ho, Qi Heng and Sunberg, Zachary N and Lahijanian, Morteza},
+  journal = {arXiv preprint arXiv:2604.00401},
+  year = {},
+  url = {https://arxiv.org/abs/2604.00401},
+  note = {(under review)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Ho-Arxiv-2026" tabindex="-1" aria-labelledby="abs-Ho-Arxiv-2026-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Ho-Arxiv-2026-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This paper tackles the problem of integrated task and kinodynamic motion planning in uncertain environments. We consider a robot with nonlinear dynamics tasked with a Linear Temporal Logic over finite traces LTLf specification operating in a partially observable environment. Specifically, the uncertainty is in the semantic labels of the environment. We show how the problem can be modeled as a Partially Observable Stochastic Hybrid System that captures the robot dynamics, \ltlf task, and uncertainty in the environment state variables. We propose an anytime algorithm that takes advantage of the structure of the hybrid system, and combines the effectiveness of decision-making techniques and sampling-based motion planning. We prove the soundness and asymptotic optimality of the algorithm. Results show the efficacy of our algorithm in uncertain environments, and that it consistently outperforms baseline methods.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
+</li>
+<li><li>
+<span id="Mazouz:Arxiv:2026reach-avoid"><span id="Mazouz:Arxiv:2026reach-avoid">R. Mazouz, L. Laurenti, and M. Lahijanian, “Time-Varying Reach-Avoid Control Certificates for Stochastic Systems,” <i>arXiv preprint arXiv:2603.25816</i>. (under review)</span></span>
+<br />
+<div class="btn-group" role="group">
+  <a class="btn btn-custom " href="https://arxiv.org/abs/2603.25816">
+    pdf
+  </a>
+  <a class="btn btn-custom disabled" href="http://dx.doi.org/" aria-disabled="true" tabindex="-1">
+    publisher
+  </a>
+  <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#bib-Mazouz-Arxiv-2026reach-avoid">
+    bibtex
+  </button>
+  <button class="btn btn-custom " type="button" data-bs-toggle="modal" data-bs-target="#abs-Mazouz-Arxiv-2026reach-avoid">
+    abstract
+  </button>
+  <a class="btn btn-custom disabled" href="" aria-disabled="true" tabindex="-1">
+    video
+  </a>
+</div>
+
+<div class="modal fade" id="bib-Mazouz-Arxiv-2026reach-avoid" tabindex="-1" aria-labelledby="bib-Mazouz-Arxiv-2026reach-avoid-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="bib-Mazouz-Arxiv-2026reach-avoid-label" style="margin: 7px 0 0 0;">BibTeX</h5>
+        <button type="button" class="btn modal-copy-btn" onclick="copyBibtex('Mazouz-Arxiv-2026reach-avoid')" title="Copy to clipboard">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-family: monospace; font-size: 0.9em; line-height: 1.4;">
+        <pre id="bibtex-Mazouz-Arxiv-2026reach-avoid" style="white-space: pre-wrap; word-wrap: break-word;">@article{Mazouz:Arxiv:2026reach-avoid,
+  title = {Time-Varying Reach-Avoid Control Certificates for Stochastic Systems},
+  author = {Mazouz, Rayan and Laurenti, Luca and Lahijanian, Morteza},
+  journal = {arXiv preprint arXiv:2603.25816},
+  year = {},
+  url = {https://arxiv.org/abs/2603.25816},
+  note = {(under review)}
+}
+</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="abs-Mazouz-Arxiv-2026reach-avoid" tabindex="-1" aria-labelledby="abs-Mazouz-Arxiv-2026reach-avoid-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abs-Mazouz-Arxiv-2026reach-avoid-label" style="margin: 7px 0 0 0;">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Reach-avoid analysis is fundamental to reasoning about the safety and goal-reaching behavior of dynamical systems, and serves as a foundation for specifying and verifying more complex control objectives. This paper introduces a reach-avoid certificate framework for discrete-time, continuous-space stochastic systems over both finite- and infinite-horizon settings. We propose two formulations: time-varying and time-invariant certificates. We also show how these certificates can be synthesized using sum-of-squares (SOS) optimization, providing a convex formulation for verifying a given controller. Furthermore, we present an SOS-based method for the joint synthesis of an optimal feedback controller and its corresponding reach-avoid certificate, enabling the maximization of the probability of reaching the target set while avoiding unsafe regions. Case studies and benchmark results demonstrate the efficacy of the proposed framework in certifying and controlling stochastic systems with continuous state and action spaces.
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+<script>
+async function copyBibtex(key) {
+  // Get the BibTeX content
+  const bibtexContent = document.getElementById('bibtex-' + key).textContent;
+  const button = event.target;
+  const originalIcon = button.innerHTML;
+  
+  await navigator.clipboard.writeText(bibtexContent);
+  button.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/></svg>';
+  
+  // Reset button icon after 2 seconds
+  setTimeout(() => {
+    button.innerHTML = originalIcon;
+  }, 2000);
+}
+</script>
 </li></ol>
 
 <h3 id="published"><u>Published</u></h3>
