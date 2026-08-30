@@ -1628,7 +1628,7 @@
   title={Multi-Objective Kinodynamic Motion Planning with Asymptotic Pareto Optimality},
   author={Razzaq, Yusif and Theurkauf, Anne and Ahmed, Nisar and Lahijanian, Morteza},
   journal={arXiv preprint arXiv:2607.15508},
-  year={2026},
+  year={},
   url={https://arxiv.org/abs/2607.15508},
   note={(under review)},
   abstract={In this paper, we address the challenge of multi-objective motion planning for systems under kinodynamic constraints. We consider three problem classes: (i) lexicographic optimization, in which objectives are minimized according to a strict priority ordering, (ii) constrained optimization, in which a primary objective is minimized subject to bounds on the remaining costs, and (iii) Pareto front optimization, in which the goal is to approximate the full set of optimal trade-offs among competing objectives. We first show that established cost scalarization methods for multi-objective problems cannot be extended to continuous-domain systems with correctness guarantees. Then, we propose a unified algorithmic framework built upon the Stable Sparse-RRT (SST) algorithm, in which the single representative maintained at each witness neighborhood is replaced by a representative set of locally Pareto-optimal nodes. This structure gives rise to three distinct algorithms: lexSST for lexicographic minimization, coSST for constrained optimization, and poSST for Pareto-front approximation. We provide theoretical guarantees for the completeness and optimality of our algorithms and demonstrate their effectiveness through extensive empirical evaluations.},
@@ -1638,7 +1638,7 @@
   title={Continuous-Time Gaussian Belief Trees for Motion Planning},
   author={Mazouz, Rayan and Ho, Qi Heng and Sunberg, Zachary N and Lahijanian, Morteza},
   journal={arXiv preprint arXiv:2607.02884},
-  year={2026},
+  year={},
   url={https://arxiv.org/abs/2607.02884},
   note={(under review)},
   abstract={We address sampling-based motion planning for continuous-time stochastic systems under process and measurement uncertainty, with probabilistic guarantees on safety and performance. The robot dynamics are modeled as a continuous-time linear stochastic differential equation, while sensor measurements arrive at discrete time instants. We derive an offline hybrid belief propagation model in which the belief evolves according to continuous-time ODEs between measurements and undergoes discrete Kalman filter update jumps at measurement times. To ensure safety, we introduce a belief-barrier-function-based safety checker for segment-level probabilistic verification. This enables the planner to certify safety over entire continuous trajectory segments and detect inter-sample chance-constraint violations that are missed by conventional node-based checks. Together, these components provide a principled framework for sampling-based belief planning that accounts for both continuous-time uncertainty propagation and continuous-time safety requirements. We integrate the method with RRT and SST planners and evaluate it across multiple benchmark environments. The results show that the proposed method achieves high success rates and robust enforcement of chance constraints, including in narrow-passage scenarios where discrete-time counterparts fail due to missed inter-sample unsafe behavior.}
