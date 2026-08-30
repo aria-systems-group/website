@@ -6,10 +6,11 @@ class: publications
 hide-title: true
 ---
 
-# Under Review
+# Publications
+
+## Under Review
 
 {% bibliography --query @*[note=(under review)] %}
 
-# Publications
 
 {% bibliography --query @*[note!=(under review)] %}
