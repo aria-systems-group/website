@@ -1684,4 +1684,23 @@
   abstract={Reach-avoid analysis is fundamental to reasoning about the safety and goal-reaching behavior of dynamical systems, and serves as a foundation for specifying and verifying more complex control objectives. This paper introduces a reach-avoid certificate framework for discrete-time, continuous-space stochastic systems over both finite- and infinite-horizon settings. We propose two formulations: time-varying and time-invariant certificates. We also show how these certificates can be synthesized using sum-of-squares (SOS) optimization, providing a convex formulation for verifying a given controller. Furthermore, we present an SOS-based method for the joint synthesis of an optimal feedback controller and its corresponding reach-avoid certificate, enabling the maximization of the probability of reaching the target set while avoiding unsafe regions. Case studies and benchmark results demonstrate the efficacy of the proposed framework in certifying and controlling stochastic systems with continuous state and action spaces.}
 }
 
+@article{Perrault:Arxiv:2026,
+  title={Kino-PAX$^+$: Near-Optimal Massively Parallel Kinodynamic Sampling-based Motion Planner},
+  author={Perrault, Nicolas and Ho, Qi Heng and Lahijanian, Morteza},
+  journal={arXiv preprint arXiv:2602.02846},
+  year={},
+  url={https://arxiv.org/abs/2602.02846},
+  note={(under review)},
+  abstract={Sampling-based motion planners (SBMPs) are widely used for robot motion planning with complex kinodynamic constraints in high-dimensional spaces, yet they struggle to achieve \emph{real-time} performance due to their serial computation design. Recent efforts to parallelize SBMPs have achieved significant speedups in finding feasible solutions; however, they provide no guarantees of optimizing an objective function. We introduce Kino-PAX+, a massively parallel kinodynamic SBMP with asymptotic near-optimal guarantees. Kino-PAX+ builds a sparse tree of dynamically feasible trajectories by decomposing traditionally serial operations into three massively parallel subroutines. The algorithm focuses computation on the most promising nodes within local neighborhoods for propagation and refinement, enabling rapid improvement of solution cost. We prove that, while maintaining probabilistic δ-robust completeness, this focus on promising nodes ensures asymptotic δ-robust near-optimality. Our results show that Kino-PAX+ finds solutions up to three orders of magnitude faster than existing serial methods and achieves lower solution costs than a state-of-the-art GPU-based planner.}
+}
+
+@article{Watanabe:Arxiv:2026,
+  title={Learning specifications for reactive synthesis with safety constraints},
+  author={Watanabe, Kandai and Renninger, Nicholas and Sankaranarayanan, Sriram and Lahijanian, Morteza},
+  journal={arXiv preprint arXiv:2601.05533},
+  year={},
+  url={https://arxiv.org/abs/2601.05533},
+  note={(under review)},
+  abstract={This paper presents a novel approach to learning from demonstration that enables robots to autonomously execute complex tasks in dynamic environments. We model latent tasks as probabilistic formal languages and introduce a tailored reactive synthesis framework that balances robot costs with user task preferences. Our methodology focuses on safety-constrained learning and inferring formal task specifications as Probabilistic Deterministic Finite Automata (PDFA). We adapt existing evidence-driven state merging algorithms and incorporate safety requirements throughout the learning process to ensure that the learned PDFA always complies with safety constraints. Furthermore, we introduce a multi-objective reactive synthesis algorithm that generates deterministic strategies that are guaranteed to satisfy the PDFA task while optimizing the trade-offs between user preferences and robot costs, resulting in a Pareto front of optimal solutions. Our approach models the interaction as a two-player game between the robot and the environment, accounting for dynamic changes. We present a computationally-tractable value iteration algorithm to generate the Pareto front and the corresponding deterministic strategies. Comprehensive experimental results demonstrate the effectiveness of our algorithms across various robots and tasks, showing that the learned PDFA never includes unsafe behaviors and that synthesized strategies consistently achieve the task while meeting both the robot cost and user-preference requirements.}
+}
 
