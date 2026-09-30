@@ -1740,3 +1740,14 @@
   note={(under review)},
   abstract={Timed Partial Orders (TPOs), originally proposed for workflows, provide an interpretable framework for robot task specification with planning algorithms based on mixed-integer linear programming (MILP). However, TPOs are limited in expressivity, capturing only partial-order events with simple timing constraints. In this paper, we introduce Conditional TPOs (cTPOs), which extend TPOs with richer relative-timing constraints and conditional event activations based on environmental conditions. We show that planning for cTPOs also reduces to an MILP problem; however, the added expressivity results in significantly larger MILPs that can become computationally intractable. To address this challenge, we propose a decomposition algorithm that partitions a cTPO into smaller sub-TPOs, yielding a sequence of smaller MILP problems. We prove that this decomposition is complete and preserves plan optimality while improving the interpretability of complex tasks. Experimental results demonstrate the effectiveness of cTPOs as a task specification framework and the efficiency of our decomposition approach, achieving up to four orders of magnitude speedup over the monolithic MILP.}
 }
+
+@article{Betteti:Arxiv:2026,
+  title={Safe-by-Design Learning via Energy-based Neural Networks},
+  author={Betteti, Simone and Lahijanian, Morteza and Laurenti, Luca},
+  journal={arXiv preprint arXiv:2609.36942},
+  year={},
+  url={https://arxiv.org/abs/2609.36942},
+  note={(under review)},
+  abstract={Learning neural-network models of dynamical systems with safety guarantees is a fundamental requirement for their deployment in safety-critical settings. Safety is commonly established by proving the invariance of a desired subset in state-space, ensuring that every trajectory initialized in this subset remains confined to it for all time under admissible inputs. Existing frameworks, however, either rely on computationally expensive post-hoc verification or employ safety-enforcing mechanisms without formal correctness guarantees. In this paper, we introduce a novel neural architecture grounded in energy-based modern Hopfield networks to guarantee safety-by-design while retaining sufficient expressiveness to model complex nonlinear dynamics. Specifically, we integrate modern Hopfield networks with a port-Hamiltonian neural ODE, enabling by design the construction of barrier functions yielding explicit admissible-input sets and quantitative robustness radii. Across several benchmarks, including an 12-dimensional nanodrone model, our framework achieves state-of-the-art performance while producing certified invariant sets that are more robust to external solicitations than comparable existing approaches.}
+}
+
