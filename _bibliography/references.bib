@@ -1722,10 +1722,10 @@
 @article{Kong:Arxiv:2026,
   title={Physics-informed Learning for Orbital Uncertainty Propagation with Error Bounds},
   author={Kong, Chun-Wei and Lahijanian, Morteza and McMahon Jay},
-  journal={arXiv preprint arXiv:2609.01881},
-  year={},
+  journal={Journal of Guidance, Control and Dynamics},
+  year={2026},
   url={https://arxiv.org/abs/2609.01881},
-  note={(under review)},
+  note={(accepted)},
   abstract={The Fokker-Planck partial differential equation (FP-PDE) governs uncertainty evolution in stochastic dynamical systems. In orbital dynamics, solving the FP-PDE is challenging because of nonlinear motion, high-dimensional states, and large space-time domains. We develop a physics-informed neural network (PINN) approach that approximates the FP-PDE solution as a single space-time probability density, while also quantifying its worst-case approximation error. This approach is, in principle, independent of the choice of state coordinates and neural network architecture. Specifically, to enforce probability density function (PDF) properties into the neural network, we design a Physics-informed Gaussian mixture model (PINN-GMM). Then a companion error PINN learns the dynamics of the approximation error and yields time-dependent bounds that define an ambiguity set of PDFs. This ambiguity set enables rigorous computation of upper and lower bounds on event probabilities through tractable linear programs. Numerical studies on illustrative 1D examples and several 4D--6D orbital test cases demonstrate accurate uncertainty propagation, correct and informative error bounds, and improved reliability over common uncertainty-propagation baseline methods (Gaussian approximation, unscented transform, and Gaussian mixture model). Constructing the PINN-GMM requires offline training, making it costlier than the baseline approximations; once trained, however, a single forward pass returns the density at any time in sub-millisecond time (0.16 ms in our implementation).}
 }
 
